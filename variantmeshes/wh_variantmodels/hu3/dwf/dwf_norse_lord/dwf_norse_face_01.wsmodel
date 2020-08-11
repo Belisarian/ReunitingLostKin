@@ -1,0 +1,11 @@
+<model version="1">
+  <geometry>Variantmeshes/wh_variantmodels/hu3/dwf/dwf_lord/head/dwarf_lord_helmet05.rigid_model_v2</geometry>
+  <materials>
+    <material part_index="0" lod_index="0">Variantmeshes/wh_variantmodels/hu3/dwf/dwf_norse_lord/materials/dwf_norse_face_01_weighted4_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="1">Variantmeshes/wh_variantmodels/hu3/dwf/dwf_norse_lord/materials/dwf_norse_face_01_weighted4_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="2">Variantmeshes/wh_variantmodels/hu3/dwf/dwf_norse_lord/materials/dwf_norse_face_01_weighted2_alpha_off.xml.material</material>
+    <material part_index="0" lod_index="3">Variantmeshes/wh_variantmodels/hu3/dwf/dwf_norse_lord/materials/dwf_norse_face_01_weighted2_alpha_off.xml.material</material>
+    <material part_index="1" lod_index="0">Variantmeshes/wh_variantmodels/hu3/dwf/dwf_norse_lord/materials/dwf_norse_face_01_weighted4_alpha_on.xml.material</material>
+    <material part_index="1" lod_index="1">Variantmeshes/wh_variantmodels/hu3/dwf/dwf_norse_lord/materials/dwf_norse_face_01_weighted4_alpha_on.xml.material</material>
+  </materials>
+</model>

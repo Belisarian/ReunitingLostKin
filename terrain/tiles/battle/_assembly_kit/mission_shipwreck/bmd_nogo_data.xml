@@ -1,0 +1,345 @@
+<BATTLE_MAP_DEFINITION_DATA serialise_version='24'>
+	<BATTLEFIELD_BUILDING_LIST serialise_version='1'>
+		<BUILDINGS/>
+	</BATTLEFIELD_BUILDING_LIST>
+	<BATTLEFIELD_BUILDING_LIST_FAR serialise_version='1'>
+		<BUILDINGS/>
+	</BATTLEFIELD_BUILDING_LIST_FAR>
+	<CAPTURE_LOCATION_SET serialise_version='2'>
+		<CAPTURE_LOCATION_SET/>
+	</CAPTURE_LOCATION_SET>
+	<EF_LINE_LIST>
+		<LINES/>
+	</EF_LINE_LIST>
+	<GO_OUTLINES/>
+	<NON_TERRAIN_OUTLINES/>
+	<ZONES_TEMPLATE_LIST serialise_version='1'>
+		<ZONES/>
+	</ZONES_TEMPLATE_LIST>
+	<PREFAB_INSTANCE_LIST serialise_version='1'>
+		<PREFAB_INSTANCE/>
+	</PREFAB_INSTANCE_LIST>
+	<BMD_OUTLINE_LIST serialise_version='1'>
+		<BMD_OUTLINES/>
+	</BMD_OUTLINE_LIST>
+	<TERRAIN_OUTLINES>
+		<EMPIRE_OUTLINE>
+			<OUTLINE>
+				<position x='78.000000' y='268.000000'/>
+				<position x='78.000000' y='266.000000'/>
+				<position x='100.000000' y='266.000000'/>
+				<position x='112.000000' y='270.000000'/>
+				<position x='114.000000' y='274.000000'/>
+				<position x='110.000000' y='278.000000'/>
+				<position x='90.000000' y='278.000000'/>
+				<position x='82.000000' y='276.000000'/>
+				<position x='82.000000' y='274.000000'/>
+				<position x='78.000000' y='274.000000'/>
+			</OUTLINE>
+		</EMPIRE_OUTLINE>
+		<EMPIRE_OUTLINE>
+			<OUTLINE>
+				<position x='206.000000' y='528.000000'/>
+				<position x='206.000000' y='526.000000'/>
+				<position x='218.000000' y='536.000000'/>
+				<position x='220.000000' y='540.000000'/>
+				<position x='220.000000' y='550.000000'/>
+				<position x='216.000000' y='552.000000'/>
+				<position x='206.000000' y='538.000000'/>
+				<position x='204.000000' y='534.000000'/>
+				<position x='204.000000' y='528.000000'/>
+			</OUTLINE>
+		</EMPIRE_OUTLINE>
+		<EMPIRE_OUTLINE>
+			<OUTLINE>
+				<position x='1266.000000' y='674.000000'/>
+				<position x='1266.000000' y='672.000000'/>
+				<position x='1280.000000' y='672.000000'/>
+				<position x='1290.000000' y='676.000000'/>
+				<position x='1294.000000' y='680.000000'/>
+				<position x='1308.000000' y='686.000000'/>
+				<position x='1318.000000' y='698.000000'/>
+				<position x='1324.000000' y='714.000000'/>
+				<position x='1320.000000' y='734.000000'/>
+				<position x='1316.000000' y='744.000000'/>
+				<position x='1308.000000' y='744.000000'/>
+				<position x='1304.000000' y='752.000000'/>
+				<position x='1284.000000' y='774.000000'/>
+				<position x='1276.000000' y='780.000000'/>
+				<position x='1254.000000' y='784.000000'/>
+				<position x='1246.000000' y='782.000000'/>
+				<position x='1236.000000' y='776.000000'/>
+				<position x='1236.000000' y='762.000000'/>
+				<position x='1224.000000' y='758.000000'/>
+				<position x='1220.000000' y='756.000000'/>
+				<position x='1220.000000' y='766.000000'/>
+				<position x='1212.000000' y='766.000000'/>
+				<position x='1206.000000' y='752.000000'/>
+				<position x='1204.000000' y='736.000000'/>
+				<position x='1200.000000' y='728.000000'/>
+				<position x='1200.000000' y='722.000000'/>
+				<position x='1206.000000' y='722.000000'/>
+				<position x='1214.000000' y='732.000000'/>
+				<position x='1214.000000' y='728.000000'/>
+				<position x='1216.000000' y='714.000000'/>
+				<position x='1230.000000' y='694.000000'/>
+				<position x='1244.000000' y='680.000000'/>
+				<position x='1252.000000' y='676.000000'/>
+				<position x='1258.000000' y='676.000000'/>
+				<position x='1258.000000' y='674.000000'/>
+			</OUTLINE>
+		</EMPIRE_OUTLINE>
+		<EMPIRE_OUTLINE>
+			<OUTLINE>
+				<position x='266.000000' y='746.000000'/>
+				<position x='266.000000' y='744.000000'/>
+				<position x='294.000000' y='746.000000'/>
+				<position x='314.000000' y='750.000000'/>
+				<position x='324.000000' y='754.000000'/>
+				<position x='324.000000' y='762.000000'/>
+				<position x='258.000000' y='756.000000'/>
+				<position x='258.000000' y='758.000000'/>
+				<position x='226.000000' y='762.000000'/>
+				<position x='194.000000' y='770.000000'/>
+				<position x='194.000000' y='772.000000'/>
+				<position x='168.000000' y='786.000000'/>
+				<position x='156.000000' y='794.000000'/>
+				<position x='122.000000' y='826.000000'/>
+				<position x='110.000000' y='844.000000'/>
+				<position x='96.000000' y='870.000000'/>
+				<position x='90.000000' y='888.000000'/>
+				<position x='90.000000' y='892.000000'/>
+				<position x='106.000000' y='894.000000'/>
+				<position x='140.000000' y='904.000000'/>
+				<position x='140.000000' y='902.000000'/>
+				<position x='158.000000' y='894.000000'/>
+				<position x='172.000000' y='890.000000'/>
+				<position x='182.000000' y='890.000000'/>
+				<position x='184.000000' y='892.000000'/>
+				<position x='184.000000' y='896.000000'/>
+				<position x='174.000000' y='902.000000'/>
+				<position x='150.000000' y='908.000000'/>
+				<position x='154.000000' y='914.000000'/>
+				<position x='154.000000' y='918.000000'/>
+				<position x='152.000000' y='920.000000'/>
+				<position x='144.000000' y='920.000000'/>
+				<position x='132.000000' y='916.000000'/>
+				<position x='132.000000' y='918.000000'/>
+				<position x='112.000000' y='930.000000'/>
+				<position x='90.000000' y='948.000000'/>
+				<position x='84.000000' y='954.000000'/>
+				<position x='80.000000' y='970.000000'/>
+				<position x='78.000000' y='972.000000'/>
+				<position x='74.000000' y='972.000000'/>
+				<position x='72.000000' y='968.000000'/>
+				<position x='68.000000' y='972.000000'/>
+				<position x='64.000000' y='972.000000'/>
+				<position x='62.000000' y='970.000000'/>
+				<position x='62.000000' y='964.000000'/>
+				<position x='68.000000' y='956.000000'/>
+				<position x='70.000000' y='950.000000'/>
+				<position x='68.000000' y='950.000000'/>
+				<position x='70.000000' y='922.000000'/>
+				<position x='74.000000' y='900.000000'/>
+				<position x='52.000000' y='900.000000'/>
+				<position x='48.000000' y='898.000000'/>
+				<position x='46.000000' y='894.000000'/>
+				<position x='50.000000' y='890.000000'/>
+				<position x='56.000000' y='888.000000'/>
+				<position x='78.000000' y='890.000000'/>
+				<position x='82.000000' y='874.000000'/>
+				<position x='98.000000' y='842.000000'/>
+				<position x='114.000000' y='820.000000'/>
+				<position x='128.000000' y='804.000000'/>
+				<position x='154.000000' y='782.000000'/>
+				<position x='166.000000' y='774.000000'/>
+				<position x='198.000000' y='758.000000'/>
+				<position x='226.000000' y='750.000000'/>
+				<position x='234.000000' y='748.000000'/>
+				<position x='246.000000' y='748.000000'/>
+				<position x='246.000000' y='746.000000'/>
+			</OUTLINE>
+		</EMPIRE_OUTLINE>
+		<EMPIRE_OUTLINE>
+			<OUTLINE>
+				<position x='1908.000000' y='824.000000'/>
+				<position x='1908.000000' y='822.000000'/>
+				<position x='1912.000000' y='822.000000'/>
+				<position x='1916.000000' y='828.000000'/>
+				<position x='1920.000000' y='846.000000'/>
+				<position x='1922.000000' y='858.000000'/>
+				<position x='1956.000000' y='860.000000'/>
+				<position x='1956.000000' y='858.000000'/>
+				<position x='1984.000000' y='854.000000'/>
+				<position x='2000.000000' y='850.000000'/>
+				<position x='2012.000000' y='850.000000'/>
+				<position x='2012.000000' y='854.000000'/>
+				<position x='1998.000000' y='862.000000'/>
+				<position x='1976.000000' y='868.000000'/>
+				<position x='1948.000000' y='872.000000'/>
+				<position x='1930.000000' y='872.000000'/>
+				<position x='1920.000000' y='870.000000'/>
+				<position x='1922.000000' y='890.000000'/>
+				<position x='1936.000000' y='902.000000'/>
+				<position x='1960.000000' y='924.000000'/>
+				<position x='1972.000000' y='938.000000'/>
+				<position x='1974.000000' y='942.000000'/>
+				<position x='1980.000000' y='944.000000'/>
+				<position x='1980.000000' y='942.000000'/>
+				<position x='2006.000000' y='926.000000'/>
+				<position x='2010.000000' y='926.000000'/>
+				<position x='2012.000000' y='928.000000'/>
+				<position x='2012.000000' y='932.000000'/>
+				<position x='1998.000000' y='944.000000'/>
+				<position x='1984.000000' y='952.000000'/>
+				<position x='2004.000000' y='1000.000000'/>
+				<position x='2014.000000' y='1004.000000'/>
+				<position x='2016.000000' y='1006.000000'/>
+				<position x='2016.000000' y='1012.000000'/>
+				<position x='2014.000000' y='1014.000000'/>
+				<position x='2004.000000' y='1014.000000'/>
+				<position x='1996.000000' y='1010.000000'/>
+				<position x='1986.000000' y='984.000000'/>
+				<position x='1974.000000' y='960.000000'/>
+				<position x='1936.000000' y='970.000000'/>
+				<position x='1916.000000' y='974.000000'/>
+				<position x='1890.000000' y='974.000000'/>
+				<position x='1882.000000' y='988.000000'/>
+				<position x='1874.000000' y='998.000000'/>
+				<position x='1846.000000' y='1026.000000'/>
+				<position x='1832.000000' y='1036.000000'/>
+				<position x='1802.000000' y='1054.000000'/>
+				<position x='1796.000000' y='1054.000000'/>
+				<position x='1794.000000' y='1052.000000'/>
+				<position x='1796.000000' y='1044.000000'/>
+				<position x='1824.000000' y='1028.000000'/>
+				<position x='1836.000000' y='1020.000000'/>
+				<position x='1864.000000' y='994.000000'/>
+				<position x='1876.000000' y='978.000000'/>
+				<position x='1878.000000' y='974.000000'/>
+				<position x='1856.000000' y='972.000000'/>
+				<position x='1832.000000' y='966.000000'/>
+				<position x='1816.000000' y='960.000000'/>
+				<position x='1810.000000' y='956.000000'/>
+				<position x='1810.000000' y='950.000000'/>
+				<position x='1812.000000' y='948.000000'/>
+				<position x='1818.000000' y='948.000000'/>
+				<position x='1840.000000' y='956.000000'/>
+				<position x='1860.000000' y='960.000000'/>
+				<position x='1888.000000' y='962.000000'/>
+				<position x='1896.000000' y='938.000000'/>
+				<position x='1900.000000' y='928.000000'/>
+				<position x='1906.000000' y='902.000000'/>
+				<position x='1904.000000' y='894.000000'/>
+				<position x='1872.000000' y='882.000000'/>
+				<position x='1858.000000' y='874.000000'/>
+				<position x='1858.000000' y='870.000000'/>
+				<position x='1860.000000' y='868.000000'/>
+				<position x='1872.000000' y='868.000000'/>
+				<position x='1888.000000' y='872.000000'/>
+				<position x='1906.000000' y='880.000000'/>
+				<position x='1908.000000' y='882.000000'/>
+				<position x='1908.000000' y='868.000000'/>
+				<position x='1892.000000' y='866.000000'/>
+				<position x='1868.000000' y='858.000000'/>
+				<position x='1864.000000' y='854.000000'/>
+				<position x='1864.000000' y='850.000000'/>
+				<position x='1866.000000' y='848.000000'/>
+				<position x='1874.000000' y='848.000000'/>
+				<position x='1894.000000' y='854.000000'/>
+				<position x='1908.000000' y='858.000000'/>
+				<position x='1906.000000' y='838.000000'/>
+				<position x='1906.000000' y='824.000000'/>
+			</OUTLINE>
+		</EMPIRE_OUTLINE>
+		<EMPIRE_OUTLINE>
+			<OUTLINE>
+				<position x='1892.000000' y='1372.000000'/>
+				<position x='1892.000000' y='1370.000000'/>
+				<position x='1904.000000' y='1370.000000'/>
+				<position x='1918.000000' y='1374.000000'/>
+				<position x='1946.000000' y='1382.000000'/>
+				<position x='1966.000000' y='1386.000000'/>
+				<position x='1976.000000' y='1390.000000'/>
+				<position x='1978.000000' y='1392.000000'/>
+				<position x='1978.000000' y='1400.000000'/>
+				<position x='1968.000000' y='1404.000000'/>
+				<position x='1946.000000' y='1404.000000'/>
+				<position x='1928.000000' y='1400.000000'/>
+				<position x='1902.000000' y='1388.000000'/>
+				<position x='1890.000000' y='1376.000000'/>
+				<position x='1890.000000' y='1372.000000'/>
+			</OUTLINE>
+		</EMPIRE_OUTLINE>
+	</TERRAIN_OUTLINES>
+	<LITE_BUILDING_OUTLINES/>
+	<CAMERA_ZONES serialise_version='1'>
+		<BMD_OUTLINES/>
+	</CAMERA_ZONES>
+	<CIVILIAN_DEPLOYMENT_LIST/>
+	<CIVILIAN_SHELTER_LIST/>
+	<PROP_LIST serialise_version='2'>
+		<KEYS/>
+		<PROPS/>
+	</PROP_LIST>
+	<PARTICLE_EMITTER_LIST serialise_version='1'>
+		<PARTICLE_EMITTERS/>
+	</PARTICLE_EMITTER_LIST>
+	<AI_HINTS serialise_version='1'>
+		<separators serialise_version='1'>
+			<SEPARATORS/>
+		</separators>
+		<directed_points serialise_version='1'>
+			<DIRECTED_POINTS/>
+		</directed_points>
+		<polylines serialise_version='1'>
+			<HINT_POLYLINES/>
+		</polylines>
+		<polylines_list serialise_version='1'>
+			<HINT_POLYLINES/>
+		</polylines_list>
+	</AI_HINTS>
+	<LIGHT_PROBE_LIST serialise_version='1'>
+		<LIGHT_PROBES/>
+	</LIGHT_PROBE_LIST>
+	<TERRAIN_STENCIL_TRIANGLE_LIST serialise_version='1'>
+		<TERRAIN_STENCIL_TRIANGLES/>
+	</TERRAIN_STENCIL_TRIANGLE_LIST>
+	<POINT_LIGHT_LIST serialise_version='1'>
+		<POINT_LIGHTS/>
+	</POINT_LIGHT_LIST>
+	<BUILDING_PROJECTILE_EMITTER_LIST serialise_version='1'>
+		<BUILDING_PROJECTILE_EMITTERS/>
+	</BUILDING_PROJECTILE_EMITTER_LIST>
+	<PLAYABLE_AREA serialise_version='3' has_been_set='false'>
+		<area min_x='64.000000' min_y='64.000000' max_x='1920.000000' max_y='1920.000000'/>
+		<valid_location_flags serialise_version='1' valid_north='true' valid_south='true' valid_east='true' valid_west='true'/>
+	</PLAYABLE_AREA>
+	<CUSTOM_MATERIAL_MESH_LIST serialise_version='1'>
+		<CUSTOM_MATERIAL_MESH_LIST/>
+	</CUSTOM_MATERIAL_MESH_LIST>
+	<TERRAIN_STENCIL_BLEND_TRIANGLE_LIST serialise_version='1'>
+		<TERRAIN_BLEND_TRIANGLES/>
+	</TERRAIN_STENCIL_BLEND_TRIANGLE_LIST>
+	<SPOT_LIGHT_LIST serialise_version='1'>
+		<SPOT_LIGHTS/>
+	</SPOT_LIGHT_LIST>
+	<SOUND_SHAPE_LIST serialise_version='1'>
+		<SOUND_SHAPES/>
+	</SOUND_SHAPE_LIST>
+	<COMPOSITE_SCENE_LIST serialise_version='1'>
+		<COMPOSITE_SCENE_LIST/>
+	</COMPOSITE_SCENE_LIST>
+	<DEPLOYMENT_LIST serialise_version='1'>
+		<DEPLOYMENT_AREAS/>
+	</DEPLOYMENT_LIST>
+	<BMD_CATCHMENT_AREA_LIST serialise_version='1'>
+		<BMD_CATCHMENT_AREAS/>
+	</BMD_CATCHMENT_AREA_LIST>
+	<TREE_LIST_REFERENCE_LIST serialise_version='1'>
+		<TREE_LIST_REFERENCES/>
+	</TREE_LIST_REFERENCE_LIST>
+	<GRASS_LIST_REFERENCE_LIST serialise_version='1'>
+		<GRASS_LIST_REFERENCES/>
+	</GRASS_LIST_REFERENCE_LIST>
+</BATTLE_MAP_DEFINITION_DATA>

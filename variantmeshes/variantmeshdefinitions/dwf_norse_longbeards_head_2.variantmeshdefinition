@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_longbeards\head\dwf_warriors_longbeard_head_01.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="mask" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_norse_longbeards\dwf_norse_longbeard_mask_01.rigid_model_v2"  />
+	</SLOT>
+</VARIANT_MESH>
