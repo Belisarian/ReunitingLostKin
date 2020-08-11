@@ -22,3 +22,9 @@ Once you're done and have tested, simply right click your .pack in RPFM, press "
 
 Once you've made your changes there, make a "Commit". In GitHub Desktop, it will see all of the various changed files in the left column, and below that it will ask for a Summary and Description. Give as regular commits as you can so it's easier to track what went on, and give some good details as well.
 Once you're done with all your commits and you're ready to send your new branch for submission, press "Publish Branch", which will submit it into the GitHub repo for others to see. If you've already pressed "Publish Branch", use "Push Branch", to "push" the local files you've changed onto the public repo.
+
+IMPORTANT: Make sure you have "Disable UUID Regeneration on DB Tables" ticked in RPFM's preferences, causes dumb issues with github otherwise
+
+GETTING THE PACK
+
+Instead of dealing with the whole MyMod and working data folder nonsense, you can also grab the latest compiled .pack from https://github.com/Belisarian/ReunitingLostKin/releases
