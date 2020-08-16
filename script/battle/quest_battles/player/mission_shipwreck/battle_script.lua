@@ -154,12 +154,3 @@ gb:queue_help_on_message("battle_shipwreck_army_dwf_ally_unit_rangers_dying", "m
 
 -------------------------------------------------TESTING------------------------------------
 
-function trigger_on_enter()
-	local area = convex_area:new({v(0, 0), v(0, -300), v(-300, -300), v(-300, 0)})
-	if area:standing_is_in_area(ga_player) then
-		gb.sm:trigger_message("test1"); -- Test output
-		return;
-	end;
-end;
-
-gb:add_ping_icon_on_message("test1", v(0, 0, 0), 1, 1000, 100000);
