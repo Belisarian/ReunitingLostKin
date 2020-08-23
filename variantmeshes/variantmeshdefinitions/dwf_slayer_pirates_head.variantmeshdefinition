@@ -1,0 +1,49 @@
+<VARIANT_MESH>
+    <SLOT name="barehead" >
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\head\dwf_slayer_pirates_head_01.wsmodel"  />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\head\dwf_slayer_pirates_head_02.wsmodel"  />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\head\dwf_slayer_pirates_head_03.wsmodel"  />
+        <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\head\dwf_slayer_pirates_head_04.wsmodel"  />
+    </SLOT>
+    <SLOT name="hat" >
+        <VARIANT_MESH >
+            <SLOT name="hat0" >
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_master_engineer_hat_01.wsmodel"  />
+            </SLOT>
+        </VARIANT_MESH>
+        <VARIANT_MESH >
+            <SLOT name="hat1" >
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_admiral_hat_01.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_admiral_hat_02.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_admiral_hat_03.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_admiral_hat_04.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_admiral_hat_05.wsmodel"  />
+            </SLOT>
+        </VARIANT_MESH>
+        <VARIANT_MESH >
+            <SLOT name="hat2" >
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_admiral_male_hat_01.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_admiral_male_hat_01.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_admiral_male_hat_01.wsmodel"  />
+            </SLOT>
+        </VARIANT_MESH>
+        <VARIANT_MESH >
+            <SLOT name="hat3" >
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_captain_hat_01.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_captain_hat_02.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_captain_hat_03.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_captain_hat_04.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_fleet_captain_hat_05.wsmodel"  />
+            </SLOT>
+        </VARIANT_MESH>
+        <VARIANT_MESH >
+            <SLOT name="hat4" >
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_gunnery_wight_hat_01.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_gunnery_wight_hat_02.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_gunnery_wight_hat_03.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_gunnery_wight_hat_04.wsmodel"  />
+                <VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_robies_slayer_pirates_to_rlk\hat\dwf_gunnery_wight_hat_05.wsmodel"  />
+            </SLOT>
+        </VARIANT_MESH>
+    </SLOT>
+</VARIANT_MESH>
