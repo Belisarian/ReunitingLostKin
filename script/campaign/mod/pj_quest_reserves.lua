@@ -518,16 +518,17 @@ if debug.traceback():find('pj_loadfile') then
 	mod.first_tick_cb()
 end
 
-
 local units = {
-	"dwf_norse_hammerers_mercenary",
-	"dwf_norse_longbeards_mercenary",
-	"dwf_norse_rangers_mercenary",
-	"dwf_norse_warrior_mercenary",
-	"dwf_norse_quarrellers_mercenary",
-	"dwf_norse_warrior_solo_mercenary",
-	"dwf_norse_bookeeper_mercenary",
-	"dwf_norse_runesmith_mercenary",
+	"wh_dlc06_dwf_inf_ekrund_miners_0_mercenary",
+	"wh_dlc06_dwf_inf_warriors_dragonfire_pass_0_mercenary",
+	"wh_dlc06_dwf_inf_dragonback_slayers_0_mercenary",
+	"wh_dlc06_dwf_art_gob_lobber_0_mercenary",
+	"wh_dlc06_dwf_inf_old_grumblers_0_mercenary",
+	"wh_dlc06_dwf_inf_peak_gate_guard_0_mercenary",
+	"wh_dlc06_dwf_inf_ulthars_raiders_0_mercenary",
+	"wh_dlc06_dwf_inf_norgrimlings_ironbreakers_0_mercenary",
+	"wh_dlc06_dwf_inf_norgrimlings_irondrakes_0_mercenary",
+	"wh_dlc06_dwf_veh_skyhammer_0_mercenary",
 }
 
 local function hide_merc_stuff()
@@ -541,13 +542,13 @@ local function hide_merc_stuff()
 	for i=0, list_box:ChildCount()-1 do
 		local comp = UIComponent(list_box:Find(i))
 		if table_contains(units, comp:Id()) then
+			comp:SetVisible(false)
+		else
 			local icon = find_uicomponent(comp, "unit_icon")
 			icon:SetState("active")
 			local tooltip_text = comp:GetTooltipText()
 			tooltip_text = tooltip_text:gsub("Cannot recruit unit.", "")
 			comp:SetTooltipText(tooltip_text, true)
-		else
-			comp:SetVisible(false)
 		end
 	end
 
@@ -573,18 +574,58 @@ core:add_listener(
 	true
 )
 
+local refresh_army_UI = function()
+	-- find and open the lords dropdown
+	local tab_units = find_uicomponent(
+		core:get_ui_root(),
+		"layout","bar_small_top", "TabGroup", "tab_units"
+	)
+
+	if tab_units:CurrentState() ~= "selected" then
+		tab_units:SimulateLClick()
+	end
+
+	local units_dropdown = digForComponent(core:get_ui_root(), "units_dropdown")
+	---@type CA_UIC
+	local list_clip = digForComponent(units_dropdown, "list_clip")
+	for i=0, list_clip:ChildCount()-1 do
+		local comp = UIComponent(list_clip:Find(i))
+		if comp:Id() == "list_box" then
+			for j=0, comp:ChildCount()-1 do
+				local char_row = UIComponent(comp:Find(j))
+				local char_name_label = digForComponent(char_row, "dy_character_name")
+				local char_name = char_name_label and char_name_label:GetStateText()
+				if char_name == "Grunnar Vestgrud" then
+					CampaignUI.ClearSelection()
+					char_row:SimulateLClick()
+					return
+				end
+			end
+		end
+	end
+end
+
 core:remove_listener('pj_quest_reserves_on_clicked_ror_panel_unit_card')
 core:add_listener(
 	'pj_quest_reserves_on_clicked_ror_panel_unit_card',
 	'ComponentLClickUp',
 	function(context)
-		return table_contains(units, context.string)
+		return not table_contains(units, context.string)
 	end,
 	function(context)
 		local unit_key = context.string
 		local real_unit_key = unit_key:gsub("_mercenary", "")
+
+		if real_unit_key == unit_key then return end
+
 		local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
 		cm:grant_unit_to_character(cm:char_lookup_str(char), real_unit_key)
+
+		cm:callback(function()
+			local x, y, d, bb, h = cm:get_camera_position()
+			refresh_army_UI()
+			cm:set_camera_position(x, y, d, bb, h)
+		end, 0.1)
 
 		cm:add_unit_to_faction_mercenary_pool(
 			cm:get_faction(cm:get_local_faction()),
