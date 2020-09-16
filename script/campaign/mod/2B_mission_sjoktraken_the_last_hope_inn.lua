@@ -38,6 +38,7 @@ mod.mission_sjoktraken_the_last_hope_inn = {
 	},
 	icon = "ui/small_icon_quest_battle.png",
 	payload = mod.mission_sjoktraken_the_last_hope_inn_payload,
+	condition = function() return not cm:get_saved_value("pj_quests_last_inn_completed") end,
 }
 
 core:remove_listener("pj_quests_on_won_battle_the_last_hope_inn")

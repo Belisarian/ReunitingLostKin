@@ -108,6 +108,7 @@ cm:add_first_tick_callback(function()
 		move_mission_kraka_drak = mod.move_mission_kraka_drak,
 		move_mission_sjoktraken_after_shipwreck = mod.move_mission_sjoktraken_after_shipwreck,
 		move_mission_sjoktraken_after_last_inn = mod.move_mission_sjoktraken_after_last_inn,
+		move_mission_sjoktraken_after_clamp_farm = mod.move_mission_sjoktraken_after_clamp_farm,
 		move_mission_kraka_drak_after_beastmen = mod.move_mission_kraka_drak_after_beastmen,
 		move_mission_to_ravnsvake_after_ambush = mod.move_mission_to_ravnsvake_after_ambush,
 		move_mission_to_ravnsvake_after_ice_trolls = mod.move_mission_to_ravnsvake_after_ice_trolls,
@@ -121,18 +122,24 @@ cm:add_first_tick_callback(function()
 		mission_after_kraka_drak_mountain_pass = mod.mission_after_kraka_drak_mountain_pass,
 		mission_kraka_ravnsvake_fimir_bog = mod.mission_kraka_ravnsvake_fimir_bog,
 		mission_kraka_ravnsvake_icetrolls = mod.mission_kraka_ravnsvake_icetrolls,
+		mission_clamp_farm = mod.mission_clamp_farm,
+		mission_norscan_camp = mod.mission_norscan_camp,
+		mission_lost_hold = mod.mission_lost_hold,
 	}
 
 	mod.missions_list = { -- would like to have better names for these states
 		game_start = {mod.move_mission_sjoktraken},
 		in_sjok = {mod.mission_sjoktraken_shipwreck},
 		after_shipwreck = {mod.move_mission_sjoktraken_after_shipwreck},
-		in_sjok_after_shipwreck = {mod.move_mission_kraka_drak, mod.mission_sjoktraken_the_last_hope_inn},
+		in_sjok_after_shipwreck = {mod.move_mission_kraka_drak, mod.mission_sjoktraken_the_last_hope_inn, mod.mission_clamp_farm},
+		in_sjok_after_clamp_farm = {mod.move_mission_kraka_drak, mod.mission_sjoktraken_the_last_hope_inn},
 		after_last_inn = {mod.move_mission_sjoktraken_after_last_inn},
-		in_sjok_after_last_inn = {mod.move_mission_kraka_drak},
+		after_clamp_farm = {mod.move_mission_sjoktraken_after_clamp_farm},
+		in_sjok_after_last_inn = {mod.move_mission_kraka_drak, mod.mission_clamp_farm},
 		in_kraka_drak = {mod.mission_kraka_drak_beastmen_camp},
 		after_beastmen_camp = {mod.move_mission_kraka_drak_after_beastmen, mod.mission_kraka_drak_chaos_warp},
-		in_drak_after_beastmen = {mod.mission_after_kraka_drak_mountain_pass,},
+		in_drak_after_beastmen = {mod.mission_lost_hold, mod.mission_norscan_camp},
+		in_drak_after_lost_hold = {mod.mission_after_kraka_drak_mountain_pass},
 		in_drak_after_chaos = {}, -- no such state its a suicide mission
 		after_chaos_warp = {}, -- no such state its a suicide mission
 		after_mountain_pass_ambush = {mod.move_mission_to_ravnsvake_after_ambush},
@@ -143,4 +150,10 @@ cm:add_first_tick_callback(function()
 		in_kraka_ravn_after_fimir_bog = {mod.move_mission_to_kislev, mod.mission_kraka_ravnsvake_icetrolls},
 		game_end = {}
 	}
+
+	for state, _ in pairs(mod.missions_list) do
+		if not mod.states[state] then
+			mod.states[state] = state
+		end
+	end
 end)
