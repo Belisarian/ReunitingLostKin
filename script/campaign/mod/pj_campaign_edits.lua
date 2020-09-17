@@ -5,7 +5,7 @@ cm:add_first_tick_callback_new(function()
 	end
 
 	cm:treasury_mod(cm:get_local_faction(true), -999999)
-	cm:treasury_mod(cm:get_local_faction(true), 5000)
+	cm:treasury_mod(cm:get_local_faction(true), 200)
 
 	cm:callback(function()
 		local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
