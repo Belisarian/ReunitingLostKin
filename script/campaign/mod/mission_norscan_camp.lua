@@ -10,10 +10,10 @@ mod[mission_key] = {
 	key = mission_key,
 	ui_offsets = {236, 434},
 	locs = {
-		title="mission_clamp_farm",
-		desc="mission_clamp_farm",
-		mission_desc = "mission_clamp_farm",
+		title="Norscan Camp",
+		desc="Norscan Camp",
+		mission_desc = "The frozen ground echos, win or lose the crows will never go hungry.",
 	},
-	icon = "ui/small_city_schem_frame_major.png",
+	icon = "ui/small_icon_quest_battle.png",
 	payload = payload,
 }

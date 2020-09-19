@@ -110,6 +110,7 @@ cm:add_first_tick_callback(function()
 		move_mission_sjoktraken_after_last_inn = mod.move_mission_sjoktraken_after_last_inn,
 		move_mission_sjoktraken_after_clamp_farm = mod.move_mission_sjoktraken_after_clamp_farm,
 		move_mission_kraka_drak_after_beastmen = mod.move_mission_kraka_drak_after_beastmen,
+		move_mission_kraka_drak_after_lost_hold = mod.move_mission_kraka_drak_after_lost_hold,
 		move_mission_to_ravnsvake_after_ambush = mod.move_mission_to_ravnsvake_after_ambush,
 		move_mission_to_ravnsvake_after_ice_trolls = mod.move_mission_to_ravnsvake_after_ice_trolls,
 		move_mission_to_ravnsvake_after_fimir_bog = mod.move_mission_to_ravnsvake_after_fimir_bog,
@@ -137,9 +138,10 @@ cm:add_first_tick_callback(function()
 		after_clamp_farm = {mod.move_mission_sjoktraken_after_clamp_farm},
 		in_sjok_after_last_inn = {mod.move_mission_kraka_drak, mod.mission_clamp_farm},
 		in_kraka_drak = {mod.mission_kraka_drak_beastmen_camp},
-		after_beastmen_camp = {mod.move_mission_kraka_drak_after_beastmen, mod.mission_kraka_drak_chaos_warp},
-		in_drak_after_beastmen = {mod.mission_lost_hold, mod.mission_norscan_camp},
-		in_drak_after_lost_hold = {mod.mission_after_kraka_drak_mountain_pass},
+		after_beastmen_camp = {mod.move_mission_kraka_drak_after_beastmen},
+		in_drak_after_beastmen = {mod.mission_lost_hold, mod.mission_norscan_camp, mod.mission_kraka_drak_chaos_warp},
+		after_lost_hold = {mod.move_mission_kraka_drak_after_lost_hold},
+		in_drak_after_lost_hold = {mod.mission_after_kraka_drak_mountain_pass, mod.mission_kraka_drak_chaos_warp, mod.mission_norscan_camp},
 		in_drak_after_chaos = {}, -- no such state its a suicide mission
 		after_chaos_warp = {}, -- no such state its a suicide mission
 		after_mountain_pass_ambush = {mod.move_mission_to_ravnsvake_after_ambush},
