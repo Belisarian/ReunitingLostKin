@@ -141,7 +141,7 @@ cm:add_first_tick_callback(function()
 		after_beastmen_camp = {mod.move_mission_kraka_drak_after_beastmen},
 		in_drak_after_beastmen = {mod.mission_lost_hold, mod.mission_norscan_camp, mod.mission_kraka_drak_chaos_warp},
 		after_lost_hold = {mod.move_mission_kraka_drak_after_lost_hold},
-		in_drak_after_lost_hold = {mod.mission_after_kraka_drak_mountain_pass, mod.mission_kraka_drak_chaos_warp, mod.mission_norscan_camp},
+		in_drak_after_lost_hold = {mod.mission_after_kraka_drak_mountain_pass, mod.mission_norscan_camp},
 		in_drak_after_chaos = {}, -- no such state its a suicide mission
 		after_chaos_warp = {}, -- no such state its a suicide mission
 		after_mountain_pass_ambush = {mod.move_mission_to_ravnsvake_after_ambush},
