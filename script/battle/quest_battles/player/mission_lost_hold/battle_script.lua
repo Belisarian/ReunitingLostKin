@@ -59,7 +59,8 @@ ga_battle_lost_hold_army_dwf_ally_1_flee5 = gb:get_army(gb:get_player_alliance_n
 -----------------------------------------DEPLOYED--#2---------------------------------------------
 ga_battle_lost_hold_character_name_dwf_ally_2 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_2"); -- #2 Char for start infighting 
 
-
+ga_battle_lost_hold_character_name_dwf_ally_3 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_3"); -- #3 for always a unit on the battle
+ga_battle_lost_hold_character_name_dwf_ally_3:set_enabled(false);  -- disabled
 
 -----------------------------------------ENEMY---------------------------------------------------
 -----------------------------------------DEPLOYED-- #0-----------------------------------------------
@@ -111,10 +112,10 @@ gb:complete_objective_on_message("Flee5_at_airship","mission_lost_hold_objective
 
 
 -------------------------------------------------------------------------------------------------
------------------------------------- AIRSHIP LEAVES AT 19 --------------------------------------------
-ga_battle_lost_hold_character_name_dwf_ally_1:withdraw_on_message("Wait_19min"); -- King flees
-ga_player:remove_on_message("Wait_19min+"); -- Units left is removed -- king dies
-ga_battle_lost_hold_character_name_nor:force_victory_on_message("Wait_19min+", 5000); -- Player lose in 5sec
+------------------------------------ AIRSHIP LEAVES AT 20 --------------------------------------------
+
+ga_player:rout_over_time_on_message("Wait_18min", 10000); -- player flees
+ga_player:force_victory_on_message("Wait_19min", 1000); -- Player wins
 
 
 -------------------------------------------------------------------------------------------------
@@ -144,7 +145,6 @@ gb:message_on_time_offset("Wait_16min",960000);
 gb:message_on_time_offset("Wait_17min",1020000);
 gb:message_on_time_offset("Wait_18min",1080000);
 gb:message_on_time_offset("Wait_19min",1140000);
-gb:message_on_time_offset("Wait_19min+",1145000);
 gb:message_on_time_offset("Wait_20min",1200000);
 
 
@@ -222,7 +222,8 @@ ga_battle_lost_hold_army_bst_3_unit_harpies:reinforce_on_message("Wait_4min", 10
 -------------------------------------- KING#1 REINFORCEMENT-------------------------------------
 ga_battle_lost_hold_character_name_dwf_ally_1:reinforce_on_message("Wait_16min", 1000); -- King enters
 ga_battle_lost_hold_character_name_dwf_ally_1:message_on_deployed("King_deployed"); -- King control
-ga_battle_lost_hold_character_name_dwf_ally_1:set_invincible_on_message("King_deployed"); -- King is invincible (not able to lose) gives weird 
+ga_battle_lost_hold_character_name_dwf_ally_1:set_invincible_on_message("King_deployed"); -- King is invincible (not able to lose) "cinematic" last stand
+ga_battle_lost_hold_character_name_dwf_ally_1:advance_on_message("King_deployed", 1000); -- King advance
 
 
 -------------------------------------- Flee#1 --------------------------------------------
@@ -233,8 +234,9 @@ ga_battle_lost_hold_army_dwf_ally_1_flee1:move_to_position_on_message("Flee1_dep
 ga_battle_lost_hold_army_dwf_ally_1_flee1:message_on_proximity_to_position("Flee1_at_airship", v(-100, 100, 250), 50);
 ga_battle_lost_hold_army_dwf_ally_1_flee1:rout_over_time_on_message("Flee1_at_airship",5000);
 -------------------------------------- Flee#1 messages --------------------------------------------
-gb:queue_help_on_message("Flee1_deployed", "mission_lost_hold_objective_1_message", 8000, 2000, 1000); -- "Escort the civilians to the airship"
+gb:queue_help_on_message("Flee1_deployed", "mission_lost_hold_objective_1_message", 8000, 2000, 1000); -- "Escort the civilians to the airship."
 gb:queue_help_on_message("Flee1_deployed", "mission_lost_hold_objective_2_message", 8000, 2000, 1000); -- "Dont let the norscan near them - they might panic back into the hold!"
+gb:add_ping_icon_on_message("Flee1_deployed", v(-100, 100, 250), 4, 1000, 60000); -- pings the flee area
 
 -------------------------------------- Flee#2 --------------------------------------------
 ga_battle_lost_hold_army_dwf_ally_1_flee2:reinforce_on_message("Wait_3min", 1000); -- Flee #2
@@ -261,7 +263,7 @@ ga_battle_lost_hold_army_dwf_ally_1_flee4:message_on_proximity_to_position("Flee
 ga_battle_lost_hold_army_dwf_ally_1_flee4:rout_over_time_on_message("Flee4_at_airship",5000);
 
 -------------------------------------- Flee#5 --------------------------------------------
-ga_battle_lost_hold_army_dwf_ally_1_flee5:reinforce_on_message("Wait_10min", 1000); -- Flee #5
+ga_battle_lost_hold_army_dwf_ally_1_flee5:reinforce_on_message("Wait_9min", 1000); -- Flee #5
 ga_battle_lost_hold_army_dwf_ally_1_flee5:message_on_deployed("Flee5_deployed"); -- Flee #5 control
 ga_battle_lost_hold_army_dwf_ally_1_flee5:change_behaviour_active_on_message("Flee5_deployed","skirmish"); -- force a skirmish AI
 ga_battle_lost_hold_army_dwf_ally_1_flee5:move_to_position_on_message("Flee5_deployed", v(-100, 100, 250));
