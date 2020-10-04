@@ -6,38 +6,38 @@ local digForComponent = mod.digForComponent
 --- Units that can be recruited via the BoG.
 mod.bog_pages = mod.bog_pages or {
 	{
-		title = "Irondrakes",
-		desc = "The bitter underground wars that the Dwarfs fight daily to protect their Holds are evolving, as the Dwarfs' foes come up with diabolical plans to get past Dwarfen defences. Time and again, the Dwarfs' courage and rune-enhanced weapons and armour have turned the tide, yet their foes have learned; when Skaven find the corridor blocked by unmovable Ironbreakers, they call for their own loathsome countermeasures - Warpflame-spewing fire throwers, gas grenades or cobbled-together chopping machines. For their part, Night Goblins turn to mushroom-addled ball and chain-wielding Fanatics, Cave Squigs or Troll mobs.",
-		img = "ui/units/minspec_portholes/wh_main_dwf_inf_irondrakes_0.png",
-		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_irondrakes_0") end,
+		title = "The Frozen Feathered Ravens",
+		desc = "The Frozen Feathered Ravens, shares the name of the company. These dwarfs are a heavy armoured regiment of veteran warriors, that wields two-handed hammers. These fiece warriors are lead by Grunnar Vestgrud and carry with them the horn of ice and valor.",
+		img = "ui/a_recruitment_pic/4.png",
+		payload = function() mod.add_unit_to_army("zorn_bulwark") end,
 		save_id = "pj_quests_irondrake_recruitment",
 		limit = 1,
 	},
 	{
-		title = "Warriors",
-		desc = "Dwarfs make formidable fighters - they are strong and extremely resilient, broad of shoulder and wide of girth. Although by no means quick, they are physically robust and can maintain a steady plodding pace, marching for days on end despite being loaded down by burdens and heavy mail.",
-		img = "ui/units/minspec_portholes/wh_main_dwf_inf_dwarf_warrior_1.png",
+		title = "The Iron Beaked Rooks ",
+		desc = "The Iron Beaked Rooks is a regiment of experienced warriors that wields an single handed axe and a great shield. These dwarfs excels at defensive tactics and provides a sturdy defensive line. They are lead by the companies second in command, Ulron Northgaard, a seniored warrior and capable drinker.",
+		img = "ui/a_recruitment_pic/5.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_dwarf_warrior_0") end,
 		cost = 500,
 	},
 	{
-		title = "Miners",
-		desc = "When Dwarfs march to war, many mining Clans form regiments to join the battle. As a point of pride, they do not bear axes, but instead wield the same heavy two-handed mining picks and mattocks they use to laboriously carve out tunnels. As it turns out, these well-balanced and sturdily-made tools work equally well whether digging in to bedrock or hacking apart Goblins.",
-		img = "ui/units/minspec_portholes/wh_main_dwf_inf_miners_0.png",
+		title = "The White Feathered Crows",
+		desc = "The White Feathered Crows is a regiment specialized in scouting and ranged support. These rangers are equipped with crossbows and single handed weapons. They all wear capes fabricated from the hide of a single mammoth, imbued with powerful Runes.",
+		img = "ui/a_recruitment_pic/2.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_miners_0") end,
 		cost = 500,
 	},
 	{
-		title = "Quarellers",
-		desc = "When the Clans are called to fight, some Dwarfs arm themselves with crossbows and join the battle as Quarrellers. These formations are tasked with raining bolts down upon their foes - a task they perform with orderly zeal. Quarrellers seek to thin down the enemy's ranks, punish units attempting to outflank their own forces and engage in ranged duels with the foe's missile-armed troops. Dwarfs have never taken to bows, partly because they do not suit their short physical stature, but also due to the limitations of such weapons in confined tunnels.",
-		img = "ui/units/minspec_portholes/wh_main_dwf_inf_quarrellers_1.png",
+		title = "The Ice Peak Magpies",
+		desc = "The Ice Peak Magpies is a regiment of Quarrellers equipped with crossbows and great weapons. The regiment is capable of both ranged and melee support. Their captain, Jurg Tollgaard possesses a technical curiosity, which have led to the development of the partial automated crossbow wielded by the regiment.",
+		img = "ui/a_recruitment_pic/3.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_quarrellers_0") end,
 		cost = 500,
 	},
 	{
-		title = "Rangers",
-		desc = "Rangers are the long-ranged eyes and ears of most Dwarf settlements. They patrol far from the safety of the Hold, often spending long periods out in the wilderness, keeping watch on the Dwarfs' many enemies and tracking dangerous beasts. It is they who explore hidden valleys, push through collapsed sections of the Underway and scale the cliffsides in search of new pathways. Rangers will hunt down and dispose of lone monsters or ambush small mobs of Goblins, but when they confront larger creatures or enemy armies on the march, signals are sent to the nearest outposts to alert them of the encroaching danger.",
-		img = "ui/units/minspec_portholes/wh_dlc06_dwf_inf_rangers_0.png",
+		title = "The Ice Jackdaws ",
+		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
+		img = "ui/a_recruitment_pic/1.png",
 		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
 		cost = 500,
 	},
@@ -157,7 +157,7 @@ mod.draw_bog_page = function(page_num)
 		img = UIComponent(pages:CreateComponent(img_id, "ui/templates/custom_image"))
 	end
 	img:SetImagePath(page_data.img, 4)
-	img:Resize(200, 200)
+	img:Resize(300, 600)
 	img:MoveTo(x+190, y+180)
 
 	local rec_button_id = "pj_rec_button_"..(is_left_page and "left" or "right")
