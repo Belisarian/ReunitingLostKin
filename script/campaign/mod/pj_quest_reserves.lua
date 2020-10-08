@@ -313,6 +313,8 @@ mod.add_to_mercs = function()
 	local unit_key_from = unit_to_upgrade:unit_key()
 	dout(unit_key_from)
 
+	mod.unit_key_to_hp[unit_key_from] = unit_to_upgrade:percentage_proportion_of_full_strength()
+
 	cm:add_unit_to_faction_mercenary_pool(
 		cm:get_faction(cm:get_local_faction()),
 		unit_key_from,
@@ -605,6 +607,24 @@ local refresh_army_UI = function()
 	end
 end
 
+mod.unit_key_to_hp = {}
+
+---@param commander CA_CHAR
+mod.damage_new_unit = function(commander, old_units)
+	local num_items_after = commander:military_force():unit_list():num_items()
+	for i=0, num_items_after-1 do
+		local unit_interface = commander:military_force():unit_list():item_at(i)
+		if not table_contains(old_units, unit_interface) then
+			local unit_key = unit_interface:unit_key()
+			local hp = mod.unit_key_to_hp[unit_key]
+			if hp then
+				local unit_hp = hp*0.01
+				cm:set_unit_hp_to_unary_of_maximum(unit_interface, unit_hp)
+			end
+		end
+	end
+end
+
 core:remove_listener('pj_quest_reserves_on_clicked_ror_panel_unit_card')
 core:add_listener(
 	'pj_quest_reserves_on_clicked_ror_panel_unit_card',
@@ -619,9 +639,19 @@ core:add_listener(
 		if real_unit_key == unit_key then return end
 
 		local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+
+		local old_units = {}
+		local num_items = char:military_force():unit_list():num_items()
+		for i=0, num_items-1 do
+			local unit_interface = char:military_force():unit_list():item_at(i)
+			table.insert(old_units, unit_interface)
+		end
+
 		cm:grant_unit_to_character(cm:char_lookup_str(char), real_unit_key)
 
 		cm:callback(function()
+			mod.damage_new_unit(char, old_units)
+
 			local x, y, d, bb, h = cm:get_camera_position()
 			refresh_army_UI()
 			cm:set_camera_position(x, y, d, bb, h)
