@@ -141,15 +141,12 @@ core:add_listener(
 	end,
 	function()
 		cm:callback(function()
-			mod.play_rite()
-			cm:callback(function()
-				mod.open_contract_complete_panel(
-					5000,
-					function()
-						cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_shipwreck")
-					end
-				)
-			end, 4.5)
+			mod.complete_contract(
+				5000,
+				function()
+					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_shipwreck")
+				end
+			)
 		end, 0.7)
 	end,
 	true
@@ -185,8 +182,13 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_last_inn");
-		end, 1)
+			mod.complete_contract(
+				5000,
+				function()
+					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_last_inn");
+				end
+			)
+		end, 0.7)
 	end,
 	true
 )
@@ -271,8 +273,13 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_in_drak_after_beastmen");
-		end, 1)
+			mod.complete_contract(
+				5000,
+				function()
+					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_in_drak_after_beastmen");
+				end
+			)
+		end, 0.7)
 	end,
 	true
 )
@@ -361,8 +368,13 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_ice_trolls");
-		end, 1)
+			mod.complete_contract(
+				5000,
+				function()
+					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_ice_trolls");
+				end
+			)
+		end, 0.7)
 	end,
 	true
 )
@@ -379,8 +391,13 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_fimir_bog");
-		end, 1)
+			mod.complete_contract(
+				5000,
+				function()
+					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_fimir_bog");
+				end
+			)
+		end, 0.7)
 	end,
 	true
 )
@@ -399,6 +416,66 @@ core:add_listener(
 		cm:callback(function()
 			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "game_end");
 		end, 1)
+	end,
+	true
+)
+
+core:remove_listener("in_sjok_after_clamp_farm")
+core:add_listener(
+	"in_sjok_after_clamp_farm",
+	"pj_quests_on_state_changed",
+	function(context)
+		local state = context.string
+		return state == mod.states.in_sjok_after_clamp_farm
+	end,
+	function(context)
+		cm:callback(function()
+			mod.complete_contract(
+				5000,
+				function()
+				end
+			)
+		end, 0.7)
+	end,
+	true
+)
+
+core:remove_listener("in_drak_after_norscan_camp")
+core:add_listener(
+	"in_drak_after_norscan_camp",
+	"pj_quests_on_state_changed",
+	function(context)
+		local state = context.string
+		return state == mod.states.in_drak_after_norscan_camp
+	end,
+	function(context)
+		cm:callback(function()
+			mod.complete_contract(
+				5000,
+				function()
+				end
+			)
+		end, 0.7)
+	end,
+	true
+)
+
+core:remove_listener("in_drak_after_lost_hold")
+core:add_listener(
+	"in_drak_after_lost_hold",
+	"pj_quests_on_state_changed",
+	function(context)
+		local state = context.string
+		return state == mod.states.in_drak_after_lost_hold
+	end,
+	function(context)
+		cm:callback(function()
+			mod.complete_contract(
+				5000,
+				function()
+				end
+			)
+		end, 0.7)
 	end,
 	true
 )

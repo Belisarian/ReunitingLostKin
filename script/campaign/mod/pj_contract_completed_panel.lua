@@ -254,3 +254,13 @@ mod.play_rite = function()
 		end
 	end
 end
+
+mod.complete_contract = function(gold, payload)
+	mod.play_rite()
+	cm:callback(function()
+		mod.open_contract_complete_panel(
+			gold,
+			payload
+		)
+	end, 4.5)
+end
