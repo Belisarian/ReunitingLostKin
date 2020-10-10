@@ -59,8 +59,6 @@ ga_battle_lost_hold_army_dwf_ally_1_flee5 = gb:get_army(gb:get_player_alliance_n
 -----------------------------------------DEPLOYED--#2---------------------------------------------
 ga_battle_lost_hold_character_name_dwf_ally_2 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_2"); -- #2 Char for start infighting 
 
-ga_battle_lost_hold_character_name_dwf_ally_3 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_3"); -- #3 for always a unit on the battle
-ga_battle_lost_hold_character_name_dwf_ally_3:set_enabled(false);  -- disabled
 
 -----------------------------------------ENEMY---------------------------------------------------
 -----------------------------------------DEPLOYED-- #0-----------------------------------------------
@@ -92,14 +90,11 @@ ga_battle_lost_hold_army_nor_4_unit_marauder_champions = gb:get_army(gb:get_non_
 ga_battle_lost_hold_army_nor_4_unit_marauder_hunters = gb:get_army(gb:get_non_player_alliance_num(),"battle_lost_hold_army_nor_4_unit_marauder_hunters"); -- #4 Char / morale sink
 
 
-
-
-
 -------------------------------------------------------------------------------------------------
 ------------------------------------------ OBJECTIVES -------------------------------------------
 -------------------------------------------------------------------------------------------------
 gb:set_objective_on_message("deployment_started", "mission_lost_hold_objective_1_tooltip", 0, 0, 5); -- Safegaurd the inhabitants to the Airship 
-gb:set_objective_on_message("deployment_started", "mission_lost_hold_objective_2_tooltip"); -- Ensure you regiments does not get left behind - no complete function
+gb:set_objective_on_message("deployment_started", "mission_lost_hold_objective_2_tooltip"); -- "Leave with the fleet within the next 18 mins or be left behind! [Use the flee button near the airship]"
 
 gb:set_objective_on_message("Flee1_at_airship", "mission_lost_hold_objective_1_tooltip", 0, 1, 5); -- 1/5
 gb:set_objective_on_message("Flee2_at_airship", "mission_lost_hold_objective_1_tooltip", 0, 2, 5); -- 2/5
@@ -109,18 +104,73 @@ gb:set_objective_on_message("Flee5_at_airship", "mission_lost_hold_objective_1_t
 gb:complete_objective_on_message("Flee5_at_airship","mission_lost_hold_objective_1_tooltip", 1000);  -- complete on 5th army (technically this is not all 5, but the best we can get)
 
 
-
-
 -------------------------------------------------------------------------------------------------
------------------------------------- AIRSHIP LEAVES AT 20 --------------------------------------------
+------------------------------- AIRSHIP LEAVES AT 18MIN EVENT ---------------------------------------
+--------------------------------------------------------------------------------------------------
+--------------------------------ALLY/ENEMY HIDDEN UNITS---------------------------------------------------
+--------------------------------------------------------------------------------------
+ga_battle_lost_hold_character_name_dwf_ally_3 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_3"); -- for hidden units on the battlefield (no win/lose)
+ga_battle_lost_hold_character_name_dwf_ally_3:set_enabled(false);  -- disabled
+ga_battle_lost_hold_character_name_nor_5 = gb:get_army(gb:get_non_player_alliance_num(),"battle_lost_hold_character_name_nor_5"); -- for hidden units on the battlefield (no win/lose)
+ga_battle_lost_hold_character_name_dwf_ally_3:set_enabled(false);  -- disabled
 
-ga_player:rout_over_time_on_message("Wait_18min", 10000); -- player flees
-ga_player:force_victory_on_message("Wait_19min", 1000); -- Player wins
+---------------------------------------------------------------------------------------------
+----------------------------REMOVE ALL UNITS AT AIRSHIP LIFT (PLAYER+ALLY)-------------------
+---------------------------------------------------------------------------------------------
 
+ga_player:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_character_name_dwf_ally:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_dwf_ally_unit_hammers:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_dwf_ally_unit_dwarf_warrior:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_dwf_ally_unit_quarrellers:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_character_name_dwf_ally_1:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_dwf_ally_1_flee1:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_dwf_ally_1_flee2:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_dwf_ally_1_flee3:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_dwf_ally_1_flee4:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_dwf_ally_1_flee5:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_character_name_dwf_ally_2:remove_on_message("Wait_18min");  -- remove 
+
+-----------------------------------------------------------------------------------------------
+------------------------------REMOVE ALL UNITS AT AIRSHIP LIFT (ENEMY)--------------------------
+-----------------------------------------------------------------------------------------------
+
+ga_battle_lost_hold_character_name_nor:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_nor_unit_marauder_spearman:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_nor_unit_marauder_champions:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_nor_unit_marauder_berserkers:remove_on_message("Wait_18min");  -- remove 
+
+ga_battle_lost_hold_character_name_nor_1:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_nor_1_unit_marauder_spearman:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_nor_1_unit_feral_manticore:remove_on_message("Wait_18min");  -- remove 
+
+ga_battle_lost_hold_character_name_nor_2:remove_on_message("Wait_18min");  -- remove 
+
+ga_battle_lost_hold_character_name_bst_3:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_bst_3_unit_harpies:remove_on_message("Wait_18min");  -- remove 
+
+ga_battle_lost_hold_character_name_nor_4:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_nor_4_unit_marauder_spearman:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_nor_4_unit_marauder_champions:remove_on_message("Wait_18min");  -- remove 
+ga_battle_lost_hold_army_nor_4_unit_marauder_hunters:remove_on_message("Wait_18min");  -- remove 
+
+----------------------------------------------------------------------------------
+---------------------------------ONLY 2 HIDDEN UNITS LEFT-------------------------
+---------------------------------------------------------------------------------
+
+ga_player:force_victory_on_message("Wait_18min", 30000); -- Player wins at 18:30
+
+------------------------------------------------------------------------------
+---------------------------------MESSAGES DURING BATTLE ON OBJECTIVE-----------
+-------------------------------------------------------------------------------
+
+gb:queue_help_on_message("Wait_10min", "mission_lost_hold_objective_3_message", 8000, 2000, 1000);--"The Airships leaves soon!! Hurry up! [Flee the battle - units present on the battlefield will be left behind]"
+gb:queue_help_on_message("Wait_15min", "mission_lost_hold_objective_4_message", 8000, 2000, 1000);--"3 Minutes to take ofF!! [Use Flee button near Airship to make units leave with Airship]"
 
 -------------------------------------------------------------------------------------------------
 --------------------------------- TIME KEEPER FROM BATTLE START --------------------------------
 -------------------------------------------------------------------------------------------------
+
 gb:message_on_time_offset("Wait_10",10000);
 gb:message_on_time_offset("Wait_1min",60000);
 gb:message_on_time_offset("Wait_1min+",80000);
@@ -151,8 +201,6 @@ gb:message_on_time_offset("Wait_20min",1200000);
 -------------------------------------------------------------------------------------------------
 ---------------------------------------CUSTOM ORDERS----------------------------------------------
 --------------------------------------------------------------------------------------------------
-
-
 -------------------------------------------------------------------------------------------------
 ---------------------------------------LORDS STARTS FIGHTING --------------------------------------
 --------------------------------------------------------------------------------------------------
@@ -185,7 +233,7 @@ ga_battle_lost_hold_army_nor_unit_marauder_champions:teleport_to_start_location_
 ga_battle_lost_hold_army_nor_unit_marauder_berserkers:teleport_to_start_location_offset_on_message("battle_started",0,0);-- tp at deployment for defend
 
 -- attack when duel is done
-ga_battle_lost_hold_character_name_nor:set_invincible_on_message("King_deployed"); -- stays to prevent a win for the player with invincible to prevent rout win
+--ga_battle_lost_hold_character_name_nor:set_invincible_on_message("King_deployed"); -- stays to prevent a win for the player with invincible to prevent rout win
 ga_battle_lost_hold_army_nor_unit_marauder_spearman:advance_on_message("lost_duel_dying", 60000);  -- allready deployed advance
 ga_battle_lost_hold_army_nor_unit_marauder_champions:advance_on_message("lost_duel_dying", 60000); -- allready deployed advance
 ga_battle_lost_hold_army_nor_unit_marauder_berserkers:advance_on_message("lost_duel_dying", 60000); -- allready deployed advance
@@ -222,7 +270,7 @@ ga_battle_lost_hold_army_bst_3_unit_harpies:reinforce_on_message("Wait_4min", 10
 -------------------------------------- KING#1 REINFORCEMENT-------------------------------------
 ga_battle_lost_hold_character_name_dwf_ally_1:reinforce_on_message("Wait_16min", 1000); -- King enters
 ga_battle_lost_hold_character_name_dwf_ally_1:message_on_deployed("King_deployed"); -- King control
-ga_battle_lost_hold_character_name_dwf_ally_1:set_invincible_on_message("King_deployed"); -- King is invincible (not able to lose) "cinematic" last stand
+--ga_battle_lost_hold_character_name_dwf_ally_1:set_invincible_on_message("King_deployed"); -- King is invincible (not able to lose) "cinematic" last stand
 ga_battle_lost_hold_character_name_dwf_ally_1:advance_on_message("King_deployed", 1000); -- King advance
 
 
@@ -234,8 +282,8 @@ ga_battle_lost_hold_army_dwf_ally_1_flee1:move_to_position_on_message("Flee1_dep
 ga_battle_lost_hold_army_dwf_ally_1_flee1:message_on_proximity_to_position("Flee1_at_airship", v(-100, 100, 250), 50);
 ga_battle_lost_hold_army_dwf_ally_1_flee1:rout_over_time_on_message("Flee1_at_airship",5000);
 -------------------------------------- Flee#1 messages --------------------------------------------
-gb:queue_help_on_message("Flee1_deployed", "mission_lost_hold_objective_1_message", 8000, 2000, 1000); -- "Escort the civilians to the airship."
-gb:queue_help_on_message("Flee1_deployed", "mission_lost_hold_objective_2_message", 8000, 2000, 1000); -- "Dont let the norscan near them - they might panic back into the hold!"
+gb:queue_help_on_message("Flee1_deployed", "mission_lost_hold_objective_1_message", 8000, 2000, 1000); -- "Escort the civilians to the airship"
+gb:queue_help_on_message("Flee1_deployed", "mission_lost_hold_objective_2_message", 8000, 2000, 1000); -- "Leave with the airship or be left behind! [Use the flee button near the airship]"
 gb:add_ping_icon_on_message("Flee1_deployed", v(-100, 100, 250), 4, 1000, 60000); -- pings the flee area
 
 -------------------------------------- Flee#2 --------------------------------------------
