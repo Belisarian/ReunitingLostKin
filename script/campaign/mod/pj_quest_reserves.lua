@@ -551,6 +551,12 @@ local function hide_merc_stuff()
 			local tooltip_text = comp:GetTooltipText()
 			tooltip_text = tooltip_text:gsub("Cannot recruit unit.", "")
 			comp:SetTooltipText(tooltip_text, true)
+
+			local RecruitmentCost = find_uicomponent(comp, "RecruitmentCost")
+			RecruitmentCost:SetVisible(false)
+
+			local UpkeepCost = find_uicomponent(comp, "UpkeepCost")
+			UpkeepCost:SetDockOffset(-1-7, -20-120)
 		end
 	end
 
