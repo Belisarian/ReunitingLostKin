@@ -162,3 +162,71 @@ cm:add_first_tick_callback(function()
 		end
 	end
 end)
+
+cm:add_first_tick_callback(function()
+	cm:callback(function()
+		if mod.is_autoresolve_cheat_enabled then
+			local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+			for _=1, 20 do
+				cm:grant_unit_to_character(cm:char_lookup_str(char), "wh_dlc06_dwf_inf_norgrimlings_ironbreakers_0")
+			end
+		end
+
+		local orig_complete_contract = mod.complete_contract
+
+		mod.complete_contract = function(gold, payload)
+			if mod.is_contract_skipping_enabled then
+				cm:treasury_mod(cm:get_local_faction(true), 10000)
+				if payload then payload() end
+				return
+			end
+
+			return orig_complete_contract(gold, payload)
+		end
+	end, 8)
+end)
+
+core:add_listener(
+	"pj_quests_on_any_dilemma_issued",
+	"DilemmaIssuedEvent",
+	true,
+	function()
+		local existingFrame = Util.getComponentWithName("Quests")
+		if existingFrame then
+			mod.selected_quest = nil
+			existingFrame:Delete()
+		end
+	end,
+	true
+);
+
+mod.update_settings = function(mct)
+	local my_mod = mct:get_mod_by_key("pj_quests")
+
+	mod.is_contract_skipping_enabled = my_mod:get_option_by_key("pj_quests_skip_contract_completed"):get_finalized_setting()
+	mod.is_autoresolve_cheat_enabled = my_mod:get_option_by_key("pj_quests_autoresolve_cheat"):get_finalized_setting()
+end
+
+core:remove_listener("pj_quests_mct_init_cb")
+core:add_listener(
+    "pj_quests_mct_init_cb",
+    "MctInitialized",
+    true,
+    function(context)
+			local mct = context:mct()
+			mod.update_settings(mct)
+    end,
+    true
+)
+
+core:remove_listener("pj_quests_mct_finalized_cb")
+core:add_listener(
+	"pj_quests_mct_finalized_cb",
+	"MctFinalized",
+	true,
+	function(context)
+		local mct = context:mct()
+		mod.update_settings(mct)
+	end,
+	true
+)
