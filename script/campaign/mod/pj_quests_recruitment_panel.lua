@@ -8,7 +8,7 @@ mod.bog_pages = mod.bog_pages or {
 	{
 		title = "The Frozen Feathered Ravens",
 		desc = "The Frozen Feathered Ravens, shares the name of the company. These dwarfs are a heavy armoured regiment of veteran warriors, that wields two-handed hammers. These fiece warriors are lead by Grunnar Vestgrud and carry with them the horn of ice and valor.",
-		img = "ui/a_recruitment_pic/4.png",
+		img = "ui/bog/bog1.png",
 		payload = function() mod.add_unit_to_army("zorn_bulwark") end,
 		save_id = "pj_quests_irondrake_recruitment",
 		limit = 1,
@@ -16,28 +16,28 @@ mod.bog_pages = mod.bog_pages or {
 	{
 		title = "The Iron Beaked Rooks ",
 		desc = "The Iron Beaked Rooks is a regiment of experienced warriors that wields an single handed axe and a great shield. These dwarfs excels at defensive tactics and provides a sturdy defensive line. They are lead by the companies second in command, Ulron Northgaard, a seniored warrior and capable drinker.",
-		img = "ui/a_recruitment_pic/5.png",
+		img = "ui/bog/The_Iron_Beaked_Rooks_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_dwarf_warrior_0") end,
 		cost = 500,
 	},
 	{
 		title = "The White Feathered Crows",
 		desc = "The White Feathered Crows is a regiment specialized in scouting and ranged support. These rangers are equipped with crossbows and single handed weapons. They all wear capes fabricated from the hide of a single mammoth, imbued with powerful Runes.",
-		img = "ui/a_recruitment_pic/2.png",
+		img = "ui/bog/The_White_Feathered_Crows_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_miners_0") end,
 		cost = 500,
 	},
 	{
 		title = "The Ice Peak Magpies",
 		desc = "The Ice Peak Magpies is a regiment of Quarrellers equipped with crossbows and great weapons. The regiment is capable of both ranged and melee support. Their captain, Jurg Tollgaard possesses a technical curiosity, which have led to the development of the partial automated crossbow wielded by the regiment.",
-		img = "ui/a_recruitment_pic/3.png",
+		img = "ui/bog/The_Ice_Peak_Magpies_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_quarrellers_0") end,
 		cost = 500,
 	},
 	{
 		title = "The Ice Jackdaws ",
 		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
-		img = "ui/a_recruitment_pic/1.png",
+		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
 		cost = 500,
 	},
@@ -105,15 +105,15 @@ mod.draw_bog_page = function(page_num)
 	local left_list = digForComponent(book_of_grudges, "list_left")
 	local right_list = digForComponent(book_of_grudges, "list_right")
 
+	---@type CA_UIC
+	local book_frame = digForComponent(book_of_grudges, "book_frame")
+
 	local page_data = mod.bog_pages[page_num]
 	local title = page_data.title
 	local desc = page_data.desc
 
-	local is_left_page = page_num%2 == 1
+	local is_left_page = true
 	local list = left_list
-	if page_num%2 == 0 then
-		list = right_list
-	end
 
 	local pages = digForComponent(book_of_grudges, "pages")
 	local dy_objective = digForComponent(book_of_grudges, "dy_objective")
@@ -125,31 +125,89 @@ mod.draw_bog_page = function(page_num)
 	local header_id = "tx_objectives_header_copy_"..(is_left_page and "left" or "right")
 	local header = digForComponent(book_of_grudges, header_id)
 
+	local x, y = list:Position()
+
 	if not obj then
 		obj = UIComponent(dy_objective:CopyComponent(obj_id))
 		header = UIComponent(tx_objectives_header:CopyComponent(header_id))
 		pages:Adopt(header:Address())
 		pages:Adopt(obj:Address())
+
+		obj:SetCanResizeWidth(true)
+		obj:SetCanResizeHeight(true)
+		obj:ResizeTextResizingComponentToInitialSize(520*1.2, 48*1.2)
+		obj:MoveTo(x+550, y+555)
+		obj:RegisterTopMost()
+		obj:SetStateText(desc)
+
+		header:SetCanResizeWidth(true)
+		header:SetCanResizeHeight(true)
+		header:ResizeTextResizingComponentToInitialSize(338-50, 37)
 	end
+
+	if not obj or not header then
+		dout("ERROR: OBJ OR HEADER MISSING!")
+		return
+	end
+
 	obj:SetVisible(true)
 	header:SetVisible(true)
 	table.insert(mod.current_bog_comps, obj)
 	table.insert(mod.current_bog_comps, header)
 
-	local x, y = list:Position()
-	if header then
-		header:MoveTo(x+115, y+100)
-		header:RegisterTopMost()
-		header:SetStateText(title)
+	obj:MoveTo(x+550, y+575)
+	header:MoveTo(x+870, y+300)
+	header:RegisterTopMost()
+	header:SetStateText(title)
+
+	local obj1 = digForComponent(book_of_grudges, "objective_copy_1")
+
+	if not obj1 then
+		for i=0, 10 do
+			local obj = UIComponent(dy_objective:CopyComponent("objective_copy_"..i))
+			pages:Adopt(obj:Address())
+			obj:SetVisible(false)
+		end
+
+		obj1 = digForComponent(book_of_grudges, "objective_copy_1")
 	end
-	if obj then
-		local w = obj:Width()
-		obj:SetCanResizeHeight(true)
-		obj:Resize(w, 48*3+20)
-		obj:MoveTo(x+40, y+450-20)
-		obj:RegisterTopMost()
-		obj:SetStateText(desc)
-	end
+
+	local starting_x = 910
+	local starting_y = 410
+	obj1:SetVisible(true)
+	obj1:SetStateText("DESCRIPTION")
+	obj1:SetDockingPoint(1)
+	obj1:SetDockOffset(starting_x, starting_y)
+
+	obj = digForComponent(book_of_grudges, "objective_copy_2")
+	obj:SetVisible(true)
+	obj:SetStateText("Something")
+	obj:SetDockingPoint(1)
+	obj:SetDockOffset(starting_x+200, starting_y)
+
+	obj = digForComponent(book_of_grudges, "objective_copy_3")
+	obj:SetVisible(true)
+	obj:SetStateText("DESCRIPTION")
+	obj:SetDockingPoint(1)
+	obj:SetDockOffset(starting_x, starting_y+35)
+
+	obj = digForComponent(book_of_grudges, "objective_copy_4")
+	obj:SetVisible(true)
+	obj:SetStateText("Something")
+	obj:SetDockingPoint(1)
+	obj:SetDockOffset(starting_x+200, starting_y+35)
+
+	obj = digForComponent(book_of_grudges, "objective_copy_5")
+	obj:SetVisible(true)
+	obj:SetStateText("DESCRIPTION")
+	obj:SetDockingPoint(1)
+	obj:SetDockOffset(starting_x, starting_y+70)
+
+	obj = digForComponent(book_of_grudges, "objective_copy_6")
+	obj:SetVisible(true)
+	obj:SetStateText("Something")
+	obj:SetDockingPoint(1)
+	obj:SetDockOffset(starting_x+200, starting_y+70)
 
 	local img_id = "rec_l_img_"..(is_left_page and "left" or "right")
 	local img = digForComponent(book_of_grudges, img_id)
@@ -157,8 +215,11 @@ mod.draw_bog_page = function(page_num)
 		img = UIComponent(pages:CreateComponent(img_id, "ui/templates/custom_image"))
 	end
 	img:SetImagePath(page_data.img, 4)
-	img:Resize(300, 600)
-	img:MoveTo(x+190, y+180)
+	img:SetVisible(false)
+	img:Resize(200, 400)
+	img:MoveTo(x+450, y+0)
+
+	book_frame:SetImagePath(page_data.img, 1)
 
 	local rec_button_id = "pj_rec_button_"..(is_left_page and "left" or "right")
 
@@ -174,10 +235,9 @@ mod.draw_bog_page = function(page_num)
 		button_txt:SetStateText("Recruit")
 	end
 
-	rec_button:MoveTo(x+100+25, y+625)
+	rec_button:MoveTo(x+680, y+675)
 	rec_button:Resize(350, 50)
 
-	img:SetVisible(true)
 	rec_button:SetVisible(true)
 	table.insert(mod.current_bog_comps, img)
 	table.insert(mod.current_bog_comps, rec_button)
@@ -246,17 +306,10 @@ mod.redraw_bog = function(page_num)
 	l:SetVisible(false)
 	r:SetVisible(false)
 
-	-- for _, comp in ipairs(mod.current_bog_comps) do
-	-- 	comp:SetVisible(false)
-	-- end
-
 	mod.current_bog_comps = {}
 
 	if mod.bog_pages[page_num] then
 		mod.draw_bog_page(page_num)
-	end
-	if mod.bog_pages[page_num+1] then
-		mod.draw_bog_page(page_num+1)
 	end
 end
 
@@ -270,12 +323,14 @@ mod.on_book_of_grudges_panel_opening = function()
 	local current_page = tonumber(string.sub(text, 1, string.find(text, "/")-1))
 	if not mod.current_bog_page or mod.current_bog_page ~= current_page then
 		mod.current_bog_page = current_page
-		mod.redraw_bog(current_page*2-1)
+		mod.redraw_bog(current_page)
 	end
 end
 
 local function init()
-	mod.add_grudges()
+	if not debug.traceback():find('pj_loadfile') then
+		mod.add_grudges()
+	end
 	local success, ret = pcall(mod.remove_invalid_recruitment_entries)
 	if not success then
 		out(ret)
