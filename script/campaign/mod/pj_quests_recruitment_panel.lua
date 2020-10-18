@@ -12,6 +12,9 @@ mod.bog_pages = mod.bog_pages or {
 		payload = function() mod.add_unit_to_army("zorn_bulwark") end,
 		save_id = "pj_quests_irondrake_recruitment",
 		limit = 1,
+		first = "First",
+		second = "Second",
+		third = "Third",
 	},
 	{
 		title = "The Iron Beaked Rooks ",
@@ -19,6 +22,9 @@ mod.bog_pages = mod.bog_pages or {
 		img = "ui/bog/The_Iron_Beaked_Rooks_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_dwarf_warrior_0") end,
 		cost = 500,
+		first = "First",
+		second = "Second",
+		third = "Third",
 	},
 	{
 		title = "The White Feathered Crows",
@@ -26,6 +32,9 @@ mod.bog_pages = mod.bog_pages or {
 		img = "ui/bog/The_White_Feathered_Crows_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_miners_0") end,
 		cost = 500,
+		first = "First",
+		second = "Second",
+		third = "Third",
 	},
 	{
 		title = "The Ice Peak Magpies",
@@ -33,6 +42,9 @@ mod.bog_pages = mod.bog_pages or {
 		img = "ui/bog/The_Ice_Peak_Magpies_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_quarrellers_0") end,
 		cost = 500,
+		first = "First",
+		second = "Second",
+		third = "Third",
 	},
 	{
 		title = "The Ice Jackdaws ",
@@ -40,6 +52,9 @@ mod.bog_pages = mod.bog_pages or {
 		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
 		cost = 500,
+		first = "First",
+		second = "Second",
+		third = "Third",
 	},
 }
 
@@ -181,7 +196,7 @@ mod.draw_bog_page = function(page_num)
 
 	obj = digForComponent(book_of_grudges, "objective_copy_2")
 	obj:SetVisible(true)
-	obj:SetStateText("Something")
+	obj:SetStateText(page_data.first)
 	obj:SetDockingPoint(1)
 	obj:SetDockOffset(starting_x+200, starting_y)
 
@@ -193,7 +208,7 @@ mod.draw_bog_page = function(page_num)
 
 	obj = digForComponent(book_of_grudges, "objective_copy_4")
 	obj:SetVisible(true)
-	obj:SetStateText("Something")
+	obj:SetStateText(page_data.second)
 	obj:SetDockingPoint(1)
 	obj:SetDockOffset(starting_x+200, starting_y+35)
 
@@ -205,7 +220,7 @@ mod.draw_bog_page = function(page_num)
 
 	obj = digForComponent(book_of_grudges, "objective_copy_6")
 	obj:SetVisible(true)
-	obj:SetStateText("Something")
+	obj:SetStateText(page_data.third)
 	obj:SetDockingPoint(1)
 	obj:SetDockOffset(starting_x+200, starting_y+70)
 
