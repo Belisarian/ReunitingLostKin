@@ -4,7 +4,7 @@ local mod = PJ_QUESTS
 local digForComponent = mod.digForComponent
 
 --- Units that can be recruited via the BoG.
-mod.bog_pages = mod.bog_pages or {
+mod.bog_pages = {
 	{
 		title = "The Frozen Feathered Ravens",
 		desc = "The Frozen Feathered Ravens, shares the name of the company. These dwarfs are a heavy armoured regiment of veteran warriors, that wields two-handed hammers. These fiece warriors are lead by Grunnar Vestgrud and carry with them the horn of ice and valor.",
@@ -15,6 +15,7 @@ mod.bog_pages = mod.bog_pages or {
 		first = "First",
 		second = "Second",
 		third = "Third",
+		hide_recruitment = true,
 	},
 	{
 		title = "The Iron Beaked Rooks ",
@@ -25,6 +26,7 @@ mod.bog_pages = mod.bog_pages or {
 		first = "First",
 		second = "Second",
 		third = "Third",
+		hide_recruitment = true,
 	},
 	{
 		title = "The White Feathered Crows",
@@ -35,6 +37,7 @@ mod.bog_pages = mod.bog_pages or {
 		first = "First",
 		second = "Second",
 		third = "Third",
+		hide_recruitment = true,
 	},
 	{
 		title = "The Ice Peak Magpies",
@@ -45,6 +48,7 @@ mod.bog_pages = mod.bog_pages or {
 		first = "First",
 		second = "Second",
 		third = "Third",
+		hide_recruitment = true,
 	},
 	{
 		title = "The Ice Jackdaws ",
@@ -55,27 +59,63 @@ mod.bog_pages = mod.bog_pages or {
 		first = "First",
 		second = "Second",
 		third = "Third",
+		hide_recruitment = true,
+	},
+	{
+		title = "DWARF RANGERS",
+		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
+		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
+		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
+		cost = 500,
+		first = "First",
+		second = "Second",
+		third = "Third",
+	},
+	{
+		title = "DWARF RANGERS 2",
+		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
+		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
+		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
+		cost = 500,
+		first = "First",
+		second = "Second",
+		third = "Third",
+		predicate = function() return cm:get_saved_value("pj_quests_RANGER_2_RECRUITMENT") end,
+	},
+	{
+		title = "DWARF RANGERS 3",
+		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
+		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
+		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
+		cost = 500,
+		first = "First",
+		second = "Second",
+		third = "Third",
+		predicate = function() return cm:get_saved_value("pj_quests_RANGER_3_RECRUITMENT") end,
 	},
 }
 
---- Add a bunch of grudges so we can have pages to turn in the Book of Grudges.
-mod.add_grudges = function()
-	cm:disable_event_feed_events(true, "all", "", "")
-	for i=1, 6 do
-		local grudge_mission = mission_manager:new(
-		cm:get_local_faction(true),
-		"wh_dlc06_grudge_belegar_eight_peaks"
-		);
-
-		grudge_mission:add_new_objective("CONSTRUCT_N_BUILDINGS_FROM");
-		grudge_mission:add_condition("total 1")
-		grudge_mission:add_condition("building_level wh_main_dwf_barracks_3")
-		grudge_mission:add_condition("faction wh_main_dwf_dwarfs");
-		grudge_mission:add_payload("effect_bundle{bundle_key wh_dlc06_bundle_eight_peaks_recapture;turns 0;}");
-		grudge_mission:set_should_cancel_before_issuing(false);
-		grudge_mission:trigger();
+mod.get_num_valid_bog_pages = function()
+	local num_pages = 0
+	for _, page_data in ipairs(mod.bog_pages) do
+		if not page_data.predicate or page_data.predicate() then
+			num_pages = num_pages + 1
+		end
 	end
-	cm:disable_event_feed_events(false, "all", "", "")
+	return num_pages
+end
+
+mod.get_bog_page = function(page_num)
+	local page_index = 0
+	for i, page_data in ipairs(mod.bog_pages) do
+		if not page_data.predicate or page_data.predicate() then
+			page_index = page_index + 1
+			if page_index == page_num then
+				return mod.bog_pages[i]
+			end
+		end
+	end
+	return nil
 end
 
 --- Current index of the Book of grudges page on the left, tracked to know when to refresh the BoG UI.
@@ -123,7 +163,7 @@ mod.draw_bog_page = function(page_num)
 	---@type CA_UIC
 	local book_frame = digForComponent(book_of_grudges, "book_frame")
 
-	local page_data = mod.bog_pages[page_num]
+	local page_data = mod.get_bog_page(page_num)
 	local title = page_data.title
 	local desc = page_data.desc
 
@@ -238,7 +278,23 @@ mod.draw_bog_page = function(page_num)
 
 	local rec_button_id = "pj_rec_button_"..(is_left_page and "left" or "right")
 
-	local rec_button = digForComponent(book_of_grudges, rec_button_id) or UIComponent(pages:CreateComponent(rec_button_id, "ui/templates/square_large_text_button"))
+	local rec_button = digForComponent(book_of_grudges, rec_button_id)
+	if not rec_button then
+		rec_button = UIComponent(pages:CreateComponent(rec_button_id, "ui/templates/square_large_text_button"))
+		rec_button:MoveTo(x+680, y+675)
+		rec_button:Resize(350, 50)
+		rec_button:SetVisible(true)
+
+		if page_data.cost then
+			rec_button:SetTooltipText("Costs "..tostring(page_data.cost).."[[img:icon_money]][[/img]]", true)
+			local local_treasury = cm:get_faction(cm:get_local_faction(true)):treasury()
+			if local_treasury < page_data.cost and rec_button:CurrentState() == "active" then
+				rec_button:SetState("inactive")
+			elseif rec_button:CurrentState() == "inactive" then
+				rec_button:SetState("active")
+			end
+		end
+	end
 	if page_data.limit then
 		local save_value = cm:get_saved_value(page_data.save_id) or 0
 		local num_available_for_recruitment = page_data.limit - save_value
@@ -250,10 +306,6 @@ mod.draw_bog_page = function(page_num)
 		button_txt:SetStateText("Recruit")
 	end
 
-	rec_button:MoveTo(x+680, y+675)
-	rec_button:Resize(350, 50)
-
-	rec_button:SetVisible(true)
 	table.insert(mod.current_bog_comps, img)
 	table.insert(mod.current_bog_comps, rec_button)
 
@@ -288,14 +340,41 @@ mod.draw_bog_page = function(page_num)
 		true
 	)
 
-	if page_data.cost then
-		rec_button:SetTooltipText("Costs "..tostring(page_data.cost).."[[img:icon_money]][[/img]]", true)
-		local local_treasury = cm:get_faction(cm:get_local_faction(true)):treasury()
-		if local_treasury < page_data.cost then
-			rec_button:SetDisabled(true)
-		end
+	rec_button:SetVisible(true)
+	if page_data.hide_recruitment then
+		rec_button:SetVisible(false)
 	end
 end
+
+core:remove_listener("pj_quests_on_book_of_grudges_clicked_book_arrows")
+core:add_listener(
+	"pj_quests_on_book_of_grudges_clicked_book_arrows",
+	"ComponentLClickUp",
+	function(context)
+		return context.string == "button_R" or context.string == "button_L"
+	end,
+	function(context)
+		local book_of_grudges = digForComponent(core:get_ui_root(), "book_of_grudges")
+		if not book_of_grudges then return end
+
+		---@type CA_UIC
+		local dy_page = digForComponent(book_of_grudges, "dy_page")
+
+		if not dy_page then return end
+		local text = dy_page:GetStateText()
+		local current_page = tonumber(string.sub(text, 1, string.find(text, "/")-1))
+		local num_valid_pages = mod.get_num_valid_bog_pages()
+
+		local next_page = current_page
+		if context.string == "button_R" then
+			next_page = current_page + 1
+		else
+			next_page = current_page - 1
+		end
+		dy_page:SetStateText(next_page.."/"..num_valid_pages)
+	end,
+	true
+)
 
 --- Redraw the opened BoG with our own UI.
 mod.redraw_bog = function(page_num)
@@ -323,7 +402,7 @@ mod.redraw_bog = function(page_num)
 
 	mod.current_bog_comps = {}
 
-	if mod.bog_pages[page_num] then
+	if mod.get_bog_page(page_num) then
 		mod.draw_bog_page(page_num)
 	end
 end
@@ -332,10 +411,27 @@ mod.on_book_of_grudges_panel_opening = function()
 	mod.remove_invalid_recruitment_entries()
 	local book_of_grudges = digForComponent(core:get_ui_root(), "book_of_grudges")
 	if not book_of_grudges then return end
+	---@type CA_UIC
 	local dy_page = digForComponent(book_of_grudges, "dy_page")
+	---@type CA_UIC
+	local button_L = digForComponent(book_of_grudges, "button_L")
+	---@type CA_UIC
+	local button_R = digForComponent(book_of_grudges, "button_R")
 	if not dy_page then return end
 	local text = dy_page:GetStateText()
 	local current_page = tonumber(string.sub(text, 1, string.find(text, "/")-1))
+	local num_valid_pages = mod.get_num_valid_bog_pages()
+	dy_page:SetStateText(current_page.."/"..num_valid_pages)
+	if current_page ~= 1 then
+		button_L:SetState("active")
+	else
+		button_L:SetState("inactive")
+	end
+	if current_page ~= num_valid_pages then
+		button_R:SetState("active")
+	else
+		button_R:SetState("inactive")
+	end
 	if not mod.current_bog_page or mod.current_bog_page ~= current_page then
 		mod.current_bog_page = current_page
 		mod.redraw_bog(current_page)
@@ -343,9 +439,6 @@ mod.on_book_of_grudges_panel_opening = function()
 end
 
 local function init()
-	if not debug.traceback():find('pj_loadfile') then
-		mod.add_grudges()
-	end
 	local success, ret = pcall(mod.remove_invalid_recruitment_entries)
 	if not success then
 		out(ret)
@@ -407,3 +500,6 @@ end)
 if debug.traceback():find('pj_loadfile') then
 	init()
 end
+
+-- to enable recuruitment of RANGERS_3:
+-- cm:set_saved_value("pj_quests_RANGER_3_RECRUITMENT", true)
