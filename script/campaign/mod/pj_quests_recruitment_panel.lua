@@ -15,7 +15,7 @@ mod.bog_pages = {
 		first = "First",
 		second = "Second",
 		third = "Third",
-		hide_recruitment = true,
+		hide_recruitment = function() return true end,
 	},
 	{
 		title = "The Iron Beaked Rooks ",
@@ -26,7 +26,7 @@ mod.bog_pages = {
 		first = "First",
 		second = "Second",
 		third = "Third",
-		hide_recruitment = true,
+		hide_recruitment = function() return true end,
 	},
 	{
 		title = "The White Feathered Crows",
@@ -37,7 +37,7 @@ mod.bog_pages = {
 		first = "First",
 		second = "Second",
 		third = "Third",
-		hide_recruitment = true,
+		hide_recruitment = function() return true end,
 	},
 	{
 		title = "The Ice Peak Magpies",
@@ -48,7 +48,7 @@ mod.bog_pages = {
 		first = "First",
 		second = "Second",
 		third = "Third",
-		hide_recruitment = true,
+		hide_recruitment = function() return true end,
 	},
 	{
 		title = "The Ice Jackdaws ",
@@ -59,38 +59,50 @@ mod.bog_pages = {
 		first = "First",
 		second = "Second",
 		third = "Third",
-		hide_recruitment = true,
+		hide_recruitment = function() return true end,
 	},
 	{
 		title = "DWARF RANGERS",
 		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
 		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
-		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
+		payload = function()
+			mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0")
+			cm:set_saved_value("pj_quests_have_recruited_DWARF_RANGERS", true)
+		end,
 		cost = 500,
 		first = "First",
 		second = "Second",
 		third = "Third",
+		hide_recruitment = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS") end,
 	},
 	{
 		title = "DWARF RANGERS 2",
 		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
 		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
-		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
+		payload = function()
+			mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0")
+			cm:set_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2", true)
+		end,
 		cost = 500,
 		first = "First",
 		second = "Second",
 		third = "Third",
+		hide_recruitment = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2") end,
 		predicate = function() return cm:get_saved_value("pj_quests_RANGER_2_RECRUITMENT") end,
 	},
 	{
 		title = "DWARF RANGERS 3",
 		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
 		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
-		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
+		payload = function()
+			mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0")
+			cm:set_saved_value("pj_quests_have_recruited_DWARF_RANGERS_3", true)
+		end,
 		cost = 500,
 		first = "First",
 		second = "Second",
 		third = "Third",
+		hide_recruitment = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_3") end,
 		predicate = function() return cm:get_saved_value("pj_quests_RANGER_3_RECRUITMENT") end,
 	},
 }
@@ -341,7 +353,7 @@ mod.draw_bog_page = function(page_num)
 	)
 
 	rec_button:SetVisible(true)
-	if page_data.hide_recruitment then
+	if page_data.hide_recruitment and page_data.hide_recruitment() then
 		rec_button:SetVisible(false)
 	end
 end
