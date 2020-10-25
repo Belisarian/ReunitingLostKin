@@ -9,7 +9,9 @@ cm:add_first_tick_callback(function()
 		cm:disable_event_feed_events(true, "all", "", "")
 		cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "intro")
 		local local_faction = cm:get_faction(cm:get_local_faction(true))
-		cm:kill_character(local_faction:faction_leader():cqi(),true, false)
+		local faction_leader = local_faction:faction_leader()
+		cm:set_character_immortality(cm:char_lookup_str(faction_leader), false)
+		cm:kill_character(faction_leader:cqi(), true, false)
 		cm:create_force_with_general(
 			local_faction:name(),
 			"dwf_norse_hammerers,dwf_norse_longbeards,dwf_norse_rangers,dwf_norse_warrior,dwf_norse_quarrellers",
