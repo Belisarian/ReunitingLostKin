@@ -73,22 +73,43 @@ mod.bog_pages = {
 		first = "First",
 		second = "Second",
 		third = "Third",
-		hide_recruitment = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS") end,
+		hide_recruitment = function()
+			return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS")
+		end,
+		predicate = function()
+			local valid_states = {
+				[mod.states.in_sjok_after_last_inn] = true,
+				[mod.states.in_sjok_after_clamp_farm] = true,
+				[mod.states.in_sjok_after_shipwreck] = true,
+			}
+
+			return valid_states[mod.current_state] or cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS")
+		end,
 	},
 	{
 		title = "DWARF RANGERS 2",
 		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
 		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
 		payload = function()
-			mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0")
+			mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_1")
 			cm:set_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2", true)
 		end,
 		cost = 500,
 		first = "First",
 		second = "Second",
 		third = "Third",
-		hide_recruitment = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2") end,
-		predicate = function() return cm:get_saved_value("pj_quests_RANGER_2_RECRUITMENT") end,
+		hide_recruitment = function()
+			return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2")
+		end,
+		predicate = function()
+			local valid_states = {
+				[mod.states.in_drak_after_lost_hold] = true,
+				[mod.states.in_drak_after_norscan_camp] = true,
+				[mod.states.in_drak_after_beastmen] = true,
+			}
+
+			return valid_states[mod.current_state] or cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2")
+		end,
 	},
 	{
 		title = "DWARF RANGERS 3",
