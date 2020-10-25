@@ -7,14 +7,14 @@ local digForComponent = mod.digForComponent
 mod.bog_pages = {
 	{
 		title = "The Frozen Feathered Ravens",
-		desc = "The Frozen Feathered Ravens, shares the name of the company. These dwarfs are a heavy armoured regiment of veteran warriors, that wields two-handed hammers. These fiece warriors are lead by Grunnar Vestgrud and carry with them the horn of ice and valor.",
+		desc = "The regiment,The Frozen Feathered Ravens, shares its name with the mercenary company. It was these warriors whom commander Grunnar Vestgrud handpicked and founded the company on. Veterans of numerous campaigns and loyal to the Commander, these warriors rivals some of the personal retinues seen among the High Lords throughout the realm. Initially The Frozen Feathered Ravens were lead by Grunnar Vestgrud himself, though with the companies expansion, the lieutenant Asgor Fjordson took over. The regiment brings with them the horn of ice and valor into battle, a rune encrusted horn carried by the honorguard of the regiment",
 		img = "ui/bog/bog1.png",
 		payload = function() mod.add_unit_to_army("zorn_bulwark") end,
 		save_id = "pj_quests_irondrake_recruitment",
 		limit = 1,
-		first = "First",
-		second = "Second",
-		third = "Third",
+		first = "Asgor Fjordson",
+		second = "Full Plate Armour ",
+		third = "Great Hammers",
 		hide_recruitment = function() return true end,
 	},
 	{
@@ -23,7 +23,7 @@ mod.bog_pages = {
 		img = "ui/bog/The_Iron_Beaked_Rooks_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_dwarf_warrior_0") end,
 		cost = 500,
-		first = "First",
+		first = "First IBR",
 		second = "Second",
 		third = "Third",
 		hide_recruitment = function() return true end,
@@ -34,7 +34,7 @@ mod.bog_pages = {
 		img = "ui/bog/The_White_Feathered_Crows_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_miners_0") end,
 		cost = 500,
-		first = "First",
+		first = "First3",
 		second = "Second",
 		third = "Third",
 		hide_recruitment = function() return true end,
@@ -45,7 +45,7 @@ mod.bog_pages = {
 		img = "ui/bog/The_Ice_Peak_Magpies_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_quarrellers_0") end,
 		cost = 500,
-		first = "First",
+		first = "First4",
 		second = "Second",
 		third = "Third",
 		hide_recruitment = function() return true end,
@@ -242,7 +242,7 @@ mod.draw_bog_page = function(page_num)
 	local starting_x = 910
 	local starting_y = 410
 	obj1:SetVisible(true)
-	obj1:SetStateText("DESCRIPTION")
+	obj1:SetStateText("Commander:")
 	obj1:SetDockingPoint(1)
 	obj1:SetDockOffset(starting_x, starting_y)
 
@@ -254,7 +254,7 @@ mod.draw_bog_page = function(page_num)
 
 	obj = digForComponent(book_of_grudges, "objective_copy_3")
 	obj:SetVisible(true)
-	obj:SetStateText("DESCRIPTION")
+	obj:SetStateText("Armour:")
 	obj:SetDockingPoint(1)
 	obj:SetDockOffset(starting_x, starting_y+35)
 
@@ -266,7 +266,7 @@ mod.draw_bog_page = function(page_num)
 
 	obj = digForComponent(book_of_grudges, "objective_copy_5")
 	obj:SetVisible(true)
-	obj:SetStateText("DESCRIPTION")
+	obj:SetStateText("Weapons:")
 	obj:SetDockingPoint(1)
 	obj:SetDockOffset(starting_x, starting_y+70)
 
