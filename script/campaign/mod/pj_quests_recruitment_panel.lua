@@ -202,10 +202,11 @@ mod.draw_bog_page = function(page_num)
 
 		obj:SetCanResizeWidth(true)
 		obj:SetCanResizeHeight(true)
-		obj:ResizeTextResizingComponentToInitialSize(520*1.2, 48*1.2)
-		obj:MoveTo(x+550, y+555)
+
+		-- obj:ResizeTextResizingComponentToInitialSize(624*1.2, 96*1.2)
+		obj:Resize(624*1.2, 96*1.5)
+		obj:MoveTo(x+480, y+555)
 		obj:RegisterTopMost()
-		obj:SetStateText(desc)
 
 		header:SetCanResizeWidth(true)
 		header:SetCanResizeHeight(true)
@@ -217,12 +218,12 @@ mod.draw_bog_page = function(page_num)
 		return
 	end
 
+	obj:SetStateText(desc)
 	obj:SetVisible(true)
 	header:SetVisible(true)
 	table.insert(mod.current_bog_comps, obj)
 	table.insert(mod.current_bog_comps, header)
 
-	obj:MoveTo(x+550, y+575)
 	header:MoveTo(x+870, y+300)
 	header:RegisterTopMost()
 	header:SetStateText(title)
@@ -293,7 +294,7 @@ mod.draw_bog_page = function(page_num)
 	local rec_button = digForComponent(book_of_grudges, rec_button_id)
 	if not rec_button then
 		rec_button = UIComponent(pages:CreateComponent(rec_button_id, "ui/templates/square_large_text_button"))
-		rec_button:MoveTo(x+680, y+675)
+		rec_button:MoveTo(x+680, y+690)
 		rec_button:Resize(350, 50)
 		rec_button:SetVisible(true)
 
@@ -307,6 +308,7 @@ mod.draw_bog_page = function(page_num)
 			end
 		end
 	end
+
 	if page_data.limit then
 		local save_value = cm:get_saved_value(page_data.save_id) or 0
 		local num_available_for_recruitment = page_data.limit - save_value
