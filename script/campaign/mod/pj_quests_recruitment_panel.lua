@@ -8,71 +8,71 @@ mod.bog_pages = {
 	{
 		title = "The Frozen Feathered Ravens",
 		desc = "The regiment,The Frozen Feathered Ravens, shares its name with the mercenary company. It was these warriors whom commander Grunnar Vestgrud handpicked and founded the company on. Veterans of numerous campaigns and loyal to the Commander, these warriors rivals some of the personal retinues seen among the High Lords throughout the realm. Initially The Frozen Feathered Ravens were lead by Grunnar Vestgrud himself, though with the companies expansion, the lieutenant Asgor Fjordson took over. The regiment brings with them the horn of ice and valor into battle, a rune encrusted horn carried by the honorguard of the regiment",
-		img = "ui/bog/bog1.png",
+		img = "ui/bog/The Frozen Feathered Ravens grudge_pages layout.png",
 		payload = function() mod.add_unit_to_army("zorn_bulwark") end,
 		save_id = "pj_quests_irondrake_recruitment",
 		limit = 1,
 		first = "Asgor Fjordson",
-		second = "Full Plate Armour ",
-		third = "Great Hammers",
+		second = "Full Plate and Hammers",
+		third = "1200",
 		hide_recruitment = function() return true end,
 	},
 	{
 		title = "The Iron Beaked Rooks ",
-		desc = "The Iron Beaked Rooks is a regiment of experienced warriors that wields an single handed axe and a great shield. These dwarfs excels at defensive tactics and provides a sturdy defensive line. They are lead by the companies second in command, Ulron Northgaard, a seniored warrior and capable drinker.",
+		desc = "Ulron Northgaard and his fellow guardsmen were discharged by their former employer - a unfortunate Merchant Lord. The warriors joined the mercenary band and became the Iron Beaked Rooks. Honoring they former occupation as guardsmen of especially petty merchant envoys , the warriors kept their shields and focus on defensive tactics. With numerous battles later, these former guardsmen have evolved into a senior regiment and would form the core of any army.",
 		img = "ui/bog/The_Iron_Beaked_Rooks_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_dwarf_warrior_0") end,
 		cost = 500,
-		first = "First IBR",
-		second = "Second",
-		third = "Third",
+		first = "Ulron Northgaard",
+		second = "Full Plate, Axe and Shield",
+		third = "1000",
 		hide_recruitment = function() return true end,
 	},
 	{
 		title = "The White Feathered Crows",
-		desc = "The White Feathered Crows is a regiment specialized in scouting and ranged support. These rangers are equipped with crossbows and single handed weapons. They all wear capes fabricated from the hide of a single mammoth, imbued with powerful Runes.",
+		desc = "The White Feathered Crows is the companies vanguard - a regiment specialized in scouting, hunting and trapping. In battle the White Feathered Crows provides utility and ranged firepower, while weak in close quarters. Equipped with crossbows and a nets, the foes can be pinned down and taken out from afar. The captain, Balder Brynskov, is a cunning character, whom seldom declines a hunt for larger preys.",
 		img = "ui/bog/The_White_Feathered_Crows_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_miners_0") end,
 		cost = 500,
-		first = "First3",
-		second = "Second",
-		third = "Third",
+		first = "Balder Brynskov",
+		second = "Light armor and Crossbows",
+		third = "700",
 		hide_recruitment = function() return true end,
 	},
 	{
 		title = "The Ice Peak Magpies",
-		desc = "The Ice Peak Magpies is a regiment of Quarrellers equipped with crossbows and great weapons. The regiment is capable of both ranged and melee support. Their captain, Jurg Tollgaard possesses a technical curiosity, which have led to the development of the partial automated crossbow wielded by the regiment.",
+		desc = "The Ice Peak Magpies is the main firepower of the company - a typical regiment of Quarrellers. The Magpies are capable of both ranged and melee support, where especially different ranged tactics can be applied to eradicate hostilities. Their captain, Jurg Tollgaard possesses a technical curiosity, which has driven most of the ranged drills the regiment is capable of.",
 		img = "ui/bog/The_Ice_Peak_Magpies_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_quarrellers_0") end,
 		cost = 500,
-		first = "First4",
-		second = "Second",
-		third = "Third",
+		first = "Jurg Tollgaard",
+		second = "Light armor and Crossbows",
+		third = "700",
 		hide_recruitment = function() return true end,
 	},
 	{
 		title = "The Ice Jackdaws ",
-		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
+		desc = "The Ice Jackdaws is the companies least experienced infantry regiment. It composes of able warriors equipped with axe and shield, whom form a bulky defensive. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
 		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
 		cost = 500,
-		first = "First",
-		second = "Second",
-		third = "Third",
+		first = "Asger Blackpeak",
+		second = "Axe and Shield",
+		third = "600",
 		hide_recruitment = function() return true end,
 	},
 	{
-		title = "DWARF RANGERS",
-		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
-		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
+		title = "The Draksfjord Brotherhood",
+		desc = "The Draksfjord Brotherhood is a exclusive group of huntsmen. The Draksfjord and the surrounding forest is inhabited by numerous types of drakes. Few dwarfs encounter these beasts in battle and live to tell the tale, though those who emerge victorious are invited to join the Brotherhoods ranks. The Draksfjord Brotherhood are few in numbers and hunt lesser beast as per contract on a routinely basis. Occasionally, The Drakfjords Brotherhood have been associated with mercenary bands. The huntsmen are lead by Tokle Abendvis.",
+		img = "ui/bog/The Draksfjord Brotherhood grudge_pages layout.png",
 		payload = function()
-			mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0")
+			mod.add_unit_to_army("zorn_bulwark")
 			cm:set_saved_value("pj_quests_have_recruited_DWARF_RANGERS", true)
 		end,
 		cost = 500,
-		first = "First",
-		second = "Second",
-		third = "Third",
+		first = "Tokle Abendvis",
+		second = "Full Plate and Dual Axes",
+		third = "1300",
 		hide_recruitment = function()
 			return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS")
 		end,
@@ -87,17 +87,17 @@ mod.bog_pages = {
 		end,
 	},
 	{
-		title = "DWARF RANGERS 2",
-		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
-		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
+		title = "The Steel Avalanche",
+		desc = "The Steel Avalanche is native to the capital of Kraka Drak. The regiment is famous for leading multiple successful campaigns within the Norse underground - purging any abominations they encounter. The regiment wears obsidian armor, explosives and a axe and sheild. The Steel Avalanche is lead by Azguz Bearclaw Vendegod. They now seek enrollment in a larger mercenary company.",
+		img = "ui/bog/The Steel Avalanche grudge_pages layout.png",
 		payload = function()
-			mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_1")
+			mod.add_unit_to_army("zorn_legion_1")
 			cm:set_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2", true)
 		end,
 		cost = 500,
-		first = "First",
-		second = "Second",
-		third = "Third",
+		first = "Azguz Bearclaw Vendegod",
+		second = "Full Plate, Axe and Shield",
+		third = "1100",
 		hide_recruitment = function()
 			return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2")
 		end,
@@ -276,7 +276,7 @@ mod.draw_bog_page = function(page_num)
 
 	obj = digForComponent(book_of_grudges, "objective_copy_3")
 	obj:SetVisible(true)
-	obj:SetStateText("Armour:")
+	obj:SetStateText("Equipment:")
 	obj:SetDockingPoint(1)
 	obj:SetDockOffset(starting_x, starting_y+35)
 
@@ -288,7 +288,7 @@ mod.draw_bog_page = function(page_num)
 
 	obj = digForComponent(book_of_grudges, "objective_copy_5")
 	obj:SetVisible(true)
-	obj:SetStateText("Weapons:")
+	obj:SetStateText("Upkeep at full:")
 	obj:SetDockingPoint(1)
 	obj:SetDockOffset(starting_x, starting_y+70)
 

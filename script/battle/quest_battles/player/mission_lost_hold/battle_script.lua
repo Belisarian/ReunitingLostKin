@@ -112,7 +112,7 @@ gb:complete_objective_on_message("Flee5_at_airship","mission_lost_hold_objective
 ga_battle_lost_hold_character_name_dwf_ally_3 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_3"); -- for hidden units on the battlefield (no win/lose)
 ga_battle_lost_hold_character_name_dwf_ally_3:set_enabled(false);  -- disabled
 ga_battle_lost_hold_character_name_nor_5 = gb:get_army(gb:get_non_player_alliance_num(),"battle_lost_hold_character_name_nor_5"); -- for hidden units on the battlefield (no win/lose)
-ga_battle_lost_hold_character_name_dwf_ally_3:set_enabled(false);  -- disabled
+ga_battle_lost_hold_character_name_nor_5:set_enabled(false);  -- disabled
 
 ---------------------------------------------------------------------------------------------
 ----------------------------REMOVE ALL UNITS AT AIRSHIP LIFT (PLAYER+ALLY)-------------------

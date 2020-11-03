@@ -23,7 +23,8 @@
 		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/dwf_warriors_axe_set1.VariantMeshDefinition" />
 	</SLOT>
 	<SLOT name="shield" attach_point="be_prop_2" >
-		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/elo_grey_shield_set1.VariantMeshDefinition" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dwf/dwf_props/elo_grey_shield_02.rigid_model_v2"  >
+			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
 	</SLOT>
 	<SLOT name="weapon_3" attach_point="be_prop_3" />
 	<SLOT name="weapon_4" attach_point="be_prop_4" >
