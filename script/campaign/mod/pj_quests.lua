@@ -261,3 +261,12 @@ core:add_listener(
 	end,
 	true
 )
+
+mod.post_contract_army_heal = function()
+	local mf = cm:get_faction(cm:get_local_faction(true)):faction_leader():military_force()
+	for unit in binding_iter(mf:unit_list()) do
+		local hp = unit:percentage_proportion_of_full_strength()
+		local new_hp = hp/100 + cm:random_number(15,5)/100
+		cm:set_unit_hp_to_unary_of_maximum(unit, new_hp)
+	end
+end
