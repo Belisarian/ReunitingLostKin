@@ -1,6 +1,19 @@
 PJ_QUESTS = PJ_QUESTS or {}
 local mod = PJ_QUESTS
 
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
 mod.states = {
 	game_start = "game_start",
 	in_sjok = "in_sjok",
@@ -68,6 +81,7 @@ core:add_listener(
 						cm:callback(function() core:trigger_event("pj_quests_won_"..battle_key) end, 0.1)
 					else
 						cm:callback(function() core:trigger_event("pj_quests_lost_"..battle_key) end, 0.1)
+						cm:callback(function() core:trigger_event("pj_quests_lost_a_battle") end, 0.1)
 					end
 				end
 			end
@@ -83,6 +97,7 @@ core:add_listener(
 						cm:callback(function() core:trigger_event("pj_quests_won_"..battle_key) end, 0.1)
 					else
 						cm:callback(function() core:trigger_event("pj_quests_lost_"..battle_key) end, 0.1)
+						cm:callback(function() core:trigger_event("pj_quests_lost_a_battle") end, 0.1)
 					end
 				end
 			end
@@ -198,7 +213,7 @@ core:add_listener(
 		end
 	end,
 	true
-);
+)
 
 mod.update_settings = function(mct)
 	local my_mod = mct:get_mod_by_key("pj_quests")
@@ -227,6 +242,22 @@ core:add_listener(
 	function(context)
 		local mct = context:mct()
 		mod.update_settings(mct)
+	end,
+	true
+)
+
+--- Lose the campaign if you lose a battle.
+core:remove_listener("pj_quests_on_lost_a_battle")
+core:add_listener(
+	"pj_quests_on_lost_a_battle",
+	"pj_quests_lost_a_battle",
+	true,
+	function()
+		local faction = cm:get_faction(cm:get_local_faction(true))
+		for region in binding_iter(faction:region_list()) do
+			cm:set_region_abandoned(region:name())
+		end
+		cm:kill_all_armies_for_faction(faction)
 	end,
 	true
 )
