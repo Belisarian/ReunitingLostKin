@@ -115,16 +115,26 @@ mod.bog_pages = {
 		title = "The Sunken Mountain",
 		desc = "The Sunken Mountain is a young regiment consisting of former deckhands and surplus petty officers of the sea routes between Sjoktraken, Kraka Dorden and Kazad Dumund. Equipped with throwing axes and lightweight two-handed axes, the dwarf are ideal for close quarter skirmishes against lesser foes and naval encounters. A few lucky employment the past years have seen the equipment of the regiment rise to new standards. Tired of minor jobs, this regiment seek enrollment into a actual mercenary band",
 		img = "ui/bog/The Sunken Mountain grudge_pages layout.png",
-		payload = function()
-			mod.add_unit_to_army("zorn_sentry")
-			cm:set_saved_value("pj_quests_have_recruited_DWARF_RANGERS_3", true)
-		end,
 		cost = 500,
 		first = "Elon Thankson",
 		second = "Medium Armor and Axe",
 		third = "850",
-		hide_recruitment = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_3") end,
-		predicate = function() return cm:get_saved_value("pj_quests_RANGER_3_RECRUITMENT") end,
+		payload = function()
+			mod.add_unit_to_army("zorn_sentry")
+			cm:set_saved_value("pj_quests_have_recruited_zorn_sentry", true)
+		end,
+		hide_recruitment = function()
+			return cm:get_saved_value("pj_quests_have_recruited_zorn_sentry")
+		end,
+		predicate = function()
+			local valid_states = {
+				[mod.states.in_sjok_after_last_inn] = true,
+				[mod.states.in_sjok_after_clamp_farm] = true,
+				[mod.states.in_sjok_after_shipwreck] = true,
+			}
+
+			return valid_states[mod.current_state] or cm:get_saved_value("pj_quests_have_recruited_zorn_sentry")
+		end,
 	},
 }
 
