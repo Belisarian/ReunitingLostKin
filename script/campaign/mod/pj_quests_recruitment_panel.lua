@@ -35,7 +35,7 @@ mod.bog_pages = {
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_miners_0") end,
 		cost = 500,
 		first = "Balder Brynskov",
-		second = "Light armor and Crossbows",
+		second = "Light Armor and Crossbows",
 		third = "700",
 		hide_recruitment = function() return true end,
 	},
@@ -46,7 +46,7 @@ mod.bog_pages = {
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_quarrellers_0") end,
 		cost = 500,
 		first = "Jurg Tollgaard",
-		second = "Light armor and Crossbows",
+		second = "Light Armor and Crossbows",
 		third = "700",
 		hide_recruitment = function() return true end,
 	},
@@ -112,17 +112,17 @@ mod.bog_pages = {
 		end,
 	},
 	{
-		title = "DWARF RANGERS 3",
-		desc = "The Ice Jackdaws is the junior infantry regiment of the company, which composes of able warriors equipped with axe and shield. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
-		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
+		title = "The Sunken Mountain",
+		desc = "The Sunken Mountain is a young regiment consisting of former deckhands and surplus petty officers of the sea routes between Sjoktraken, Kraka Dorden and Kazad Dumund. Equipped with throwing axes and lightweight two-handed axes, the dwarf are ideal for close quarter skirmishes against lesser foes and naval encounters. A few lucky employment the past years have seen the equipment of the regiment rise to new standards. Tired of minor jobs, this regiment seek enrollment into a actual mercenary band",
+		img = "ui/bog/The Sunken Mountain grudge_pages layout.png",
 		payload = function()
-			mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0")
+			mod.add_unit_to_army("zorn_sentry")
 			cm:set_saved_value("pj_quests_have_recruited_DWARF_RANGERS_3", true)
 		end,
 		cost = 500,
-		first = "First",
-		second = "Second",
-		third = "Third",
+		first = "Elon Thankson",
+		second = "Medium Armor and Axe",
+		third = "850",
 		hide_recruitment = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_3") end,
 		predicate = function() return cm:get_saved_value("pj_quests_RANGER_3_RECRUITMENT") end,
 	},
