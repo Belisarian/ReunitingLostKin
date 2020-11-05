@@ -237,7 +237,6 @@ mod.draw_bog_page = function(page_num)
 		-- obj:ResizeTextResizingComponentToInitialSize(624*1.2, 96*1.2)
 		obj:Resize(624*1.2, 96*1.5)
 		obj:MoveTo(x+480, y+555)
-		obj:RegisterTopMost()
 
 		header:SetCanResizeWidth(true)
 		header:SetCanResizeHeight(true)
@@ -256,7 +255,6 @@ mod.draw_bog_page = function(page_num)
 	table.insert(mod.current_bog_comps, header)
 
 	header:MoveTo(x+870, y+300)
-	header:RegisterTopMost()
 	header:SetStateText(title)
 
 	local obj1 = digForComponent(book_of_grudges, "objective_copy_1")
