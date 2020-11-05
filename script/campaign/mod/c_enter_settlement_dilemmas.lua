@@ -144,7 +144,6 @@ core:add_listener(
 			mod.complete_contract(
 				5000,
 				function()
-					mod.post_contract_army_heal()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_shipwreck")
 				end
 			)
@@ -186,7 +185,6 @@ core:add_listener(
 			mod.complete_contract(
 				5000,
 				function()
-					mod.post_contract_army_heal()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_last_inn");
 				end
 			)
@@ -278,7 +276,6 @@ core:add_listener(
 			mod.complete_contract(
 				5000,
 				function()
-					mod.post_contract_army_heal()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_in_drak_after_beastmen");
 				end
 			)
@@ -374,7 +371,6 @@ core:add_listener(
 			mod.complete_contract(
 				5000,
 				function()
-					mod.post_contract_army_heal()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_ice_trolls");
 				end
 			)
@@ -398,7 +394,6 @@ core:add_listener(
 			mod.complete_contract(
 				5000,
 				function()
-					mod.post_contract_army_heal()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_fimir_bog");
 				end
 			)
@@ -438,7 +433,6 @@ core:add_listener(
 			mod.complete_contract(
 				5000,
 				function()
-					mod.post_contract_army_heal()
 				end
 			)
 		end, 0.7)
@@ -459,7 +453,6 @@ core:add_listener(
 			mod.complete_contract(
 				5000,
 				function()
-					mod.post_contract_army_heal()
 				end
 			)
 		end, 0.7)
@@ -480,7 +473,6 @@ core:add_listener(
 			mod.complete_contract(
 				5000,
 				function()
-					mod.post_contract_army_heal()
 				end
 			)
 		end, 0.7)
