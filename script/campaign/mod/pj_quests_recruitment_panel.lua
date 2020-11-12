@@ -326,15 +326,17 @@ mod.draw_bog_page = function(page_num)
 		rec_button:MoveTo(x+680, y+690)
 		rec_button:Resize(350, 50)
 		rec_button:SetVisible(true)
+	end
 
-		if page_data.cost then
-			rec_button:SetTooltipText("Costs "..tostring(page_data.cost).."[[img:icon_money]][[/img]]", true)
-			local local_treasury = cm:get_faction(cm:get_local_faction(true)):treasury()
-			if local_treasury < page_data.cost and rec_button:CurrentState() == "active" then
+	if page_data.cost then
+		rec_button:SetTooltipText("Costs "..tostring(page_data.cost).."[[img:icon_money]][[/img]].", true)
+		local local_treasury = cm:get_faction(cm:get_local_faction(true)):treasury()
+		if local_treasury < page_data.cost then
+			if rec_button:CurrentState() ~= "inactive" then
 				rec_button:SetState("inactive")
-			elseif rec_button:CurrentState() == "inactive" then
-				rec_button:SetState("active")
 			end
+		elseif rec_button:CurrentState() == "inactive" then
+			rec_button:SetState("active")
 		end
 	end
 
