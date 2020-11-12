@@ -32,7 +32,7 @@ local mission = {
 	locs = {
 		title="Return to Kraka Drak",
 		desc="Return to Kraka Drak",
-		mission_desc = "BLAH BLAH BLAH",
+		mission_desc = "The norsemen are shattered or lie dead in the red snow. We should return to the capital and collect out earnings.",
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,

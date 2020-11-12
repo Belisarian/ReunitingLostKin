@@ -32,7 +32,7 @@ mod[mission_key] = {
 	locs = {
 		title="Norscan Camp",
 		desc="Norscan Camp",
-		mission_desc = "The frozen ground echoes, win or lose, the crows will never go hungry.",
+		mission_desc = "A smaller Norscan tribe have settled the area and are raiding nearby caravans. Purge their presence and paint the snow red. The frozen ground echoes, win or lose, the crows never goes hungry!",
 	},
 	icon = "ui/small_icon_quest_battle.png",
 	payload = payload,

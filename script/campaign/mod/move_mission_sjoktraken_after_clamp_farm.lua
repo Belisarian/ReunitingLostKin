@@ -33,7 +33,7 @@ mod[mission_key] = {
 	locs = {
 		title="Return to Sjoktraken",
 		desc="Return to Sjoktraken",
-		mission_desc = "The inhabitants of the Last Hope Inn and the envoy to the merchant guild celebrated they renewed contact by forging trade agreements. Four decades had passed since a dwarf last time visited the Inn. Stocked up on exotic goods from the southern lands of Kislev, we are to escort the merchants back to Sjoktraken.",
+		mission_desc = "The shapeshifter's sway over these lands are no more. The farmhands can return and resume their duties. We should hand back.  ",
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,
