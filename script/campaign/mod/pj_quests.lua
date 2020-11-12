@@ -163,7 +163,7 @@ cm:add_first_tick_callback(function()
 		in_drak_after_chaos = {}, -- no such state its a suicide mission
 		after_chaos_warp = {}, -- no such state its a suicide mission
 		after_mountain_pass_ambush = {mod.move_mission_to_ravnsvake_after_ambush},
-		in_kraka_ravn = {mod.move_mission_to_kislev, mod.mission_kraka_ravnsvake_icetrolls, mod.mission_kraka_ravnsvake_fimir_bog},
+		in_kraka_ravn = {mod.mission_kraka_ravnsvake_icetrolls, mod.mission_kraka_ravnsvake_fimir_bog},
 		after_ice_trolls = {mod.move_mission_to_ravnsvake_after_ice_trolls},
 		after_fimir_bog = {mod.move_mission_to_ravnsvake_after_fimir_bog},
 		in_kraka_ravn_after_ice_trolls = {mod.move_mission_to_kislev, mod.mission_kraka_ravnsvake_fimir_bog},
