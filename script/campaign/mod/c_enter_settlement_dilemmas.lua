@@ -145,6 +145,11 @@ core:add_listener(
 				5000,
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_shipwreck")
+					local new_dilemma_text =
+						"With the Ironclad back in port and most of the company at the local tavern, you are at the port master office. Nilss has already been collecting the payment agreed upon and your additional visit is a request by the port master.\n\nInside the office, the port master is flanked by a royal messenger, whom informs you that you are requested at the royal high-court, without giving any reason."
+						.."\n\nBack at the companies quarters, you tell Nilss about the royal request. Nilss further informs you that he has been approached by some merchants who wish to hire the company for escort duty to a southern Kislev outpost - The last hope Inn."
+						.."\n\nShould we march directly towards Kraka Drak or fill our coffers with escort money?"
+					mod.set_dilemma_text(new_dilemma_text)
 				end
 			)
 		end, 0.7)
