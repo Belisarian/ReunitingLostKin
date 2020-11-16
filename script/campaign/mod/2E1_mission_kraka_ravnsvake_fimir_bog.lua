@@ -38,7 +38,7 @@ mod[mission_key] = {
 	locs = {
 		title="Hunting Grounds",
 		desc="Hunting Grounds",
-		mission_desc = "Kraka Ravnsvake's commander of arms and high armour to the keep, Jorin Asserbo, is looking for able warriors to join a assault on a Fimir Bog. The Bog lies 2 days to the east, in one of Kraka Ravnsvake important hunting grounds. While a priority to the commander, more pressing matters have taken his attention, why he is looking for sellswords, that can handle the task.Two full retinues of rangers will accompany the assault, while their safe return to the garrison will be rewarded as well.",
+		mission_desc = "Kraka Ravnsvake's commander of arms and high armour to the keep, Jorin Asserbo, is looking for able warriors to join a assault on a Fimir Bog. The Bog lies 2 days to the east, in one of Kraka Ravnsvake important hunting grounds. While a priority to the commander, more pressing matters have taken his attention, why he is looking for sellswords, that can handle the task.Two full retinues of rangers will accompany the assault, while their safe return to the garrison will be rewarded as well.\n\n Payment upon completion: 4000",
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,

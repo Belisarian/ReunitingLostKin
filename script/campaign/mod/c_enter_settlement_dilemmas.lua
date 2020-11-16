@@ -161,7 +161,7 @@ core:add_listener(
 	function()
 		cm:callback(function()
 			mod.complete_contract(
-				5000,
+				6000, -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_shipwreck")
 					local new_dilemma_text =
@@ -207,7 +207,7 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				5000,
+				3500, -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_last_inn");
 				end
@@ -316,7 +316,7 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				5000,
+				7000, -- -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_in_drak_after_beastmen")
 
@@ -428,7 +428,7 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				5000,
+				3000, -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_ice_trolls");
 				end
@@ -451,7 +451,7 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				5000,
+				4000, -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_fimir_bog");
 				end
@@ -490,7 +490,7 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				5000,
+				3000, -- Payment entry
 				function()
 				end
 			)
@@ -510,7 +510,7 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				5000,
+				4000, -- Payment entry
 				function()
 				end
 			)
@@ -530,7 +530,7 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				5000,
+				7000, -- Payment entry
 				function()
 				end
 			)
