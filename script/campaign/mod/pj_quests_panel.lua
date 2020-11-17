@@ -31,10 +31,10 @@ mod.create_quests_panel = function()
 
 	local quest_description_title = Text.new("pj_quests_quest_description_title", myFrame, "NORMAL", "")--mission_sjoktraken_shipwreck.locs.title)
 	local quest_description = Text.new("pj_quests_quest_description", myFrame, "NORMAL", "")--mission_sjoktraken_shipwreck.locs.mission_desc)
-	quest_description:Resize(545+150, 300)
+	quest_description:Resize(545+350, 300)
 	quest_description_title:Resize(545+350, 50)
 	quest_description_title:PositionRelativeTo(myFrame, 275+70+130, 140+3*50+200+250-80)
-	quest_description:PositionRelativeTo(myFrame, 275+70-75, 140+3*50+200+250-40-50-5)
+	quest_description:PositionRelativeTo(myFrame, 275+70-75-100, 140+3*50+200+250-40-50-5-18)
 
 	local start_quest_button = TextButton.new("pj_quests_start_quest_button", myFrame, "TEXT", "Select a quest on the map")
 
@@ -64,7 +64,7 @@ mod.create_quests_panel = function()
 				local text_width = quest_description_title.uic:TextDimensionsForText(title)
 
 				local quest_description_x = 275+55+238-text_width/2
-				local quest_description_y = 140+3*50+200+250-80-50-5
+				local quest_description_y = 140+3*50+200+250-80-50-10
 				quest_description_title:PositionRelativeTo(myFrame, quest_description_x, quest_description_y)
 
 				quest_description_title:SetText(title)
@@ -135,7 +135,6 @@ mod.create_quests_panel = function()
 		mod.selected_quest = nil
 	end)
 end
-
 
 cm:add_first_tick_callback(function()
 	core:remove_listener('pj_unit_upgrades_on_clicked_retrain_button34234')
