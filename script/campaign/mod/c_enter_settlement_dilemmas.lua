@@ -73,8 +73,7 @@ core:add_listener(
 			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken")
 
 			local new_dilemma_text =
-			[[
-			"Sjoktraken has that special feeling to it, that, you have to admit!" Nilss shouts at you while you pass by a brawl outside a tavern. You nod and turn down the road, towards the mining company headquarters.
+			[["Sjoktraken has that special feeling to it, that, you have to admit!" Nilss shouts at you while you pass by a brawl outside a tavern. You nod and turn down the road, towards the mining company headquarters.
 
 			"A safe trip, I assume?" inquires the guild master, and places a small leather coin bag on the table.
 
@@ -105,8 +104,7 @@ core:add_listener(
 									cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_2")
 
 									local new_dilemma_text =
-									[[
-									From afar you see the port master perched on top of a couple of stacked crates, bellowing to a small crowd of ragged sailors, all the while gesticulating wildly with his hands.
+									[[From afar you see the port master perched on top of a couple of stacked crates, bellowing to a small crowd of ragged sailors, all the while gesticulating wildly with his hands.
 
 									As you approach the crowd, he notices you and jumps off his podium. He comes running, and finally extends his hand in greeting:
 									"Finally, some dwarfs that do not require much convincing, but only a handful of coin!"
@@ -161,7 +159,8 @@ core:add_listener(
 	function()
 		cm:callback(function()
 			mod.complete_contract(
-				6000, -- Payment entry
+				6000,
+ -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_shipwreck")
 					local new_dilemma_text =
@@ -207,7 +206,8 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				3500, -- Payment entry
+				3500,
+ -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_last_inn");
 				end
@@ -316,7 +316,8 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				7000, -- -- Payment entry
+				7000,
+ -- -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_in_drak_after_beastmen")
 
@@ -428,7 +429,8 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				3000, -- Payment entry
+				3000,
+ -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_ice_trolls");
 				end
@@ -451,7 +453,8 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				4000, -- Payment entry
+				4000,
+ -- Payment entry
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_fimir_bog");
 				end
@@ -490,7 +493,8 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				3000, -- Payment entry
+				3000,
+ -- Payment entry
 				function()
 				end
 			)
@@ -510,7 +514,8 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				4000, -- Payment entry
+				4000,
+ -- Payment entry
 				function()
 				end
 			)
@@ -530,7 +535,8 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				7000, -- Payment entry
+				7000,
+ -- Payment entry
 				function()
 				end
 			)
