@@ -7,7 +7,7 @@ local payload = function(char)
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
-		cm:scroll_camera_from_current(true, 0.1, {451.88, 515.61, 5, d_to_r(120), 4})
+		cm:scroll_camera_from_current(true, 0.1, {453.22, 510.21, 5, d_to_r(120), 4})
 
 		cm:callback(function()
 			cm:move_to(cm:char_lookup_str(char), 676, 668, true) -- moving to the chaos warp
