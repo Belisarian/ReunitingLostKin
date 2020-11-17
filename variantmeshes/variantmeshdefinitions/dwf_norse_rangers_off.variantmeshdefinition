@@ -1,4 +1,16 @@
 <VARIANT_MESH>
+    
+    <SLOT name="ornament_on_banner">
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dwf/dwf_banner/dwf_banner_orn_01.wsmodel" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu3/dwf/dwf_banner/dwf_banner_orn_02.wsmodel" />
+	</SLOT>
+	<SLOT name="banner_on_back" >
+        <VARIANT_MESH model="variantmeshes/wh_variantmodels/hu3/dwf/dwf_banner/nor_the_white_feathered_crows.wsmodel" >
+			<META_DATA>equipment</META_DATA>
+		</VARIANT_MESH>
+		
+	</SLOT>
+    
 	<SLOT name="head" >
 		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dwf_rangers\head\dwf_rangers_head_02.rigid_model_v2" />
 	</SLOT>
