@@ -37,8 +37,8 @@ gb:set_cutscene_during_deployment(true);
 ------------------------------------------PLAYER--------------------------------------------------
 ga_player = gb:get_army(gb:get_player_alliance_num(), 1, ""); -- player attacker 
 ------------------------------------------ALLY EMP---------------------------------------------------
-ga_battle_the_last_hope_inn_character_name_emp_ally = gb:get_army(gb:get_player_alliance_num(),"battle_the_last_hope_inn_character_name_emp_ally"); -- Lord
-ga_battle_the_last_hope_inn_army_emp_ally_huntsmen = gb:get_army(gb:get_player_alliance_num(),"battle_the_last_hope_inn_army_emp_ally_huntsmen"); -- Huntsmen
+ga_battle_the_last_hope_inn_character_name_emp_ally = gb:get_army(gb:get_player_alliance_num(),"battle_the_last_hope_inn_character_name_kis_ally"); -- Lord
+ga_battle_the_last_hope_inn_army_emp_ally_huntsmen = gb:get_army(gb:get_player_alliance_num(),"battle_the_last_hope_inn_army_kis_ally_huntsmen"); -- Huntsmen
 ------------------------------------------ALLY DWF---------------------------------------------------
 ga_battle_the_last_hope_inn_character_name_dwf_ally = gb:get_army(gb:get_player_alliance_num(),"battle_the_last_hope_inn_character_name_dwf_ally"); -- Lord
 ga_battle_the_last_hope_inn_army_dwf_ally_wagon = gb:get_army(gb:get_player_alliance_num(),"battle_the_last_hope_inn_army_dwf_ally_wagon"); -- war wagon 
@@ -121,7 +121,7 @@ ga_battle_the_last_hope_inn_army_emp_ally_huntsmen:reinforce_on_message("under_a
 -------------------------------------------------------------------------------------------------
 ---------------------------------------Enemy Reinforcement army ----------------------------------
 -------------------------------------------------------------------------------------------------
-ga_battle_the_last_hope_inn_army_reinforcement_enemy_whole_army:deploy_at_random_intervals_on_message("Wait_5min",1,2,60000,60000); -- after 5 min at intervals of 1 min 1-2 units joins the fight
+ga_battle_the_last_hope_inn_army_reinforcement_enemy_whole_army:deploy_at_random_intervals_on_message("Wait_7min",1,2,60000,60000); -- after 5 min at intervals of 1 min 1-2 units joins the fight
 
 -------------------------------------------------------------------------------------------------
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------

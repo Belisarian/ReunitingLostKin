@@ -1,0 +1,58 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_head\ksl_ungol_headdroy.wsmodel" />
+	</SLOT>
+
+	<SLOT name="hair">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_head\ksl_ungol_hair1.wsmodel" />
+	</SLOT>
+
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_modular/ksl_torso_ns2.wsmodel" />
+	</SLOT>
+
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_modular/ksl_bracers.wsmodel" />
+	</SLOT>
+
+	<SLOT name="mod1" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_modular/ksl_lam_armour3.wsmodel" />
+	</SLOT>
+
+	<SLOT name="mod2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_modular/ksl_lamsho3b.wsmodel" />
+	</SLOT>
+
+	<SLOT name="mod3" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_modular/ksl_lamsho3c.wsmodel" />
+	</SLOT>
+
+	<SLOT name="mod4" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_modular/ksl_lamskrt3b.wsmodel" />
+	</SLOT>
+
+	<SLOT name="mod5" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_modular/ksl_waistclothb.wsmodel" />
+	</SLOT>
+
+	<SLOT name="cape" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_body\ksl_kossarcape1.wsmodel" />
+	</SLOT>
+
+	<SLOT name="leg" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_legs/ksl_kossar_leg1.wsmodel" />
+	</SLOT>
+
+	<SLOT name="dummy" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_dummy.rigid_model_v2" />
+	</SLOT>
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_props/ksl_sword_2h.rigid_model_v2" >
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_2" attach_point="be_prop_1" />
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+</VARIANT_MESH>

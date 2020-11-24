@@ -1,0 +1,13 @@
+<VARIANT_MESH>
+
+	<SLOT name="beard"  probability="0.8" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_head\ksl_gos_beardy1.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_head\ksl_gos_beardy2.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_head\ksl_gos_beardy3.wsmodel" />
+	</SLOT>
+
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_head\ksl_ghead3.wsmodel" />
+	</SLOT>
+
+</VARIANT_MESH>

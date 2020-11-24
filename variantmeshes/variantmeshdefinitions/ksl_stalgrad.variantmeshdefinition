@@ -1,0 +1,84 @@
+<VARIANT_MESH>
+	<SLOT name="dummy" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_dummy.rigid_model_v2" />
+	</SLOT>
+
+	<SLOT name="head" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/ksl_ghead_ginger.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/ksl_ghead_yellow.VariantMeshDefinition" />
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/ksl_ghead_black.VariantMeshDefinition" />
+	</SLOT>
+
+	<SLOT name="hat" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_head/ksl_khat1.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_head/ksl_khat2.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_head/ksl_khat3.wsmodel" />
+	</SLOT>
+
+
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_modular\ksl_torso_light.wsmodel" />
+	</SLOT>
+
+	<SLOT name="armour" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_modular\ksl_lam_armour1.wsmodel"/ >		
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_modular\ksl_lam_armour3.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_modular\ksl_lam_armour4.wsmodel"/ >
+	</SLOT>
+
+	<SLOT name="belts" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_modular\ksl_belt1b.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_modular\ksl_belt2b.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_modular\ksl_belt3b.wsmodel" />
+	</SLOT>
+
+	<SLOT name="leg" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_legs/ksl_kossar_leg1.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_legs/ksl_kossar_leg2.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_legs/ksl_kossar_leg3.wsmodel" />
+	</SLOT>
+
+
+	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_props\ksl_1haxe1.rigid_model_v2"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_props\ksl_1haxe2.rigid_model_v2"  >
+			<META_DATA>audio_melee_weapon_type:axe</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="shield" attach_point="be_prop_2" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_props\ksl_wlshield4.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_props\ksl_wlshield2.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_props\ksl_wlshield5.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_props\ksl_wlshield3.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\ksl\ksl_props\ksl_wlshield6.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="weapon_3" attach_point="be_prop_3" />
+	<SLOT name="weapon_4" attach_point="be_prop_4" />
+	<SLOT name="weapon_5" attach_point="be_prop_5" />
+	<SLOT name="stump_neck" attach_point="spine_2" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/dlc02_blood_pack/dlc02_stump_neck_hu1_1.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_left_arm" attach_point="clav_left" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/dlc02_blood_pack/dlc02_stump_left_arm_hu1_1.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_right_arm" attach_point="clav_right" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/dlc02_blood_pack/dlc02_stump_right_arm_hu1_1.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_waist" attach_point="root" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/dlc02_blood_pack/dlc02_stump_waist_hu1_1.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="stump_severed_head" attach_point="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/dlc02_blood_pack/dlc02_stump_head_hu1_1.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
