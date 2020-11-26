@@ -36,11 +36,17 @@ gb:set_cutscene_during_deployment(true);
 -------------------------------------------------------------------------------------------------
 
 ------------------------------------------PLAYER---------------------------------------------------
-ga_player = gb:get_army(gb:get_player_alliance_num(), 2, ""); -- defender
-
-
+ga_player = gb:get_army(gb:get_player_alliance_num(), 1, ""); -- Attacker
 ------------------------------------------ALLY---------------------------------------------------
+
+
+
 ------------------------------------------ENEMY---------------------------------------------------
+ga_battle_fimir_bog_character_name_nor = gb:get_army(gb:get_non_player_alliance_num(),"battle_fimir_bog_character_name_nor"); -- Char 
+ga_battle_fimir_bog_army_nor_unit_fimir_ror = gb:get_army(gb:get_non_player_alliance_num(),"battle_fimir_bog_army_nor_unit_fimir_ror"); -- Fimir ROR
+ga_battle_fimir_bog_army_nor_unit_fimir_0 = gb:get_army(gb:get_non_player_alliance_num(),"battle_fimir_bog_army_nor_unit_fimir_0"); -- Fimir 0
+ga_battle_fimir_bog_army_nor_unit_fimir_1 = gb:get_army(gb:get_non_player_alliance_num(),"battle_fimir_bog_army_nor_unit_fimir_1"); -- Fimir 1
+
 ------------------------------------------ENEMY REINFORCEMENT---------------------------------------------------
 
 -------------------------------------------------------------------------------------------------
@@ -82,14 +88,32 @@ gb:message_on_time_offset("Wait_20min",1200000);
 -------------------------------------------------------------------------------------------------
 ---------------------------------------CUSTOM ORDERS----------------------------------------------
 --------------------------------------------------------------------------------------------------
+ga_battle_fimir_bog_character_name_nor:set_enabled(false); -- Hide all fimir at start
+ga_battle_fimir_bog_army_nor_unit_fimir_ror:set_enabled(false); 
+ga_battle_fimir_bog_army_nor_unit_fimir_0:set_enabled(false);  
+ga_battle_fimir_bog_army_nor_unit_fimir_1:set_enabled(false);  
 
--------------------------------------------------------------------------------------------------
----------------------------------------ALLY DEFENDS-----------------------------------------------
---------------------------------------------------------------------------------------------------
+ga_battle_fimir_bog_character_name_nor:teleport_to_start_location_offset_on_message("battle_started",0,250); -- spread the fimir units out
+ga_battle_fimir_bog_army_nor_unit_fimir_ror:teleport_to_start_location_offset_on_message("battle_started",0,-250);
+ga_battle_fimir_bog_army_nor_unit_fimir_0:teleport_to_start_location_offset_on_message("battle_started",250,0);
+ga_battle_fimir_bog_army_nor_unit_fimir_1:teleport_to_start_location_offset_on_message("battle_started",-250,0); 
 
--------------------------------------------------------------------------------------------------
----------------------------------Enemy Reinforcement army --------------------------------------
--------------------------------------------------------------------------------------------------
+
+ga_player:message_on_proximity_to_position("player_at_fimir_base", v(200, 100, -200), 50); -- detect when player is close to fimir hold
+gb:message_on_time_offset("release",120000,"player_at_fimir_base"); -- wait 2 min, so player will fully arive there
+
+
+ga_battle_fimir_bog_character_name_nor:set_enabled_on_message("release", true); -- reveal the units 
+ga_battle_fimir_bog_army_nor_unit_fimir_ror:set_enabled_on_message("release", true);  
+ga_battle_fimir_bog_army_nor_unit_fimir_0:set_enabled_on_message("release", true);  
+ga_battle_fimir_bog_army_nor_unit_fimir_1:set_enabled_on_message("release", true); 
+
+ga_battle_fimir_bog_character_name_nor:advance_on_message("release", 1000); -- attack the player
+ga_battle_fimir_bog_army_nor_unit_fimir_ror:advance_on_message("release", 1000);
+ga_battle_fimir_bog_army_nor_unit_fimir_0:advance_on_message("release", 1000);
+ga_battle_fimir_bog_army_nor_unit_fimir_1:advance_on_message("release", 1000);
+
+
 
 -------------------------------------------------------------------------------------------------
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------
