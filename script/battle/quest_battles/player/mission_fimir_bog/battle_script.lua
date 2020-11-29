@@ -58,7 +58,7 @@ gb:set_objective_on_message("deployment_started", "mission_kraka_ravnsvake_fimir
 ------------------------------------------FAIL---------------------------------------------------
 
 ------------------------------------------WIN---------------------------------------------------
-
+gb:complete_objective_on_message("player_at_fimir_base","mission_lost_hold_objective_1_tooltip", 30000);  -- 30 secs at tower,  
 -------------------------------------------------------------------------------------------------
 --------------------------------- TIME KEEPER FROM BATTLE START --------------------------------
 -------------------------------------------------------------------------------------------------
@@ -123,4 +123,7 @@ ga_battle_fimir_bog_army_nor_unit_fimir_1:advance_on_message("release", 1000);
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------
 -------------------------------------------------------------------------------------------------
 
-gb:queue_help_on_message("battle_started", "mission_kraka_ravnsvake_fimir_bog_objective_3_message", 8000, 2000, 1000);
+gb:queue_help_on_message("battle_started", "mission_kraka_ravnsvake_fimir_bog_objective_3_message", 8000, 2000, 1000); -- Lift the curse, purge the Beasts
+gb:queue_help_on_message("battle_started", "mission_kraka_ravnsvake_fimir_bog_objective_4_message", 8000, 2000, 25000); -- (25 sec) With fire and steel, razed the Fimir Den. (Move to the Tower)  
+gb:queue_help_on_message("player_at_fimir_base", "mission_kraka_ravnsvake_fimir_bog_objective_5_message", 8000, 2000, 1000); -- Wait unil the Fire catches on!  (Stay by the tower)  
+gb:queue_help_on_message("release", "mission_kraka_ravnsvake_fimir_bog_objective_6_message", 8000, 2000, 1000); -- The foul Beasts are upon us! Axes Ready!  
