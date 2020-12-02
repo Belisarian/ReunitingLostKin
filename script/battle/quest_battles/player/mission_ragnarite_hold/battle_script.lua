@@ -41,14 +41,16 @@ ga_player = gb:get_army(gb:get_player_alliance_num(), 1, ""); -- defender
 
 ------------------------------------------ALLY---------------------------------------------------
 -----------------------------------------DEPLOYED--#0---------------------------------------------
-ga_battle_ragnarite_hold_character_name_ally = gb:get_army(gb:get_player_alliance_num(),"battle_ragnarite_hold_character_name_ally"); -- Char 
-
-
+ga_battle_ragnarite_hold_character_name_ally = gb:get_army(gb:get_player_alliance_num(),"battle_ragnarite_hold_character_name_ally"); -- Caster Char 
+ga_battle_ragnarite_hold_character_name_dummy = gb:get_army(gb:get_non_player_alliance_num(),"battle_ragnarite_hold_character_name_dummy"); -- Dummy char 
 -------------------------------------------------------------------------------------------------
 ----------------------------------------- ARMY TELEPORT -----------------------------------------
 -------------------------------------------------------------------------------------------------
+ga_battle_ragnarite_hold_character_name_ally:teleport_to_start_location_offset_on_message("battle_started",0,0);-- tp to current location, for semi locked
+--ga_battle_ragnarite_hold_character_name_ally:defend_on_message("battle_started", 154.4, 438.4, 1); -- x/y radius
 
-
+ga_battle_ragnarite_hold_character_name_dummy:teleport_to_start_location_offset_on_message("battle_started",0,0);-- tp to current location, for semi locked
+--ga_battle_ragnarite_hold_character_name_dummy:defend_on_message("battle_started", 157.4, 311.6, 1); -- x/y radius
 
 -------------------------------------------------------------------------------------------------
 ------------------------------------------- CUTSCENE --------------------------------------------
