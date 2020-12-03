@@ -8,7 +8,7 @@ cm:add_first_tick_callback(function()
 	cm:callback(function()
 		cm:disable_event_feed_events(true, "all", "", "")
 		cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "intro")
-		local local_faction = cm:get_faction(cm:get_local_faction(true))
+		local local_faction = cm:get_faction(cm:get_local_faction_name(true))
 		local faction_leader = local_faction:faction_leader()
 		cm:set_character_immortality(cm:char_lookup_str(faction_leader), false)
 		cm:kill_character(faction_leader:cqi(), true, false)
@@ -31,7 +31,7 @@ cm:add_first_tick_callback(function()
 		cm:disable_event_feed_events(false, "all", "", "")
 
 		cm:callback(function()
-			local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+			local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
 			cm:teleport_to(cm:char_lookup_str(char), 710, 624, false) -- start position
 			cm:callback(function()
 				cm:move_to(cm:char_lookup_str(char), 709, 624, false)
@@ -64,5 +64,5 @@ cm:add_first_tick_callback(function()
 		button_end_turn:SetDisabled(true)
 	end
 
-	cm:force_diplomacy("faction:" .. cm:get_local_faction(true), "faction:wh_main_dwf_kraka_drak", "war", false, false, true);
+	cm:force_diplomacy("faction:" .. cm:get_local_faction_name(true), "faction:wh_main_dwf_kraka_drak", "war", false, false, true);
 end)

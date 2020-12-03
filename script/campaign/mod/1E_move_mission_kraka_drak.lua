@@ -37,5 +37,5 @@ mod.move_mission_kraka_drak = {
 }
 
 -- for testing:
--- local char = cm:get_faction(cm:get_local_faction()):faction_leader()
+-- local char = cm:get_faction(cm:get_local_faction_name()):faction_leader()
 -- cm:teleport_to(cm:char_lookup_str(char), 695, 641, false) -- start position at sjok before going to Kraka Drak

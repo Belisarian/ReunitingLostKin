@@ -95,7 +95,7 @@ end)
 mod.force_start_quest_battle = function(quest_key)
 	real_timer.unregister("pj_wait_for_teleport_button")
 	real_timer.register_repeating("pj_wait_for_teleport_button", 0)
-	cm:trigger_mission(cm:get_local_faction(true), quest_key, true)
+	cm:trigger_mission(cm:get_local_faction_name(true), quest_key, true)
 end
 
 --- Select the first lord/army of the local faction.

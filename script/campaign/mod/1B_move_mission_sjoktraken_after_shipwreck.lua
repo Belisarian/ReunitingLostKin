@@ -2,7 +2,7 @@ PJ_QUESTS = PJ_QUESTS or {}
 local mod = PJ_QUESTS
 
 -- for debugging
--- local char = cm:get_faction(cm:get_local_faction()):faction_leader()
+-- local char = cm:get_faction(cm:get_local_faction_name()):faction_leader()
 -- cm:teleport_to(cm:char_lookup_str(char), 704,649, false) -- start position at shipwreck battle for testing
 -- cm:teleport_to(cm:char_lookup_str(char), 695, 641, false) -- final position at sjok for testing
 

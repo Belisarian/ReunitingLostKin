@@ -4,7 +4,7 @@ local mod = PJ_QUESTS
 local mission_key = "move_mission_to_ravnsvake_after_ice_trolls"
 
 -- this is the starting char and camera position
--- local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+-- local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
 -- cm:scroll_camera_from_current(true, 0.1, {429.828, 486.674, 5, d_to_r(120), 4})
 -- cm:teleport_to(cm:char_lookup_str(char), 643, 630, false)
 

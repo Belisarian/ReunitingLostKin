@@ -50,7 +50,7 @@ core:add_listener(
 )
 
 -- for testing, starting camera and army map position state
--- local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+-- local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
 -- cm:scroll_camera_from_current(true, 0.1, {455.23, 504.43, 5, d_to_r(120), 4})
 -- cm:teleport_to(cm:char_lookup_str(char), 681, 653, false)
 -- cm:replenish_action_points(cm:char_lookup_str(char))

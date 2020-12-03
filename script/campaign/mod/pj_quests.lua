@@ -48,7 +48,7 @@ core:add_listener(
 	function(context)
 		local mission_key = context.string
 
-		local char = cm:get_faction(cm:get_local_faction()):faction_leader()
+		local char = cm:get_faction(cm:get_local_faction_name()):faction_leader()
 		if mod.missions[mission_key] and mod.missions[mission_key].payload then
 			mod.missions[mission_key].payload(char)
 		end
@@ -74,7 +74,7 @@ core:add_listener(
 		if cm:pending_battle_cache_num_defenders() >= 1 then
 			for i = 1, cm:pending_battle_cache_num_defenders() do
 				local this_char_cqi, _, current_faction_name = cm:pending_battle_cache_get_defender(i);
-				if current_faction_name == cm:get_local_faction(true) then
+				if current_faction_name == cm:get_local_faction_name(true) then
 					if not cm:model():character_for_command_queue_index(this_char_cqi):is_null_interface()
 						and cm:model():character_for_command_queue_index(this_char_cqi):won_battle()
 					then
@@ -90,7 +90,7 @@ core:add_listener(
 		if cm:pending_battle_cache_num_attackers() >= 1 then
 			for i = 1, cm:pending_battle_cache_num_attackers() do
 				local this_char_cqi, _, current_faction_name = cm:pending_battle_cache_get_attacker(i);
-				if current_faction_name == cm:get_local_faction(true) then
+				if current_faction_name == cm:get_local_faction_name(true) then
 					if not cm:model():character_for_command_queue_index(this_char_cqi):is_null_interface()
 						and cm:model():character_for_command_queue_index(this_char_cqi):won_battle()
 					then
@@ -181,7 +181,7 @@ end)
 cm:add_first_tick_callback(function()
 	cm:callback(function()
 		if mod.is_autoresolve_cheat_enabled then
-			local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+			local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
 			for _=1, 20 do
 				cm:grant_unit_to_character(cm:char_lookup_str(char), "wh_dlc06_dwf_inf_norgrimlings_ironbreakers_0")
 			end
@@ -191,7 +191,7 @@ cm:add_first_tick_callback(function()
 
 		mod.complete_contract = function(gold, payload)
 			if mod.is_contract_skipping_enabled then
-				cm:treasury_mod(cm:get_local_faction(true), 10000)
+				cm:treasury_mod(cm:get_local_faction_name(true), 10000)
 				if payload then payload() end
 				return
 			end
@@ -253,7 +253,7 @@ core:add_listener(
 	"pj_quests_lost_a_battle",
 	true,
 	function()
-		local faction = cm:get_faction(cm:get_local_faction(true))
+		local faction = cm:get_faction(cm:get_local_faction_name(true))
 		for region in binding_iter(faction:region_list()) do
 			cm:set_region_abandoned(region:name())
 		end

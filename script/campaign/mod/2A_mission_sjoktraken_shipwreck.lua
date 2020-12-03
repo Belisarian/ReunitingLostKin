@@ -17,7 +17,7 @@ mod.mission_sjoktraken_shipwreck_payload = function(char)
 
 				local custom_bundle = cm:create_new_custom_effect_bundle("pj_quests_empty_1")
 				custom_bundle:add_effect("wh2_dlc13_effect_wulfhart_battle_army_abilities", "faction_to_force_own", 1)
-				cm:apply_custom_effect_bundle_to_faction(custom_bundle, cm:get_faction(cm:get_local_faction(true)))
+				cm:apply_custom_effect_bundle_to_faction(custom_bundle, cm:get_faction(cm:get_local_faction_name(true)))
 
 				mod.force_start_quest_battle("mission_sjoktraken_shipwreck")
 			end, 4)
@@ -55,7 +55,7 @@ core:add_listener(
 	"pj_quests_won_battle_shipwreck",
 	true,
 	function()
-		cm:remove_effect_bundle("pj_quests_empty_1", cm:get_local_faction(true))
+		cm:remove_effect_bundle("pj_quests_empty_1", cm:get_local_faction_name(true))
 	end,
 	true
 )
@@ -66,7 +66,7 @@ core:add_listener(
 	"pj_quests_lost_battle_shipwreck",
 	true,
 	function()
-		cm:remove_effect_bundle("pj_quests_empty_1", cm:get_local_faction(true))
+		cm:remove_effect_bundle("pj_quests_empty_1", cm:get_local_faction_name(true))
 	end,
 	true
 )

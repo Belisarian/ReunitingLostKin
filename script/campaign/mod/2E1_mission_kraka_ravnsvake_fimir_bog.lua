@@ -4,7 +4,7 @@ local mod = PJ_QUESTS
 local mission_key = "mission_kraka_ravnsvake_fimir_bog"
 
 -- this is the starting char and camera position
--- local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+-- local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
 -- cm:scroll_camera_from_current(true, 0.1, {437.8497, 492.077, 8, d_to_r(120), 4})
 -- cm:teleport_to(cm:char_lookup_str(char), 655, 637, false)
 

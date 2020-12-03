@@ -166,7 +166,7 @@ mod.current_bog_page = nil
 
 --- Add a unit to the faction leader.
 mod.add_unit_to_army = function(unit_key)
-	local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+	local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
 	if not char or char:is_null_interface() then return end
 
 	cm:grant_unit_to_character(cm:char_lookup_str(char), unit_key)
@@ -330,7 +330,7 @@ mod.draw_bog_page = function(page_num)
 
 	if page_data.cost then
 		rec_button:SetTooltipText("Costs "..tostring(page_data.cost).."[[img:icon_money]][[/img]].", true)
-		local local_treasury = cm:get_faction(cm:get_local_faction(true)):treasury()
+		local local_treasury = cm:get_faction(cm:get_local_faction_name(true)):treasury()
 		if local_treasury < page_data.cost then
 			if rec_button:CurrentState() ~= "inactive" then
 				rec_button:SetState("inactive")
@@ -366,7 +366,7 @@ mod.draw_bog_page = function(page_num)
 			if not page_data.payload then return end
 			page_data.payload()
 			if page_data.cost then
-				cm:treasury_mod(cm:get_local_faction(true), -page_data.cost)
+				cm:treasury_mod(cm:get_local_faction_name(true), -page_data.cost)
 			end
 
 			if page_data.limit then

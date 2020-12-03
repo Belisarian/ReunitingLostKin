@@ -208,7 +208,7 @@ mod.update_UI = function()
 		retrain_button:SetState("active")
 	end
 
-	local local_faction = cm:get_faction(cm:get_local_faction(true))
+	local local_faction = cm:get_faction(cm:get_local_faction_name(true))
 	if unit_to_upgrade:percentage_proportion_of_full_strength() == 100 or local_faction:treasury() < replenish_cost then
 		retrain_button:SetState("inactive")
 	end
@@ -283,7 +283,7 @@ mod.add_to_mercs = function()
 
 	local unit_cost = unit_to_upgrade:get_unit_custom_battle_cost()
 	local replenish_cost = unit_cost/10
-	cm:treasury_mod(cm:get_local_faction(true), -replenish_cost)
+	cm:treasury_mod(cm:get_local_faction_name(true), -replenish_cost)
 
 	cm:callback(function()
 		local x, y, d, bb, h = cm:get_camera_position()
@@ -299,7 +299,7 @@ mod.first_tick_cb = function()
 	'pj_quests_replenish_unit_button_on_clicked_retrain_button',
 	'ComponentLClickUp',
 	function(context)
-		return context.string:starts_with("pj_replenish_unit_button_") and cm:whose_turn_is_it() == cm:get_local_faction(true)
+		return context.string:starts_with("pj_replenish_unit_button_") and cm:whose_turn_is_it() == cm:get_local_faction_name(true)
 	end,
 	function(context)
 		if not mod.commander_cqi then
@@ -397,8 +397,8 @@ mod.first_tick_cb = function()
 			---@type CA_CHAR
 			local char = context:character()
 
-			local is_player_char = char:faction():name() == cm:get_local_faction(true)
-				and cm:whose_turn_is_it() == cm:get_local_faction(true)
+			local is_player_char = char:faction():name() == cm:get_local_faction_name(true)
+				and cm:whose_turn_is_it() == cm:get_local_faction_name(true)
 			if not is_player_char then
 				mod.hide_retrain_buttons()
 				mod.commander_cqi = nil

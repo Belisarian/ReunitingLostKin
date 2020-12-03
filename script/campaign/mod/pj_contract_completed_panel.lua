@@ -101,7 +101,7 @@ mod.open_contract_complete_panel = function(gold_gained, payload_on_closed)
 	local new_hbar = find_uicomponent(cc_panel, "pj_hbar_2")
 	move_rel(new_hbar, tx_income, 15, 226+41)
 
-	local faction = cm:get_faction(cm:get_local_faction(true))
+	local faction = cm:get_faction(cm:get_local_faction_name(true))
 	local char = faction:faction_leader()
 
 	local total_price = 0
@@ -187,7 +187,7 @@ mod.open_contract_complete_panel = function(gold_gained, payload_on_closed)
 		dy_annual_income:SetStateText(profit)
 	end
 
-	cm:treasury_mod(cm:get_local_faction(true), profit)
+	cm:treasury_mod(cm:get_local_faction_name(true), profit)
 
 	move_rel(cc_panel, core:get_ui_root(), sw/2-cc_panel:Width()/2, sh/2-cc_panel:Height()/2)
 	move_rel(parchment, cc_panel, 10, 80)

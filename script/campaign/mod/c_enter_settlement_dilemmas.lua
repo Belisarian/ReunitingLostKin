@@ -27,7 +27,7 @@ core:add_listener(
 				"pj_quests_check_intro_movie_playing_cb"
 			)
 
-			cm:play_movie_in_ui("eventpics/chs/everchosen")
+			cm:play_movie_in_ui("warhammer2/hef/hef_horned_rat")
 		end, 1)
 	end,
 	true

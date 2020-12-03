@@ -193,7 +193,7 @@ mod.update_UI = function()
 
 	local unit_rank = mod.unit_rank
 	local province_name = not commander:region():is_null_interface() and commander:region():province_name()
-	local local_faction_obj = cm:get_faction(cm:get_local_faction(true))
+	local local_faction_obj = cm:get_faction(cm:get_local_faction_name(true))
 
 	local unit_key_from = unit_to_upgrade:unit_key()
 
@@ -266,13 +266,13 @@ end
 core:remove_listener("pj_quest_reserves_on_script_event_set_unit_hp")
 core:add_listener(
 	"pj_quest_reserves_on_script_event_set_unit_hp",
-	"UITriggerScriptEvent",
+	"UITrigger",
 	function(context)
 			return context:trigger():starts_with("pj_quest_reserves_set_unit_hp")
 	end,
 	function(context)
 		local faction_cqi = context:faction_cqi()
-		if cm:get_faction(cm:get_local_faction(true)):command_queue_index() == faction_cqi then
+		if cm:get_faction(cm:get_local_faction_name(true)):command_queue_index() == faction_cqi then
 			return
 		end
 
@@ -316,7 +316,7 @@ mod.add_to_mercs = function()
 	mod.unit_key_to_hp[unit_key_from] = unit_to_upgrade:percentage_proportion_of_full_strength()
 
 	cm:add_unit_to_faction_mercenary_pool(
-		cm:get_faction(cm:get_local_faction()),
+		cm:get_faction(cm:get_local_faction_name()),
 		unit_key_from,
 		1, -- unit count
 		100, -- replenishment
@@ -342,7 +342,7 @@ core:add_listener(
 		local unit = context:unit()
 
 		cm:add_unit_to_faction_mercenary_pool(
-			cm:get_faction(cm:get_local_faction()),
+			cm:get_faction(cm:get_local_faction_name()),
 			unit:unit_key(),
 			0, -- unit count
 			0, -- replenishment
@@ -365,7 +365,7 @@ mod.first_tick_cb = function()
 	'pj_quest_reserves_on_clicked_retrain_button',
 	'ComponentLClickUp',
 	function(context)
-		return context.string:starts_with("pj_to_reserves_button_") and cm:whose_turn_is_it() == cm:get_local_faction(true)
+		return context.string:starts_with("pj_to_reserves_button_") and cm:whose_turn_is_it() == cm:get_local_faction_name(true)
 	end,
 	function(context)
 		if not mod.commander_cqi then
@@ -482,8 +482,8 @@ mod.first_tick_cb = function()
 			---@type CA_CHAR
 			local char = context:character()
 
-			local is_player_char = char:faction():name() == cm:get_local_faction(true)
-				and cm:whose_turn_is_it() == cm:get_local_faction(true)
+			local is_player_char = char:faction():name() == cm:get_local_faction_name(true)
+				and cm:whose_turn_is_it() == cm:get_local_faction_name(true)
 			if not is_player_char then
 				mod.hide_retrain_buttons()
 				mod.commander_cqi = nil
@@ -644,7 +644,7 @@ core:add_listener(
 
 		if real_unit_key == unit_key then return end
 
-		local char = cm:get_faction(cm:get_local_faction(true)):faction_leader()
+		local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
 
 		local old_units = {}
 		local num_items = char:military_force():unit_list():num_items()
@@ -664,7 +664,7 @@ core:add_listener(
 		end, 0.1)
 
 		cm:add_unit_to_faction_mercenary_pool(
-			cm:get_faction(cm:get_local_faction()),
+			cm:get_faction(cm:get_local_faction_name()),
 			real_unit_key,
 			0, -- unit count
 			0, -- replenishment
