@@ -286,9 +286,7 @@ mod.add_to_mercs = function()
 	cm:treasury_mod(cm:get_local_faction_name(true), -replenish_cost)
 
 	cm:callback(function()
-		local x, y, d, bb, h = cm:get_camera_position()
 		mod.refresh_army_UI()
-		cm:set_camera_position(x, y, d, bb, h)
 	end, 0.1)
 end
 
