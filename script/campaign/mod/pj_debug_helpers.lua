@@ -3,6 +3,21 @@ local mod = PJ_QUESTS
 
 local digForComponent = mod.digForComponent
 
+local function find_ui_component_str(starting_comp, str)
+	local has_starting_comp = str ~= nil
+	if not has_starting_comp then
+		str = starting_comp
+	end
+	local fields = {}
+	local pattern = string.format("([^%s]+)", " > ")
+	string.gsub(str, pattern, function(c)
+		if c ~= "root" then
+			fields[#fields+1] = c
+		end
+	end)
+	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
+end
+
 --- Adjust the camera settings.
 --- We want no zoom on army movement and slow army movement speed.
 mod.adjust_camera_settings = function()
@@ -59,7 +74,7 @@ cm:add_first_tick_callback(function()
 					return context.string == "pj_wait_for_teleport_button"
 			end,
 			function()
-				local teleport_button = digForComponent(core:get_ui_root(), "button_teleport")
+				local teleport_button = find_ui_component_str("root > events > event_mission > quest_details > quest_list_details > teleport > button_teleport")
 				if teleport_button then
 					real_timer.unregister("pj_wait_for_teleport_button")
 					real_timer.unregister("pj_wait_for_start_battle_button")

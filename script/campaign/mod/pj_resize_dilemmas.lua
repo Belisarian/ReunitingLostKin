@@ -17,8 +17,11 @@ local function find_ui_component_str(starting_comp, str)
 end
 
 local function resize_dilemma()
-	local dets = find_ui_component_str("root > panel_manager > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text")
-	local dy_description = find_ui_component_str("root > panel_manager > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text > dy_description")
+	local dets = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text")
+	local dy_description = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text > dy_description")
+
+	if not dets then return end
+	if not dy_description then return end
 
 	dy_description:SetCanResizeWidth(true)
 	dy_description:SetCanResizeHeight(true)
@@ -29,27 +32,27 @@ local function resize_dilemma()
 	dets:Resize(470+30, 180)
 	dets:MoveTo(722, 326)
 
-	local event_dilemma_active = find_ui_component_str("root > panel_manager > events > event_dilemma_active > dilemma > main_holder > details_holder")
+	local event_dilemma_active = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder")
 	event_dilemma_active:SetCanResizeWidth(true)
 	event_dilemma_active:SetCanResizeHeight(true)
 	event_dilemma_active:Resize(540+50, 313)
 
 	event_dilemma_active:SetVisible(true)
 
-	local dilemma = find_ui_component_str("root > panel_manager > events > event_dilemma_active > dilemma")
+	local dilemma = find_ui_component_str("root > events > event_dilemma_active > dilemma")
 	local dx,dy = dilemma:Position()
 
-	local dilemma_list = find_ui_component_str("root > panel_manager > events > event_dilemma_active > dilemma > dilemma_list")
+	local dilemma_list = find_ui_component_str("root > events > event_dilemma_active > dilemma > dilemma_list")
 
 	local x,y = dilemma_list:Position()
 	dilemma_list:MoveTo(dx+25, y)
 
-	local main_holder = find_ui_component_str("root > panel_manager > events > event_dilemma_active > dilemma > main_holder")
+	local main_holder = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder")
 	main_holder:MoveTo(667+25,76)
 	dets:MoveTo(722-30, 326)
 
 	if mod.rewrite_dilemma_text then
-		local text_component = find_ui_component_str("root > panel_manager > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text > dy_description")
+		local text_component = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text > dy_description")
 		text_component:SetStateText(mod.rewrite_dilemma_text)
 		mod.rewrite_dilemma_text = nil
 	end
