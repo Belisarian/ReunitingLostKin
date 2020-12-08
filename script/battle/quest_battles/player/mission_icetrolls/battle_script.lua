@@ -64,3 +64,5 @@ gb:set_objective_on_message("deployment_started", "mission_kraka_ravnsvake_icetr
 -------------------------------------------------------------------------------------------------
 
 gb:queue_help_on_message("battle_started", "mission_kraka_ravnsvake_icetrolls_objective_3_message", 8000, 2000, 1000);
+
+--Test comment
