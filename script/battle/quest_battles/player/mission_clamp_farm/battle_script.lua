@@ -13,7 +13,10 @@ bm = battle_manager:new(empire_battle:new());
 local gc = generated_cutscene:new(true);
 
 --generated_cutscene:add_element(sfx_name, subtitle, camera, min_length, wait_for_vo, wait_for_camera, loop_camera)
-gc:add_element(nil, nil, "gc_orbit_90_medium_commander_back_close_low_01", 16000, true, false, false);
+gc:add_element(nil, "battle_clamp_farm_speech_01", "army_pan_rear_close", 7000, true, false, false);
+gc:add_element(nil, "battle_clamp_farm_speech_02", "gc_orbit_360_slow_commander_back_left_close_low_01", 8000, false, false, false);
+gc:add_element(nil, "battle_clamp_farm_speech_03", "army_pan_front_close", 10000, false, false, false);
+gc:add_element(nil, "battle_clamp_farm_speech_04", "gc_orbit_ccw_90_medium_commander_back_right_extreme_high_01", 6000, false, false, false);
 
 gb = generated_battle:new(
 	true,                                     			-- screen starts black
