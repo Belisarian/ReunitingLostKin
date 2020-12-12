@@ -55,7 +55,7 @@ core:add_listener(
 				"pj_quests_check_intro_movie_playing_cb"
 			)
 
-			cm:play_movie_in_ui("eventpics/chs/wh2_treasure_hunt_2")
+			cm:play_movie_in_ui("warhammer2/hef/hef_intro")
 		end, 1)
 	end,
 	true
@@ -122,7 +122,7 @@ core:add_listener(
 					"pj_quests_check_intro_movie_playing_cb"
 				)
 
-				cm:play_movie_in_ui("eventpics/chs/wh2_treasure_hunt_3")
+				cm:play_movie_in_ui("warhammer2/skv/skv_ritual_1")
 			end, 0.5)
     end,
     true
@@ -255,7 +255,7 @@ core:add_listener(
 				"pj_quests_check_intro_movie_playing_cb"
 			)
 
-			cm:play_movie_in_ui("eventpics/chs/wh2_treasure_hunt_4")
+			cm:play_movie_in_ui("warhammer2/lzd/lzd_intro")
 		end, 1)
 	end,
 	true

@@ -539,7 +539,13 @@ local function hide_merc_stuff()
 	local br = find_uicomponent(ui_root, "layout", "hud_center_docker", "hud_center", "small_bar", "button_group_army", "button_recruitment")
 	br:SetVisible(false)
 
-	local list_box = find_uicomponent(ui_root, "units_panel", "main_units_panel", "recruitment_docker", "recruitment_options", "mercenary_display", "listview", "list_clip", "list_box")
+	local recruitment_options = find_uicomponent(ui_root, "units_panel", "main_units_panel", "recruitment_docker", "recruitment_options")
+	local list_box = find_uicomponent(recruitment_options, "mercenary_display", "listview", "list_clip", "list_box")
+
+	local tx_recruitment_options = find_uicomponent(recruitment_options, "title_docker", "title_plaque", "tx_recruitment_options")
+	if tx_recruitment_options then
+		tx_recruitment_options:SetStateText("Mercenary Ledger")
+	end
 
 	for i=0, list_box:ChildCount()-1 do
 		local comp = UIComponent(list_box:Find(i))
@@ -560,7 +566,7 @@ local function hide_merc_stuff()
 		end
 	end
 
-	local mercenary_display = find_uicomponent(ui_root, "units_panel", "main_units_panel", "recruitment_docker", "recruitment_options", "mercenary_display")
+	local mercenary_display = find_uicomponent(recruitment_options, "mercenary_display")
 	local button = find_uicomponent(mercenary_display, "button_hire_renown")
 	button:SetVisible(false)
 end
