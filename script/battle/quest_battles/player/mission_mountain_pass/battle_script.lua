@@ -12,19 +12,25 @@ load_script_libraries();
 bm = battle_manager:new(empire_battle:new());
 local gc = generated_cutscene:new(true);
 
+bm:camera():fade(true, 0);
+
+
 --generated_cutscene:add_element(sfx_name, subtitle, camera, min_length, wait_for_vo, wait_for_camera, loop_camera)
-gc:add_element(nil, "nil", "qb_final_position", 6000, false, true, false);
+gc:add_element(nil, "battle_mountain_pass_speech_01", "gc_orbit_ccw_360_slow_commander_front_left_close_low_01", 3000, true, false, false);
 
 gb = generated_battle:new(
-	true,                                     			-- screen starts black
-	false,                                     			-- prevent deployment for player
+	false,                                     			-- screen starts black
+	true,                                     			-- prevent deployment for player
 	false,                                    			-- prevent deployment for ai
-	function() gb:start_generated_cutscene(gc) end, 	-- intro cutscene function
+	function() end_deployment_phase() end, 	-- intro cutscene function
 	false                                      			-- debug mode
 );
 
-gb:set_cutscene_during_deployment(true);
-
+gb:set_cutscene_during_deployment(false);
+function end_deployment_phase()
+    bm:camera():fade(false, 1);
+    gb:start_generated_cutscene(gc);
+end;
 -------------------------------------------------------------------------------------------------
 ---------------------------------------- INTRO VO & SUBS ----------------------------------------
 -------------------------------------------------------------------------------------------------
@@ -63,4 +69,4 @@ gb:set_objective_on_message("deployment_started", "mission_after_kraka_drak_moun
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------
 -------------------------------------------------------------------------------------------------
 
-gb:queue_help_on_message("battle_started", "mission_after_kraka_drak_mountain_pass_objective_3_message", 8000, 2000, 1000);
+--gb:queue_help_on_message("battle_started", "mission_after_kraka_drak_mountain_pass_objective_3_message", 8000, 2000, 1000);
