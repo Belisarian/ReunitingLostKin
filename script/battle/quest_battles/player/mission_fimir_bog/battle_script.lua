@@ -13,7 +13,9 @@ bm = battle_manager:new(empire_battle:new());
 local gc = generated_cutscene:new(true);
 
 --generated_cutscene:add_element(sfx_name, subtitle, camera, min_length, wait_for_vo, wait_for_camera, loop_camera)
-gc:add_element(nil, nil, "gc_orbit_90_medium_commander_back_close_low_01", 16000, true, false, false);
+gc:add_element(nil, "battle_fimir_bog_speech_01", "gc_fast_commander_front_medium_medium_to_close_low_01", 7000, true, false, false);
+gc:add_element(nil, "battle_fimir_bog_speech_02", "gc_slow_army_pan_back_left_to_back_right_far_high_01", 8000, false, false, false);
+gc:add_element(nil, "battle_fimir_bog_speech_03", "gc_slow_army_pan_front_right_to_front_left_close_medium_01", 7000, false, false, false);
 
 gb = generated_battle:new(
 	true,                                     			-- screen starts black
