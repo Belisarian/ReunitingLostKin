@@ -1,0 +1,507 @@
+<BATTLE_MAP_DEFINITION_DATA serialise_version='24'>
+	<BATTLEFIELD_BUILDING_LIST serialise_version='1'>
+		<BUILDINGS>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='mtn_cliff_lrg_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='1.000000' m01='0.000000' m02='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.000000' m21='0.000000' m22='1.000000' m30='591.673279' m31='-138.923126' m32='1162.878052'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='false'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='mtn_cliff_lrg_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.634930' m01='0.000000' m02='0.772570' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.772570' m21='-0.000000' m22='0.634930' m30='674.613708' m31='-236.979279' m32='1161.618286'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='false'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='mtn_cliff_lrg_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.634930' m01='0.000000' m02='0.772570' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.772570' m21='-0.000000' m22='0.634930' m30='402.894043' m31='-236.979126' m32='1089.005615'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='false'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='mtn_cliff_lrg_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='1.000000' m01='0.000000' m02='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.000000' m21='0.000000' m22='1.000000' m30='352.324158' m31='60.101746' m32='1160.370850'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='false'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_barrel_02' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.987688' m01='0.000000' m02='-0.156434' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.156434' m21='0.000000' m22='0.987688' m30='546.568848' m31='-2.515154' m32='1079.572021'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_barrel_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.987688' m01='0.000000' m02='-0.156434' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.156434' m21='0.000000' m22='0.987688' m30='541.004028' m31='-2.396025' m32='1080.409058'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_barrel_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.987688' m01='0.000000' m02='-0.156434' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.156434' m21='0.000000' m22='0.987688' m30='529.709717' m31='-1.552720' m32='1089.497192'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_cart_large_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.788011' m01='0.000000' m02='0.615661' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.615661' m21='-0.000000' m22='0.788011' m30='555.470947' m31='-2.144148' m32='1083.057373'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_wooden_box' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.788011' m01='0.000000' m02='0.615661' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.615661' m21='-0.000000' m22='0.788011' m30='526.056580' m31='-1.668954' m32='1087.550903'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_wooden_box' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.945519' m01='0.000000' m02='0.325568' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.325568' m21='-0.000000' m22='0.945519' m30='522.600769' m31='-1.674428' m32='1087.284058'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_wooden_box' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.573576' m01='0.000000' m02='-0.819152' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.819152' m21='0.000000' m22='0.573576' m30='549.538269' m31='-1.277723' m32='1094.676636'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_wooden_box' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.933580' m01='0.000000' m02='-0.358368' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.358368' m21='0.000000' m22='0.933580' m30='557.526245' m31='-1.444961' m32='1091.777832'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_wooden_cart' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.390731' m01='0.000000' m02='0.920505' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.920505' m21='-0.000000' m22='0.390731' m30='533.554199' m31='-2.083289' m32='1082.993408'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_wooden_cart' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='542.780029' m31='-1.521390' m32='1090.485107'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_03' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='514.966187' m31='-1.773342' m32='1085.523560'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_03' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='526.204346' m31='-1.375422' m32='1092.302734'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_02' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='522.216370' m31='-1.871895' m32='1084.583618'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='510.991028' m31='-1.556707' m32='1088.692749'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_08' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='520.197815' m31='-2.073048' m32='1082.043335'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_08' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='476.249298' m31='-0.535396' m32='1117.571045'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_07' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='482.514099' m31='-1.106960' m32='1096.986450'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='490.386353' m31='-1.836981' m32='1083.777588'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='482.805634' m31='-1.574875' m32='1087.037598'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='463.052856' m31='-0.572197' m32='1115.509277'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='497.417084' m31='-0.173468' m32='1100.407227'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='510.752380' m31='5.091160' m32='1126.960693'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='510.013702' m31='-1.484489' m32='1089.882690'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='497.662933' m31='-1.505333' m32='1089.303101'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_06' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='490.848419' m31='5.091164' m32='1127.715820'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='498.742218' m31='-1.308464' m32='1093.058716'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='490.012573' m31='-1.432323' m32='1090.253662'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='474.582611' m31='-0.800793' m32='1106.396362'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='458.872009' m31='-0.345451' m32='1124.875366'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='454.642609' m31='-0.600658' m32='1110.697266'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='469.253998' m31='-0.977707' m32='1099.455566'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='514.046692' m31='-2.717499' m32='1075.605347'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='531.770813' m31='-2.842838' m32='1076.278320'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.342020' m01='0.000000' m02='-0.939693' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.939693' m21='0.000000' m22='0.342020' m30='538.051392' m31='-3.639969' m32='1071.702026'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.275637' m01='0.000000' m02='-0.961262' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.961262' m21='0.000000' m22='-0.275637' m30='554.007874' m31='-3.366310' m32='1073.803955'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.275637' m01='0.000000' m02='-0.961262' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.961262' m21='0.000000' m22='-0.275637' m30='541.091309' m31='-1.153599' m32='1097.126587'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.275637' m01='0.000000' m02='-0.961262' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.961262' m21='0.000000' m22='-0.275637' m30='525.511169' m31='-0.833660' m32='1105.768921'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.275637' m01='0.000000' m02='-0.961262' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.961262' m21='0.000000' m22='-0.275637' m30='501.923096' m31='5.091164' m32='1122.298828'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_debris_04' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.275637' m01='0.000000' m02='-0.961262' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.961262' m21='0.000000' m22='-0.275637' m30='498.992523' m31='3.075262' m32='1112.975098'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_rubble_small_02' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.882948' m01='0.000000' m02='0.469471' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.469471' m21='-0.000000' m22='0.882948' m30='486.302673' m31='-1.050766' m32='1094.807617'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_rubble_small_02' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.224950' m01='0.000000' m02='0.974370' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.974370' m21='-0.000000' m22='-0.224950' m30='479.779510' m31='-0.323088' m32='1126.690552'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_rubble_small_02' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.224950' m01='0.000000' m02='0.974370' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.974370' m21='-0.000000' m22='-0.224950' m30='519.685608' m31='-1.541891' m32='1089.192261'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='dwf_tower_freestanding_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.224950' m01='0.000000' m02='0.974370' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.974370' m21='-0.000000' m22='-0.224950' m30='565.698486' m31='-9.916599' m32='1069.495483'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='1.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.998629' m01='0.000000' m02='0.052336' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.052336' m21='-0.000000' m22='-0.998629' m30='556.780701' m31='-3.612361' m32='1072.246704'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.857167' m01='0.000000' m02='-0.515038' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.515038' m21='0.000000' m22='0.857167' m30='552.128662' m31='-3.462949' m32='1073.210938'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.587785' m01='0.000000' m02='0.809017' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.809017' m21='-0.000000' m22='0.587785' m30='548.282104' m31='-3.491861' m32='1073.001465'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.994522' m01='0.000000' m02='0.104528' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.104528' m21='-0.000000' m22='0.994522' m30='538.011658' m31='-3.424617' m32='1073.005005'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.573576' m01='0.000000' m02='-0.819152' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.819152' m21='0.000000' m22='0.573576' m30='534.208374' m31='-3.123846' m32='1074.638062'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.866025' m01='0.000000' m02='-0.500000' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.500000' m21='0.000000' m22='0.866025' m30='530.525757' m31='-2.652371' m32='1077.511841'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.438371' m01='0.000000' m02='0.898794' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.898794' m21='-0.000000' m22='-0.438371' m30='527.006104' m31='-2.216626' m32='1081.070435'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.766044' m01='0.000000' m02='0.642788' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.642788' m21='-0.000000' m22='-0.766044' m30='524.150574' m31='-1.868018' m32='1084.764404'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.777146' m01='0.000000' m02='-0.629320' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.629320' m21='0.000000' m22='-0.777146' m30='571.681763' m31='-2.776081' m32='1077.231567'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_fence_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='574.086304' m31='-2.375280' m32='1080.401245'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_campfire_03' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='539.465698' m31='-2.668118' m32='1078.018677'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_lantern_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.156435' m01='0.000000' m02='-0.987688' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.987688' m21='0.000000' m22='-0.156435' m30='533.326721' m31='-2.593721' m32='1078.176025'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_outtable_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.642788' m01='0.000000' m02='-0.766044' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.766044' m21='0.000000' m22='0.642788' m30='539.764832' m31='-2.495861' m32='1079.478027'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_roadblock_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.642788' m01='0.000000' m02='-0.766044' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.766044' m21='0.000000' m22='0.642788' m30='541.705444' m31='-3.740476' m32='1071.342163'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_scarecrow_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.939693' m01='0.000000' m02='0.342020' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.342020' m21='-0.000000' m22='0.939693' m30='546.954590' m31='-3.935678' m32='1070.445801'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='glb_training_02' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.939693' m01='0.000000' m02='0.342020' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.342020' m21='-0.000000' m22='0.939693' m30='535.485229' m31='-3.539633' m32='1072.098999'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='wh_glb_outbench_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.978147' m01='0.000000' m02='-0.207911' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.207911' m21='0.000000' m22='-0.978147' m30='538.923767' m31='-2.840375' m32='1076.807617'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='wh_glb_outbench_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.629320' m01='0.000000' m02='0.777146' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.777146' m21='-0.000000' m22='-0.629320' m30='536.751526' m31='-2.763964' m32='1077.200439'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='wh_glb_outbench_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.809017' m01='0.000000' m02='-0.587785' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.587785' m21='0.000000' m22='-0.809017' m30='553.268494' m31='-2.676740' m32='1078.323364'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='wh_glb_outbench_01' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.292372' m01='0.000000' m02='-0.956305' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.956305' m21='0.000000' m22='-0.292372' m30='557.295471' m31='-1.691379' m32='1088.208252'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='true' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+		</BUILDINGS>
+	</BATTLEFIELD_BUILDING_LIST>
+	<BATTLEFIELD_BUILDING_LIST_FAR serialise_version='1'>
+		<BUILDINGS/>
+	</BATTLEFIELD_BUILDING_LIST_FAR>
+	<CAPTURE_LOCATION_SET serialise_version='2'>
+		<CAPTURE_LOCATION_SET/>
+	</CAPTURE_LOCATION_SET>
+	<EF_LINE_LIST>
+		<LINES/>
+	</EF_LINE_LIST>
+	<GO_OUTLINES>
+		<EMPIRE_OUTLINE>
+			<OUTLINE>
+				<position x='11.648834' y='16.363342'/>
+				<position x='8.184631' y='2047.214600'/>
+				<position x='2034.974609' y='2037.399902'/>
+				<position x='2039.099487' y='10.462219'/>
+			</OUTLINE>
+		</EMPIRE_OUTLINE>
+	</GO_OUTLINES>
+	<NON_TERRAIN_OUTLINES/>
+	<ZONES_TEMPLATE_LIST serialise_version='1'>
+		<ZONES/>
+	</ZONES_TEMPLATE_LIST>
+	<PREFAB_INSTANCE_LIST serialise_version='1'>
+		<PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/dwf_brazier_w_vfx.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.093972' m01='0.000000' m02='0.006571' m03='0.000000' m10='-0.000000' m11='0.094201' m12='0.000000' m13='0.000000' m20='-0.006571' m21='-0.000000' m22='0.093972' m23='0.000000' m30='537.873108' m31='-4.129167' m32='1078.764282' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+		</PREFAB_INSTANCE>
+	</PREFAB_INSTANCE_LIST>
+	<BMD_OUTLINE_LIST serialise_version='1'>
+		<BMD_OUTLINES/>
+	</BMD_OUTLINE_LIST>
+	<TERRAIN_OUTLINES/>
+	<LITE_BUILDING_OUTLINES/>
+	<CAMERA_ZONES serialise_version='1'>
+		<BMD_OUTLINES/>
+	</CAMERA_ZONES>
+	<CIVILIAN_DEPLOYMENT_LIST/>
+	<CIVILIAN_SHELTER_LIST/>
+	<PROP_LIST serialise_version='2'>
+		<KEYS KEY='RigidModels/Buildings/dwf_tent/dwf_tent_piece01_destruct01.rigid_model_v2' KEY='rigidmodels/buildings/dwf_capturepoint_01_01/dwf_capturepoint_01_01_piece01_destruct02.rigid_model_v2' KEY='rigidmodels/buildings/dwf_tower_freestanding_01/dwf_tower_freestanding_01_piece01_destruct03.rigid_model_v2'/>
+		<PROPS>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.999848' m01='0.000000' m02='-0.017452' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.017452' m21='0.000000' m22='0.999848' m30='535.555298' m31='-1.356431' m32='1093.005127'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.874620' m01='0.000000' m02='-0.484810' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.484810' m21='0.000000' m22='0.874620' m30='539.934814' m31='-1.609141' m32='1089.130981'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.874620' m01='0.000000' m02='-0.484810' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.484810' m21='0.000000' m22='0.874620' m30='546.675354' m31='-1.651397' m32='1088.700684'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_TERRAIN' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.999838' m01='-0.005239' m02='-0.017192' m10='0.003508' m11='0.995056' m12='-0.099253' m20='0.017627' m21='0.099176' m22='0.994914' m30='542.946655' m31='0.000000' m32='1082.842529'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.999848' m01='0.000000' m02='-0.017452' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.017452' m21='0.000000' m22='0.999848' m30='552.365112' m31='-1.210849' m32='1095.972290'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.974370' m01='0.000000' m02='-0.224951' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.224951' m21='0.000000' m22='0.974370' m30='555.248779' m31='-1.640117' m32='1088.913086'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.945519' m01='0.000000' m02='-0.325568' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.325568' m21='0.000000' m22='0.945519' m30='551.693665' m31='-2.450106' m32='1080.190430'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.874620' m01='0.000000' m02='-0.484810' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.484810' m21='0.000000' m22='0.874620' m30='529.669434' m31='-1.115064' m32='1097.790283'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_TERRAIN' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='0.987620' m01='-0.020378' m02='-0.155539' m10='0.006743' m11='0.996125' m12='-0.087690' m20='0.156723' m21='0.085556' m22='0.983930' m30='530.450073' m31='0.000000' m32='1083.805542'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='true' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='1' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='1.000000' m01='0.000000' m02='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.000000' m21='0.000000' m22='1.000000' m30='500.070496' m31='-3.868557' m32='1110.425049'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+			<PROP serialise_version='15' key_index='2' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='1.000000' m01='0.000000' m02='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.000000' m21='0.000000' m22='1.000000' m30='519.026917' m31='-3.868572' m32='1094.281860'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+		</PROPS>
+	</PROP_LIST>
+	<PARTICLE_EMITTER_LIST serialise_version='1'>
+		<PARTICLE_EMITTERS/>
+	</PARTICLE_EMITTER_LIST>
+	<AI_HINTS serialise_version='1'>
+		<separators serialise_version='1'>
+			<SEPARATORS/>
+		</separators>
+		<directed_points serialise_version='1'>
+			<DIRECTED_POINTS/>
+		</directed_points>
+		<polylines serialise_version='1'>
+			<HINT_POLYLINES>
+				<HINT_POLYLINE serialise_version='1' type='AIH_AMBUSH_FOREST'>
+					<points>
+						<point x='642.500000' y='946.500000'/>
+						<point x='640.500000' y='946.500000'/>
+						<point x='636.500000' y='972.500000'/>
+						<point x='626.500000' y='994.500000'/>
+						<point x='626.500000' y='1008.500000'/>
+						<point x='640.500000' y='1024.500000'/>
+						<point x='648.500000' y='1028.500000'/>
+						<point x='664.500000' y='1028.500000'/>
+						<point x='672.500000' y='1024.500000'/>
+						<point x='680.500000' y='1016.500000'/>
+						<point x='682.500000' y='1012.500000'/>
+						<point x='682.500000' y='992.500000'/>
+						<point x='676.500000' y='980.500000'/>
+						<point x='660.500000' y='954.500000'/>
+						<point x='650.500000' y='944.500000'/>
+						<point x='642.500000' y='942.500000'/>
+						<point x='642.500000' y='944.500000'/>
+					</points>
+				</HINT_POLYLINE>
+				<HINT_POLYLINE serialise_version='1' type='AIH_AMBUSH_FOREST'>
+					<points>
+						<point x='442.500000' y='966.500000'/>
+						<point x='442.500000' y='968.500000'/>
+						<point x='440.500000' y='968.500000'/>
+						<point x='434.500000' y='974.500000'/>
+						<point x='430.500000' y='984.500000'/>
+						<point x='432.500000' y='1002.500000'/>
+						<point x='440.500000' y='1028.500000'/>
+						<point x='448.500000' y='1044.500000'/>
+						<point x='458.500000' y='1054.500000'/>
+						<point x='462.500000' y='1054.500000'/>
+						<point x='466.500000' y='1030.500000'/>
+						<point x='474.500000' y='1012.500000'/>
+						<point x='474.500000' y='1004.500000'/>
+						<point x='468.500000' y='988.500000'/>
+						<point x='464.500000' y='970.500000'/>
+						<point x='460.500000' y='964.500000'/>
+						<point x='446.500000' y='964.500000'/>
+						<point x='446.500000' y='966.500000'/>
+					</points>
+				</HINT_POLYLINE>
+			</HINT_POLYLINES>
+		</polylines>
+		<polylines_list serialise_version='1'>
+			<HINT_POLYLINES/>
+		</polylines_list>
+	</AI_HINTS>
+	<LIGHT_PROBE_LIST serialise_version='1'>
+		<LIGHT_PROBES/>
+	</LIGHT_PROBE_LIST>
+	<TERRAIN_STENCIL_TRIANGLE_LIST serialise_version='1'>
+		<TERRAIN_STENCIL_TRIANGLES/>
+	</TERRAIN_STENCIL_TRIANGLE_LIST>
+	<POINT_LIGHT_LIST serialise_version='1'>
+		<POINT_LIGHTS/>
+	</POINT_LIGHT_LIST>
+	<BUILDING_PROJECTILE_EMITTER_LIST serialise_version='1'>
+		<BUILDING_PROJECTILE_EMITTERS/>
+	</BUILDING_PROJECTILE_EMITTER_LIST>
+	<PLAYABLE_AREA serialise_version='3' has_been_set='true'>
+		<area min_x='11.663818' min_y='17.507751' max_x='2032.280029' max_y='2042.514404'/>
+		<valid_location_flags serialise_version='1' valid_north='true' valid_south='true' valid_east='true' valid_west='true'/>
+	</PLAYABLE_AREA>
+	<CUSTOM_MATERIAL_MESH_LIST serialise_version='1'>
+		<CUSTOM_MATERIAL_MESH_LIST/>
+	</CUSTOM_MATERIAL_MESH_LIST>
+	<TERRAIN_STENCIL_BLEND_TRIANGLE_LIST serialise_version='1'>
+		<TERRAIN_BLEND_TRIANGLES/>
+	</TERRAIN_STENCIL_BLEND_TRIANGLE_LIST>
+	<SPOT_LIGHT_LIST serialise_version='1'>
+		<SPOT_LIGHTS/>
+	</SPOT_LIGHT_LIST>
+	<SOUND_SHAPE_LIST serialise_version='1'>
+		<SOUND_SHAPES/>
+	</SOUND_SHAPE_LIST>
+	<COMPOSITE_SCENE_LIST serialise_version='1'>
+		<COMPOSITE_SCENE_LIST/>
+	</COMPOSITE_SCENE_LIST>
+	<DEPLOYMENT_LIST serialise_version='1'>
+		<DEPLOYMENT_AREAS>
+			<DEPLOYMENT_AREA serialise_version='1' category='DAC_DEFAULT'>
+				<DEPLOYMENT_ZONES>
+					<DEPLOYMENT_ZONE serialise_version='1'>
+						<DEPLOYMENT_ZONE_REGIONS>
+							<DEPLOYMENT_ZONE_REGION serialise_version='1' orientation='90.000000' snap_facing='false' id='0'>
+								<BOUNDARY_LIST>
+									<BOUNDARY serialise_version='1' DEPLOYMENT_AREA_BOUNDARY_TYPE='standard additive'>
+										<BOUNDARY>
+											<position x='1983.000000' y='1983.000000'/>
+											<position x='1823.151489' y='1983.000000'/>
+											<position x='1822.353149' y='1915.207642'/>
+											<position x='1983.000000' y='1914.228394'/>
+										</BOUNDARY>
+									</BOUNDARY>
+								</BOUNDARY_LIST>
+							</DEPLOYMENT_ZONE_REGION>
+						</DEPLOYMENT_ZONE_REGIONS>
+					</DEPLOYMENT_ZONE>
+					<DEPLOYMENT_ZONE serialise_version='1'>
+						<DEPLOYMENT_ZONE_REGIONS>
+							<DEPLOYMENT_ZONE_REGION serialise_version='1' orientation='90.000000' snap_facing='false' id='0'>
+								<BOUNDARY_LIST>
+									<BOUNDARY serialise_version='1' DEPLOYMENT_AREA_BOUNDARY_TYPE='standard additive'>
+										<BOUNDARY>
+											<position x='65.000000' y='1983.000000'/>
+											<position x='65.000000' y='65.000000'/>
+											<position x='1983.000000' y='65.000000'/>
+											<position x='1983.000000' y='1907.871704'/>
+											<position x='1815.002441' y='1906.450806'/>
+											<position x='1817.060181' y='1983.000000'/>
+										</BOUNDARY>
+									</BOUNDARY>
+								</BOUNDARY_LIST>
+							</DEPLOYMENT_ZONE_REGION>
+						</DEPLOYMENT_ZONE_REGIONS>
+					</DEPLOYMENT_ZONE>
+				</DEPLOYMENT_ZONES>
+			</DEPLOYMENT_AREA>
+		</DEPLOYMENT_AREAS>
+	</DEPLOYMENT_LIST>
+	<BMD_CATCHMENT_AREA_LIST serialise_version='1'>
+		<BMD_CATCHMENT_AREAS/>
+	</BMD_CATCHMENT_AREA_LIST>
+	<TREE_LIST_REFERENCE_LIST serialise_version='1'>
+		<TREE_LIST_REFERENCES/>
+	</TREE_LIST_REFERENCE_LIST>
+	<GRASS_LIST_REFERENCE_LIST serialise_version='1'>
+		<GRASS_LIST_REFERENCES/>
+	</GRASS_LIST_REFERENCE_LIST>
+</BATTLE_MAP_DEFINITION_DATA>
