@@ -1,0 +1,30 @@
+keyframe
+{
+	subject_type			= ABSOLUTE;
+	position_offset 		= float3(0, -10, -200);
+	subject_position		= float3(220, 129.463562, 420);
+	transition_method   	= SMOOTH;
+	transition_time 		= 0;
+	sleep_time  			= 0;
+	fov 					= 65;
+	focal_distance  		= 3;
+	focal_length			= 1;
+	blur_size   			= 0;
+}
+
+
+keyframe
+{
+	subject_type			= ABSOLUTE;
+	position_offset 		= float3(0, 120, -120);
+	subject_position		= float3(170, 156.732147, 580);
+	transition_method   	= SMOOTH;
+	transition_time 		= 30000;
+	sleep_time  			= 10000;
+	fov 					= 65;
+	focal_distance  		= 3;
+	focal_length			= 1;
+	blur_size   			= 0;
+}
+
+
