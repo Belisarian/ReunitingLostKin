@@ -26,6 +26,9 @@ local payload = function(char)
 		cm:callback(function()
 			CampaignUI.ToggleCinematicBorders(false)
 			cm:stop_user_input(false)
+
+			cm:apply_effect_bundle("wh_main_bundle_fire_encampment", cm:get_local_faction_name(true), -1)
+
 			mod.select_first_lord()
 			mod.force_start_quest_battle("mission_kraka_ravnsvake_icetrolls")
 		end, 4.5)
@@ -53,6 +56,7 @@ core:add_listener(
 	true,
 	function()
 		mod.set_state(mod.states.after_ice_trolls)
+		cm:remove_effect_bundle("wh_main_bundle_fire_encampment", cm:get_local_faction_name(true))
 	end,
 	true
 )
