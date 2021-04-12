@@ -41,15 +41,20 @@ local function rejig_lord_select_screen()
 	local portrait_frame = digForComponent(ui_root, "portrait_frame")
 	if not portrait_frame then return end
 
+	-- width is now 942, if we change this make sure the check for this
+	-- in pj_quests_on_sp_grand_campaign_transition is changes as well
 	local h = 530
 	portrait_frame:ResizeTextResizingComponentToInitialSize(h*16/9, h)
-	portrait_frame:MoveTo(488, 280)
+	local x,y = portrait_frame:Position()
+	portrait_frame:MoveTo(x-2, y-2)
 
 	local race_details_panel = digForComponent(ui_root, "race_details_panel")
-	race_details_panel:MoveTo(231-220, 247)
+	local x,y = race_details_panel:Position()
+	race_details_panel:MoveTo(x-220, y)
 
 	local lord_details_panel = digForComponent(ui_root, "lord_details_panel")
-	lord_details_panel:MoveTo(1231+220, 247)
+	local x,y = lord_details_panel:Position()
+	lord_details_panel:MoveTo(x+220, y)
 
 	local tab_map = digForComponent(ui_root, "tab_map")
 	tab_map:SetVisible(false)
@@ -62,6 +67,9 @@ local function rejig_lord_select_screen()
 	local tp = digForComponent(ui_root, "title_plaque")
 	local tx = digForComponent(tp, "tx_header")
 	tx:SetStateText("Reuniting Lost Kin")
+
+	local faction_leader = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "centre_docker", "portrait_frame", "dy_faction_leader")
+	faction_leader:SetStateText("Grunnar Vestgrud")
 end
 
 local function create_frontend_listeners()
@@ -88,12 +96,19 @@ local function create_frontend_listeners()
 			end,
 			function()
 				local ui_root = core:get_ui_root()
-				local lord_details_panel = digForComponent(ui_root, "lord_details_panel")
-				if not lord_details_panel then return end
+				local portrait_frame = digForComponent(ui_root, "portrait_frame")
+				if not portrait_frame then return end
+				portrait_frame:SetVisible(false)
 
-				local x,y = lord_details_panel:Position()
-				if x == 1231+220 then
+				local race_details_panel = digForComponent(ui_root, "race_details_panel")
+				if not race_details_panel then return end
+
+				local x1 = portrait_frame:Position()
+				local x2 = race_details_panel:Position()
+
+				if x1-x2 == 477 then
 					real_timer.unregister("pj_quest_frontend_delay")
+					portrait_frame:SetVisible(true)
 					return
 				end
 
