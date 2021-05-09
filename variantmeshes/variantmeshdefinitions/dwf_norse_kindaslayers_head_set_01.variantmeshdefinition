@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="helmet" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dw_norse_kindaslayers\dwf_north_kindaslayers_helmet_01.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dw_norse_kindaslayers\dwf_north_kindaslayers_head_02.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu3\dwf\dw_norse_kindaslayers\dwf_north_kindaslayers_head_04.rigid_model_v2"  />
+	</SLOT>
+</VARIANT_MESH>
