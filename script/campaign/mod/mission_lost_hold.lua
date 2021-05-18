@@ -18,8 +18,22 @@ local payload = function(char)
 		cm:callback(function()
 			CampaignUI.ToggleCinematicBorders(false)
 			cm:stop_user_input(false)
-			mod.select_first_lord()
-			mod.force_start_quest_battle("mission_lost_hold")
+
+			cm:repeat_callback(
+				function()
+					if not effect.is_any_movie_playing() then
+						cm:callback(function()
+							mod.select_first_lord()
+							mod.force_start_quest_battle("mission_lost_hold")
+						end, 0.1)
+						cm:remove_callback("pj_quests_check_lost_hold_movie_playing_cb")
+					end
+				end,
+				0.1,
+				"pj_quests_check_lost_hold_movie_playing_cb"
+			)
+
+			cm:play_movie_in_ui("warhammer2/twilight/twilight_intro")
 		end, 6.5)
 	end, 0.1)
 end

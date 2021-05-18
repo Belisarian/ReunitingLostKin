@@ -538,6 +538,9 @@ core:add_listener(
 				7000,
  -- Payment entry
 				function()
+					cm:callback(function()
+						cm:play_movie_in_ui("warhammer2/skv/skv_intro")
+					end, 1)
 				end
 			)
 		end, 0.7)
