@@ -22,22 +22,8 @@ local payload = function(char)
 		cm:callback(function()
 			CampaignUI.ToggleCinematicBorders(false)
 			cm:stop_user_input(false)
-
-			cm:repeat_callback(
-				function()
-					if not effect.is_any_movie_playing() then
-						cm:callback(function()
-							mod.select_first_lord()
-							mod.force_start_quest_battle("mission_kraka_drak_beastmen_camp")
-						end, 0.1)
-						cm:remove_callback("pj_quests_check_beastmen_movie_playing_cb")
-					end
-				end,
-				0.1,
-				"pj_quests_check_beastmen_movie_playing_cb"
-			)
-
-			cm:play_movie_in_ui("warhammer2/lzd/lzd_horned_rat")
+			mod.select_first_lord()
+			mod.force_start_quest_battle("mission_kraka_drak_beastmen_camp")
 		end, 5)
 	end, 0.1)
 end

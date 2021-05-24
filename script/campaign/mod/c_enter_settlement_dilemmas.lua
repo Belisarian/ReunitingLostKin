@@ -297,7 +297,20 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_mission_beastmen_camp");
+			cm:repeat_callback(
+				function()
+					if not effect.is_any_movie_playing() then
+						cm:callback(function()
+							cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_mission_beastmen_camp")
+						end, 0.1)
+						cm:remove_callback("pj_quests_check_beastmen_movie_playing_cb")
+					end
+				end,
+				0.1,
+				"pj_quests_check_beastmen_movie_playing_cb"
+			)
+
+			cm:play_movie_in_ui("warhammer2/lzd/lzd_horned_rat")
 		end, 1)
 	end,
 	true
