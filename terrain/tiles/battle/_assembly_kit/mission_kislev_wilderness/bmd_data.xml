@@ -1,0 +1,696 @@
+<BATTLE_MAP_DEFINITION_DATA serialise_version='24'>
+	<BATTLEFIELD_BUILDING_LIST serialise_version='1'>
+		<BUILDINGS/>
+	</BATTLEFIELD_BUILDING_LIST>
+	<BATTLEFIELD_BUILDING_LIST_FAR serialise_version='1'>
+		<BUILDINGS/>
+	</BATTLEFIELD_BUILDING_LIST_FAR>
+	<CAPTURE_LOCATION_SET serialise_version='2'>
+		<CAPTURE_LOCATION_SET/>
+	</CAPTURE_LOCATION_SET>
+	<EF_LINE_LIST>
+		<LINES/>
+	</EF_LINE_LIST>
+	<GO_OUTLINES/>
+	<NON_TERRAIN_OUTLINES/>
+	<ZONES_TEMPLATE_LIST serialise_version='1'>
+		<ZONES/>
+	</ZONES_TEMPLATE_LIST>
+	<PREFAB_INSTANCE_LIST serialise_version='1'>
+		<PREFAB_INSTANCE/>
+	</PREFAB_INSTANCE_LIST>
+	<BMD_OUTLINE_LIST serialise_version='1'>
+		<BMD_OUTLINES/>
+	</BMD_OUTLINE_LIST>
+	<TERRAIN_OUTLINES/>
+	<LITE_BUILDING_OUTLINES/>
+	<CAMERA_ZONES serialise_version='1'>
+		<BMD_OUTLINES/>
+	</CAMERA_ZONES>
+	<CIVILIAN_DEPLOYMENT_LIST/>
+	<CIVILIAN_SHELTER_LIST/>
+	<PROP_LIST serialise_version='2'>
+		<KEYS KEY='rigidmodels/buildings/wh2_seaplane_300x/wh2_seaplane_300x_piece01_destruct01.wsmodel'/>
+		<PROPS>
+			<PROP serialise_version='15' key_index='0' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
+				<transform m00='4.273235' m01='0.000000' m02='0.000000' m10='0.000000' m11='50.000000' m12='0.000000' m20='0.000000' m21='0.000000' m22='2.594262' m30='1075.592041' m31='-0.100000' m32='1161.887451'/>
+				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PROP>
+		</PROPS>
+	</PROP_LIST>
+	<PARTICLE_EMITTER_LIST serialise_version='1'>
+		<PARTICLE_EMITTERS>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='-4.806308' m01='0.000000' m02='1.378189' m10='-0.000000' m11='5.000000' m12='0.000000' m20='-1.378189' m21='-0.000000' m22='-4.806308' m30='1314.375977' m31='3.980927' m32='275.217285'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='494.071106' m31='0.055626' m32='567.766846'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='553.065125' m31='1.396210' m32='483.672882'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_campaign_enviro_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.087155' m01='0.000000' m02='-0.996195' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.996195' m21='0.000000' m22='0.087155' m30='281.004395' m31='0.907623' m32='575.687195'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='1108.779297' m31='2.878716' m32='316.146088'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='204.957153' m31='-0.886948' m32='627.536621'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_campaign_enviro_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.984808' m01='0.000000' m02='0.173648' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.173648' m21='-0.000000' m22='0.984808' m30='242.889053' m31='0.329638' m32='567.579712'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='645.950745' m31='-0.339836' m32='533.767334'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='-2.883785' m01='0.000000' m02='0.826913' m10='-0.000000' m11='3.000000' m12='0.000000' m20='-0.826913' m21='-0.000000' m22='-2.883785' m30='933.685364' m31='9.473274' m32='382.560120'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='1529.819824' m31='-0.019073' m32='356.133606'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='803.608948' m31='-0.309013' m32='549.674377'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='1322.565674' m31='-0.503235' m32='445.071594'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='225.341461' m31='-0.946472' m32='533.496887'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='-2.883785' m01='0.000000' m02='0.826913' m10='-0.000000' m11='3.000000' m12='0.000000' m20='-0.826913' m21='-0.000000' m22='-2.883785' m30='746.674805' m31='4.047310' m32='362.415649'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.258819' m01='0.000000' m02='0.965926' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.965926' m21='-0.000000' m22='0.258819' m30='1118.009155' m31='5.855873' m32='382.866333'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='1532.169800' m31='-0.291199' m32='566.964539'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='327.158142' m31='-0.500000' m32='684.343079'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='474.007629' m31='-0.500001' m32='634.954651'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.258819' m01='0.000000' m02='0.965926' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.965926' m21='-0.000000' m22='0.258819' m30='1124.593262' m31='3.542007' m32='477.338562'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='495.098358' m31='-0.700005' m32='623.672546'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.139512' m01='0.000000' m02='-1.995128' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.995128' m21='0.000000' m22='0.139512' m30='471.409607' m31='0.400726' m32='595.376648'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.258819' m01='0.000000' m02='0.965926' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.965926' m21='-0.000000' m22='0.258819' m30='1294.810669' m31='0.615494' m32='536.062134'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='562.153809' m31='0.160133' m32='556.380493'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='1006.397095' m31='8.867317' m32='379.648834'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='1353.500732' m31='-0.326172' m32='497.882385'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_campaign_enviro_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.104529' m01='0.000000' m02='0.994522' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.994522' m21='-0.000000' m22='0.104529' m30='271.845703' m31='1.056099' m32='579.328308'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='-4.806308' m01='0.000000' m02='1.378189' m10='-0.000000' m11='5.000000' m12='0.000000' m20='-1.378189' m21='-0.000000' m22='-4.806308' m30='929.468872' m31='2.000000' m32='-83.369324'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_campaign_enviro_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.104529' m01='0.000000' m02='0.994522' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.994522' m21='-0.000000' m22='0.104529' m30='252.277344' m31='0.329861' m32='624.070313'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='435.394836' m31='-0.700008' m32='642.193420'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='969.519958' m31='0.481262' m32='494.630859'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='261.445343' m31='-0.441196' m32='585.362915'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.258819' m01='0.000000' m02='0.965926' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.965926' m21='-0.000000' m22='0.258819' m30='1216.532715' m31='0.593498' m32='527.865356'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.258819' m01='0.000000' m02='0.965926' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.965926' m21='-0.000000' m22='0.258819' m30='1293.774170' m31='0.246696' m32='417.355835'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.258819' m01='0.000000' m02='0.965926' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.965926' m21='-0.000000' m22='0.258819' m30='1250.961914' m31='-0.716438' m32='490.077454'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='852.867676' m31='5.437927' m32='333.015228'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.258819' m01='0.000000' m02='0.965926' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.965926' m21='-0.000000' m22='0.258819' m30='1065.701172' m31='4.182686' m32='456.207214'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='378.250000' m31='0.118416' m32='497.538971'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='451.799103' m31='-0.500000' m32='610.956177'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='517.361755' m31='1.012360' m32='546.016052'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='269.883087' m31='0.217602' m32='554.180481'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_campaign_enviro_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='-0.961262' m01='0.000000' m02='0.275638' m10='-0.000000' m11='1.000000' m12='0.000000' m20='-0.275638' m21='-0.000000' m22='-0.961262' m30='231.884232' m31='1.695707' m32='580.833130'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='739.122925' m31='0.443672' m32='417.226349'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_lzd_campaign_swamp_fire' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.174311' m01='0.000000' m02='-1.992389' m10='0.000000' m11='2.000000' m12='0.000000' m20='1.992389' m21='0.000000' m22='0.174311' m30='263.441681' m31='-0.772202' m32='615.388672'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='616.533020' m31='-0.743088' m32='293.264526'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_campaign_enviro_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.087155' m01='0.000000' m02='-0.996195' m10='0.000000' m11='1.000000' m12='0.000000' m20='0.996195' m21='0.000000' m22='0.087155' m30='268.334503' m31='1.059675' m32='568.714111'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='-4.806308' m01='0.000000' m02='1.378189' m10='-0.000000' m11='5.000000' m12='0.000000' m20='-1.378189' m21='-0.000000' m22='-4.806308' m30='1349.094971' m31='2.000008' m32='-198.638184'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='0.517638' m01='0.000000' m02='1.931852' m10='-0.000000' m11='2.000000' m12='0.000000' m20='-1.931852' m21='-0.000000' m22='0.517638' m30='454.862183' m31='0.518143' m32='473.119812'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+			<PARTICLE_EMITTER serialise_version='6' key='wh2_main_low_mist_swamp' emission_rate='0.000000' instance_name='' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' autoplay='true' visible_in_shroud='false'>
+				<transform m00='-2.883785' m01='0.000000' m02='0.826913' m10='-0.000000' m11='3.000000' m12='0.000000' m20='-0.826913' m21='-0.000000' m22='-2.883785' m30='1541.666260' m31='2.046013' m32='395.484680'/>
+				<flags serialise_version='2' allow_in_outfield='false' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
+			</PARTICLE_EMITTER>
+		</PARTICLE_EMITTERS>
+	</PARTICLE_EMITTER_LIST>
+	<AI_HINTS serialise_version='1'>
+		<separators serialise_version='1'>
+			<SEPARATORS/>
+		</separators>
+		<directed_points serialise_version='1'>
+			<DIRECTED_POINTS/>
+		</directed_points>
+		<polylines serialise_version='1'>
+			<HINT_POLYLINES>
+				<HINT_POLYLINE serialise_version='1' type='AIH_AMBUSH_FOREST'>
+					<points>
+						<point x='1830.500000' y='1092.500000'/>
+						<point x='1830.500000' y='1094.500000'/>
+						<point x='1828.500000' y='1094.500000'/>
+						<point x='1824.500000' y='1098.500000'/>
+						<point x='1820.500000' y='1108.500000'/>
+						<point x='1820.500000' y='1128.500000'/>
+						<point x='1816.500000' y='1130.500000'/>
+						<point x='1814.500000' y='1134.500000'/>
+						<point x='1794.500000' y='1146.500000'/>
+						<point x='1784.500000' y='1156.500000'/>
+						<point x='1778.500000' y='1168.500000'/>
+						<point x='1778.500000' y='1192.500000'/>
+						<point x='1782.500000' y='1202.500000'/>
+						<point x='1792.500000' y='1210.500000'/>
+						<point x='1808.500000' y='1210.500000'/>
+						<point x='1816.500000' y='1202.500000'/>
+						<point x='1826.500000' y='1176.500000'/>
+						<point x='1832.500000' y='1178.500000'/>
+						<point x='1848.500000' y='1188.500000'/>
+						<point x='1848.500000' y='1194.500000'/>
+						<point x='1854.500000' y='1214.500000'/>
+						<point x='1864.500000' y='1224.500000'/>
+						<point x='1868.500000' y='1226.500000'/>
+						<point x='1886.500000' y='1230.500000'/>
+						<point x='1896.500000' y='1244.500000'/>
+						<point x='1902.500000' y='1248.500000'/>
+						<point x='1914.500000' y='1250.500000'/>
+						<point x='1924.500000' y='1246.500000'/>
+						<point x='1930.500000' y='1236.500000'/>
+						<point x='1930.500000' y='1224.500000'/>
+						<point x='1924.500000' y='1196.500000'/>
+						<point x='1920.500000' y='1192.500000'/>
+						<point x='1912.500000' y='1192.500000'/>
+						<point x='1904.500000' y='1202.500000'/>
+						<point x='1878.500000' y='1180.500000'/>
+						<point x='1878.500000' y='1172.500000'/>
+						<point x='1884.500000' y='1168.500000'/>
+						<point x='1902.500000' y='1160.500000'/>
+						<point x='1914.500000' y='1160.500000'/>
+						<point x='1912.500000' y='1166.500000'/>
+						<point x='1912.500000' y='1176.500000'/>
+						<point x='1918.500000' y='1184.500000'/>
+						<point x='1926.500000' y='1182.500000'/>
+						<point x='1930.500000' y='1178.500000'/>
+						<point x='1934.500000' y='1164.500000'/>
+						<point x='1952.500000' y='1154.500000'/>
+						<point x='1952.500000' y='1152.500000'/>
+						<point x='1956.500000' y='1154.500000'/>
+						<point x='1972.500000' y='1160.500000'/>
+						<point x='1984.500000' y='1160.500000'/>
+						<point x='1988.500000' y='1158.500000'/>
+						<point x='1996.500000' y='1150.500000'/>
+						<point x='1998.500000' y='1144.500000'/>
+						<point x='1996.500000' y='1132.500000'/>
+						<point x='1992.500000' y='1126.500000'/>
+						<point x='1984.500000' y='1122.500000'/>
+						<point x='1964.500000' y='1122.500000'/>
+						<point x='1922.500000' y='1126.500000'/>
+						<point x='1920.500000' y='1122.500000'/>
+						<point x='1914.500000' y='1118.500000'/>
+						<point x='1886.500000' y='1104.500000'/>
+						<point x='1872.500000' y='1104.500000'/>
+						<point x='1868.500000' y='1106.500000'/>
+						<point x='1852.500000' y='1120.500000'/>
+						<point x='1852.500000' y='1108.500000'/>
+						<point x='1850.500000' y='1098.500000'/>
+						<point x='1846.500000' y='1092.500000'/>
+						<point x='1842.500000' y='1090.500000'/>
+						<point x='1834.500000' y='1090.500000'/>
+						<point x='1834.500000' y='1092.500000'/>
+					</points>
+				</HINT_POLYLINE>
+				<HINT_POLYLINE serialise_version='1' type='AIH_AMBUSH_FOREST'>
+					<points>
+						<point x='276.500000' y='1126.500000'/>
+						<point x='276.500000' y='1128.500000'/>
+						<point x='272.500000' y='1128.500000'/>
+						<point x='268.500000' y='1132.500000'/>
+						<point x='262.500000' y='1144.500000'/>
+						<point x='258.500000' y='1168.500000'/>
+						<point x='238.500000' y='1186.500000'/>
+						<point x='236.500000' y='1192.500000'/>
+						<point x='236.500000' y='1202.500000'/>
+						<point x='240.500000' y='1210.500000'/>
+						<point x='242.500000' y='1212.500000'/>
+						<point x='268.500000' y='1224.500000'/>
+						<point x='268.500000' y='1236.500000'/>
+						<point x='270.500000' y='1236.500000'/>
+						<point x='268.500000' y='1264.500000'/>
+						<point x='264.500000' y='1278.500000'/>
+						<point x='266.500000' y='1292.500000'/>
+						<point x='272.500000' y='1302.500000'/>
+						<point x='276.500000' y='1304.500000'/>
+						<point x='274.500000' y='1312.500000'/>
+						<point x='266.500000' y='1322.500000'/>
+						<point x='262.500000' y='1330.500000'/>
+						<point x='262.500000' y='1350.500000'/>
+						<point x='264.500000' y='1364.500000'/>
+						<point x='260.500000' y='1366.500000'/>
+						<point x='254.500000' y='1378.500000'/>
+						<point x='252.500000' y='1394.500000'/>
+						<point x='258.500000' y='1410.500000'/>
+						<point x='268.500000' y='1416.500000'/>
+						<point x='278.500000' y='1416.500000'/>
+						<point x='286.500000' y='1412.500000'/>
+						<point x='292.500000' y='1406.500000'/>
+						<point x='296.500000' y='1394.500000'/>
+						<point x='294.500000' y='1394.500000'/>
+						<point x='296.500000' y='1368.500000'/>
+						<point x='304.500000' y='1356.500000'/>
+						<point x='306.500000' y='1350.500000'/>
+						<point x='306.500000' y='1338.500000'/>
+						<point x='296.500000' y='1316.500000'/>
+						<point x='294.500000' y='1316.500000'/>
+						<point x='296.500000' y='1306.500000'/>
+						<point x='304.500000' y='1296.500000'/>
+						<point x='308.500000' y='1288.500000'/>
+						<point x='308.500000' y='1272.500000'/>
+						<point x='296.500000' y='1252.500000'/>
+						<point x='294.500000' y='1244.500000'/>
+						<point x='292.500000' y='1244.500000'/>
+						<point x='294.500000' y='1242.500000'/>
+						<point x='296.500000' y='1234.500000'/>
+						<point x='300.500000' y='1232.500000'/>
+						<point x='318.500000' y='1228.500000'/>
+						<point x='326.500000' y='1234.500000'/>
+						<point x='334.500000' y='1234.500000'/>
+						<point x='340.500000' y='1230.500000'/>
+						<point x='340.500000' y='1218.500000'/>
+						<point x='338.500000' y='1216.500000'/>
+						<point x='330.500000' y='1214.500000'/>
+						<point x='320.500000' y='1216.500000'/>
+						<point x='320.500000' y='1218.500000'/>
+						<point x='308.500000' y='1208.500000'/>
+						<point x='304.500000' y='1206.500000'/>
+						<point x='292.500000' y='1184.500000'/>
+						<point x='286.500000' y='1180.500000'/>
+						<point x='286.500000' y='1168.500000'/>
+						<point x='302.500000' y='1170.500000'/>
+						<point x='306.500000' y='1172.500000'/>
+						<point x='336.500000' y='1180.500000'/>
+						<point x='338.500000' y='1184.500000'/>
+						<point x='342.500000' y='1186.500000'/>
+						<point x='344.500000' y='1214.500000'/>
+						<point x='350.500000' y='1220.500000'/>
+						<point x='356.500000' y='1222.500000'/>
+						<point x='366.500000' y='1222.500000'/>
+						<point x='374.500000' y='1218.500000'/>
+						<point x='378.500000' y='1214.500000'/>
+						<point x='382.500000' y='1206.500000'/>
+						<point x='382.500000' y='1186.500000'/>
+						<point x='378.500000' y='1178.500000'/>
+						<point x='370.500000' y='1170.500000'/>
+						<point x='366.500000' y='1168.500000'/>
+						<point x='348.500000' y='1154.500000'/>
+						<point x='336.500000' y='1144.500000'/>
+						<point x='294.500000' y='1124.500000'/>
+						<point x='280.500000' y='1124.500000'/>
+						<point x='280.500000' y='1126.500000'/>
+					</points>
+				</HINT_POLYLINE>
+				<HINT_POLYLINE serialise_version='1' type='AIH_AMBUSH_FOREST'>
+					<points>
+						<point x='308.500000' y='1390.500000'/>
+						<point x='308.500000' y='1392.500000'/>
+						<point x='304.500000' y='1394.500000'/>
+						<point x='300.500000' y='1402.500000'/>
+						<point x='302.500000' y='1416.500000'/>
+						<point x='312.500000' y='1424.500000'/>
+						<point x='324.500000' y='1424.500000'/>
+						<point x='328.500000' y='1422.500000'/>
+						<point x='336.500000' y='1412.500000'/>
+						<point x='336.500000' y='1398.500000'/>
+						<point x='334.500000' y='1394.500000'/>
+						<point x='326.500000' y='1388.500000'/>
+						<point x='312.500000' y='1388.500000'/>
+						<point x='312.500000' y='1390.500000'/>
+					</points>
+				</HINT_POLYLINE>
+				<HINT_POLYLINE serialise_version='1' type='AIH_AMBUSH_FOREST'>
+					<points>
+						<point x='292.500000' y='1444.500000'/>
+						<point x='292.500000' y='1448.500000'/>
+						<point x='290.500000' y='1448.500000'/>
+						<point x='290.500000' y='1454.500000'/>
+						<point x='296.500000' y='1460.500000'/>
+						<point x='304.500000' y='1460.500000'/>
+						<point x='308.500000' y='1456.500000'/>
+						<point x='308.500000' y='1444.500000'/>
+						<point x='306.500000' y='1442.500000'/>
+						<point x='294.500000' y='1442.500000'/>
+						<point x='294.500000' y='1444.500000'/>
+					</points>
+				</HINT_POLYLINE>
+				<HINT_POLYLINE serialise_version='1' type='AIH_AMBUSH_FOREST'>
+					<points>
+						<point x='282.500000' y='1490.500000'/>
+						<point x='282.500000' y='1492.500000'/>
+						<point x='280.500000' y='1492.500000'/>
+						<point x='278.500000' y='1496.500000'/>
+						<point x='278.500000' y='1502.500000'/>
+						<point x='280.500000' y='1502.500000'/>
+						<point x='278.500000' y='1510.500000'/>
+						<point x='262.500000' y='1522.500000'/>
+						<point x='258.500000' y='1530.500000'/>
+						<point x='258.500000' y='1542.500000'/>
+						<point x='260.500000' y='1550.500000'/>
+						<point x='264.500000' y='1576.500000'/>
+						<point x='270.500000' y='1588.500000'/>
+						<point x='274.500000' y='1602.500000'/>
+						<point x='262.500000' y='1602.500000'/>
+						<point x='248.500000' y='1606.500000'/>
+						<point x='240.500000' y='1614.500000'/>
+						<point x='238.500000' y='1618.500000'/>
+						<point x='238.500000' y='1632.500000'/>
+						<point x='240.500000' y='1636.500000'/>
+						<point x='258.500000' y='1656.500000'/>
+						<point x='260.500000' y='1656.500000'/>
+						<point x='256.500000' y='1678.500000'/>
+						<point x='242.500000' y='1702.500000'/>
+						<point x='236.500000' y='1716.500000'/>
+						<point x='236.500000' y='1736.500000'/>
+						<point x='238.500000' y='1744.500000'/>
+						<point x='242.500000' y='1754.500000'/>
+						<point x='256.500000' y='1768.500000'/>
+						<point x='262.500000' y='1772.500000'/>
+						<point x='282.500000' y='1780.500000'/>
+						<point x='322.500000' y='1784.500000'/>
+						<point x='338.500000' y='1788.500000'/>
+						<point x='366.500000' y='1792.500000'/>
+						<point x='380.500000' y='1796.500000'/>
+						<point x='388.500000' y='1804.500000'/>
+						<point x='390.500000' y='1818.500000'/>
+						<point x='386.500000' y='1820.500000'/>
+						<point x='386.500000' y='1824.500000'/>
+						<point x='370.500000' y='1830.500000'/>
+						<point x='370.500000' y='1832.500000'/>
+						<point x='362.500000' y='1830.500000'/>
+						<point x='346.500000' y='1816.500000'/>
+						<point x='320.500000' y='1802.500000'/>
+						<point x='312.500000' y='1800.500000'/>
+						<point x='294.500000' y='1800.500000'/>
+						<point x='284.500000' y='1804.500000'/>
+						<point x='276.500000' y='1812.500000'/>
+						<point x='270.500000' y='1822.500000'/>
+						<point x='254.500000' y='1840.500000'/>
+						<point x='250.500000' y='1850.500000'/>
+						<point x='252.500000' y='1862.500000'/>
+						<point x='262.500000' y='1874.500000'/>
+						<point x='246.500000' y='1880.500000'/>
+						<point x='238.500000' y='1888.500000'/>
+						<point x='236.500000' y='1892.500000'/>
+						<point x='236.500000' y='1906.500000'/>
+						<point x='238.500000' y='1910.500000'/>
+						<point x='260.500000' y='1928.500000'/>
+						<point x='258.500000' y='1936.500000'/>
+						<point x='258.500000' y='1956.500000'/>
+						<point x='262.500000' y='1964.500000'/>
+						<point x='272.500000' y='1972.500000'/>
+						<point x='284.500000' y='1972.500000'/>
+						<point x='292.500000' y='1968.500000'/>
+						<point x='300.500000' y='1958.500000'/>
+						<point x='304.500000' y='1948.500000'/>
+						<point x='326.500000' y='1930.500000'/>
+						<point x='356.500000' y='1910.500000'/>
+						<point x='362.500000' y='1904.500000'/>
+						<point x='366.500000' y='1896.500000'/>
+						<point x='372.500000' y='1896.500000'/>
+						<point x='372.500000' y='1894.500000'/>
+						<point x='374.500000' y='1896.500000'/>
+						<point x='384.500000' y='1900.500000'/>
+						<point x='400.500000' y='1904.500000'/>
+						<point x='410.500000' y='1902.500000'/>
+						<point x='418.500000' y='1896.500000'/>
+						<point x='422.500000' y='1888.500000'/>
+						<point x='422.500000' y='1874.500000'/>
+						<point x='414.500000' y='1856.500000'/>
+						<point x='416.500000' y='1846.500000'/>
+						<point x='426.500000' y='1838.500000'/>
+						<point x='432.500000' y='1824.500000'/>
+						<point x='432.500000' y='1812.500000'/>
+						<point x='424.500000' y='1788.500000'/>
+						<point x='410.500000' y='1772.500000'/>
+						<point x='392.500000' y='1762.500000'/>
+						<point x='364.500000' y='1754.500000'/>
+						<point x='342.500000' y='1752.500000'/>
+						<point x='342.500000' y='1754.500000'/>
+						<point x='308.500000' y='1750.500000'/>
+						<point x='294.500000' y='1746.500000'/>
+						<point x='272.500000' y='1736.500000'/>
+						<point x='274.500000' y='1724.500000'/>
+						<point x='280.500000' y='1716.500000'/>
+						<point x='314.500000' y='1716.500000'/>
+						<point x='324.500000' y='1712.500000'/>
+						<point x='332.500000' y='1704.500000'/>
+						<point x='338.500000' y='1690.500000'/>
+						<point x='352.500000' y='1686.500000'/>
+						<point x='358.500000' y='1678.500000'/>
+						<point x='376.500000' y='1670.500000'/>
+						<point x='388.500000' y='1662.500000'/>
+						<point x='398.500000' y='1652.500000'/>
+						<point x='400.500000' y='1646.500000'/>
+						<point x='400.500000' y='1632.500000'/>
+						<point x='396.500000' y='1624.500000'/>
+						<point x='382.500000' y='1610.500000'/>
+						<point x='380.500000' y='1604.500000'/>
+						<point x='376.500000' y='1598.500000'/>
+						<point x='364.500000' y='1598.500000'/>
+						<point x='360.500000' y='1604.500000'/>
+						<point x='360.500000' y='1610.500000'/>
+						<point x='364.500000' y='1618.500000'/>
+						<point x='366.500000' y='1618.500000'/>
+						<point x='364.500000' y='1624.500000'/>
+						<point x='358.500000' y='1654.500000'/>
+						<point x='354.500000' y='1662.500000'/>
+						<point x='340.500000' y='1668.500000'/>
+						<point x='334.500000' y='1678.500000'/>
+						<point x='316.500000' y='1674.500000'/>
+						<point x='310.500000' y='1650.500000'/>
+						<point x='294.500000' y='1630.500000'/>
+						<point x='280.500000' y='1608.500000'/>
+						<point x='278.500000' y='1608.500000'/>
+						<point x='288.500000' y='1604.500000'/>
+						<point x='298.500000' y='1590.500000'/>
+						<point x='316.500000' y='1586.500000'/>
+						<point x='328.500000' y='1578.500000'/>
+						<point x='332.500000' y='1572.500000'/>
+						<point x='332.500000' y='1568.500000'/>
+						<point x='340.500000' y='1572.500000'/>
+						<point x='348.500000' y='1574.500000'/>
+						<point x='356.500000' y='1568.500000'/>
+						<point x='356.500000' y='1560.500000'/>
+						<point x='350.500000' y='1554.500000'/>
+						<point x='344.500000' y='1554.500000'/>
+						<point x='340.500000' y='1556.500000'/>
+						<point x='336.500000' y='1562.500000'/>
+						<point x='332.500000' y='1560.500000'/>
+						<point x='320.500000' y='1550.500000'/>
+						<point x='308.500000' y='1544.500000'/>
+						<point x='310.500000' y='1536.500000'/>
+						<point x='316.500000' y='1532.500000'/>
+						<point x='324.500000' y='1522.500000'/>
+						<point x='324.500000' y='1512.500000'/>
+						<point x='322.500000' y='1508.500000'/>
+						<point x='312.500000' y='1498.500000'/>
+						<point x='296.500000' y='1490.500000'/>
+						<point x='286.500000' y='1488.500000'/>
+						<point x='286.500000' y='1490.500000'/>
+					</points>
+				</HINT_POLYLINE>
+			</HINT_POLYLINES>
+		</polylines>
+		<polylines_list serialise_version='1'>
+			<HINT_POLYLINES/>
+		</polylines_list>
+	</AI_HINTS>
+	<LIGHT_PROBE_LIST serialise_version='1'>
+		<LIGHT_PROBES/>
+	</LIGHT_PROBE_LIST>
+	<TERRAIN_STENCIL_TRIANGLE_LIST serialise_version='1'>
+		<TERRAIN_STENCIL_TRIANGLES/>
+	</TERRAIN_STENCIL_TRIANGLE_LIST>
+	<POINT_LIGHT_LIST serialise_version='1'>
+		<POINT_LIGHTS/>
+	</POINT_LIGHT_LIST>
+	<BUILDING_PROJECTILE_EMITTER_LIST serialise_version='1'>
+		<BUILDING_PROJECTILE_EMITTERS/>
+	</BUILDING_PROJECTILE_EMITTER_LIST>
+	<PLAYABLE_AREA serialise_version='3' has_been_set='true'>
+		<area min_x='501.539581' min_y='323.558228' max_x='1495.352783' max_y='783.498413'/>
+		<valid_location_flags serialise_version='1' valid_north='true' valid_south='true' valid_east='true' valid_west='true'/>
+	</PLAYABLE_AREA>
+	<CUSTOM_MATERIAL_MESH_LIST serialise_version='1'>
+		<CUSTOM_MATERIAL_MESH_LIST/>
+	</CUSTOM_MATERIAL_MESH_LIST>
+	<TERRAIN_STENCIL_BLEND_TRIANGLE_LIST serialise_version='1'>
+		<TERRAIN_BLEND_TRIANGLES/>
+	</TERRAIN_STENCIL_BLEND_TRIANGLE_LIST>
+	<SPOT_LIGHT_LIST serialise_version='1'>
+		<SPOT_LIGHTS/>
+	</SPOT_LIGHT_LIST>
+	<SOUND_SHAPE_LIST serialise_version='1'>
+		<SOUND_SHAPES/>
+	</SOUND_SHAPE_LIST>
+	<COMPOSITE_SCENE_LIST serialise_version='1'>
+		<COMPOSITE_SCENE_LIST/>
+	</COMPOSITE_SCENE_LIST>
+	<DEPLOYMENT_LIST serialise_version='1'>
+		<DEPLOYMENT_AREAS>
+			<DEPLOYMENT_AREA serialise_version='1' category='DAC_DEFAULT'>
+				<DEPLOYMENT_ZONES>
+					<DEPLOYMENT_ZONE serialise_version='1'>
+						<DEPLOYMENT_ZONE_REGIONS>
+							<DEPLOYMENT_ZONE_REGION serialise_version='1' orientation='90.000000' snap_facing='false' id='0'>
+								<BOUNDARY_LIST>
+									<BOUNDARY serialise_version='1' DEPLOYMENT_AREA_BOUNDARY_TYPE='standard additive'>
+										<BOUNDARY>
+											<position x='581.135132' y='596.852905'/>
+											<position x='586.109741' y='384.425415'/>
+											<position x='521.142944' y='382.654877'/>
+											<position x='522.331177' y='597.837036'/>
+										</BOUNDARY>
+									</BOUNDARY>
+								</BOUNDARY_LIST>
+							</DEPLOYMENT_ZONE_REGION>
+						</DEPLOYMENT_ZONE_REGIONS>
+					</DEPLOYMENT_ZONE>
+					<DEPLOYMENT_ZONE serialise_version='1'>
+						<DEPLOYMENT_ZONE_REGIONS>
+							<DEPLOYMENT_ZONE_REGION serialise_version='1' orientation='90.000000' snap_facing='false' id='0'>
+								<BOUNDARY_LIST>
+									<BOUNDARY serialise_version='1' DEPLOYMENT_AREA_BOUNDARY_TYPE='standard additive'>
+										<BOUNDARY>
+											<position x='1391.153564' y='594.067688'/>
+											<position x='1478.374023' y='612.510437'/>
+											<position x='1470.053833' y='759.836731'/>
+											<position x='1403.650146' y='750.684265'/>
+										</BOUNDARY>
+									</BOUNDARY>
+								</BOUNDARY_LIST>
+							</DEPLOYMENT_ZONE_REGION>
+							<DEPLOYMENT_ZONE_REGION serialise_version='1' orientation='90.000000' snap_facing='false' id='1'>
+								<BOUNDARY_LIST>
+									<BOUNDARY serialise_version='1' DEPLOYMENT_AREA_BOUNDARY_TYPE='standard additive'>
+										<BOUNDARY>
+											<position x='512.225098' y='616.520203'/>
+											<position x='578.133789' y='619.528137'/>
+											<position x='576.105530' y='727.086670'/>
+											<position x='510.844666' y='728.956543'/>
+										</BOUNDARY>
+									</BOUNDARY>
+								</BOUNDARY_LIST>
+							</DEPLOYMENT_ZONE_REGION>
+						</DEPLOYMENT_ZONE_REGIONS>
+					</DEPLOYMENT_ZONE>
+				</DEPLOYMENT_ZONES>
+			</DEPLOYMENT_AREA>
+		</DEPLOYMENT_AREAS>
+	</DEPLOYMENT_LIST>
+	<BMD_CATCHMENT_AREA_LIST serialise_version='1'>
+		<BMD_CATCHMENT_AREAS/>
+	</BMD_CATCHMENT_AREA_LIST>
+	<TREE_LIST_REFERENCE_LIST serialise_version='1'>
+		<TREE_LIST_REFERENCES/>
+	</TREE_LIST_REFERENCE_LIST>
+	<GRASS_LIST_REFERENCE_LIST serialise_version='1'>
+		<GRASS_LIST_REFERENCES/>
+	</GRASS_LIST_REFERENCE_LIST>
+</BATTLE_MAP_DEFINITION_DATA>
