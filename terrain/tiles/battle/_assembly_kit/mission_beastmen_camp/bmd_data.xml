@@ -662,47 +662,47 @@
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_tree_giant_blockout_04.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.499573' m01='0.000000' m02='-0.020650' m03='0.000000' m10='0.000000' m11='0.500000' m12='0.000000' m13='0.000000' m20='0.020650' m21='0.000000' m22='0.499573' m23='0.000000' m30='510.797485' m31='1.721642' m32='104.035629' m33='1.000000'/>
+				<transform m00='0.499573' m01='0.000000' m02='-0.020650' m03='0.000000' m10='0.000000' m11='0.500000' m12='0.000000' m13='0.000000' m20='0.020650' m21='0.000000' m22='0.499573' m23='0.000000' m30='564.757141' m31='1.721642' m32='411.956451' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_tree_giant_blockout_02.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.272319' m01='0.000000' m02='0.419335' m03='0.000000' m10='-0.000000' m11='0.500000' m12='0.000000' m13='0.000000' m20='-0.419335' m21='-0.000000' m22='0.272319' m23='0.000000' m30='730.741760' m31='3.673514' m32='1477.864746' m33='1.000000'/>
+				<transform m00='0.272319' m01='0.000000' m02='0.419335' m03='0.000000' m10='-0.000000' m11='0.500000' m12='0.000000' m13='0.000000' m20='-0.419335' m21='-0.000000' m22='0.272319' m23='0.000000' m30='585.635986' m31='0.046531' m32='1120.330566' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_tree_giant_blockout.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.008721' m01='0.000000' m02='0.499924' m03='0.000000' m10='-0.000000' m11='0.500000' m12='0.000000' m13='0.000000' m20='-0.499924' m21='-0.000000' m22='-0.008721' m23='0.000000' m30='182.407898' m31='7.343214' m32='1478.939453' m33='1.000000'/>
+				<transform m00='-0.008719' m01='0.000000' m02='0.499924' m03='0.000000' m10='-0.000000' m11='0.500000' m12='0.000000' m13='0.000000' m20='-0.499924' m21='-0.000000' m22='-0.008719' m23='0.000000' m30='165.225433' m31='7.440305' m32='1205.301758' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1259.577148' m31='-127.826035' m32='638.096313' m33='1.000000'/>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1263.697876' m31='-61.633141' m32='605.083557' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1134.296875' m31='-127.825935' m32='646.668213' m33='1.000000'/>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1118.708252' m31='-61.633041' m32='615.004028' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.021878' m01='0.000000' m02='0.863787' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.863787' m21='-0.000000' m22='-0.021878' m23='0.000000' m30='1276.816406' m31='-127.826118' m32='1050.461304' m33='1.000000'/>
+				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1283.649170' m31='-61.633224' m32='1082.322266' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.021878' m01='0.000000' m02='0.863787' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.863787' m21='-0.000000' m22='-0.021878' m23='0.000000' m30='1047.242188' m31='-127.826050' m32='755.981201' m33='1.000000'/>
+				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1017.958008' m31='-61.633156' m32='741.514221' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1363.700195' m31='-127.826065' m32='884.828613' m33='1.000000'/>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1384.201660' m31='-61.633175' m32='890.632080' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1418.828125' m31='-127.826065' m32='795.143066' m33='1.000000'/>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1448.002319' m31='-61.633175' m32='786.837097' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.021878' m01='0.000000' m02='0.863787' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.863787' m21='-0.000000' m22='-0.021878' m23='0.000000' m30='1178.243164' m31='-127.826149' m32='1051.618286' m33='1.000000'/>
+				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1169.568359' m31='-61.633255' m32='1083.661255' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1382.489746' m31='-127.826004' m32='673.337524' m33='1.000000'/>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1405.947266' m31='-61.633114' m32='645.868958' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
@@ -738,75 +738,35 @@
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1263.697876' m31='-61.633141' m32='605.083557' m33='1.000000'/>
+				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1259.577148' m31='-127.826035' m32='638.096313' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1118.708252' m31='-61.633041' m32='615.004028' m33='1.000000'/>
+				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1134.296875' m31='-127.825935' m32='646.668213' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1283.649170' m31='-61.633224' m32='1082.322266' m33='1.000000'/>
+				<transform m00='-0.021878' m01='0.000000' m02='0.863787' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.863787' m21='-0.000000' m22='-0.021878' m23='0.000000' m30='1276.816406' m31='-127.826118' m32='1050.461304' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1017.958008' m31='-61.633156' m32='741.514221' m33='1.000000'/>
+				<transform m00='-0.021878' m01='0.000000' m02='0.863787' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.863787' m21='-0.000000' m22='-0.021878' m23='0.000000' m30='1047.242188' m31='-127.826050' m32='755.981201' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1384.201660' m31='-61.633175' m32='890.632080' m33='1.000000'/>
+				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1363.700195' m31='-127.826065' m32='884.828613' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1448.002319' m31='-61.633175' m32='786.837097' m33='1.000000'/>
+				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1418.828125' m31='-127.826065' m32='795.143066' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1169.568359' m31='-61.633255' m32='1083.661255' m33='1.000000'/>
+				<transform m00='-0.021878' m01='0.000000' m02='0.863787' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.863787' m21='-0.000000' m22='-0.021878' m23='0.000000' m30='1178.243164' m31='-127.826149' m32='1051.618286' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1405.947266' m31='-61.633114' m32='645.868958' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.034899' m01='0.000000' m02='0.999391' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999391' m21='-0.000000' m22='0.034899' m23='0.000000' m30='1025.419922' m31='-54.887585' m32='930.270325' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.390730' m01='0.000000' m02='0.920505' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.920505' m21='-0.000000' m22='-0.390730' m23='0.000000' m30='1314.807373' m31='-54.887585' m32='619.308411' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.981627' m01='0.000000' m02='0.190809' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.190809' m21='-0.000000' m22='0.981627' m23='0.000000' m30='1024.321167' m31='-54.887585' m32='793.702515' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.819152' m01='0.000000' m02='-0.573576' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.573576' m21='0.000000' m22='0.819152' m23='0.000000' m30='1352.120361' m31='-54.887585' m32='978.052551' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.984808' m01='0.000000' m02='-0.173647' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.173647' m21='0.000000' m22='-0.984808' m23='0.000000' m30='1411.934570' m31='-54.887585' m32='844.633606' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.087156' m01='0.000000' m02='-0.996195' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.996195' m21='0.000000' m22='-0.087156' m23='0.000000' m30='1177.814453' m31='-54.887585' m32='615.917908' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1233.506470' m31='-54.887585' m32='1095.400391' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.933580' m01='0.000000' m02='0.358369' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.358369' m21='-0.000000' m22='-0.933580' m23='0.000000' m30='1398.232422' m31='-54.887585' m32='717.106262' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.819152' m01='0.000000' m02='-0.573576' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.573576' m21='0.000000' m22='-0.819152' m23='0.000000' m30='1068.725830' m31='-54.887585' m32='679.945923' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.642788' m01='0.000000' m02='0.766044' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.766044' m21='-0.000000' m22='0.642788' m23='0.000000' m30='1113.216553' m31='-54.887585' m32='1060.359375' m33='1.000000'/>
+				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1382.489746' m31='-127.826004' m32='673.337524' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
@@ -847,6 +807,46 @@
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
 				<transform m00='0.442376' m01='0.000000' m02='0.527203' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.527203' m21='-0.000000' m22='0.442376' m23='0.000000' m30='1150.611816' m31='-182.566818' m32='993.502930' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.034899' m01='0.000000' m02='0.999391' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999391' m21='-0.000000' m22='0.034899' m23='0.000000' m30='1025.419922' m31='-54.887585' m32='930.270325' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.390730' m01='0.000000' m02='0.920505' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.920505' m21='-0.000000' m22='-0.390730' m23='0.000000' m30='1314.807373' m31='-54.887585' m32='619.308411' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.981627' m01='0.000000' m02='0.190809' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.190809' m21='-0.000000' m22='0.981627' m23='0.000000' m30='1024.321167' m31='-54.887585' m32='793.702515' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.819152' m01='0.000000' m02='-0.573576' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.573576' m21='0.000000' m22='0.819152' m23='0.000000' m30='1352.120361' m31='-54.887585' m32='978.052551' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.984808' m01='0.000000' m02='-0.173647' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.173647' m21='0.000000' m22='-0.984808' m23='0.000000' m30='1411.934570' m31='-54.887585' m32='844.633606' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.087156' m01='0.000000' m02='-0.996195' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.996195' m21='0.000000' m22='-0.087156' m23='0.000000' m30='1177.814453' m31='-54.887585' m32='615.917908' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1233.506470' m31='-54.887585' m32='1095.400391' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.933580' m01='0.000000' m02='0.358369' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.358369' m21='-0.000000' m22='-0.933580' m23='0.000000' m30='1398.232422' m31='-54.887585' m32='717.106262' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.819152' m01='0.000000' m02='-0.573576' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.573576' m21='0.000000' m22='-0.819152' m23='0.000000' m30='1068.725830' m31='-54.887585' m32='679.945923' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.642788' m01='0.000000' m02='0.766044' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.766044' m21='-0.000000' m22='0.642788' m23='0.000000' m30='1113.216553' m31='-54.887585' m32='1060.359375' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
@@ -1001,10 +1001,6 @@
 				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
 			</PROP>
 			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-61.365776' m01='7.901966' m02='78.560753' m10='2.530556' m11='49.843498' m12='-3.036782' m20='-39.397392' m21='0.124478' m22='-30.786812' m30='570.601440' m31='1.560089' m32='409.747620'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
 				<transform m00='-96.077339' m01='-4.233475' m02='-27.408466' m10='-1.152446' m11='49.852516' m12='-3.660383' m20='13.818772' m21='-3.200930' m22='-47.945763' m30='654.416138' m31='4.861847' m32='667.115967'/>
 				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
 			</PROP>
@@ -1082,26 +1078,6 @@
 			</PROP>
 			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
 				<transform m00='25.544476' m01='0.000000' m02='96.682358' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-48.341179' m21='-0.000000' m22='12.772238' m30='641.430908' m31='4.989304' m32='1127.280762'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='43.523121' m01='0.000000' m02='90.031868' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-45.015934' m21='-0.000000' m22='21.761560' m30='571.210266' m31='0.216064' m32='360.923340'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='22.154772' m01='0.000000' m02='97.514938' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-48.757469' m21='-0.000000' m22='11.077386' m30='556.810791' m31='0.110107' m32='294.463867'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='78.585678' m01='0.000000' m02='61.840855' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-30.920427' m21='-0.000000' m22='39.292839' m30='524.860474' m31='0.064499' m32='244.701324'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='13.571614' m01='0.000000' m02='99.074768' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.537384' m21='-0.000000' m22='6.785807' m30='491.062347' m31='0.029221' m32='184.523773'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-5.582249' m01='0.000000' m02='99.844070' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.922035' m21='-0.000000' m22='-2.791125' m30='487.905457' m31='0.039780' m32='149.035370'/>
 				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
 			</PROP>
 			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
@@ -1230,246 +1206,6 @@
 			</PROP>
 			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
 				<transform m00='28.903198' m01='0.000000' m02='95.731934' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-47.865967' m21='-0.000000' m22='14.451599' m30='1654.324707' m31='8.663574' m32='572.139893'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='99.990257' m01='0.000000' m02='-1.396197' m10='0.000000' m11='50.000000' m12='0.000000' m20='0.698099' m21='0.000000' m22='49.995129' m30='1702.913818' m31='8.595093' m32='597.333496'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='72.176041' m01='0.000000' m02='-69.214294' m10='0.000000' m11='50.000000' m12='0.000000' m20='34.607147' m21='0.000000' m22='36.088020' m30='1760.273193' m31='9.152222' m32='572.753784'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='81.106384' m01='0.000000' m02='-58.495758' m10='0.000000' m11='50.000000' m12='0.000000' m20='29.247879' m21='0.000000' m22='40.553192' m30='1819.197998' m31='10.183655' m32='530.028625'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='1870.242920' m31='5.236206' m32='487.313812'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='156.062271' m31='9.750183' m32='1198.029663'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='141.049484' m31='11.201752' m32='1195.123291'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='164.380341' m31='7.735291' m32='1205.401367'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='170.469009' m31='9.858917' m32='1192.116089'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='162.318115' m31='10.823624' m32='1189.253174'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='162.174927' m31='11.202942' m32='1186.677612'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='155.767990' m31='10.483246' m32='1193.924561'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='140.779358' m31='10.806702' m32='1197.802856'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='60.459934' m01='0.000000' m02='-79.652969' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.826485' m21='0.000000' m22='30.229967' m30='182.350067' m31='11.313232' m32='1178.759033'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-3.141177' m01='0.000000' m02='-99.950661' m10='0.000000' m11='50.000000' m12='0.000000' m20='49.975330' m21='0.000000' m22='-1.570588' m30='123.538605' m31='1.448486' m32='1257.063477'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-25.544489' m01='0.000000' m02='-96.682365' m10='0.000000' m11='50.000000' m12='0.000000' m20='48.341183' m21='0.000000' m22='-12.772244' m30='125.929367' m31='0.000885' m32='1329.339355'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='12.533355' m01='0.000000' m02='-99.211456' m10='0.000000' m11='50.000000' m12='0.000000' m20='49.605728' m21='0.000000' m22='6.266677' m30='131.294785' m31='0.000000' m32='1395.030151'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-64.011002' m01='0.000000' m02='-76.828316' m10='0.000000' m11='50.000000' m12='0.000000' m20='38.414158' m21='0.000000' m22='-32.005501' m30='154.333908' m31='0.005615' m32='1471.449097'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='0.350392' m01='0.000000' m02='-99.999382' m10='0.000000' m11='50.000000' m12='0.000000' m20='49.999691' m21='0.000000' m22='0.175196' m30='824.810913' m31='12.859543' m32='1338.238647'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='89.258591' m01='0.000000' m02='-45.087734' m10='0.000000' m11='50.000000' m12='0.000000' m20='22.543867' m21='0.000000' m22='44.629295' m30='790.007263' m31='7.981415' m32='1382.022583'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='56.208347' m01='0.000000' m02='-82.708054' m10='0.000000' m11='50.000000' m12='0.000000' m20='41.354027' m21='0.000000' m22='28.104174' m30='737.150757' m31='3.216797' m32='1414.950928'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='36.162479' m01='0.000000' m02='-93.232368' m10='0.000000' m11='50.000000' m12='0.000000' m20='46.616184' m21='0.000000' m22='18.081240' m30='700.737183' m31='1.644104' m32='1477.798828'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='26.218945' m01='0.000000' m02='-96.501640' m10='0.000000' m11='50.000000' m12='0.000000' m20='48.250820' m21='0.000000' m22='13.109472' m30='761.806274' m31='4.246185' m32='1434.639282'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='61.840851' m01='0.000000' m02='-78.585670' m10='0.000000' m11='50.000000' m12='0.000000' m20='39.292835' m21='0.000000' m22='30.920425' m30='727.673523' m31='4.718979' m32='1505.539185'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='40.992332' m01='0.000000' m02='-91.211998' m10='0.000000' m11='50.000000' m12='0.000000' m20='45.605999' m21='0.000000' m22='20.496166' m30='673.656494' m31='5.055710' m32='1553.416016'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='81.106384' m01='0.000000' m02='-58.495758' m10='0.000000' m11='50.000000' m12='0.000000' m20='29.247879' m21='0.000000' m22='40.553192' m30='626.534790' m31='5.039856' m32='1608.886230'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='24.530733' m01='0.000000' m02='-96.944527' m10='0.000000' m11='50.000000' m12='0.000000' m20='48.472263' m21='0.000000' m22='12.265367' m30='588.109314' m31='5.002502' m32='1661.457520'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-22.835136' m01='0.000000' m02='97.357903' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-48.678951' m21='-0.000000' m22='-11.417568' m30='555.890137' m31='4.993713' m32='1726.183594'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-63.202942' m01='0.000000' m02='77.494415' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-38.747208' m21='-0.000000' m22='-31.601471' m30='521.347717' m31='3.716553' m32='1780.395264'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-83.098427' m01='0.000000' m02='55.629593' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-27.814796' m21='-0.000000' m22='-41.549213' m30='460.820709' m31='0.008362' m32='1826.264648'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-22.835136' m01='0.000000' m02='97.357903' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-48.678951' m21='-0.000000' m22='-11.417568' m30='425.960358' m31='0.000061' m32='1879.824585'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-3.839028' m01='0.000000' m02='99.926300' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.963150' m21='-0.000000' m22='-1.919514' m30='402.951813' m31='0.000061' m32='1957.054199'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='1.395220' m01='0.000000' m02='99.990250' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.995125' m21='-0.000000' m22='0.697610' m30='387.267914' m31='0.000061' m32='2042.874268'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='10.105711' m01='0.000000' m02='99.488052' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.744026' m21='-0.000000' m22='5.052855' m30='387.568542' m31='0.000122' m32='2112.321533'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='10.105711' m01='0.000000' m02='99.488052' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.744026' m21='-0.000000' m22='5.052855' m30='378.341614' m31='-0.000061' m32='2193.073242'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='32.226551' m01='0.000000' m02='94.664932' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-47.332466' m21='-0.000000' m22='16.113276' m30='387.973694' m31='-0.000061' m32='2271.353516'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='15.298623' m01='0.000000' m02='98.822823' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.411411' m21='-0.000000' m22='7.649312' m30='1660.612061' m31='0.000000' m32='1622.000977'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-19.423449' m01='0.000000' m02='98.095505' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.047752' m21='-0.000000' m22='-9.711724' m30='1643.993652' m31='-0.000122' m32='1690.950562'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='52.695560' m01='0.000000' m02='84.989281' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-42.494640' m21='-0.000000' m22='26.347780' m30='1649.474854' m31='0.000000' m32='1757.744873'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='69.214325' m01='0.000000' m02='72.176010' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-36.088005' m21='-0.000000' m22='34.607162' m30='1699.239258' m31='-0.000061' m32='1807.584229'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='71.691063' m01='0.000000' m02='69.716499' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-34.858250' m21='-0.000000' m22='35.845531' m30='1751.550537' m31='-0.000183' m32='1844.444946'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='40.354462' m01='0.000000' m02='91.495995' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-45.747997' m21='-0.000000' m22='20.177231' m30='1772.679565' m31='-0.000061' m32='1890.338867'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='23.853260' m01='0.000000' m02='97.113441' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-48.556721' m21='-0.000000' m22='11.926630' m30='1787.160767' m31='-0.000061' m32='1967.923340'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-50.301994' m01='0.000000' m02='86.427460' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-43.213730' m21='-0.000000' m22='-25.150997' m30='1920.022949' m31='0.322754' m32='439.765289'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-65.868935' m01='0.000000' m02='75.241508' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-37.620754' m21='-0.000000' m22='-32.934467' m30='1977.916138' m31='0.000061' m32='398.144775'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-12.533188' m01='0.000000' m02='99.211472' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.605736' m21='-0.000000' m22='-6.266594' m30='2018.021606' m31='-0.000061' m32='353.539368'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-12.533188' m01='0.000000' m02='99.211472' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-49.605736' m21='-0.000000' m22='-6.266594' m30='2027.904419' m31='0.000000' m32='296.022797'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-54.756294' m01='0.000000' m02='83.676422' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-41.838211' m21='-0.000000' m22='-27.378147' m30='2055.848877' m31='-0.000061' m32='231.810471'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-96.221771' m01='0.000000' m02='27.228092' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-13.614046' m21='-0.000000' m22='-48.110886' m30='2119.848633' m31='0.000000' m32='201.889206'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-75.241516' m01='0.000000' m02='-65.868935' m10='0.000000' m11='50.000000' m12='0.000000' m20='32.934467' m21='0.000000' m22='-37.620758' m30='1055.630859' m31='4.999878' m32='464.839111'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-45.087780' m01='0.000000' m02='-89.258560' m10='0.000000' m11='50.000000' m12='0.000000' m20='44.629280' m21='0.000000' m22='-22.543890' m30='1034.645264' m31='4.986938' m32='406.146149'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-18.738186' m01='0.000000' m02='-98.228722' m10='0.000000' m11='50.000000' m12='0.000000' m20='49.114361' m21='0.000000' m22='-9.369093' m30='1016.320190' m31='4.942566' m32='354.647491'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='10.799998' m01='0.000000' m02='-99.415085' m10='0.000000' m11='50.000000' m12='0.000000' m20='49.707542' m21='0.000000' m22='5.399999' m30='1022.398193' m31='4.426147' m32='294.771790'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='2.094090' m01='0.000000' m02='-99.978058' m10='0.000000' m11='50.000000' m12='0.000000' m20='49.989029' m21='0.000000' m22='1.047045' m30='1026.944458' m31='3.278442' m32='217.592453'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='-40.354538' m01='0.000000' m02='-91.495956' m10='0.000000' m11='50.000000' m12='0.000000' m20='45.747978' m21='0.000000' m22='-20.177269' m30='1021.406616' m31='0.539001' m32='151.051193'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='0.350392' m01='0.000000' m02='-99.999382' m10='0.000000' m11='50.000000' m12='0.000000' m20='49.999691' m21='0.000000' m22='0.175196' m30='1012.069702' m31='0.000183' m32='73.315262'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='82.708046' m01='0.000000' m02='56.208347' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-28.104174' m21='-0.000000' m22='41.354023' m30='994.841553' m31='-0.000122' m32='18.308353'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='23.853260' m01='0.000000' m02='97.113441' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-48.556721' m21='-0.000000' m22='11.926630' m30='975.673523' m31='0.000000' m32='-45.586262'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='82.708046' m01='0.000000' m02='56.208347' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-28.104174' m21='-0.000000' m22='41.354023' m30='939.445313' m31='0.000061' m32='-112.181183'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='89.725838' m01='0.000000' m02='44.150578' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-22.075289' m21='-0.000000' m22='44.862919' m30='876.448242' m31='-0.000061' m32='-162.264648'/>
-				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
-			</PROP>
-			<PROP serialise_version='15' key_index='1' decal='true' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='true' decal_apply_to_gbuffer_objects='true' decal_render_above_snow='true' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
-				<transform m00='30.569523' m01='0.000000' m02='95.212936' m10='-0.000000' m11='50.000000' m12='0.000000' m20='-47.606468' m21='-0.000000' m22='15.284761' m30='835.075378' m31='-0.000183' m32='-206.282578'/>
 				<flags serialise_version='2' allow_in_outfield='true' clamp_to_surface='false' clamp_to_water_surface='false' spring='true' summer='true' autumn='true' winter='true'/>
 			</PROP>
 			<PROP serialise_version='15' key_index='2' decal='false' logic_decal='false' is_fauna='false' snow_inside='true' snow_outside='true' destruction_inside='true' destruction_outside='true' animated='false' decal_parallax_scale='0.000000' decal_tiling='0.000000' decal_override_gbuffer_normal='false' visible_in_shroud='false' decal_apply_to_terrain='false' decal_apply_to_gbuffer_objects='false' decal_render_above_snow='false' height_mode='BHM_ABSOLUTE' pdlc_mask='18446744073709551615' cast_shadows='true' no_culling='false'>
