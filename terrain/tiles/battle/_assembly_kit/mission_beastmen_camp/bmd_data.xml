@@ -674,38 +674,6 @@
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1263.697876' m31='-61.633141' m32='605.083557' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1118.708252' m31='-61.633041' m32='615.004028' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1283.649170' m31='-61.633224' m32='1082.322266' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1017.958008' m31='-61.633156' m32='741.514221' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1384.201660' m31='-61.633175' m32='890.632080' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1448.002319' m31='-61.633175' m32='786.837097' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1169.568359' m31='-61.633255' m32='1083.661255' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1405.947266' m31='-61.633114' m32='645.868958' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
 				<transform m00='0.290852' m01='0.000000' m02='0.623735' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.623735' m21='-0.000000' m22='0.290852' m23='0.000000' m30='1254.175415' m31='-189.312378' m32='680.175110' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
@@ -738,6 +706,38 @@
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1263.697876' m31='-61.633141' m32='605.083557' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1118.708252' m31='-61.633041' m32='615.004028' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1283.649170' m31='-61.633224' m32='1082.322266' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1017.958008' m31='-61.633156' m32='741.514221' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1384.201660' m31='-61.633175' m32='890.632080' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1448.002319' m31='-61.633175' m32='786.837097' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.025320' m01='0.000000' m02='0.999679' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.999679' m21='-0.000000' m22='-0.025320' m23='0.000000' m30='1169.568359' m31='-61.633255' m32='1083.661255' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.422618' m01='0.000000' m02='0.906308' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.906308' m21='-0.000000' m22='0.422618' m23='0.000000' m30='1405.947266' m31='-61.633114' m32='645.868958' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
 				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1259.577148' m31='-127.826035' m32='638.096313' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
@@ -767,46 +767,6 @@
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
 				<transform m00='0.365169' m01='0.000000' m02='0.783108' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.783108' m21='-0.000000' m22='0.365169' m23='0.000000' m30='1382.489746' m31='-127.826004' m32='673.337524' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.024018' m01='0.000000' m02='0.687796' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.687796' m21='-0.000000' m22='0.024018' m23='0.000000' m30='1090.188843' m31='-182.566818' m32='903.973572' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.268907' m01='0.000000' m02='0.633506' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.633506' m21='-0.000000' m22='-0.268907' m23='0.000000' m30='1289.349731' m31='-182.566818' m32='689.964844' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.675571' m01='0.000000' m02='0.131317' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.131317' m21='-0.000000' m22='0.675571' m23='0.000000' m30='1089.432739' m31='-182.566818' m32='809.985535' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.563753' m01='0.000000' m02='-0.394744' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.394744' m21='0.000000' m22='0.563753' m23='0.000000' m30='1315.029053' m31='-182.566818' m32='936.858032' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.677760' m01='0.000000' m02='-0.119507' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.119507' m21='0.000000' m22='-0.677760' m23='0.000000' m30='1356.194214' m31='-182.566818' m32='845.037109' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.059981' m01='0.000000' m02='-0.685596' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.685596' m21='0.000000' m22='-0.059981' m23='0.000000' m30='1195.069092' m31='-182.566818' m32='687.631470' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.290852' m01='0.000000' m02='0.623735' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.623735' m21='-0.000000' m22='0.290852' m23='0.000000' m30='1233.397217' m31='-182.566818' m32='1017.618652' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.642504' m01='0.000000' m02='0.246635' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.246635' m21='-0.000000' m22='-0.642504' m23='0.000000' m30='1346.764160' m31='-182.566818' m32='757.270813' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='-0.563753' m01='0.000000' m02='-0.394744' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.394744' m21='0.000000' m22='-0.563753' m23='0.000000' m30='1119.992676' m31='-182.566818' m32='731.696533' m33='1.000000'/>
-				<property_overrides/>
-			</PREFAB_INSTANCE>
-			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
-				<transform m00='0.442376' m01='0.000000' m02='0.527203' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.527203' m21='-0.000000' m22='0.442376' m23='0.000000' m30='1150.611816' m31='-182.566818' m32='993.502930' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
@@ -887,6 +847,46 @@
 			</PREFAB_INSTANCE>
 			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
 				<transform m00='0.555410' m01='0.000000' m02='0.661912' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.661912' m21='-0.000000' m22='0.555410' m23='0.000000' m30='1129.551636' m31='-121.080475' m32='1031.483887' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.024018' m01='0.000000' m02='0.687796' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.687796' m21='-0.000000' m22='0.024018' m23='0.000000' m30='1090.188843' m31='-182.566818' m32='903.973572' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.268907' m01='0.000000' m02='0.633506' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.633506' m21='-0.000000' m22='-0.268907' m23='0.000000' m30='1289.349731' m31='-182.566818' m32='689.964844' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.675571' m01='0.000000' m02='0.131317' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.131317' m21='-0.000000' m22='0.675571' m23='0.000000' m30='1089.432739' m31='-182.566818' m32='809.985535' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.563753' m01='0.000000' m02='-0.394744' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.394744' m21='0.000000' m22='0.563753' m23='0.000000' m30='1315.029053' m31='-182.566818' m32='936.858032' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.677760' m01='0.000000' m02='-0.119507' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.119507' m21='0.000000' m22='-0.677760' m23='0.000000' m30='1356.194214' m31='-182.566818' m32='845.037109' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_a.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.059981' m01='0.000000' m02='-0.685596' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.685596' m21='0.000000' m22='-0.059981' m23='0.000000' m30='1195.069092' m31='-182.566818' m32='687.631470' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_c.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.290852' m01='0.000000' m02='0.623735' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.623735' m21='-0.000000' m22='0.290852' m23='0.000000' m30='1233.397217' m31='-182.566818' m32='1017.618652' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_02_b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.642504' m01='0.000000' m02='0.246635' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.246635' m21='-0.000000' m22='-0.642504' m23='0.000000' m30='1346.764160' m31='-182.566818' m32='757.270813' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_03_b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.563753' m01='0.000000' m02='-0.394744' m03='0.000000' m10='0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='0.394744' m21='0.000000' m22='-0.563753' m23='0.000000' m30='1119.992676' m31='-182.566818' m32='731.696533' m33='1.000000'/>
+				<property_overrides/>
+			</PREFAB_INSTANCE>
+			<PREFAB_INSTANCE serialise_version='6' key='prefabs/bst_mudbank_01b.bmd' campaign_type_mask='0' campaign_region_key='' clamp_to_surface='false' height_mode='BHM_ABSOLUTE'>
+				<transform m00='0.442376' m01='0.000000' m02='0.527203' m03='0.000000' m10='-0.000000' m11='1.000000' m12='0.000000' m13='0.000000' m20='-0.527203' m21='-0.000000' m22='0.442376' m23='0.000000' m30='1150.611816' m31='-182.566818' m32='993.502930' m33='1.000000'/>
 				<property_overrides/>
 			</PREFAB_INSTANCE>
 		</PREFAB_INSTANCE>
@@ -7812,7 +7812,7 @@
 		<BUILDING_PROJECTILE_EMITTERS/>
 	</BUILDING_PROJECTILE_EMITTER_LIST>
 	<PLAYABLE_AREA serialise_version='3' has_been_set='true'>
-		<area min_x='35.557983' min_y='435.223999' max_x='1668.821289' max_y='1223.242920'/>
+		<area min_x='41.406982' min_y='387.931152' max_x='1411.666382' max_y='1353.085449'/>
 		<valid_location_flags serialise_version='1' valid_north='true' valid_south='true' valid_east='true' valid_west='true'/>
 	</PLAYABLE_AREA>
 	<CUSTOM_MATERIAL_MESH_LIST serialise_version='1'>
@@ -7890,15 +7890,17 @@
 								<BOUNDARY_LIST>
 									<BOUNDARY serialise_version='1' DEPLOYMENT_AREA_BOUNDARY_TYPE='standard additive'>
 										<BOUNDARY>
-											<position x='106.022278' y='893.447021'/>
-											<position x='105.435730' y='788.539612'/>
-											<position x='104.719604' y='674.735901'/>
-											<position x='147.850464' y='651.394165'/>
-											<position x='205.894714' y='676.946777'/>
-											<position x='221.434265' y='791.380432'/>
-											<position x='209.718933' y='919.094421'/>
-											<position x='179.579285' y='938.032776'/>
-											<position x='121.399536' y='945.890198'/>
+											<position x='106.887756' y='811.632935'/>
+											<position x='65.000000' y='808.409607'/>
+											<position x='65.000000' y='738.286133'/>
+											<position x='109.452492' y='746.247925'/>
+											<position x='142.778412' y='750.491028'/>
+											<position x='198.342026' y='771.426636'/>
+											<position x='242.008240' y='797.953552'/>
+											<position x='253.283905' y='831.833862'/>
+											<position x='238.775482' y='854.421143'/>
+											<position x='189.349823' y='835.329651'/>
+											<position x='147.602844' y='813.039429'/>
 										</BOUNDARY>
 									</BOUNDARY>
 								</BOUNDARY_LIST>
