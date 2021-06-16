@@ -140,7 +140,7 @@ bm:repeat_callback(function() proximity_test(v(-848.9, -87.4), 105, bm_battle_be
 gb:add_listener("forest_traps_timer_01", function()
 bm:repeat_callback(function() proximity_test(v(-585.6, -18.4), 130, bm_battle_beastmen_camp_character_name_bst) end, 10000, "forest_traps_02");end);
 gb:add_listener("forest_traps_timer_04", function()
-bm:repeat_callback(function() proximity_test(v(-614.3, 132.8), 130, bm_battle_beastmen_camp_character_name_bst) end, 10000, "forest_traps_03");end);
+bm:repeat_callback(function() proximity_test(v(-634.9, 217.0), 220, bm_battle_beastmen_camp_character_name_bst) end, 10000, "forest_traps_03");end);
 gb:add_listener("forest_traps_timer_07", function()
 bm:repeat_callback(function() proximity_test(v(-759.8, 138.7), 100, bm_battle_beastmen_camp_character_name_bst) end, 10000, "forest_traps_04");end);
 -- right close
