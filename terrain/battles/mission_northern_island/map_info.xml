@@ -1,0 +1,9 @@
+<map_info>
+    <display_name>Northern Island</display_name>
+    <description></description>
+    <author></author>
+    <team_size_1>4</team_size_1>
+    <team_size_2>4</team_size_2>
+    <environment>weather/battle/wh_emp_05.environment</environment>
+    <battle_type>classic</battle_type>
+</map_info>
