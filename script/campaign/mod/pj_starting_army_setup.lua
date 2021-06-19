@@ -1,3 +1,22 @@
+PJ_QUESTS = PJ_QUESTS or {}
+local mod = PJ_QUESTS
+
+---@return CA_UIC
+local function find_ui_component_str(starting_comp, str)
+	local has_starting_comp = str ~= nil
+	if not has_starting_comp then
+		str = starting_comp
+	end
+	local fields = {}
+	local pattern = string.format("([^%s]+)", " > ")
+	string.gsub(str, pattern, function(c)
+		if c ~= "root" then
+			fields[#fields+1] = c
+		end
+	end)
+	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
+end
+
 cm:add_first_tick_callback(function()
 	if not cm:is_new_game() then
 		return
@@ -5,9 +24,27 @@ cm:add_first_tick_callback(function()
 
 	cm:fade_scene(0, 0)
 
+	-- cm:disable_event_feed_events(true, "all", "", "")
+	cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
+	cm:disable_event_feed_events(true, "wh_event_category_conquest", "", "")
+	cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
+	cm:disable_event_feed_events(true, "wh_event_category_faction", "", "")
+	cm:disable_event_feed_events(true, "wh_event_category_provinces", "", "")
+	cm:disable_event_feed_events(true, "wh_event_category_world", "", "")
+	cm:disable_event_feed_events(true, "wh_event_category_military", "", "")
+	cm:disable_event_feed_events(true, "wh_event_category_agent", "", "")
+	cm:disable_event_feed_events(true, "", "wh_event_subcategory_character_deaths", "")
+	cm:disable_event_feed_events(true, "", "", "character_trait_lost")
+	cm:disable_event_feed_events(true, "", "", "character_ancillary_lost")
+	cm:disable_event_feed_events(true, "", "", "character_wounded")
+	cm:disable_event_feed_events(true, "", "", "character_dies_in_action")
+	cm:disable_event_feed_events(true, "", "", "diplomacy_faction_destroyed")
+	cm:disable_event_feed_events(true, "", "", "diplomacy_trespassing")
+	cm:disable_event_feed_events(true, "", "", "faction_resource_lost")
+	cm:disable_event_feed_events(true, "", "", "faction_resource_gained")
+	cm:disable_event_feed_events(true, "", "", "conquest_province_secured")
+
 	cm:callback(function()
-		cm:disable_event_feed_events(true, "all", "", "")
-		cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "intro")
 		local local_faction = cm:get_faction(cm:get_local_faction_name(true))
 		local faction_leader = local_faction:faction_leader()
 		cm:set_character_immortality(cm:char_lookup_str(faction_leader), false)
@@ -28,7 +65,46 @@ cm:add_first_tick_callback(function()
 			function(cqi)
 			end
 		)
-		cm:disable_event_feed_events(false, "all", "", "")
+
+		cm:force_alliance(cm:get_local_faction_name(true), "wh_main_dwf_kraka_drak", true)
+
+		cm:callback(function()
+			-- cm:disable_event_feed_events(false, "all", "", "")
+			cm:disable_event_feed_events(false, "wh_event_category_character", "", "")
+			cm:disable_event_feed_events(false, "wh_event_category_conquest", "", "")
+			cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "")
+			cm:disable_event_feed_events(false, "wh_event_category_faction", "", "")
+			cm:disable_event_feed_events(false, "wh_event_category_provinces", "", "")
+			cm:disable_event_feed_events(false, "wh_event_category_world", "", "")
+			cm:disable_event_feed_events(false, "wh_event_category_military", "", "")
+			cm:disable_event_feed_events(false, "wh_event_category_agent", "", "")
+			cm:disable_event_feed_events(false, "", "wh_event_subcategory_character_deaths", "")
+			cm:disable_event_feed_events(false, "", "", "character_trait_lost")
+			cm:disable_event_feed_events(false, "", "", "character_ancillary_lost")
+			cm:disable_event_feed_events(false, "", "", "character_wounded")
+			cm:disable_event_feed_events(false, "", "", "character_dies_in_action")
+			cm:disable_event_feed_events(false, "", "", "diplomacy_faction_destroyed")
+			cm:disable_event_feed_events(false, "", "", "diplomacy_trespassing")
+			cm:disable_event_feed_events(false, "", "", "faction_resource_lost")
+			cm:disable_event_feed_events(false, "", "", "faction_resource_gained")
+			cm:disable_event_feed_events(false, "", "", "conquest_province_secured")
+
+			local char = cm:get_local_faction():faction_leader()
+			local ceb = cm:create_new_custom_effect_bundle("rlk_ll_hidden_bundle")
+			ceb:add_effect("wh2_main_effect_army_movement_up", "force_to_force_own_lords_army", -500)
+			ceb:add_effect("wh_main_effect_force_army_campaign_attrition_all_immunity", "faction_to_force_own", 1)
+			ceb:set_duration(-1)
+			cm:apply_custom_effect_bundle_to_characters_force(ceb, char)
+			cm:replenish_action_points(cm:char_lookup_str(char))
+
+			local faction_buttons_docker = find_ui_component_str("root > layout > faction_buttons_docker")
+			local end_turn_docker = find_ui_component_str(faction_buttons_docker, "end_turn_docker > button_end_turn")
+			local rlk_quests_button = find_uicomponent(end_turn_docker, "rlk_quests_button")
+
+			if rlk_quests_button then
+				pulse_uicomponent(rlk_quests_button, true, 5, false, "active")
+			end
+		end, 5)
 
 		cm:callback(function()
 			local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
@@ -39,9 +115,17 @@ cm:add_first_tick_callback(function()
 
 			cm:scroll_camera_from_current(true, 0.01, {473.84, 480.21, 3, d_to_r(0), 3})
 			cm:fade_scene(1, 5)
+
+			local skip = find_ui_component_str("root > layout > faction_buttons_docker > end_turn_docker > notification_frame > button_skip")
+			if skip:CurrentState() == "active" then
+				skip:SimulateLClick()
+				skip:SetVisible(false)
+			end
+			cm:callback(function()
+				cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "intro")
+			end, 1)
 		end, 0.1)
 	end, 5)
-
 end)
 
 cm:add_first_tick_callback(function()

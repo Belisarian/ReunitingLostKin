@@ -136,25 +136,70 @@ mod.create_quests_panel = function()
 	end)
 end
 
+---@return CA_UIC
+local function find_ui_component_str(starting_comp, str)
+	local has_starting_comp = str ~= nil
+	if not has_starting_comp then
+		str = starting_comp
+	end
+	local fields = {}
+	local pattern = string.format("([^%s]+)", " > ")
+	string.gsub(str, pattern, function(c)
+		if c ~= "root" then
+			fields[#fields+1] = c
+		end
+	end)
+	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
+end
+
+mod.rework_faction_buttons_wheel = function()
+	local notification_frame = find_ui_component_str("root > layout > faction_buttons_docker > end_turn_docker > notification_frame")
+	-- notification_frame:SetVisible(false)
+
+	local faction_buttons_docker = find_ui_component_str("root > layout > faction_buttons_docker")
+	local faction_buttons_docker_frame = find_ui_component_str(faction_buttons_docker, "frame")
+	local endt = find_ui_component_str(faction_buttons_docker, "end_turn_docker > button_end_turn")
+	local end_turn_docker = find_ui_component_str(faction_buttons_docker, "end_turn_docker > button_end_turn")
+
+	local rlk_quests_button = find_uicomponent(end_turn_docker, "rlk_quests_button")
+	if not rlk_quests_button then
+		rlk_quests_button = UIComponent(end_turn_docker:CreateComponent("rlk_quests_button", "ui/templates/round_large_button"))
+	end
+
+	rlk_quests_button:SetCanResizeWidth(true)
+	rlk_quests_button:SetCanResizeHeight(true)
+	rlk_quests_button:Resize(endt:Width(),endt:Height())
+	rlk_quests_button:SetVisible(true)
+
+	rlk_quests_button:SetTooltipText("Frozen Ravens Quests Ledger", true)
+	endt:Adopt(rlk_quests_button:Address())
+	rlk_quests_button:SetDockingPoint(1)
+	rlk_quests_button:SetDockOffset(0,0)
+	rlk_quests_button:SetImagePath("ui/skins/default/icon_god_choice_grombrindal.png", 0)
+
+	faction_buttons_docker_frame:SetImagePath("ui/end_turn.png", 0)
+
+	local turn = find_ui_component_str(faction_buttons_docker, "end_turn_docker > label_turn_count")
+	turn:SetVisible(false)
+
+	local b = find_ui_component_str(faction_buttons_docker, "button_group_management > button_grudges > label_grudges_count")
+	b:SetVisible(false)
+end
+
 cm:add_first_tick_callback(function()
 	core:remove_listener('pj_unit_upgrades_on_clicked_retrain_button34234')
 	core:add_listener(
 		'pj_unit_upgrades_on_clicked_retrain_button34234',
 		'ComponentLClickUp',
 		function(context)
-			return context.string == "pj_quests_button"
+			return context.string == "rlk_quests_button"
 		end,
-		function()
-			mod.button:SetState("hover")
+		function(context)
+			pulse_uicomponent(UIComponent(context.component), false, 5, false, "active")
 			mod.create_quests_panel()
 		end,
 		true
 	)
 
-	local tech_button = digForComponent(core:get_ui_root(), "button_technology")
-	if tech_button and not mod.button then
-		mod.button = UIComponent(tech_button:CopyComponent("pj_quests_button"))
-	end
-
-	mod.button:SetTooltipText("Norse Dwarfs||Start some quests.", true)
+	mod.rework_faction_buttons_wheel()
 end)
