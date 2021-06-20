@@ -16,6 +16,7 @@ mod.bog_pages = {
 		second = "Full Plate and Hammers",
 		third = "1200",
 		hide_recruitment = function() return true end,
+		is_recruited = function() return true end,
 	},
 	{
 		title = "The Iron Beaked Rooks ",
@@ -27,6 +28,7 @@ mod.bog_pages = {
 		second = "Full Plate, Axe and Shield",
 		third = "1000",
 		hide_recruitment = function() return true end,
+		is_recruited = function() return true end,
 	},
 	{
 		title = "The White Feathered Crows",
@@ -38,6 +40,7 @@ mod.bog_pages = {
 		second = "Light Armor and Crossbows",
 		third = "700",
 		hide_recruitment = function() return true end,
+		is_recruited = function() return true end,
 	},
 	{
 		title = "The Ice Peak Magpies",
@@ -49,6 +52,7 @@ mod.bog_pages = {
 		second = "Light Armor and Crossbows",
 		third = "700",
 		hide_recruitment = function() return true end,
+		is_recruited = function() return true end,
 	},
 	{
 		title = "The Ice Jackdaws ",
@@ -60,6 +64,7 @@ mod.bog_pages = {
 		second = "Axe and Shield",
 		third = "600",
 		hide_recruitment = function() return true end,
+		is_recruited = function() return true end,
 	},
 	{
 		title = "The Draksfjord Brotherhood",
@@ -85,6 +90,8 @@ mod.bog_pages = {
 
 			return valid_states[mod.current_state] or cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS")
 		end,
+		is_recruited = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS") end,
+		cannot_recruit = function() return cm:get_saved_value("pj_quests_has_left_sjoktraken_area") end,
 	},
 	{
 		title = "The Steel Avalanche",
@@ -110,6 +117,8 @@ mod.bog_pages = {
 
 			return valid_states[mod.current_state] or cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2")
 		end,
+		is_recruited = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2") end,
+		cannot_recruit = function() return cm:get_saved_value("pj_quests_has_left_sjoktraken_area") end,
 	},
 	{
 		title = "The Sunken Mountain",
@@ -135,6 +144,8 @@ mod.bog_pages = {
 
 			return valid_states[mod.current_state] or cm:get_saved_value("pj_quests_have_recruited_zorn_sentry")
 		end,
+		is_recruited = function() return cm:get_saved_value("pj_quests_have_recruited_zorn_sentry") end,
+		cannot_recruit = function() return cm:get_saved_value("pj_quests_has_left_sjoktraken_area") end,
 	},
 }
 
@@ -315,6 +326,32 @@ mod.draw_bog_page = function(page_num)
 	img:SetVisible(false)
 	img:Resize(200, 400)
 	img:MoveTo(x+450, y+0)
+
+	local img_id = "rec_img_recruited_"..(is_left_page and "left" or "right")
+	local img_recruited = digForComponent(book_of_grudges, img_id)
+	if not img_recruited then
+		img_recruited = UIComponent(pages:CreateComponent(img_id, "ui/templates/custom_image"))
+	end
+	img_recruited:SetImagePath("UI/rlk_recruited.png", 4)
+	img_recruited:SetVisible(false)
+	img_recruited:Resize(435, 105)
+	img_recruited:MoveTo(x+710, y+660)
+	if page_data.is_recruited and page_data.is_recruited() then
+		img_recruited:SetVisible(true)
+	end
+
+	local img_id = "rec_img_unrecruitable_"..(is_left_page and "left" or "right")
+	local img_unrecruitable = digForComponent(book_of_grudges, img_id)
+	if not img_unrecruitable then
+		img_unrecruitable = UIComponent(pages:CreateComponent(img_id, "ui/templates/custom_image"))
+	end
+	img_unrecruitable:SetImagePath("UI/rlk_unrecruitable.png", 4)
+	img_unrecruitable:SetVisible(false)
+	img_unrecruitable:Resize(505, 97)
+	img_unrecruitable:MoveTo(x+680, y+660)
+	if page_data.is_recruited and not page_data.is_recruited() and page_data.cannot_recruit and page_data.cannot_recruit() then
+		img_unrecruitable:SetVisible(true)
+	end
 
 	book_frame:SetImagePath(page_data.img, 1)
 
