@@ -7,6 +7,8 @@ local mod = PJ_QUESTS
 -- cm:teleport_to(cm:char_lookup_str(char), 695, 641, false) -- final position at sjok for testing
 
 mod.move_mission_sjoktraken_after_shipwreck_payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -18,7 +20,7 @@ mod.move_mission_sjoktraken_after_shipwreck_payload = function(char)
 					CampaignUI.ToggleCinematicBorders(false)
 					cm:stop_user_input(false)
 					mod.set_state(mod.states.in_sjok_after_shipwreck)
-					cm:replenish_action_points(cm:char_lookup_str(char))
+					mod.disable_movement()
 			end, 3)
 		end, 0.1)
 	end, 0.1)

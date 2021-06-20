@@ -2,13 +2,7 @@ PJ_QUESTS = PJ_QUESTS or {}
 local mod = PJ_QUESTS
 
 mod.move_mission_sjoktraken_payload = function(char)
-	-- add snow attrition immunity and add movement range
-	local ceb = cm:create_new_custom_effect_bundle("rlk_ll_hidden_bundle")
-	ceb:add_effect("wh2_main_effect_army_movement_up", "force_to_force_own_lords_army", 500)
-	ceb:add_effect("wh_main_effect_force_army_campaign_attrition_all_immunity", "faction_to_force_own", 1)
-	ceb:set_duration(-1)
-	cm:apply_custom_effect_bundle_to_characters_force(ceb, char)
-	cm:replenish_action_points(cm:char_lookup_str(char))
+	mod.enable_movement()
 
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
@@ -24,7 +18,7 @@ mod.move_mission_sjoktraken_payload = function(char)
 						CampaignUI.ToggleCinematicBorders(false)
 						cm:stop_user_input(false)
 						mod.set_state(mod.states.in_sjok)
-						cm:replenish_action_points(cm:char_lookup_str(char))
+						mod.disable_movement()
 				end, 4)
 		end, 6.5)
 	end, 1)

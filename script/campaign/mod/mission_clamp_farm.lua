@@ -4,6 +4,8 @@ local mod = PJ_QUESTS
 local mission_key = "mission_clamp_farm"
 
 local payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -43,6 +45,7 @@ core:add_listener(
 	"pj_quests_won_battle_clamp_farm",
 	true,
 	function()
+		mod.disable_movement()
 		mod.set_state(mod.states.after_clamp_farm)
 	end,
 	true

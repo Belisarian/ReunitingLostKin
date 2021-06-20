@@ -2,6 +2,8 @@ PJ_QUESTS = PJ_QUESTS or {}
 local mod = PJ_QUESTS
 
 mod.mission_sjoktraken_shipwreck_payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -44,6 +46,7 @@ core:add_listener(
 	"pj_quests_won_battle_shipwreck",
 	true,
 	function()
+		mod.disable_movement()
 		mod.set_state(mod.states.after_shipwreck)
 	end,
 	true

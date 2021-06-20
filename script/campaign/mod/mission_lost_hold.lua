@@ -4,6 +4,8 @@ local mod = PJ_QUESTS
 local mission_key = "mission_lost_hold"
 
 local payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -56,6 +58,7 @@ core:add_listener(
 	"pj_quests_won_battle_lost_hold",
 	true,
 	function()
+		mod.disable_movement()
 		mod.set_state(mod.states.after_lost_hold)
 	end,
 	true

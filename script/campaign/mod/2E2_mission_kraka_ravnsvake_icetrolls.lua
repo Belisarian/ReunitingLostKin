@@ -9,6 +9,8 @@ local mission_key = "mission_kraka_ravnsvake_icetrolls"
 -- cm:teleport_to(cm:char_lookup_str(char), 655, 637, false)
 
 local payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -55,6 +57,7 @@ core:add_listener(
 	"pj_quests_won_battle_icetrolls",
 	true,
 	function()
+		mod.disable_movement()
 		mod.set_state(mod.states.after_ice_trolls)
 		cm:remove_effect_bundle("wh_main_bundle_fire_encampment", cm:get_local_faction_name(true))
 	end,

@@ -2,6 +2,8 @@ PJ_QUESTS = PJ_QUESTS or {}
 local mod = PJ_QUESTS
 
 mod.move_mission_kraka_drak_payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -18,7 +20,7 @@ mod.move_mission_kraka_drak_payload = function(char)
 				CampaignUI.ToggleCinematicBorders(false)
 				cm:stop_user_input(false)
 				mod.set_state(mod.states.in_kraka_drak)
-				cm:replenish_action_points(cm:char_lookup_str(char))
+				mod.disable_movement()
 			end, 6)
 		end, 0.5)
 	end, 1)

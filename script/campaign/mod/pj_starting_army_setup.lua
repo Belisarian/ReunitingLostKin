@@ -89,13 +89,7 @@ cm:add_first_tick_callback(function()
 			cm:disable_event_feed_events(false, "", "", "faction_resource_gained")
 			cm:disable_event_feed_events(false, "", "", "conquest_province_secured")
 
-			local char = cm:get_local_faction():faction_leader()
-			local ceb = cm:create_new_custom_effect_bundle("rlk_ll_hidden_bundle")
-			ceb:add_effect("wh2_main_effect_army_movement_up", "force_to_force_own_lords_army", -500)
-			ceb:add_effect("wh_main_effect_force_army_campaign_attrition_all_immunity", "faction_to_force_own", 1)
-			ceb:set_duration(-1)
-			cm:apply_custom_effect_bundle_to_characters_force(ceb, char)
-			cm:replenish_action_points(cm:char_lookup_str(char))
+			mod.disable_movement()
 
 			local faction_buttons_docker = find_ui_component_str("root > layout > faction_buttons_docker")
 			local end_turn_docker = find_ui_component_str(faction_buttons_docker, "end_turn_docker > button_end_turn")
@@ -127,6 +121,24 @@ cm:add_first_tick_callback(function()
 		end, 0.1)
 	end, 5)
 end)
+
+local apply_ll_bundle = function(mov)
+	local char = cm:get_local_faction():faction_leader()
+	local ceb = cm:create_new_custom_effect_bundle("rlk_ll_hidden_bundle")
+	ceb:add_effect("wh2_main_effect_army_movement_up", "force_to_force_own_lords_army", mov)
+	ceb:add_effect("wh_main_effect_force_army_campaign_attrition_all_immunity", "faction_to_force_own", 1)
+	ceb:set_duration(-1)
+	cm:apply_custom_effect_bundle_to_characters_force(ceb, char)
+	cm:replenish_action_points(cm:char_lookup_str(char))
+end
+
+mod.disable_movement = function()
+	apply_ll_bundle(-500)
+end
+
+mod.enable_movement = function()
+	apply_ll_bundle(500)
+end
 
 cm:add_first_tick_callback(function()
 	local ui_root = core:get_ui_root()

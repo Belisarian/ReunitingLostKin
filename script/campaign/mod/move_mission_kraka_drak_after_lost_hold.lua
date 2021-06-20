@@ -4,6 +4,8 @@ local mod = PJ_QUESTS
 local mission_key = "move_mission_kraka_drak_after_lost_hold"
 
 local payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -22,6 +24,7 @@ local payload = function(char)
 			CampaignUI.ToggleCinematicBorders(false)
 			cm:stop_user_input(false)
 			mod.set_state(mod.states.in_drak_after_lost_hold)
+			mod.disable_movement()
 		end, 6.5)
 	end, 0.1)
 end

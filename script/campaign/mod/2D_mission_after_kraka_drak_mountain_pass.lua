@@ -4,6 +4,8 @@ local mod = PJ_QUESTS
 local mission_key = "mission_after_kraka_drak_mountain_pass"
 
 local payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -46,6 +48,7 @@ core:add_listener(
 	"pj_quests_won_battle_mountain_pass",
 	true,
 	function()
+		mod.disable_movement()
 		mod.set_state(mod.states.after_mountain_pass_ambush)
 	end,
 	true

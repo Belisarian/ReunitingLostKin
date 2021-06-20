@@ -4,6 +4,8 @@ local mod = PJ_QUESTS
 local mission_key = "move_mission_sjoktraken_after_last_inn"
 
 local payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -25,7 +27,7 @@ local payload = function(char)
 				cm:stop_user_input(false)
 				cm:set_saved_value("pj_quests_last_inn_completed", true)
 				mod.set_state(mod.states.in_sjok_after_last_inn)
-				cm:replenish_action_points(cm:char_lookup_str(char))
+				mod.disable_movement()
 			end, 5)
 		end, 0.5)
 	end, 0.1)

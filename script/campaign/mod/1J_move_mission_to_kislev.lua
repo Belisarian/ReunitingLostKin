@@ -4,6 +4,8 @@ local mod = PJ_QUESTS
 local mission_key = "move_mission_to_kislev"
 
 local payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
@@ -23,6 +25,7 @@ local payload = function(char)
 			CampaignUI.ToggleCinematicBorders(false)
 			cm:stop_user_input(false)
 			mod.set_state(mod.states.game_end)
+			mod.disable_movement()
 		end, 7)
 	end, 0.1)
 end
