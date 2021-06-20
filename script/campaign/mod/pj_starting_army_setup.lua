@@ -17,6 +17,34 @@ local function find_ui_component_str(starting_comp, str)
 	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
 end
 
+local function start_hiding_empty_dilemma_tooltips()
+	core:remove_listener("pj_rlk_hide_empty_dilemma_tooltip_cb")
+	core:add_listener(
+			"pj_rlk_hide_empty_dilemma_tooltip_cb",
+			"RealTimeTrigger",
+			function(context)
+					return context.string == "pj_rlk_hide_empty_dilemma_tooltip"
+			end,
+			function()
+				local tooltip = find_ui_component_str("root > Tooltip")
+				if not tooltip then return end
+				local tooltip_text = find_ui_component_str(tooltip, "expanded_text")
+				if not tooltip_text then return end
+
+				local dets = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text")
+				if not dets then return end
+
+				if tooltip_text:GetStateText() == "" then
+					tooltip:SetVisible(false)
+				end
+			end,
+			true
+	)
+
+	real_timer.unregister("pj_rlk_hide_empty_dilemma_tooltip")
+	real_timer.register_repeating("pj_rlk_hide_empty_dilemma_tooltip", 0)
+end
+
 cm:add_first_tick_callback(function()
 	if not cm:is_new_game() then
 		return
@@ -159,6 +187,8 @@ cm:add_first_tick_callback(function()
 	if button_end_turn then
 		button_end_turn:SetDisabled(true)
 	end
+
+	start_hiding_empty_dilemma_tooltips()
 
 	cm:force_diplomacy("faction:" .. cm:get_local_faction_name(true), "faction:wh_main_dwf_kraka_drak", "war", false, false, true);
 end)
