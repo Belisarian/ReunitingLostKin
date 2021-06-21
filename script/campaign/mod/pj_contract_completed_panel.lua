@@ -104,6 +104,16 @@ mod.open_contract_complete_panel = function(gold_gained, payload_on_closed)
 	local faction = cm:get_faction(cm:get_local_faction_name(true))
 	local char = faction:faction_leader()
 
+	local i = 0
+	while true do
+		local mercs2 = digForComponent(core:get_ui_root(), "mercs"..i)
+		if not mercs2 then
+			break
+		end
+		mercs2:SetVisible(false)
+		i = i + 1
+	end
+
 	local total_price = 0
 	local expenditure_i=0
 	for unit in binding_iter(char:military_force():unit_list()) do
@@ -120,6 +130,7 @@ mod.open_contract_complete_panel = function(gold_gained, payload_on_closed)
 			if not mercs2 then
 				mercs2 = UIComponent(dy_sum_debit:CopyComponent("mercs"..expenditure_i))
 			end
+			mercs2:SetVisible(true)
 
 			local tx_total_expenditure = digForComponent(mercs2, "tx_total_expenditure")
 			mercs2:SetStateText("-"..unit_price)
