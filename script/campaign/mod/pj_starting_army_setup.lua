@@ -26,6 +26,11 @@ local function start_hiding_empty_dilemma_tooltips()
 					return context.string == "pj_rlk_hide_empty_dilemma_tooltip"
 			end,
 			function()
+				local horde_growth_panel = find_ui_component_str("root > layout > info_panel_holder > primary_info_panel_holder > info_panel_background > CharacterInfoPopup > horde_growth")
+				if horde_growth_panel then
+					horde_growth_panel:SetVisible(false)
+				end
+
 				local tooltip = find_ui_component_str("root > Tooltip")
 				if not tooltip then return end
 				local tooltip_text = find_ui_component_str(tooltip, "expanded_text")
