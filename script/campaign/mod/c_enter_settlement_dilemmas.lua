@@ -166,7 +166,7 @@ core:add_listener(
 					local new_dilemma_text =
 						"With the Ironclad back in port and most of the company at the local tavern, you are at the port master office. Nilss has already been collecting the payment agreed upon and your additional visit is a request by the port master.\n\nInside the office, the port master is flanked by a royal messenger, whom informs you that you are requested at the royal high-court, without giving any reason."
 						.."\n\nBack at the companies quarters, you tell Nilss about the royal request. Nilss further informs you that he has been approached by some merchants who wish to hire the company for escort duty to a southern Kislev outpost - The last hope Inn."
-						.."\n\nShould we march directly towards Kraka Drak or fill our coffers with escort money?"
+						.."\n\nShould we march directly towards Kraka Drak, fill our coffers with escort money or look for other missions?"
 					mod.set_dilemma_text(new_dilemma_text)
 				end
 			)
@@ -271,7 +271,7 @@ core:add_listener(
 											cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_kraka_drak_2")
 
 											local new_dilemma_text =
-											[[In the lower levels of the city, the Frozen Feathers finds a suitable establishment for their stay in the capital.
+											[[In the lower levels of the city, the Frozen Feathered Ravens finds a suitable establishment for their stay in the capital.
 
 											During dinner your bookkeeper Nilss complains about the payment dictated for enrollment in the crown's affairs. While at a rare pause from eating and ranting, Nilss surveys the room and points at the entrance of the brewhouse. A dwarf enters, his formal clothing at odds with the type of place he had just entered.
 
@@ -335,12 +335,12 @@ core:add_listener(
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_in_drak_after_beastmen")
 
 					local new_dilemma_text =
-					[[With the savage Beastmen slain, the Frozen Feathers returns to Kraka Drak. As part of the smaller retinue designated for the rift battle, they are among the last to reach Kraka Drak.
+					[[With the savage Beastmen slain, the Frozen Feathered Ravens returns to Kraka Drak. As part of the smaller retinue designated for the rift battle, they are among the last to reach Kraka Drak.
 
-					They reach the capital in high spirits, but the find the hold in grief and silence. The High King lies wounded in his ancestral halls.
+					They reach the capital in high spirits, but finds the hold in grief and silence. The High King lies wounded in his ancestral halls.
 
-					The royal commander of Kraka Drak informs of the hard earned battle away from the rift, which shifted towards the norse dwarf's favor as the rift collapsed.
-					Furthermore, he ensures that the meager payment dictated by the crown is paid and, as a personal gesture, provides a dozen full plates from the royal armory.]]
+					The royal commander of Kraka Drak informs you of the hard earned battle away from the rift, which shifted towards the norse dwarf's favor as the rift collapsed.
+					As a  personal gesture, the royal commannder swears oath to you, for the battle at the rift ]]
 					mod.set_dilemma_text(new_dilemma_text)
 				end
 			)

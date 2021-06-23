@@ -30,7 +30,7 @@ mod.move_mission_sjoktraken = {
 	locs = {
 		title="Move to Sjoktraken",
 		desc="Move to Sjoktraken",
-		mission_desc = "The band of prospectors have joined up with the mining company, they will stay out here in the abandoned mines of the Goromadny mountains for the coming season.   They might find something of value or a small vein of precious metals, but something else will find them before summer comes and the Sjoktraken mining company will fund a new expedition for they safe return...",
+		mission_desc = "The band of prospectors have joined up with the mining company, they will stay out here in the abandoned mines of the Goromadny mountains for the coming season. They might find something of value or a small vein of precious metals, but something else will find them before summer comes and the Sjoktraken mining company will fund a new expedition for they safe return...",
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = mod.move_mission_sjoktraken_payload,
