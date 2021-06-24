@@ -340,7 +340,13 @@ core:add_listener(
 					They reach the capital in high spirits, but finds the hold in grief and silence. The High King lies wounded in his ancestral halls.
 
 					The royal commander of Kraka Drak informs you of the hard earned battle away from the rift, which shifted towards the norse dwarf's favor as the rift collapsed.
+<<<<<<< Updated upstream
 					As a  personal gesture, the royal commannder swears oath to you, for the battle at the rift ]]
+=======
+					As a  personal gesture, the royal commannder swears oath to you, for the battle at the rift
+					
+					Back at the quarters, Nills informs you that Torken Ironvein has been debating numerous grandiose plot with him. While further negotiation commends, we should find other work..]]
+>>>>>>> Stashed changes
 					mod.set_dilemma_text(new_dilemma_text)
 				end
 			)
@@ -386,7 +392,9 @@ core:add_listener(
 
 			Decades of hardship and threats to the hold and its surrounding lands have left the ruling clans secluded and unwilling to oppose the inevitable. Left to fend for themselves, those appointed to serve here are fighting a losing battle. Few in numbers, the royal guard have all but abandoned the outermost possessions and continue to patrol only a few routes northwards.
 
-			Jorin Asserbo, high armourer of the keep has inquired of our services.]]
+			Jorin Asserbo, high armourer of the keep has inquired of our services.
+			
+			We should stock up on extra supplies before leaving the realm, lets look for work while supply is gathered. ]]
 			mod.set_dilemma_text(new_dilemma_text)
 		end, 1)
 	end,
