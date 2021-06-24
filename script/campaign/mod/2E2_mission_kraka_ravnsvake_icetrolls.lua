@@ -44,11 +44,7 @@ mod[mission_key] = {
 	locs = {
 		title="Glacier Cleansing",
 		desc="Glacier Cleansing",
-<<<<<<< Updated upstream
-		mission_desc = " The Gianthome mountains have become increasingly harder to travel for both mining parties and merchants alike. The main road towards Grung Trakekarag has been blocked for months by a small host of Ice Troll, whom have settled a glacier close to the main passageway.The mountain Rangers commander Sigmund Tranesong are in need of warriors, that can cleanse the land of these vile Ice Trolls. \n\n Payment upon completion: 3000",
-=======
 		mission_desc = "The Gianthome mountains have become increasingly harder to travel for both mining parties and merchants alike. The main road towards Grung Trakekarag has been blocked for months by a small host of Ice Troll, whom have settled a glacier close to the main passageway.The mountain Rangers commander Sigmund Tranesong are in need of warriors, that can cleanse the land of these vile Ice Trolls. \n\n Payment upon completion: 3000",
->>>>>>> Stashed changes
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,

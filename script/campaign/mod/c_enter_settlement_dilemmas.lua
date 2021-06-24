@@ -275,9 +275,9 @@ core:add_listener(
 
 											During dinner your bookkeeper Nilss complains about the payment dictated for enrollment in the crown's affairs. While at a rare pause from eating and ranting, Nilss surveys the room and points at the entrance of the brewhouse. A dwarf enters, his formal clothing at odds with the type of place he had just entered.
 
-											He approaches your table and introduces himself as thane of the Ironvaults, Torken Ironvein, and ends his monologue with a swift hand gesture to the barkeep: "A round of ale for the table!"
+											He approaches your table and introduces himself as thane of Clan Stekbrud, Torken Ironvein, and ends his monologue with a swift hand gesture to the barkeep: "A round of ale for the table!"
 
-											"Now heres one from court who isn't afraid of spending a few coin!" Nilss proclaims and pulls a chair out. "Please, how can we be of service?" Nilss grins, and is back in his usual high spirit.]]
+											"Now heres one from court who isn't afraid of spending a few coin!" Nilss proclaims and pulls a chair out. "Please, how can we be of service?" Nilss grins, and is back in his usual high spirit. You leave Nills to the thrane and what business he might have. The Beastmen incursion is on your mind - you leave the establishment...]]
 											mod.set_dilemma_text(new_dilemma_text)
                     end;
             end;
@@ -340,13 +340,9 @@ core:add_listener(
 					They reach the capital in high spirits, but finds the hold in grief and silence. The High King lies wounded in his ancestral halls.
 
 					The royal commander of Kraka Drak informs you of the hard earned battle away from the rift, which shifted towards the norse dwarf's favor as the rift collapsed.
-<<<<<<< Updated upstream
-					As a  personal gesture, the royal commannder swears oath to you, for the battle at the rift ]]
-=======
 					As a  personal gesture, the royal commannder swears oath to you, for the battle at the rift
 					
 					Back at the quarters, Nills informs you that Torken Ironvein has been debating numerous grandiose plot with him. While further negotiation commends, we should find other work..]]
->>>>>>> Stashed changes
 					mod.set_dilemma_text(new_dilemma_text)
 				end
 			)
