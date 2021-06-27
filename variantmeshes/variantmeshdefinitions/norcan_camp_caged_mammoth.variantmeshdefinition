@@ -1,0 +1,14 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/nor_war_mammoth_feral_01.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_mammoth</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/nor_war_mammoth_feral_02.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_mammoth</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hq3/nor/nor_war_mammoth/nor_war_mammoth_feral_03.wsmodel" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_mammoth</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+	</SLOT>
+    <SLOT name="cage" >
+		<VARIANT_MESH model="rigidmodels/buildings/def_cage_a/supersized_mammoth_cage.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh_dlc_nor_mammoth</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
