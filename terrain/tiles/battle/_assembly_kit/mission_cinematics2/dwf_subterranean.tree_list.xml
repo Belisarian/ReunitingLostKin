@@ -1,13 +1,115 @@
 <TREE_LIST serialise_version='2'>
 	<TREE_LIST>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_redflowerc.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='660.187866' y='0.000005' z='641.887329' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='660.392517' y='-0.000004' z='634.118408' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='660.607727' y='-0.000009' z='643.791260' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='665.920776' y='0.000010' z='633.607056' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='666.023926' y='-0.000002' z='633.016113' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='666.620483' y='-0.000002' z='633.011169' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='666.852539' y='-0.000012' z='634.121155' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='667.772095' y='-0.000014' z='629.970886' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='667.860168' y='-0.000005' z='629.259155' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='668.147827' y='0.000007' z='628.605103' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='668.847290' y='0.000008' z='627.818176' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='668.861816' y='0.000010' z='629.051025' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='668.881592' y='-0.000013' z='629.617310' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='668.987854' y='-0.000008' z='643.440857' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='669.492310' y='0.000001' z='628.327576' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='689.519348' y='2.919866' z='649.328857' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='689.998596' y='2.944884' z='649.343201' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='690.608704' y='2.975289' z='648.866699' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='695.343689' y='3.000001' z='653.913635' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='696.049072' y='2.999986' z='653.995544' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='696.872803' y='3.000008' z='653.802673' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='697.050476' y='3.000006' z='653.827332' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='699.357178' y='3.000007' z='644.136108' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='699.464478' y='2.999997' z='643.827881' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='699.857605' y='2.999992' z='643.105042' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='699.909058' y='2.999992' z='643.886536' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='700.418030' y='3.000000' z='643.709961' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='700.541809' y='2.999996' z='640.774475' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='700.602234' y='3.000003' z='643.159546' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='700.840881' y='3.000011' z='640.570374' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='700.894287' y='3.000010' z='641.820435' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='701.629395' y='3.000003' z='641.262756' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_birch_autumn/wh_birch_autumn_e.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='697.940552' y='3.000006' z='628.640442' scale='0.750000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='700.828674' y='3.000016' z='643.194092' scale='0.750000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='1615.497559' y='-0.000010' z='726.154114' scale='0.500000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_dryd_b.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='695.203430' y='2.999985' z='623.823181' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_dryc_b.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='674.535706' y='1.109994' z='649.920837' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_redflowera.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='661.742188' y='-0.000001' z='651.205200' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='661.899780' y='0.000000' z='628.643982' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='695.488403' y='3.000008' z='645.154419' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='697.391785' y='2.999987' z='630.054260' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_birch_autumn/wh_birch_autumn_c.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='668.848999' y='-0.500916' z='628.572205' scale='0.500000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
 		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_birch_autumn/wh_birch_autumn_d.rigid_model_v2'>
 			<value>
 				<BATTLE_TREE_ITEM x='1646.344482' y='-0.440810' z='726.173218' scale='0.433050' is_freeform='true'/>
 			</value>
 		</BATTLE_TREE_ITEM_VECTOR>
-		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_birch_autumn/wh_birch_autumn_e.rigid_model_v2'>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_drye_a.rigid_model_v2'>
 			<value>
-				<BATTLE_TREE_ITEM x='1615.497559' y='-0.000010' z='726.154114' scale='0.500000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='660.128723' y='0.000007' z='650.664246' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='660.240784' y='0.000005' z='625.417053' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='677.345032' y='1.752232' z='649.044739' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_dryb_c.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='667.163208' y='0.000006' z='633.805054' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_dryd_c.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='680.880127' y='2.353634' z='651.958435' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='700.672424' y='3.000010' z='648.484314' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_dryd_a.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='671.902954' y='0.397079' z='654.077820' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='676.774841' y='1.179318' z='622.921509' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='686.667419' y='2.738529' z='622.297974' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='696.884766' y='3.000000' z='623.822449' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_redflowerb.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='681.310242' y='2.504384' z='628.935852' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='681.917297' y='2.728206' z='628.791260' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='682.277649' y='2.837330' z='628.373291' scale='1.000000' is_freeform='true'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_mtn_shrub/shrub_dryb_b.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='687.857788' y='2.077469' z='646.064697' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='687.955200' y='2.013800' z='630.443970' scale='0.999999' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='702.070984' y='3.000007' z='637.013916' scale='1.000000' is_freeform='true'/>
+				<BATTLE_TREE_ITEM x='703.318604' y='2.999995' z='629.569092' scale='1.000000' is_freeform='true'/>
 			</value>
 		</BATTLE_TREE_ITEM_VECTOR>
 	</TREE_LIST>
