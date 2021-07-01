@@ -137,6 +137,25 @@ local function create_frontend_listeners()
 		end,
 		true
 	)
+
+	core:remove_listener("rlk_quest_battles_CampaignTransitionListener")
+	core:add_listener(
+		"rlk_quest_battles_CampaignTransitionListener",
+		"FrontendScreenTransition",
+		function(context) return context.string == "quest_battles" end,
+		function(context)
+			local ui_root = core:get_ui_root()
+			local map_panel = find_uicomponent(ui_root, "quest_battles", "panel", "map_parent", "map_clip", "map_panel")
+			if not map_panel then return end
+
+			for i=0, map_panel:ChildCount()-1 do
+				local battle = UIComponent(map_panel:Find(i))
+				battle:SetDockingPoint(1)
+				battle:SetDockOffset((i%5)*180+50, math.floor(i/5)*90)
+			end
+		end,
+		true
+	)
 end
 
 core:add_ui_created_callback(
