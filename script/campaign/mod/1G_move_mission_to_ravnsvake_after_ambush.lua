@@ -24,8 +24,22 @@ local payload = function(char)
 		cm:callback(function()
 			CampaignUI.ToggleCinematicBorders(false)
 			cm:stop_user_input(false)
-			mod.set_state(mod.states.in_kraka_ravn)
-			mod.disable_movement()
+
+			cm:repeat_callback(
+				function()
+					if not effect.is_any_movie_playing() then
+						cm:callback(function()
+							mod.set_state(mod.states.in_kraka_ravn)
+							mod.disable_movement()
+						end, 0.1)
+						cm:remove_callback("pj_quests_before_ravnsvake_playing_cb")
+					end
+				end,
+				0.1,
+				"pj_quests_before_ravnsvake_playing_cb"
+			)
+
+			cm:play_movie_in_ui("warhammer2/lzd/lzd_win") -- 4196510.wem
 		end, 8)
 	end, 0.1)
 end
