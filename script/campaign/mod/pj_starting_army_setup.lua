@@ -50,6 +50,101 @@ local function start_hiding_empty_dilemma_tooltips()
 	real_timer.register_repeating("pj_rlk_hide_empty_dilemma_tooltip", 0)
 end
 
+local function switch_audio()
+	core:remove_listener("rlk_switch_audio_real_time_trigger5_cb")
+	core:add_listener(
+		"rlk_switch_audio_real_time_trigger5_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "rlk_switch_audio_real_time_trigger5"
+		end,
+		function(context)
+			local bm = find_ui_component_str("root > esc_menu_campaign > menu_1 > button_resume")
+			bm:SimulateLClick()
+		end,
+		true
+	)
+
+	core:remove_listener("rlk_switch_audio_real_time_trigger4_cb")
+	core:add_listener(
+		"rlk_switch_audio_real_time_trigger4_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "rlk_switch_audio_real_time_trigger4"
+		end,
+		function(context)
+			local bm = find_ui_component_str("root > options_main > menu_options > button_back")
+			bm:SimulateLClick()
+			real_timer.register_singleshot("rlk_switch_audio_real_time_trigger5", 50)
+		end,
+		true
+	)
+
+	core:remove_listener("rlk_switch_audio_real_time_trigger3_cb")
+	core:add_listener(
+		"rlk_switch_audio_real_time_trigger3_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "rlk_switch_audio_real_time_trigger3"
+		end,
+		function(context)
+			local bm = find_ui_component_str("root > options_audio > basic_options > ok_cancel_buttongroup > button_ok")
+			bm:SimulateLClick()
+			real_timer.register_singleshot("rlk_switch_audio_real_time_trigger4", 50)
+		end,
+		true
+	)
+
+	core:remove_listener("rlk_switch_audio_real_time_trigger2_cb")
+	core:add_listener(
+		"rlk_switch_audio_real_time_trigger2_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "rlk_switch_audio_real_time_trigger2"
+		end,
+		function(context)
+			local bm = find_ui_component_str("root > options_audio > basic_options > sound_system_panel > dropdown_system > popup_menu > popup_list > option3")
+			bm:SimulateLClick()
+			real_timer.register_singleshot("rlk_switch_audio_real_time_trigger3", 50)
+		end,
+		true
+	)
+
+	core:remove_listener("rlk_switch_audio_real_time_trigger_cb")
+	core:add_listener(
+		"rlk_switch_audio_real_time_trigger_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "rlk_switch_audio_real_time_trigger"
+		end,
+		function(context)
+			local bm = find_ui_component_str("root > options_main > menu_options > button_audio")
+			bm:SimulateLClick()
+			real_timer.register_singleshot("rlk_switch_audio_real_time_trigger2", 50)
+		end,
+		true
+	)
+
+	core:remove_listener("rlk_switch_audio")
+	core:add_listener(
+		"rlk_switch_audio",
+		"PanelOpenedCampaign",
+		function(context)
+			dout(context.string)
+			return context.string == "esc_menu_campaign"
+		end,
+		function()
+			local bm = find_ui_component_str("root > esc_menu_campaign > menu_1 > button_options")
+			bm:SimulateLClick()
+			real_timer.register_singleshot("rlk_switch_audio_real_time_trigger", 50)
+		end,
+		false
+	)
+
+	local bm = find_ui_component_str("root > menu_bar > buttongroup > button_menu")
+	bm:SimulateLClick()
+end
+
 cm:add_first_tick_callback(function()
 	if not cm:is_new_game() then
 		return
@@ -149,6 +244,18 @@ cm:add_first_tick_callback(function()
 				skip:SetVisible(false)
 			end
 			cm:callback(function()
+				core:add_listener(
+					"rlk_switch_audio_dilemma",
+					"DilemmaChoiceMadeEvent",
+					true,
+					function(context)
+						if context:dilemma() == "intro" then
+							switch_audio()
+						end
+					end,
+					false
+				)
+
 				cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "intro")
 			end, 1)
 		end, 0.1)
