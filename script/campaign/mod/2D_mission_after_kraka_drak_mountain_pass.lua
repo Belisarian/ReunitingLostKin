@@ -4,6 +4,7 @@ local mod = PJ_QUESTS
 local mission_key = "mission_after_kraka_drak_mountain_pass"
 
 local payload = function(char)
+	cm:set_saved_value("pj_quests_has_left_kraka_drak_area", true)
 	mod.enable_movement()
 
 	cm:callback(function()

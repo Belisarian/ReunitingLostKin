@@ -118,7 +118,7 @@ mod.bog_pages = {
 			return valid_states[mod.current_state] or cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2")
 		end,
 		is_recruited = function() return cm:get_saved_value("pj_quests_have_recruited_DWARF_RANGERS_2") end,
-		cannot_recruit = function() return cm:get_saved_value("pj_quests_has_left_sjoktraken_area") end,
+		cannot_recruit = function() return cm:get_saved_value("pj_quests_has_left_kraka_drak_area") end,
 	},
 	{
 		title = "The Sunken Mountain",
