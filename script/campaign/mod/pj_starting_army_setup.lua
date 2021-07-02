@@ -105,6 +105,12 @@ local function switch_audio()
 		function(context)
 			local bm = find_ui_component_str("root > options_audio > basic_options > sound_system_panel > dropdown_system > popup_menu > popup_list > option3")
 			bm:SimulateLClick()
+
+			local subtitles = find_ui_component_str("root > options_audio > basic_options > sound_system_panel > subtitles_panel > checkbox_subtitles")
+			if subtitles:CurrentState() == "active" then
+				subtitles:SimulateLClick()
+			end
+
 			real_timer.register_singleshot("rlk_switch_audio_real_time_trigger3", 50)
 		end,
 		true
