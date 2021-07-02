@@ -314,6 +314,7 @@ mod.add_to_mercs = function()
 	dout(unit_key_from)
 
 	mod.unit_key_to_hp[unit_key_from] = unit_to_upgrade:percentage_proportion_of_full_strength()
+	mod.unit_key_to_xp_rank[unit_key_from] = mod.unit_rank
 
 	cm:add_unit_to_faction_mercenary_pool(
 		cm:get_faction(cm:get_local_faction_name()),
@@ -449,19 +450,7 @@ mod.first_tick_cb = function()
 			"experience"
 			)
 			if exp then
-				local exp_text = exp:GetTooltipText()
-				if exp_text then
-					if exp_text ~= "" then
-						local unit_rank_str = exp_text:gsub("Unit rank ", "")
-						mod.unit_rank = tonumber(unit_rank_str)
-						if not mod.unit_rank then
-							mod.unit_rank = mod.get_rank_from_non_english_tooltip(exp_text)
-						end
-						if not mod.unit_rank then
-							mod.unit_rank = 0
-						end
-					end
-				end
+				mod.unit_rank = tonumber(exp:CurrentState() or 0)
 			end
 
 			mod.update_UI()
@@ -619,7 +608,8 @@ local refresh_army_UI = function()
 	end
 end
 
-mod.unit_key_to_hp = {}
+mod.unit_key_to_hp = mod.unit_key_to_hp or {}
+mod.unit_key_to_xp_rank = mod.unit_key_to_xp_rank or {}
 
 ---@param commander CA_CHAR
 mod.damage_new_unit = function(commander, old_units)
@@ -632,6 +622,10 @@ mod.damage_new_unit = function(commander, old_units)
 			if hp then
 				local unit_hp = hp*0.01
 				cm:set_unit_hp_to_unary_of_maximum(unit_interface, unit_hp)
+			end
+			local xp_rank = mod.unit_key_to_xp_rank[unit_key]
+			if xp_rank then
+				cm:add_experience_to_unit(unit_interface, xp_rank)
 			end
 		end
 	end
@@ -664,9 +658,7 @@ core:add_listener(
 		cm:callback(function()
 			mod.damage_new_unit(char, old_units)
 
-			local x, y, d, bb, h = cm:get_camera_position()
 			refresh_army_UI()
-			cm:set_camera_position(x, y, d, bb, h)
 		end, 0.1)
 
 		cm:add_unit_to_faction_mercenary_pool(
@@ -722,4 +714,18 @@ core:add_listener(
 		end
 	end,
 	true
+)
+
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("rlk_quest_reserves_unit_key_to_hp", mod.unit_key_to_hp, context)
+		cm:save_named_value("rlk_quest_reserves_unit_key_to_xp_rank", mod.unit_key_to_xp_rank, context)
+	end
+)
+
+cm:add_loading_game_callback(
+	function(context)
+		mod.unit_key_to_hp = cm:load_named_value("rlk_quest_reserves_unit_key_to_hp", mod.unit_key_to_hp, context)
+		mod.unit_key_to_xp_rank = cm:load_named_value("rlk_quest_reserves_unit_key_to_xp_rank", mod.unit_key_to_xp_rank, context)
+	end
 )
