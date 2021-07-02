@@ -130,7 +130,6 @@ local function switch_audio()
 		"rlk_switch_audio",
 		"PanelOpenedCampaign",
 		function(context)
-			dout(context.string)
 			return context.string == "esc_menu_campaign"
 		end,
 		function()
