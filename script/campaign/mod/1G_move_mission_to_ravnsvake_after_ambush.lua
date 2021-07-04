@@ -29,14 +29,14 @@ local payload = function(char)
 				function()
 					if not effect.is_any_movie_playing() then
 						cm:callback(function()
-							mod.set_state(mod.states.in_kraka_ravn)
-							mod.disable_movement()
+							mod.select_first_lord()
+							mod.force_start_quest_battle("mission_ravnsvake")
 						end, 0.1)
-						cm:remove_callback("pj_quests_before_ravnsvake_playing_cb")
+						cm:remove_callback("pj_quests_check_ravnsvake_movie_playing_cb")
 					end
 				end,
 				0.1,
-				"pj_quests_before_ravnsvake_playing_cb"
+				"pj_quests_check_ravnsvake_movie_playing_cb"
 			)
 
 			cm:play_movie_in_ui("warhammer2/lzd/lzd_win") -- 4196510.wem
@@ -55,6 +55,19 @@ mod[mission_key] = {
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,
 }
+
+core:remove_listener("pj_quests_on_won_battle_ravnsvake")
+core:add_listener(
+	"pj_quests_on_won_battle_ravnsvake",
+	"pj_quests_won_battle_ravnsvake",
+	true,
+	function()
+		mod.set_state(mod.states.in_kraka_ravn)
+		mod.disable_movement()
+	end,
+	true
+)
+
 
 -- this is the starting char and camera position
 -- local char = cm:get_faction(cm:get_local_faction_name(true)):faction_leader()
