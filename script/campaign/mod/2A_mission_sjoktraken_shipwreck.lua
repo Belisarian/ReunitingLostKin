@@ -34,7 +34,7 @@ mod.mission_sjoktraken_shipwreck = {
 	locs = {
 		title="The Last of the Northern Ironclads ",
 		desc="The Last of the Northern Ironclads",
-		mission_desc = "The sea routes between Sjoktraken and the minor ports of the northern holds are used to fortify and supply the realm. The last of the Ironclads, gifted by the high King og Barak Var ages ago, have gone missing. The port master of Sjoktraken, Thorin Seabborn have approached us, ininquiring our service. We are to travel two days north by the Draksfjord and search for the missing Ironclad and by any means secure it.\n\n Payment upon completion: 6000",
+		mission_desc = "The sea routes between Sjoktraken and the minor ports of the northern holds are used to fortify and supply the realm. The last of the Ironclads, gifted by the high King of Barak Var ages ago, has gone missing. The port master of Sjoktraken, Thorin Seabborn has approached us, inquiring of our services. We are to travel two days north hugging the Draksfjord and search for the missing Ironclad, securing it by any means.\n\n Payment upon completion: 6000",
 	},
 	icon = "ui/small_icon_quest_battle.png",
 	payload = mod.mission_sjoktraken_shipwreck_payload,

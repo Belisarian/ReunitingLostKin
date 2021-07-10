@@ -32,7 +32,7 @@ mod[mission_key] = {
 	locs = {
 		title="The Clamp Farm",
 		desc="The Clamp Farm",
-		mission_desc = "The Merchants lords of Sjoktraken have requested our presence at one of they Clamp farms, workers have gone missing and those left are reluctant to resume their duty.\n\n Payment upon completion: 3000",
+		mission_desc = "The Merchant Lords of Sjoktraken have requested our presence at one of they Clamp farms, where workers had gone missing and those left are reluctant to resume their duty.\n\n Payment upon completion: 3000",
 	},
 	icon = "ui/small_icon_quest_battle.png",
 	payload = payload,

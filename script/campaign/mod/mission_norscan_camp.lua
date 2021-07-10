@@ -32,7 +32,7 @@ mod[mission_key] = {
 	locs = {
 		title="Norscan Camp",
 		desc="Norscan Camp",
-		mission_desc = "A smaller Norscan tribe have settled the area and are raiding nearby caravans. Purge their presence and paint the snow red. The frozen ground echoes, win or lose, the crows never goes hungry!\n\n Payment upon completion: 3000",
+		mission_desc = "A smaller Norscan tribe has settled the area and is raiding nearby caravan routes. Remove their presence and paint the snow red. The frozen northern ground echoes: win or lose, the crows never goes hungry!\n\n Payment upon completion: 3000",
 	},
 	icon = "ui/small_icon_quest_battle.png",
 	payload = payload,

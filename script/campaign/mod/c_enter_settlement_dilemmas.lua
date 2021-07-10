@@ -77,10 +77,10 @@ core:add_listener(
 
 			"A safe trip, I assume?" inquires the guild master, and places a small leather coin bag on the table.
 
-			"The Norsemen do not travel much in this foul weather we've been having lately."
-			Nilss takes the coin bag and gives it shake to feel the weight. Satisfied, and now in an even better mood, he continues: "We could certainly use more of that."
+			"The Norsemen do not travel much in this foul weather we've been having as of late."
+			Nilss takes the coin bag and gives it a shake to get a feel for the weight. Satisfied, and in a freshly improved mood, he continues: "We could certainly use more of that."
 
-			"Then you are in luck, head down dock-side and find the port master. He's looking for axes for hire - one of the ironclads, it's gone missing!"]]
+			"Then you are in luck. Head down dock-side and find the port master, he's looking for axes for hire - one of the ironclads, it's gone missing!"]]
 			mod.set_dilemma_text(new_dilemma_text)
 		end, 1)
 	end,
@@ -104,14 +104,14 @@ core:add_listener(
 									cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_2")
 
 									local new_dilemma_text =
-									[[From afar you see the port master perched on top of a couple of stacked crates, bellowing to a small crowd of ragged sailors, all the while gesticulating wildly with his hands.
+									[[From afar you spot the port master. He's perched on top of a couple of stacked crates, bellowing to a small crowd of ragged sailors, all the while gesticulating wildly with his hands.
 
-									As you approach the crowd, he notices you and jumps off his podium. He comes running, and finally extends his hand in greeting:
+									As you approach the crowd, he notices you and jumps off his makeshift podium. He comes running, and finally extends his hand in greeting:
 									"Finally, some dwarfs that do not require much convincing, but only a handful of coin!"
-									"Better make it a giant's hand," Nilss grins at his own jest.
+									"Better make it a giant's hand," Nilss says, grinning at his own jest.
 
 									The conversation continues and an agreement is reached:
-									"The merchant guild's main ship has gone missing - the Last Ironclad. It was spotted yesterday outside the harbor, but the heavy winds forced it waiting outside the port."]]
+									"The merchant guild's main ship has gone missing - the Last Ironclad. It was spotted yesterday outside the harbor, but the heavy winds forced it waiting outside the port. Make sure the ironclad is safe!"]]
 									mod.set_dilemma_text(new_dilemma_text)
 								end
 							end, 0.1)
@@ -164,9 +164,9 @@ core:add_listener(
 				function()
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_shipwreck")
 					local new_dilemma_text =
-						"With the Ironclad back in port and most of the company at the local tavern, you are at the port master office. Nilss has already been collecting the payment agreed upon and your additional visit is a request by the port master.\n\nInside the office, the port master is flanked by a royal messenger, whom informs you that you are requested at the royal high-court, without giving any reason."
-						.."\n\nBack at the companies quarters, you tell Nilss about the royal request. Nilss further informs you that he has been approached by some merchants who wish to hire the company for escort duty to a southern Kislev outpost - The last hope Inn."
-						.."\n\nShould we march directly towards Kraka Drak, fill our coffers with escort money or look for other missions?"
+						"With the Ironclad back in port and most of the company at the local tavern, you are at the port master's office. Nilss had already collected the agreed upon payment and your additional visit was requested by the port master.\n\nInside the office the port master is flanked by a royal messenger, and he informs you that you are requested at the royal court, without providing a reason."
+						.."\n\nWhen back at the company's quarters you tell Nilss about the royal request. But Nilss' mind can think only of company business, and he tells you he's been approached by some merchants who wish to hire the company for escort duty to a southern Kislev outpost: The Last Hope Inn."
+						.."\n\nShould we march directly towards Kraka Drak, opt for the escort mission or look for other contracts?"
 					mod.set_dilemma_text(new_dilemma_text)
 				end
 			)
@@ -236,16 +236,16 @@ core:add_listener(
 							cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_kraka_drak")
 
 							local new_dilemma_text =
-							[[The inhospitable winds of the northern lands seize a smaller royal banner as the mercenaries pass the last turn leading up to the main gate.
+							[[The inhospitable winds of the northern lands flutter a small royal banner as the mercenaries pass the last turn leading up to the main gate.
 
-							Inside the Royal keep of Kraka Drak, the cold wind is no more and one can for the moment forget the surrounding lands unwillingness to support life.
+							Inside the Royal Keep of Kraka Drak the cold wind is felt no more, a rare sensation for those inhabiting the frozen north.
 
-							The guards at the gate inspect the royal decree which has brought you here and inform you about the current beastmen incursions north of the hold.
+							The guards at the gate inspect the royal decree which has brought you here. The guards are on edge, apparently a beastmen incursions has been spotted in the wilderness north of the hold.
 
-							A few minutes pass and the royal commander of Kraka Drak appears. The commander is brief, without unnecessary courtesy, and explains the situation:
-							The capital is threatened by a rift between the mortal plane and that of the chaos realm. A large host of beastmen has gathered at the rift, which must be destroyed. Retinues from nearby holds and sellswords have been summoned, all bound by oath to the high king and the safety of the northern mountains.
+							You are left to wait, and finally the royal commander of Kraka Drak appears. He is brief, dispensing of unnecessary courtesy, and explains the situation:
+							The capital is threatened by a rift between the mortal plane and that of the chaos realm. A large host of beastmen has been drawn there, and the rift must be destroyed. Retinues from nearby holds and sellswords have been summoned, all bound by oaths to the High King and to the safety of the northern mountains.
 
-							The assault will be split into two parts: a major army bound to attack the current location of the raging beastmen, and a considerable smaller host of dwarfs which will attempt to sneak pass the enemies lines and assault the rift itself.]]
+							The assault will be split into two parts: the main army will engage the host of the raging beastmen, and a considerably smaller host will sneak past the enemy lines to assault the rift itself.]]
 							mod.set_dilemma_text(new_dilemma_text)
 						end, 0.1)
 						cm:remove_callback("pj_quests_check_intro_movie_playing_cb")
@@ -273,11 +273,11 @@ core:add_listener(
 											local new_dilemma_text =
 											[[In the lower levels of the city, the Frozen Feathered Ravens finds a suitable establishment for their stay in the capital.
 
-											During dinner your bookkeeper Nilss complains about the payment dictated for enrollment in the crown's affairs. While at a rare pause from eating and ranting, Nilss surveys the room and points at the entrance of the brewhouse. A dwarf enters, his formal clothing at odds with the type of place he had just entered.
+											During dinner Nilss the bookkeeper complains about the modest payment dictated for enrollment in the Crown's affairs. While taking a rare pause from eating and ranting Nilss surveys the room and points to the brewhouse entrance. A dwarf is entering, his formal clothing at odds with this type of place.
 
-											He approaches your table and introduces himself as thane of Clan Stekbrud, Torken Ironvein, and ends his monologue with a swift hand gesture to the barkeep: "A round of ale for the table!"
+											He approaches your table and introduces himself as Torken Ironvein, thane of Clan Stekbrud, and ends his monologue with a swift hand gesture to the barkeep: "A round of ale for the table!"
 
-											"Now heres one from court who isn't afraid of spending a few coin!" Nilss proclaims and pulls a chair out. "Please, how can we be of service?" Nilss grins, and is back in his usual high spirit. You leave Nills to the thrane and what business he might have. The Beastmen incursion is on your mind - you leave the establishment...]]
+											"Now here's one from court who isn't afraid of spending a few coins!" Nilss proclaims and pulls a chair out. "Please, how can we be of service?" Nilss grins, and is back in his usual high spirits. You leave Nills to the thane and what business they might have. The Beastmen incursion is on your mind - you leave the establishment...]]
 											mod.set_dilemma_text(new_dilemma_text)
                     end;
             end;
@@ -335,14 +335,14 @@ core:add_listener(
 					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_in_drak_after_beastmen")
 
 					local new_dilemma_text =
-					[[With the savage Beastmen slain, the Frozen Feathered Ravens returns to Kraka Drak. As part of the smaller retinue designated for the rift battle, they are among the last to reach Kraka Drak.
+					[[With the savage Beastmen slain the Frozen Feathered Ravens return to Kraka Drak. As part of the smaller retinue designated for the rift battle, they are among the last to arrive back to the hold.
 
 					They reach the capital in high spirits, but finds the hold in grief and silence. The High King lies wounded in his ancestral halls.
 
-					The royal commander of Kraka Drak informs you of the hard earned battle away from the rift, which shifted towards the norse dwarf's favor as the rift collapsed.
-					As a  personal gesture, the royal commannder swears oath to you, for the battle at the rift
-					
-					Back at the quarters, Nills informs you that Torken Ironvein has been debating numerous grandiose plot with him. While further negotiation commends, we should find other work..]]
+					The royal commander of Kraka Drak informs you of the hard earned battle away from the rift, which shifted towards the Norse Dwarf's favor as the rift collapsed.
+					As a personal gesture the royal commander swears an oath to you for your deeds at the battle of the rift.
+
+					Back at the quarters, Nills informs you that Torken Ironvein has been debating numerous grandiose plots with him. While further negotiations proceed, we should find other work...]]
 					mod.set_dilemma_text(new_dilemma_text)
 				end
 			)
@@ -389,7 +389,7 @@ core:add_listener(
 			Decades of hardship and threats to the hold and its surrounding lands have left the ruling clans secluded and unwilling to oppose the inevitable. Left to fend for themselves, those appointed to serve here are fighting a losing battle. Few in numbers, the royal guard have all but abandoned the outermost possessions and continue to patrol only a few routes northwards.
 
 			Jorin Asserbo, high armourer of the keep has inquired of our services.
-			
+
 			We should stock up on extra supplies before leaving the realm, lets look for work while supply is gathered. ]]
 			mod.set_dilemma_text(new_dilemma_text)
 		end, 1)

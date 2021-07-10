@@ -37,7 +37,7 @@ mod[mission_key] = {
 	locs = {
 		title="Inside the Warp",
 		desc="Inside the Warp",
-		mission_desc = "The Gods of Chaos reach over ours lands will be no longer!! While the portal crumbles you decide to call upon your fellow warriors. Liberate our holds! Charge into the fading portal, purge the chaos gods from existence!!",
+		mission_desc = "The reach of the Gods of Chaos over our lands will be no longer!! While the portal crumbles you decide to call upon your fellow warriors. Liberate our holds! Charge into the fading portal, purge the chaos gods from existence!",
 	},
 	icon = "ui/small_icon_quest_battle.png",
 	payload = payload,

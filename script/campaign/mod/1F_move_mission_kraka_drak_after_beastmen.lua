@@ -36,7 +36,7 @@ mod[mission_key] = {
 	locs = {
 		title="Return to Kraka Drak",
 		desc="Return to Kraka Drak",
-		mission_desc = "The Beastmen are no more and the portal with them. Kraka Drak endures and prevails - such are the faith of our people! We should return to the capital and be celebrated!",
+		mission_desc = "The Beastmen are no more and the portal with them. Kraka Drak endures and prevails - such is the iron faith of our people! We should return to the capital, a celebration awaits!",
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,
