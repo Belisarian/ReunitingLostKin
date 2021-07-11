@@ -87,7 +87,9 @@ ga_player:force_victory_on_message("battle_shipwreck_army_nor_unit_all_routing",
 gb:message_on_time_offset("Wait_5_sec",5000);
 gb:message_on_time_offset("Wait_15_sec",15000);
 gb:message_on_time_offset("Wait_30_sec",30000);
+gb:message_on_time_offset("Wait_45_sec",45000);
 gb:message_on_time_offset("Wait_1min",60000);
+gb:message_on_time_offset("Wait_1_half_min",90000);
 gb:message_on_time_offset("Wait_2min",120000);
 gb:message_on_time_offset("Wait_3min",180000);
 gb:message_on_time_offset("Wait_4min",240000);
@@ -138,6 +140,12 @@ ga_battle_shipwreck_character_name_npc_ally:attack_force_on_message("NPC_deploye
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:message_on_casualties("mammoth_flee",0.5); -- mammoth has 50% hp left
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:rout_over_time_on_message("mammoth_flee",5000);  -- mammoth starts fleeing
 ga_battle_shipwreck_character_name_npc_ally:rout_over_time_on_message("mammoth_flee",15000); -- Dragon "flees" as well
+-- ga_battle_shipwreck_army_nor_unit_all:attack_force_on_message("Wait_5_sec", ga_battle_shipwreck_army_dwf_ally_unit_hammers,1000); -- dragon attack mammoth
+-- ga_battle_shipwreck_army_nor_unit_all:get_unitcontroller():change_move_speed(true)
+-- ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:attack_force_on_message("Wait_5_sec", ga_battle_shipwreck_army_dwf_ally_unit_hammers,1000); -- dragon attack mammoth
+-- ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:get_unitcontroller():change_move_speed(true)
+-- ga_battle_shipwreck_army_nor_unit_all:advance_on_message("Wait_5_sec", 500)
+-- ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:advance_on_message("Wait_5_sec", 500)
 
 --------------------------------------- Accompanying lord flee on sight------------------------------
 ga_battle_shipwreck_character_name_nor_1:teleport_to_start_location_offset_on_message("battle_started",200,26); -- tp at deployment
@@ -149,7 +157,7 @@ ga_battle_shipwreck_character_name_nor_1:rout_over_time_on_message("Dragon_here"
 -------------------------------------------------------------------------------------------------
 
 -- Start 5 mins in, with a 1 to 1 mins between reinforcements chunks of 1-2
-ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:deploy_at_random_intervals_on_message("Wait_5_sec",1,2,10000,20000); -- after 5 min at intervals of 1 min 1-2 units joins the fight
+ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:deploy_at_random_intervals_on_message("Wait_1_half_min",1,1,15000,15000); -- after 5 min at intervals of 1 min 1-2 units joins the fight
 
 -------------------------------------------------------------------------------------------------
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------
@@ -160,5 +168,5 @@ gb:queue_help_on_message("battle_shipwreck_character_name_dwf_ally_dead", "missi
 gb:queue_help_on_message("battle_shipwreck_army_dwf_ally_unit_hammers_dying", "mission_shipwrecke_objective_4_fail_message", 8000, 2000, 1000); -- The Crew is dead, all is lost.
 gb:queue_help_on_message("battle_shipwreck_army_dwf_ally_unit_rangers_dying", "mission_shipwrecke_objective_4_fail_message", 8000, 2000, 1000); -- The Crew is dead, all is lost.
 
-
+gb:queue_help_on_message("battle_started", "mission_shipwrecke_objective_7_message", 10000, 2000, 1000); -- (Grunnar Vestgrud) "Save our Brothers, Slay the Norsemen!"
 -------------------------------------------------TESTING------------------------------------
