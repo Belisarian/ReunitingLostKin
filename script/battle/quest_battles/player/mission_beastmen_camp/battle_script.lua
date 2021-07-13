@@ -296,8 +296,25 @@ end;
 gb:set_objective_on_message("deployment_started", "mission_kraka_drak_beastmen_camp_objective_1_tooltip"); -- Get the Rune Lord to the Rift  
 gb:set_objective_on_message("deployment_started", "mission_kraka_drak_beastmen_camp_objective_2_tooltip"); -- Ensure the Rune Lord's survival
 
-gb:set_objective_on_message("deployment_started", "mission_kraka_drak_beastmen_camp_objective_3_tooltip"); -- (Optional) Destroy 3 Herdstones
+gb:set_objective_on_message("deployment_started", "mission_kraka_drak_beastmen_camp_objective_3_tooltip", 0, 0, 3); -- (Optional) Destroy 3 Herdstones
 gb:set_objective_on_message("deployment_started", "mission_kraka_drak_beastmen_camp_objective_4_tooltip"); -- (Optional) Stay on the road
+
+gb:set_objective_on_message("one_totem", "mission_kraka_drak_beastmen_camp_objective_3_tooltip", 0, 1, 3); -- 1/3
+gb:set_objective_on_message("two_totems", "mission_kraka_drak_beastmen_camp_objective_3_tooltip", 0, 2, 3); -- 2/3
+gb:set_objective_on_message("all_totems", "mission_kraka_drak_beastmen_camp_objective_3_tooltip", 0, 3, 3); -- 3/3
+
+gb:complete_objective_on_message("all_totems","mission_kraka_drak_beastmen_camp_objective_3_tooltip", 1000); -- tick of the objektive 
+
+ga_battle_beastmen_camp_army_beastmen_camp_totem_01:message_on_shattered_proportion("totem_1", 0.95);
+ga_battle_beastmen_camp_army_beastmen_camp_totem_02:message_on_shattered_proportion("totem_2", 0.95);
+ga_battle_beastmen_camp_army_beastmen_camp_totem_03:message_on_shattered_proportion("totem_3", 0.95);
+
+gb:message_on_any_message_received("one_totem","totem_1","totem_2","totem_3");
+gb:message_on_all_messages_received("two_totems","totem_1","totem_2");
+gb:message_on_all_messages_received("two_totems","totem_1","totem_3");
+gb:message_on_all_messages_received("two_totems","totem_2","totem_3");
+gb:message_on_all_messages_received("all_totems","totem_1","totem_2","totem_3");
+
 -------------------------------------------------------------------------------------------------
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------
 -------------------------------------------------------------------------------------------------
