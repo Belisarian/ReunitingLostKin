@@ -85,6 +85,7 @@ ga_player:force_victory_on_message("battle_shipwreck_army_nor_unit_all_routing",
 -------------------------------------------------------------------------------------------------
 
 gb:message_on_time_offset("Wait_5_sec",5000);
+gb:message_on_time_offset("Wait_10_sec",10000);
 gb:message_on_time_offset("Wait_15_sec",15000);
 gb:message_on_time_offset("Wait_30_sec",30000);
 gb:message_on_time_offset("Wait_45_sec",45000);
@@ -170,3 +171,34 @@ gb:queue_help_on_message("battle_shipwreck_army_dwf_ally_unit_rangers_dying", "m
 
 gb:queue_help_on_message("battle_started", "mission_shipwrecke_objective_7_message", 10000, 2000, 1000); -- (Grunnar Vestgrud) "Save our Brothers, Slay the Norsemen!"
 -------------------------------------------------TESTING------------------------------------
+
+gb:add_listener(
+	"Wait_10_sec",
+	function()
+		local ui_root = core:get_ui_root()
+		local comp = find_uicomponent(ui_root, "layout", "army_ability_parent", "button_holder_wh2_dlc13_army_abilities_amber_bow_cannons", "button_ability_wh2_dlc13_army_abilities_amber_bow_cannons")
+		if comp then
+			comp:Highlight(true, false)
+		end
+	end,
+	true
+)
+
+core:remove_listener('rlk_stop_cannons_highlighting')
+core:add_listener(
+	'rlk_stop_cannons_highlighting',
+	'ComponentLClickUp',
+	function(context)
+		return context.string == "button_ability_wh2_dlc13_army_abilities_amber_bow_cannons"
+	end,
+	function(context)
+		bm:callback(function()
+			local ui_root = core:get_ui_root()
+			local comp = find_uicomponent(ui_root, "layout", "army_ability_parent", "button_holder_wh2_dlc13_army_abilities_amber_bow_cannons", "button_ability_wh2_dlc13_army_abilities_amber_bow_cannons")
+			if comp then
+				comp:Highlight(false, false)
+			end
+		end, 500)
+	end,
+	false
+)
