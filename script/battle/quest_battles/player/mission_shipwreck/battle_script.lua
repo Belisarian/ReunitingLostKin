@@ -141,12 +141,8 @@ ga_battle_shipwreck_character_name_npc_ally:attack_force_on_message("NPC_deploye
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:message_on_casualties("mammoth_flee",0.5); -- mammoth has 50% hp left
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:rout_over_time_on_message("mammoth_flee",5000);  -- mammoth starts fleeing
 ga_battle_shipwreck_character_name_npc_ally:rout_over_time_on_message("mammoth_flee",15000); -- Dragon "flees" as well
--- ga_battle_shipwreck_army_nor_unit_all:attack_force_on_message("Wait_5_sec", ga_battle_shipwreck_army_dwf_ally_unit_hammers,1000); -- dragon attack mammoth
--- ga_battle_shipwreck_army_nor_unit_all:get_unitcontroller():change_move_speed(true)
--- ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:attack_force_on_message("Wait_5_sec", ga_battle_shipwreck_army_dwf_ally_unit_hammers,1000); -- dragon attack mammoth
--- ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:get_unitcontroller():change_move_speed(true)
--- ga_battle_shipwreck_army_nor_unit_all:advance_on_message("Wait_5_sec", 500)
--- ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:advance_on_message("Wait_5_sec", 500)
+ga_battle_shipwreck_army_nor_unit_all:attack_on_message("Wait_10_sec")
+ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:attack()
 
 --------------------------------------- Accompanying lord flee on sight------------------------------
 ga_battle_shipwreck_character_name_nor_1:teleport_to_start_location_offset_on_message("battle_started",200,26); -- tp at deployment
@@ -158,7 +154,7 @@ ga_battle_shipwreck_character_name_nor_1:rout_over_time_on_message("Dragon_here"
 -------------------------------------------------------------------------------------------------
 
 -- Start 5 mins in, with a 1 to 1 mins between reinforcements chunks of 1-2
-ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:deploy_at_random_intervals_on_message("Wait_1_half_min",1,1,15000,15000); -- after 5 min at intervals of 1 min 1-2 units joins the fight
+ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:deploy_at_random_intervals_on_message("Wait_15_sec",1,1,15000,15000); -- after 5 min at intervals of 1 min 1-2 units joins the fight
 
 -------------------------------------------------------------------------------------------------
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------
