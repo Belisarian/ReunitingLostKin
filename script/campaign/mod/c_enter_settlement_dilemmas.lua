@@ -70,7 +70,7 @@ core:add_listener(
 	end,
 	function()
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken")
+			cm:trigger_dilemma(cm:get_local_faction_name(), "after_move_mission_sjoktraken")
 
 			local new_dilemma_text =
 			[["Sjoktraken has that special feeling to it, that, you have to admit!" Nilss shouts at you while you pass by a brawl outside a tavern. You nod and turn down the road, towards the mining company headquarters.
@@ -101,7 +101,7 @@ core:add_listener(
 						if not effect.is_any_movie_playing() then
 							cm:callback(function()
 								if choice == 0 or choice == 1 then
-									cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_2")
+									cm:trigger_dilemma(cm:get_local_faction_name(), "after_move_mission_sjoktraken_2")
 
 									local new_dilemma_text =
 									[[From afar you spot the port master. He's perched on top of a couple of stacked crates, bellowing to a small crowd of ragged sailors, all the while gesticulating wildly with his hands.
@@ -140,7 +140,7 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_mission_shipwreck");
+			cm:trigger_dilemma(cm:get_local_faction_name(), "after_mission_shipwreck");
 		end, 1)
 	end,
 	true
@@ -162,7 +162,7 @@ core:add_listener(
 				6000,
  -- Payment entry
 				function()
-					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_shipwreck")
+					cm:trigger_dilemma(cm:get_local_faction_name(), "after_move_mission_sjoktraken_after_shipwreck")
 					local new_dilemma_text =
 						"With the Ironclad back in port and most of the company at the local tavern, you are at the port master's office. Nilss had already collected the agreed upon payment and your additional visit was requested by the port master.\n\nInside the office the port master is flanked by a royal messenger, and he informs you that you are requested at the royal court, without providing a reason."
 						.."\n\nWhen back at the company's quarters you tell Nilss about the royal request. But Nilss' mind can think only of company business, and he tells you he's been approached by some merchants who wish to hire the company for escort duty to a southern Kislev outpost: The Last Hope Inn."
@@ -187,7 +187,7 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_mission_last_inn");
+			cm:trigger_dilemma(cm:get_local_faction_name(), "after_mission_last_inn");
 		end, 1)
 	end,
 	true
@@ -209,7 +209,7 @@ core:add_listener(
 				3500,
  -- Payment entry
 				function()
-					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_sjoktraken_after_last_inn");
+					cm:trigger_dilemma(cm:get_local_faction_name(), "after_move_mission_sjoktraken_after_last_inn");
 				end
 			)
 		end, 0.7)
@@ -233,7 +233,7 @@ core:add_listener(
 				function()
 					if not effect.is_any_movie_playing() then
 						cm:callback(function()
-							cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_kraka_drak")
+							cm:trigger_dilemma(cm:get_local_faction_name(), "after_move_mission_kraka_drak")
 
 							local new_dilemma_text =
 							[[The inhospitable winds of the northern lands flutter a small royal banner as the mercenaries pass the last turn leading up to the main gate.
@@ -268,7 +268,7 @@ core:add_listener(
             if context:dilemma() == "after_move_mission_kraka_drak"
             then
                     if context:choice() == 0 or context:choice() == 1 then
-											cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_move_mission_kraka_drak_2")
+											cm:trigger_dilemma(cm:get_local_faction_name(), "after_move_mission_kraka_drak_2")
 
 											local new_dilemma_text =
 											[[In the lower levels of the city, the Frozen Feathered Ravens finds a suitable establishment for their stay in the capital.
@@ -301,7 +301,7 @@ core:add_listener(
 				function()
 					if not effect.is_any_movie_playing() then
 						cm:callback(function()
-							cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_mission_beastmen_camp")
+							cm:trigger_dilemma(cm:get_local_faction_name(), "after_mission_beastmen_camp")
 						end, 0.1)
 						cm:remove_callback("pj_quests_check_beastmen_movie_playing_cb")
 					end
@@ -332,7 +332,7 @@ core:add_listener(
 				7000,
  -- -- Payment entry
 				function()
-					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_in_drak_after_beastmen")
+					cm:trigger_dilemma(cm:get_local_faction_name(), "after_in_drak_after_beastmen")
 
 					local new_dilemma_text =
 					[[With the savage Beastmen slain the Frozen Feathered Ravens return to Kraka Drak. As part of the smaller retinue designated for the rift battle, they are among the last to arrive back to the hold.
@@ -363,7 +363,7 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_mountain_pass_ambush");
+			cm:trigger_dilemma(cm:get_local_faction_name(), "after_mountain_pass_ambush");
 		end, 1)
 	end,
 	true
@@ -381,7 +381,7 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn")
+			cm:trigger_dilemma(cm:get_local_faction_name(), "in_kraka_ravn")
 
 			local new_dilemma_text =
 			[[Kraka Ravnsvake is the southernmost Norse Dwarfhold, and the last safe bastion before the frozen Land of Kislev.
@@ -409,7 +409,7 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_ice_trolls");
+			cm:trigger_dilemma(cm:get_local_faction_name(), "after_ice_trolls");
 		end, 1)
 	end,
 	true
@@ -427,7 +427,7 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "after_fimir_bog");
+			cm:trigger_dilemma(cm:get_local_faction_name(), "after_fimir_bog");
 		end, 1)
 	end,
 	true
@@ -449,7 +449,7 @@ core:add_listener(
 				3000,
  -- Payment entry
 				function()
-					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_ice_trolls");
+					cm:trigger_dilemma(cm:get_local_faction_name(), "in_kraka_ravn_after_ice_trolls");
 				end
 			)
 		end, 0.7)
@@ -473,7 +473,7 @@ core:add_listener(
 				4000,
  -- Payment entry
 				function()
-					cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "in_kraka_ravn_after_fimir_bog");
+					cm:trigger_dilemma(cm:get_local_faction_name(), "in_kraka_ravn_after_fimir_bog");
 				end
 			)
 		end, 0.7)
@@ -493,7 +493,7 @@ core:add_listener(
 	end,
 	function(context)
 		cm:callback(function()
-			cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "game_end");
+			cm:trigger_dilemma(cm:get_local_faction_name(), "game_end");
 		end, 1)
 	end,
 	true

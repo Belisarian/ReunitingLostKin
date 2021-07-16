@@ -261,7 +261,7 @@ cm:add_first_tick_callback(function()
 					false
 				)
 
-				cm:trigger_dilemma("wh2_main_dwf_karak_zorn", "intro")
+				cm:trigger_dilemma(cm:get_local_faction_name(), "intro")
 			end, 1)
 		end, 0.1)
 	end, 5)

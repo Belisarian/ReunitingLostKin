@@ -141,7 +141,7 @@ ga_battle_shipwreck_character_name_npc_ally:attack_force_on_message("NPC_deploye
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:message_on_casualties("mammoth_flee",0.5); -- mammoth has 50% hp left
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:rout_over_time_on_message("mammoth_flee",5000);  -- mammoth starts fleeing
 ga_battle_shipwreck_character_name_npc_ally:rout_over_time_on_message("mammoth_flee",15000); -- Dragon "flees" as well
-ga_battle_shipwreck_army_nor_unit_all:attack_on_message("Wait_10_sec")
+ga_battle_shipwreck_army_nor_unit_all:attack()
 ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:attack()
 
 --------------------------------------- Accompanying lord flee on sight------------------------------
