@@ -1,0 +1,455 @@
+<TREE_LIST serialise_version='2'>
+	<TREE_LIST>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_bush_02_a.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='0.178592' y='0.000000' z='1233.357910' scale='1.167086' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='0.707897' y='0.000000' z='1823.030518' scale='0.902899' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='0.871748' y='0.000000' z='1824.204590' scale='1.102152' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2.453040' y='0.000000' z='93.947784' scale='0.879858' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.162737' y='0.000000' z='2032.630005' scale='0.924216' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.921630' y='0.000000' z='1824.299072' scale='0.962310' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.949554' y='0.000000' z='1827.726318' scale='1.270138' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.049195' y='0.000000' z='1946.750488' scale='1.148806' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.271214' y='0.000000' z='1837.075195' scale='1.122698' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.836805' y='0.000000' z='1140.010254' scale='0.866148' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.292317' y='0.000000' z='1311.013062' scale='0.971260' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.548287' y='0.000145' z='2027.812988' scale='1.247913' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.843458' y='0.324251' z='1454.044678' scale='1.120218' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.908522' y='0.324251' z='802.043274' scale='0.936362' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.412619' y='0.324251' z='1376.149048' scale='0.972457' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.435874' y='0.324251' z='1310.102905' scale='0.860739' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.428901' y='2.905911' z='1142.151611' scale='0.864691' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='11.092333' y='2.905911' z='1252.235107' scale='1.096338' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='178.365814' y='0.000000' z='5.706080' scale='1.007729' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='180.969894' y='1.294958' z='8.478310' scale='0.843809' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='200.435974' y='0.000000' z='0.096071' scale='1.167979' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='210.086243' y='0.000000' z='0.879438' scale='0.829992' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='211.965424' y='0.000000' z='5.462516' scale='1.183070' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='213.151993' y='0.000000' z='2.642588' scale='0.856397' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='218.740677' y='0.000000' z='4.381384' scale='1.294446' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='219.526062' y='0.000000' z='0.174563' scale='1.125750' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='257.874298' y='0.000000' z='4.997238' scale='1.015961' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='260.018158' y='0.000000' z='2.084047' scale='0.854826' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='315.619232' y='1.294958' z='9.802274' scale='1.206012' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='319.250336' y='0.000000' z='5.700648' scale='1.020447' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='424.711517' y='0.324251' z='6.035981' scale='1.032586' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='425.665283' y='0.000000' z='1.301106' scale='1.299542' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='430.920563' y='0.000000' z='2045.265747' scale='1.048684' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='513.656982' y='0.324251' z='7.610529' scale='0.968681' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='514.962952' y='1.294958' z='8.099123' scale='1.169772' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='694.382263' y='0.000000' z='2045.701904' scale='1.284207' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='779.565308' y='0.000000' z='2046.453125' scale='0.842161' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='798.261902' y='0.000000' z='2046.823486' scale='0.903151' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='803.644348' y='0.000000' z='2046.521606' scale='0.882864' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='871.190063' y='0.000000' z='0.081361' scale='1.237713' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='933.125183' y='0.000000' z='2047.258423' scale='1.238827' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1091.829224' y='0.324251' z='6.954177' scale='1.045457' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1235.470459' y='2.905911' z='10.515175' scale='0.840894' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1298.734619' y='0.000000' z='2047.411743' scale='1.291150' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1481.575439' y='0.000000' z='1.056046' scale='0.866011' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1614.418213' y='0.000000' z='0.105196' scale='1.027085' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1671.345581' y='1.294958' z='8.453132' scale='0.891073' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1674.833618' y='0.324251' z='6.824841' scale='1.181208' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1678.337646' y='0.000000' z='5.237568' scale='0.934966' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1740.750854' y='0.000000' z='3.516381' scale='0.938178' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1754.283813' y='1.294958' z='9.053452' scale='0.962753' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1757.750244' y='1.294958' z='8.992905' scale='1.291157' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1761.662842' y='0.000000' z='5.596765' scale='0.840688' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1761.761108' y='2.905911' z='10.329869' scale='1.251156' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1840.543823' y='0.000000' z='2046.763062' scale='0.913703' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2037.887207' y='0.022373' z='35.235859' scale='0.814290' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.375854' y='0.000000' z='118.567024' scale='1.260784' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.425659' y='0.000000' z='120.978195' scale='1.156962' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.996460' y='0.000000' z='114.605293' scale='1.045174' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2047.073242' y='0.000000' z='2027.512573' scale='1.299062' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_bush_04_b.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='3.984588' y='0.000000' z='462.530273' scale='0.911170' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.311330' y='0.000000' z='1098.356323' scale='1.111368' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.164797' y='0.324251' z='973.423645' scale='1.074189' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.311864' y='0.324251' z='461.283936' scale='0.962409' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.000259' y='0.324251' z='1097.151855' scale='1.037713' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.655695' y='0.324251' z='974.819946' scale='1.072709' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='8.213260' y='1.294958' z='974.171997' scale='1.173419' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.707271' y='1.294958' z='946.090576' scale='0.961265' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.824918' y='1.294958' z='463.670105' scale='0.872602' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.811353' y='2.905911' z='465.454041' scale='0.955238' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='95.812134' y='0.000000' z='2046.069580' scale='0.825078' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='121.760010' y='0.000000' z='1.764370' scale='0.919036' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='295.185791' y='1.294958' z='8.609934' scale='1.173655' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='640.402344' y='0.000000' z='5.500786' scale='1.280598' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='776.717834' y='1.294958' z='9.531670' scale='0.812757' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1018.847351' y='0.000000' z='5.559258' scale='1.139681' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1147.287354' y='1.294958' z='9.750515' scale='0.839727' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1240.352783' y='0.000000' z='5.726406' scale='1.203212' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1246.091919' y='1.294958' z='9.531181' scale='1.085954' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1253.466309' y='0.000000' z='4.420630' scale='1.133814' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1751.507446' y='0.000000' z='1.726253' scale='0.919120' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1751.989990' y='0.000000' z='2.924758' scale='0.856588' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2041.398804' y='1.294958' z='553.610352' scale='1.278683' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.628052' y='0.000000' z='572.234375' scale='1.060594' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.252075' y='0.000000' z='1660.583130' scale='0.813252' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.400879' y='0.000000' z='1053.066406' scale='1.280056' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.464966' y='0.000000' z='1058.856567' scale='0.922278' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.472290' y='0.000000' z='152.520096' scale='1.146860' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.520020' y='0.000000' z='1016.179260' scale='1.252750' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.865479' y='0.000000' z='566.701904' scale='0.967773' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_woodrush_b.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='1.912078' y='0.000000' z='543.117554' scale='1.218624' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.890379' y='0.000000' z='548.015381' scale='0.975402' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.816129' y='0.324251' z='976.895081' scale='0.853101' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.792874' y='0.523113' z='106.453133' scale='0.944778' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='93.156631' y='0.000000' z='2045.346558' scale='1.009468' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='271.489441' y='1.294958' z='8.981735' scale='1.028374' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='272.627991' y='1.294958' z='9.406088' scale='1.264454' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='316.662933' y='0.000000' z='2.811292' scale='1.035035' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1021.647827' y='0.000000' z='5.765133' scale='0.926612' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1148.585815' y='2.905911' z='10.390966' scale='1.210017' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1245.890503' y='0.324251' z='6.389532' scale='1.066361' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1450.797485' y='0.324251' z='7.929290' scale='0.959159' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1709.087036' y='2.905911' z='10.426093' scale='1.260594' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2041.425659' y='1.294958' z='551.265198' scale='0.836797' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2043.261597' y='0.324251' z='573.250488' scale='0.965660' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2044.351074' y='0.000000' z='567.728821' scale='0.906073' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2047.473022' y='0.000000' z='1505.838501' scale='1.292988' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_tree/chs_tree_n.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='0.494972' y='0.000000' z='1464.509766' scale='0.861111' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='0.755352' y='0.000000' z='604.116516' scale='1.041973' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='0.943923' y='0.000000' z='220.330078' scale='0.956877' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.629709' y='0.000000' z='123.134689' scale='0.879574' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='8.834424' y='1.294958' z='260.647552' scale='0.895969' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.436301' y='1.294958' z='641.836853' scale='0.887918' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.884214' y='1.294958' z='748.511841' scale='1.000346' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='473.195618' y='1.294958' z='9.893400' scale='0.987864' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='475.596680' y='0.000000' z='5.897124' scale='0.833974' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='907.092651' y='1.294958' z='8.226994' scale='1.061981' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='915.660767' y='1.294958' z='9.718472' scale='1.074340' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_woodrush_a.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='3.885160' y='0.000000' z='544.821899' scale='0.877111' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.887983' y='0.324251' z='458.498810' scale='1.182681' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.995697' y='0.324251' z='542.331299' scale='1.132158' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='8.963485' y='1.294958' z='987.150391' scale='0.826612' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='11.127062' y='2.905911' z='827.006592' scale='0.958259' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='100.422493' y='0.000000' z='2047.200928' scale='1.035248' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='783.000122' y='1.294958' z='8.708995' scale='1.232540' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1150.574097' y='0.000000' z='5.327443' scale='1.151102' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1249.572510' y='2.905911' z='10.352697' scale='1.016518' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1518.735840' y='0.000000' z='2047.092896' scale='1.099886' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1747.306885' y='0.000000' z='2.086885' scale='0.802403' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2040.045044' y='1.294958' z='486.692719' scale='0.885657' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2042.713135' y='0.324251' z='545.563049' scale='0.816373' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.206177' y='0.000000' z='569.757568' scale='1.122644' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_tree/chs_tree_l.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='0.721904' y='0.000000' z='612.349792' scale='1.029973' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1.555871' y='0.000000' z='1272.014038' scale='1.025304' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.165118' y='0.000000' z='1617.083496' scale='0.733692' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.326528' y='1.294958' z='1533.241821' scale='1.035686' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='149.523285' y='0.000000' z='5.167040' scale='1.039788' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='580.457092' y='0.000000' z='2045.397217' scale='0.784468' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='907.594482' y='0.000000' z='3.741604' scale='0.944114' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='911.962830' y='0.000000' z='4.483955' scale='0.977623' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1056.673340' y='1.294958' z='9.918273' scale='0.951780' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1696.830078' y='0.324251' z='7.707912' scale='1.033587' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1702.008179' y='0.324251' z='7.501244' scale='0.919998' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2040.384766' y='1.294958' z='149.710968' scale='0.983476' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.837402' y='0.000000' z='1942.936890' scale='1.061108' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_bush_02_c.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='0.391699' y='0.000000' z='1837.509399' scale='1.245525' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1.194629' y='0.000000' z='1777.444092' scale='1.258846' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2.620798' y='0.000000' z='1452.637329' scale='0.980926' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2.621836' y='0.000000' z='1836.938110' scale='1.106439' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.129961' y='0.000000' z='1776.009033' scale='1.024521' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.354635' y='0.000000' z='1818.770752' scale='0.943275' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.077577' y='0.000000' z='1950.981079' scale='1.234737' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.549081' y='0.000000' z='92.870255' scale='1.200084' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.754711' y='0.000000' z='1949.805786' scale='0.897932' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.825727' y='0.000000' z='1309.451660' scale='1.090448' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.037919' y='0.000000' z='1454.352417' scale='1.177821' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.304128' y='0.000000' z='75.717888' scale='1.045373' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.665278' y='0.000000' z='181.929169' scale='1.062318' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.075395' y='0.324251' z='1313.666382' scale='1.124796' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.416770' y='0.324251' z='494.960114' scale='1.029305' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.576318' y='0.324251' z='184.558060' scale='0.995430' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='8.033937' y='0.754883' z='1933.896973' scale='0.931670' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='8.068269' y='1.294958' z='1313.525269' scale='1.250896' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.233723' y='0.654511' z='1936.515015' scale='1.173815' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.375937' y='1.294958' z='1377.132202' scale='1.041520' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.382925' y='1.294958' z='1374.509644' scale='1.271878' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.494377' y='1.294958' z='1140.866455' scale='0.945754' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.859251' y='1.294958' z='183.748108' scale='0.922011' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.811810' y='1.097616' z='1944.966553' scale='1.181514' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='174.785690' y='1.294958' z='8.130739' scale='0.859297' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='177.979950' y='0.000000' z='0.887495' scale='0.912543' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='183.286087' y='1.294958' z='9.761074' scale='0.855421' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='212.961319' y='0.000000' z='4.801251' scale='1.181498' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='219.756653' y='0.324251' z='6.495125' scale='0.872175' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='229.536713' y='0.324251' z='7.015884' scale='1.095033' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='260.612000' y='0.324251' z='6.790997' scale='0.848730' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='317.929199' y='1.294958' z='9.696864' scale='1.274334' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='321.473022' y='0.324251' z='6.481972' scale='1.175692' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='326.030945' y='0.324251' z='7.195056' scale='1.151118' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='422.544739' y='0.000000' z='2.278050' scale='0.859976' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='423.290527' y='0.000000' z='5.097856' scale='0.940352' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='515.100281' y='0.000000' z='5.930968' scale='1.165354' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='753.555603' y='0.000000' z='3.667445' scale='0.904822' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='754.510010' y='0.000000' z='2045.822632' scale='1.086229' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='799.929565' y='0.000000' z='2044.966919' scale='1.060464' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='990.330750' y='0.000000' z='0.704234' scale='1.283009' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1074.969360' y='0.000000' z='2045.592407' scale='1.114267' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1089.507324' y='0.000000' z='5.515892' scale='1.269192' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1089.966431' y='0.000000' z='2.768963' scale='1.163935' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1123.567383' y='0.000000' z='2045.497559' scale='1.097635' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1212.615112' y='0.000000' z='2046.032593' scale='1.172374' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1295.424927' y='0.000000' z='2046.300659' scale='1.242092' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1332.678101' y='2.905911' z='10.194766' scale='1.170161' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1336.997192' y='0.000000' z='4.789685' scale='1.134745' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1337.783081' y='0.000000' z='2.282109' scale='1.091875' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1346.742920' y='0.000000' z='2045.190430' scale='1.127878' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1349.453491' y='0.000000' z='2046.394409' scale='0.987587' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1471.738525' y='0.000000' z='2.081514' scale='1.004692' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1472.636963' y='0.000000' z='3.730464' scale='1.291302' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1472.839233' y='0.000000' z='1.273579' scale='1.128916' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1545.297607' y='2.905911' z='10.551583' scale='0.815671' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1587.507813' y='0.000000' z='3.236225' scale='1.021820' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1630.440430' y='0.000000' z='2.137820' scale='0.969787' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1673.511353' y='0.000000' z='4.083803' scale='1.298009' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1678.955078' y='1.294958' z='8.906080' scale='0.895300' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1757.629028' y='0.000000' z='4.291356' scale='1.215892' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1759.878662' y='2.905911' z='10.072206' scale='1.152911' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1791.317139' y='0.000000' z='0.985855' scale='1.150149' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2038.438232' y='0.014608' z='37.473930' scale='1.128977' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2042.505737' y='0.324251' z='961.554321' scale='1.045342' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2042.714600' y='0.324251' z='963.572449' scale='1.022248' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2043.575928' y='0.324251' z='438.019958' scale='1.034501' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2043.642700' y='0.324251' z='913.239014' scale='1.044755' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.481934' y='0.000000' z='1700.021484' scale='1.231540' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.533081' y='0.000000' z='1240.913818' scale='1.184359' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.641724' y='0.000000' z='1149.101563' scale='0.985573' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.706299' y='0.000000' z='1229.175537' scale='0.891714' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.773315' y='0.000000' z='823.505188' scale='1.266728' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2047.362427' y='0.000000' z='1921.233887' scale='1.081460' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2047.577393' y='0.000000' z='1693.930908' scale='1.204479' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_bush_04_c.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='0.761181' y='0.000000' z='2017.593506' scale='1.002899' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.456550' y='0.000000' z='462.997467' scale='1.210651' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.530541' y='0.000000' z='545.239990' scale='1.291928' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.807920' y='0.000000' z='540.822144' scale='1.201564' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='8.460547' y='1.294958' z='543.192078' scale='1.281674' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.739147' y='2.905911' z='1107.040039' scale='1.299557' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='266.865143' y='0.000000' z='3.550866' scale='0.981857' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='269.944672' y='0.000000' z='2.724773' scale='1.250622' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='297.184937' y='0.000000' z='4.600290' scale='0.831044' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='316.453644' y='0.000000' z='0.792706' scale='0.821561' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='600.800354' y='0.000000' z='2044.828857' scale='0.809201' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='781.232300' y='1.294958' z='8.918685' scale='0.905676' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='783.162598' y='0.000000' z='4.285832' scale='0.927161' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1022.973145' y='0.000000' z='2.288212' scale='0.931266' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1210.360962' y='0.000000' z='2047.040771' scale='0.950027' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1242.052612' y='1.294958' z='8.677562' scale='1.110742' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1249.117310' y='0.000000' z='3.153887' scale='1.293927' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1643.037842' y='0.000000' z='2046.828247' scale='0.961288' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1745.669189' y='0.000000' z='5.400015' scale='0.987655' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2001.567627' y='0.000000' z='1.649744' scale='1.121347' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2040.056641' y='1.294958' z='513.738708' scale='1.159968' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2044.730225' y='0.000000' z='548.590698' scale='1.097116' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.987549' y='0.000000' z='27.081224' scale='0.988861' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_tree/chs_tree_m.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='0.238132' y='0.000000' z='1615.611816' scale='1.040301' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='0.404242' y='0.000000' z='215.748352' scale='1.021752' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1.236622' y='0.000000' z='1623.463867' scale='0.802602' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2.166812' y='0.000000' z='1534.102051' scale='0.758247' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2.201541' y='0.000000' z='747.199707' scale='0.720478' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.269322' y='0.000000' z='743.328247' scale='0.834347' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.717632' y='0.000000' z='608.882629' scale='1.077838' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.194308' y='0.324251' z='1534.663818' scale='0.979588' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.018570' y='0.324251' z='1299.939331' scale='1.031353' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.425208' y='2.905911' z='1895.473877' scale='0.766493' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='908.732361' y='0.000000' z='0.052338' scale='0.806563' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1197.644165' y='1.294958' z='9.054917' scale='1.000218' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1694.363525' y='0.000000' z='3.747860' scale='1.026104' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_tree/chs_tree_k.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='1.067186' y='0.000000' z='1620.237671' scale='0.815468' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1.116106' y='0.000000' z='120.174927' scale='0.891000' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.018967' y='0.000000' z='1046.325684' scale='0.785359' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.200092' y='0.000000' z='1538.030518' scale='0.981334' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.135592' y='0.000000' z='1899.083618' scale='1.027825' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.679271' y='0.000000' z='1895.930420' scale='0.755256' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.648982' y='0.000000' z='258.025909' scale='1.093732' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.242451' y='0.324251' z='1274.542236' scale='0.753791' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='8.810224' y='1.294958' z='1898.248413' scale='1.069134' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.491661' y='1.294958' z='1022.442566' scale='0.715821' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.708140' y='2.905911' z='1148.571777' scale='0.818636' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='110.817001' y='0.000000' z='2046.623413' scale='0.778492' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='118.389961' y='0.809188' z='8.950667' scale='0.815120' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='142.622452' y='1.294958' z='8.654367' scale='0.917301' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='146.517075' y='1.294958' z='8.124697' scale='0.824904' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1052.168823' y='1.294958' z='8.835431' scale='0.773854' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1056.758301' y='0.324251' z='6.443030' scale='0.757862' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1216.678467' y='0.000000' z='2046.275757' scale='1.015789' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1671.111816' y='0.000000' z='2046.040283' scale='0.753236' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1701.605591' y='0.000000' z='3.775082' scale='0.987285' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1702.737671' y='0.000000' z='0.489296' scale='1.074072' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2040.121948' y='1.294958' z='454.122925' scale='0.886764' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2044.094116' y='0.000000' z='11.141161' scale='0.833779' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2047.198364' y='0.000000' z='869.906799' scale='1.058550' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2047.969116' y='0.000000' z='1323.004517' scale='0.741047' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_bush_04_a.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='2.936782' y='0.000000' z='51.102585' scale='1.115625' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.759945' y='0.000000' z='789.093384' scale='1.243481' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.685512' y='0.324251' z='544.767029' scale='1.027832' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.107653' y='1.294958' z='973.981201' scale='1.111292' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.228413' y='1.294958' z='990.125549' scale='0.827245' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='195.912811' y='0.324251' z='7.667536' scale='1.067681' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='534.110840' y='0.000000' z='2047.179199' scale='0.989883' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='779.943176' y='1.294958' z='8.359533' scale='0.847280' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='785.431091' y='0.000000' z='1.699000' scale='0.800053' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1150.278564' y='1.294958' z='8.647379' scale='1.135721' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1245.301758' y='0.000000' z='5.170581' scale='1.210544' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1328.949341' y='0.000000' z='2.407019' scale='0.994339' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1707.247803' y='2.905911' z='10.071382' scale='0.834424' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1861.764893' y='2.905911' z='10.012390' scale='0.862600' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2040.961670' y='1.294958' z='511.842957' scale='0.888380' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2041.871704' y='1.294958' z='569.779114' scale='1.040597' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2043.617432' y='0.324251' z='568.107239' scale='1.191012' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2043.948608' y='0.324251' z='547.481873' scale='0.911810' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.291138' y='0.000000' z='1056.760620' scale='0.845975' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_bush_02_b.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='0.043153' y='0.000000' z='1779.062134' scale='1.163157' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='0.283238' y='0.000000' z='2032.851685' scale='1.195796' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='0.936141' y='0.000000' z='1780.510254' scale='1.257328' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1.577905' y='0.000000' z='1948.473999' scale='0.837453' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1.969024' y='0.000000' z='1947.959839' scale='0.936133' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2.223941' y='0.000000' z='184.038910' scale='0.937316' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.861936' y='0.000000' z='496.256897' scale='1.083360' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='3.863096' y='0.000000' z='1822.458130' scale='0.956619' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='4.200107' y='0.000000' z='497.856598' scale='0.997986' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.220539' y='0.000000' z='71.636681' scale='1.027108' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.814420' y='0.000000' z='1954.603027' scale='0.884672' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='5.877256' y='0.000000' z='1821.041016' scale='0.844373' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.155367' y='0.324251' z='183.003769' scale='0.896086' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.434516' y='0.324251' z='1307.019043' scale='0.910613' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.589319' y='0.162804' z='1936.409058' scale='0.945396' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.597589' y='0.000091' z='2029.591675' scale='0.930076' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='7.674769' y='0.129823' z='1942.712402' scale='1.189067' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='8.015350' y='0.523113' z='1943.390991' scale='1.251377' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='9.464591' y='1.294958' z='184.495728' scale='1.232303' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.802869' y='2.905911' z='1521.296997' scale='0.911269' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.994675' y='1.277834' z='1940.354126' scale='1.265675' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='11.231373' y='2.905911' z='1141.041626' scale='0.972633' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='69.884857' y='0.000000' z='0.170626' scale='1.015274' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='174.477539' y='0.324251' z='7.025467' scale='1.069528' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='177.490219' y='0.324251' z='7.859312' scale='0.886809' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='177.870056' y='0.000000' z='4.970047' scale='1.213329' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='215.518951' y='1.294958' z='8.181064' scale='1.060143' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='217.688080' y='1.294958' z='9.382498' scale='1.234722' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='254.007996' y='0.000000' z='1.968597' scale='1.295605' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='256.266602' y='0.000000' z='2.640208' scale='1.170192' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='258.239868' y='0.000000' z='3.396933' scale='0.830663' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='319.494476' y='0.324251' z='7.772274' scale='1.273609' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='321.946136' y='1.294958' z='8.432960' scale='1.246128' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='401.657959' y='0.000000' z='2.139437' scale='0.888716' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='514.241211' y='0.000000' z='3.839658' scale='1.008034' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='515.939148' y='0.324251' z='6.199252' scale='1.027382' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='518.454468' y='1.294958' z='9.590296' scale='0.869924' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='656.536926' y='0.324251' z='7.412100' scale='1.260304' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='673.169434' y='0.000000' z='2046.395264' scale='1.183978' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='697.451904' y='0.000000' z='2045.069946' scale='1.246929' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='700.475403' y='0.000000' z='2045.716064' scale='1.014183' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='749.991943' y='0.000000' z='2044.696045' scale='0.870123' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='801.316772' y='0.000000' z='2047.970215' scale='1.288365' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='802.859863' y='0.000000' z='2045.255127' scale='0.980926' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='926.375854' y='0.000000' z='2045.243164' scale='0.903632' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1240.002808' y='1.294958' z='9.834104' scale='1.134371' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1290.731689' y='0.000000' z='2046.752197' scale='1.156596' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1297.293457' y='0.000000' z='2046.030273' scale='0.922965' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1330.712646' y='0.000000' z='1.113726' scale='1.228344' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1332.853394' y='0.000000' z='0.740581' scale='0.973045' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1335.569458' y='0.000000' z='0.016449' scale='1.211276' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1350.340942' y='0.000000' z='2046.200806' scale='0.841848' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1473.617188' y='1.294958' z='9.312367' scale='1.088189' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1473.746704' y='0.000000' z='5.234486' scale='0.961257' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1476.517334' y='0.000000' z='2.895338' scale='0.843641' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1479.091064' y='0.000000' z='2.422126' scale='1.274975' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1613.507202' y='0.000000' z='2.091280' scale='0.856168' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1626.043457' y='0.000000' z='0.233341' scale='1.127939' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1678.189453' y='0.000000' z='3.877806' scale='1.263134' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1759.571167' y='0.324251' z='7.217060' scale='0.940879' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1792.670410' y='0.000000' z='0.692210' scale='1.236576' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2038.505005' y='0.008978' z='33.506462' scale='1.126642' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2039.828857' y='2.905911' z='443.458496' scale='0.828367' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2042.938843' y='0.201704' z='119.875031' scale='1.090768' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2043.164307' y='0.188038' z='116.403023' scale='1.111200' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.054321' y='0.000000' z='116.887283' scale='0.832448' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2045.247437' y='0.000000' z='437.317322' scale='1.027298' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.328491' y='0.000000' z='958.424866' scale='0.864660' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.563232' y='0.000000' z='824.522278' scale='0.856802' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2047.004395' y='0.000000' z='1832.533813' scale='0.805898' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2047.807007' y='0.000000' z='864.341248' scale='1.282635' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+		<BATTLE_TREE_ITEM_VECTOR key='BattleTerrain/vegetation/trees/wh_chs_shrub/shrub_woodrush_c.rigid_model_v2'>
+			<value>
+				<BATTLE_TREE_ITEM x='2.010864' y='0.000000' z='972.009521' scale='1.111215' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.114351' y='0.324251' z='465.527405' scale='1.100237' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='6.874983' y='0.324251' z='466.884033' scale='1.109545' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='10.634409' y='2.905911' z='985.554810' scale='1.297063' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='97.617912' y='0.000000' z='2045.306396' scale='1.269200' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='228.048248' y='1.294958' z='9.776302' scale='1.257168' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='268.274902' y='1.294958' z='9.565911' scale='0.842626' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='270.761841' y='0.000000' z='5.832395' scale='1.003273' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='272.064606' y='0.000000' z='1.461021' scale='1.003700' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='602.921570' y='0.000000' z='2047.253540' scale='1.158526' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='777.909302' y='0.324251' z='7.793454' scale='1.291569' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='783.555908' y='0.000000' z='1.504662' scale='0.930014' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1079.162842' y='0.000000' z='2045.326538' scale='1.162043' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1110.182373' y='0.000000' z='2046.345093' scale='0.881796' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1148.664795' y='1.294958' z='9.241352' scale='1.189670' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1248.979004' y='0.000000' z='4.329289' scale='0.834531' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1249.734009' y='0.324251' z='6.046845' scale='1.138926' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1250.548706' y='0.000000' z='4.269322' scale='0.809377' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1534.325562' y='0.000000' z='1.181231' scale='0.909712' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1541.120117' y='1.294958' z='8.568673' scale='1.012947' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1593.485352' y='0.000000' z='2046.402832' scale='0.846166' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1713.653198' y='1.294958' z='8.946212' scale='0.938880' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2040.703003' y='1.294958' z='547.522156' scale='1.099763' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2042.179199' y='0.000453' z='29.963684' scale='1.030671' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2042.546265' y='0.324251' z='570.558533' scale='0.925040' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.560791' y='0.000000' z='1502.902832' scale='1.039086' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.671875' y='0.000000' z='569.758850' scale='0.964546' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='2046.917480' y='0.000000' z='1759.372803' scale='1.153979' is_freeform='false'/>
+			</value>
+		</BATTLE_TREE_ITEM_VECTOR>
+	</TREE_LIST>
+</TREE_LIST>
