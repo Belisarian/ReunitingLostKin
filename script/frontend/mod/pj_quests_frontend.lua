@@ -61,7 +61,7 @@ local function rejig_lord_select_screen()
 	local tab_movie = digForComponent(ui_root, "tab_movie")
 	tab_movie:SetVisible(false)
 
-	local faction_list = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "top_docker", "lord_select_list", "list", "list_clip", "list_box")
+	local faction_list = find_uicomponent(core:get_ui_root(), "sp_grand_campaign", "dockers", "top_docker", "lord_select_list", "list")
 	faction_list:SetVisible(false)
 
 	local tp = digForComponent(ui_root, "title_plaque")
