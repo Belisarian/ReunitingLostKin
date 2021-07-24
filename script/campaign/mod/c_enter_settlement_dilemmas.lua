@@ -390,7 +390,9 @@ core:add_listener(
 
 			Jorin Asserbo, high armourer of the keep has inquired of our services.
 
-			We should stock up on extra supplies before leaving the realm, lets look for work while supply is gathered. ]]
+			We should stock up on extra supplies before leaving the realm, lets look for work while supply is gathered.
+             
+			BEYOUND THIS POINT you will find increasingly unfished stuff. Don't play any further if want a unspoiled and polished experience - play a bit further and make it into Kislev]]
 			mod.set_dilemma_text(new_dilemma_text)
 		end, 1)
 	end,
