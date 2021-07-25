@@ -527,8 +527,11 @@ local units = {
 local function hide_merc_stuff()
 	local ui_root = core:get_ui_root()
 
-	local br = find_uicomponent(ui_root, "layout", "hud_center_docker", "hud_center", "small_bar", "button_group_army", "button_recruitment")
-	br:SetVisible(false)
+	local button_group_army = find_uicomponent(ui_root, "layout", "hud_center_docker", "hud_center", "small_bar", "button_group_army")
+	if button_group_army then
+		local br = find_uicomponent(button_group_army, "button_recruitment")
+		br:SetVisible(false)
+	end
 
 	local recruitment_options = find_uicomponent(ui_root, "units_panel", "main_units_panel", "recruitment_docker", "recruitment_options")
 	local list_box = find_uicomponent(recruitment_options, "mercenary_display", "listview", "list_clip", "list_box")
@@ -692,6 +695,12 @@ core:add_listener(
 	function()
 		real_timer.unregister("pj_quest_reserves_real_timer")
 		real_timer.register_repeating("pj_quest_reserves_real_timer", 0)
+
+		--- Hide the ogres recruitment pool button.
+		local ogres = find_uicomponent(core:get_ui_root(), "layout", "hud_center_docker", "hud_center", "small_bar", "button_group_army", "button_ogre_mercenaries_pool")
+		if ogres then
+			ogres:SetVisible(false)
+		end
 	end,
 	true
 )
