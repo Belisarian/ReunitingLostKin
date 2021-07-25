@@ -520,6 +520,8 @@ local units = {
 	"wh_dlc06_dwf_inf_norgrimlings_ironbreakers_0_mercenary",
 	"wh_dlc06_dwf_inf_norgrimlings_irondrakes_0_mercenary",
 	"wh_dlc06_dwf_veh_skyhammer_0_mercenary",
+	"wh2_dlc10_dwf_inf_giant_slayers_mercenary",
+	"wh_main_dwf_inf_slayers_mercenary",
 }
 
 local function hide_merc_stuff()
