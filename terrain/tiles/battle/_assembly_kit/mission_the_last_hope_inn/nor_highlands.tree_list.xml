@@ -597,10 +597,10 @@
 				<BATTLE_TREE_ITEM x='702.232056' y='12.446382' z='415.532806' scale='1.036992' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='705.631653' y='0.000000' z='1644.893921' scale='0.821515' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='717.215515' y='0.000000' z='1653.338257' scale='1.049905' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='721.579529' y='14.203876' z='695.980774' scale='0.896473' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='723.481628' y='13.580052' z='700.189209' scale='0.886345' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='723.887390' y='14.012794' z='687.177185' scale='1.076490' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='724.404358' y='13.829171' z='690.297485' scale='0.897090' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='721.579529' y='15.323678' z='695.980774' scale='0.896473' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='723.481628' y='16.006483' z='700.189209' scale='0.886345' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='723.887390' y='14.184822' z='687.177185' scale='1.076490' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='724.404358' y='14.232148' z='690.297485' scale='0.897090' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.596497' y='0.000000' z='1474.395996' scale='0.901663' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.825623' y='5.826304' z='1848.391357' scale='1.260166' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.914246' y='5.826491' z='1837.040649' scale='1.035737' is_freeform='false'/>
@@ -686,7 +686,7 @@
 				<BATTLE_TREE_ITEM x='811.635803' y='10.868237' z='610.479370' scale='0.995529' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='813.002625' y='11.617407' z='432.332825' scale='0.937751' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='813.166504' y='0.000000' z='1509.053101' scale='1.284337' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='814.548523' y='8.393964' z='693.971619' scale='1.105623' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='814.548523' y='8.397352' z='693.971619' scale='1.105623' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='814.584290' y='9.824906' z='400.252960' scale='0.820229' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='817.422424' y='0.000000' z='1624.935791' scale='0.901038' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='817.644165' y='9.671380' z='398.582672' scale='0.999274' is_freeform='false'/>
@@ -744,7 +744,7 @@
 				<BATTLE_TREE_ITEM x='911.237732' y='0.001020' z='2043.552490' scale='0.896590' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='911.246948' y='3.613729' z='889.676575' scale='1.039485' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='912.500366' y='0.044722' z='2033.852417' scale='0.987945' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='915.089905' y='7.341305' z='743.448120' scale='0.993800' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='915.089905' y='7.436406' z='743.448120' scale='0.993800' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='916.170105' y='0.124224' z='2025.896484' scale='1.014824' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='916.387390' y='2.472472' z='1844.926636' scale='1.251330' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='916.753906' y='2.489669' z='1837.876099' scale='0.891096' is_freeform='false'/>
@@ -753,18 +753,18 @@
 				<BATTLE_TREE_ITEM x='923.590149' y='11.479510' z='180.904922' scale='0.908799' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='925.149536' y='7.463252' z='1687.385620' scale='1.002410' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='929.879822' y='7.650009' z='1680.680542' scale='1.123794' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='936.123169' y='6.541483' z='759.769104' scale='0.955149' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='936.123169' y='6.892287' z='759.769104' scale='0.955149' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='937.220276' y='0.000000' z='1225.679077' scale='0.828595' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='937.637695' y='0.716288' z='49.696560' scale='0.844945' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='937.781189' y='19.915197' z='355.667450' scale='0.942686' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='940.086975' y='1.136143' z='52.293919' scale='1.183062' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='940.974060' y='6.733171' z='752.939453' scale='1.031403' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='940.974060' y='6.862743' z='752.939453' scale='1.031403' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='941.064148' y='1.681463' z='1856.156616' scale='0.864904' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='942.307312' y='6.804314' z='755.243591' scale='0.978665' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='942.840271' y='6.841389' z='752.198181' scale='1.107231' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='942.307312' y='6.948111' z='755.243591' scale='0.978665' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='942.840271' y='6.936868' z='752.198181' scale='1.107231' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.732483' y='2.172080' z='59.492088' scale='0.941779' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.851135' y='0.000000' z='1497.921265' scale='0.984840' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='943.954895' y='6.696595' z='765.422485' scale='0.814176' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='943.954895' y='7.049783' z='765.422485' scale='0.814176' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.969849' y='1.519368' z='54.533333' scale='1.266834' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.578491' y='1.687223' z='1852.905151' scale='0.833860' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='948.924072' y='2.132632' z='1840.164795' scale='0.875929' is_freeform='false'/>
@@ -825,35 +825,35 @@
 				<BATTLE_TREE_ITEM x='1012.623657' y='0.000000' z='1314.988892' scale='1.125002' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1012.946899' y='0.000000' z='1337.124634' scale='1.009895' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1015.581726' y='0.000000' z='1382.723633' scale='1.084779' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1017.338135' y='0.000000' z='1477.615356' scale='0.901747' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1017.338135' y='0.046629' z='1477.615356' scale='0.901747' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1017.600159' y='0.000000' z='1350.070801' scale='1.194911' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1017.614136' y='2.842022' z='1743.586426' scale='1.102255' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1018.067017' y='0.000000' z='1380.297363' scale='1.186740' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1018.501953' y='0.000000' z='1343.278442' scale='0.943565' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1021.255737' y='0.000000' z='1390.833984' scale='0.898291' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1034.068481' y='11.214644' z='208.951523' scale='1.134447' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1037.882202' y='9.322030' z='957.856140' scale='1.162692' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1037.882202' y='9.939602' z='957.856140' scale='1.162692' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1038.717163' y='0.000000' z='1343.689819' scale='1.025841' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1039.290894' y='11.706507' z='964.079651' scale='1.157786' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1040.048462' y='9.275142' z='958.957703' scale='0.940589' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1039.290894' y='11.754297' z='964.079651' scale='1.157786' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1040.048462' y='9.755181' z='958.957703' scale='0.940589' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1040.760010' y='12.059370' z='237.071304' scale='0.812115' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1041.799316' y='0.000000' z='1355.869507' scale='0.876348' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1044.681885' y='0.000000' z='1337.004028' scale='1.043427' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1045.545776' y='8.579139' z='958.459229' scale='1.294324' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1045.545776' y='9.116494' z='958.459229' scale='1.294324' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1045.568115' y='0.000000' z='1357.704102' scale='1.121965' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1046.102539' y='5.223249' z='930.664612' scale='1.129053' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1046.102539' y='5.931972' z='930.664612' scale='1.129053' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.068848' y='0.000000' z='1351.498413' scale='0.948165' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.300049' y='11.613673' z='238.775650' scale='0.990349' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1050.493652' y='9.035792' z='184.129761' scale='1.295798' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1051.551270' y='5.375069' z='930.968079' scale='0.991272' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1052.686401' y='0.000000' z='1358.543945' scale='1.045333' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1054.631836' y='6.771370' z='923.850830' scale='1.082218' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1057.369263' y='5.444689' z='934.020081' scale='0.918166' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1051.551270' y='5.845183' z='930.968079' scale='0.991272' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1052.686401' y='20.000000' z='1358.543945' scale='1.045333' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1054.631836' y='6.932483' z='923.850830' scale='1.082218' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1057.369263' y='5.632823' z='934.020081' scale='0.918166' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1061.253174' y='18.568897' z='495.986847' scale='0.998265' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1061.739136' y='0.000000' z='1354.414063' scale='1.098288' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1061.739136' y='20.000000' z='1354.414063' scale='1.098288' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1062.444092' y='4.014795' z='1728.507813' scale='1.031319' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1062.782471' y='0.999175' z='2016.623047' scale='1.101240' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1062.872681' y='0.000000' z='1352.444458' scale='0.953374' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1062.872681' y='20.000000' z='1352.444458' scale='0.953374' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1063.249390' y='3.922184' z='1726.196045' scale='0.983917' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1064.979736' y='4.396380' z='1741.152832' scale='1.219165' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1064.991577' y='4.352622' z='1736.481812' scale='0.968124' is_freeform='false'/>
@@ -864,17 +864,17 @@
 				<BATTLE_TREE_ITEM x='1071.971069' y='0.885814' z='2019.455322' scale='1.168750' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1073.296509' y='0.000000' z='1258.437744' scale='1.042321' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1078.756226' y='26.297619' z='828.794983' scale='1.261440' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1079.629761' y='7.500669' z='982.977783' scale='0.897871' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1079.629761' y='7.941755' z='982.977783' scale='0.897871' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1080.318481' y='25.563311' z='845.389282' scale='1.178233' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1082.575195' y='26.902285' z='826.116455' scale='1.175006' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1083.101074' y='27.056953' z='822.573120' scale='1.040772' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1084.836304' y='0.000000' z='1239.490234' scale='0.892134' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1091.214111' y='26.829576' z='844.107666' scale='1.296315' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1091.582153' y='17.621918' z='1023.649292' scale='1.125209' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1091.582153' y='15.500798' z='1023.649292' scale='1.125209' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1094.035645' y='28.166958' z='839.470642' scale='0.997353' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1096.511963' y='4.864433' z='1986.347290' scale='1.141024' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.980591' y='10.489382' z='930.151245' scale='0.917905' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1099.207397' y='3.894632' z='1135.112427' scale='1.076405' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1099.207397' y='20.000000' z='1135.112427' scale='1.076405' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1099.581421' y='12.642239' z='1572.493652' scale='0.951629' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1101.150146' y='10.765127' z='931.965332' scale='0.895137' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1104.053589' y='10.209414' z='934.425720' scale='1.063401' is_freeform='false'/>
@@ -884,7 +884,7 @@
 				<BATTLE_TREE_ITEM x='1107.624023' y='24.370836' z='139.003799' scale='1.106712' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1108.873169' y='7.070388' z='1970.830200' scale='1.069146' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1117.666748' y='15.768903' z='153.854919' scale='1.077903' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1118.889404' y='13.301882' z='1043.987671' scale='0.825507' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1118.889404' y='13.007069' z='1043.987671' scale='0.825507' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1119.758179' y='12.408497' z='1514.227051' scale='1.113767' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1120.627441' y='29.500603' z='859.330627' scale='1.221134' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1126.573486' y='8.086153' z='180.307220' scale='1.008903' is_freeform='false'/>
@@ -893,13 +893,13 @@
 				<BATTLE_TREE_ITEM x='1134.571777' y='34.167725' z='846.687439' scale='1.128468' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1134.733765' y='7.985703' z='186.133545' scale='0.823610' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1134.764160' y='31.890436' z='856.591431' scale='1.111364' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1135.756348' y='7.336756' z='1471.168945' scale='0.965049' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1135.756348' y='7.540827' z='1471.168945' scale='0.965049' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1136.173950' y='33.905815' z='849.206787' scale='0.953956' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1138.257080' y='1.908685' z='1018.314880' scale='0.914680' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1138.257080' y='3.870574' z='1018.314880' scale='0.914680' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1138.728394' y='32.301426' z='857.780823' scale='0.997613' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1140.867920' y='4.298233' z='1033.727417' scale='1.271897' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1140.867920' y='5.234743' z='1033.727417' scale='1.271897' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1145.298584' y='19.987007' z='907.150452' scale='1.088891' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1147.364380' y='4.036437' z='1037.788818' scale='0.961392' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1147.364380' y='4.949956' z='1037.788818' scale='0.961392' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1157.719116' y='27.073648' z='893.614807' scale='0.960090' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1159.535156' y='27.513086' z='895.858826' scale='1.223430' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1161.145386' y='28.370859' z='895.502197' scale='0.900702' is_freeform='false'/>
@@ -914,22 +914,22 @@
 				<BATTLE_TREE_ITEM x='1197.688721' y='7.282069' z='1572.719238' scale='1.192340' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1200.170044' y='25.704603' z='944.739807' scale='0.911147' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1200.821533' y='7.905616' z='1583.872559' scale='0.836469' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1204.880493' y='16.878275' z='1269.051025' scale='1.262402' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1204.880493' y='16.189985' z='1269.051025' scale='1.262402' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1206.065918' y='5.068224' z='1741.882568' scale='1.111269' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1206.116211' y='7.457283' z='1563.825562' scale='1.000473' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1207.792847' y='5.897143' z='1819.206177' scale='0.896033' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1208.117920' y='16.130318' z='1264.869507' scale='0.960029' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1208.117920' y='15.665376' z='1264.869507' scale='0.960029' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1210.158081' y='5.104876' z='1745.503784' scale='0.904768' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1210.352661' y='16.749174' z='1244.645142' scale='1.243976' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1211.359863' y='15.736153' z='1262.449341' scale='1.255474' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1214.736328' y='14.609570' z='1262.035522' scale='0.899390' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1210.352661' y='16.050129' z='1244.645142' scale='1.243976' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1211.359863' y='15.372739' z='1262.449341' scale='1.255474' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1214.736328' y='14.550834' z='1262.035522' scale='0.899390' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1215.059692' y='5.916863' z='1813.184204' scale='1.250439' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1221.802979' y='2.957874' z='116.052429' scale='0.847988' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1221.939819' y='2.592834' z='96.298409' scale='0.891980' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1224.984009' y='3.586144' z='144.168701' scale='1.273808' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1225.299316' y='3.680195' z='146.048309' scale='1.249836' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1225.550781' y='2.853540' z='1090.088989' scale='1.158709' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1231.520386' y='3.032038' z='1092.193359' scale='0.973648' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1225.550781' y='3.364625' z='1090.088989' scale='1.158709' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1231.520386' y='3.191052' z='1092.193359' scale='0.973648' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1232.888794' y='4.813799' z='1409.562134' scale='0.840865' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1233.086426' y='3.758359' z='1089.754028' scale='1.278218' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1233.688965' y='3.451331' z='1091.039307' scale='1.124460' is_freeform='false'/>
@@ -1794,13 +1794,13 @@
 				<BATTLE_TREE_ITEM x='280.951416' y='6.844533' z='1841.727173' scale='1.054208' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='282.009857' y='6.878080' z='1839.371338' scale='1.069009' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='282.286407' y='0.000000' z='1404.227783' scale='0.959113' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='284.915253' y='12.886070' z='672.017761' scale='0.823390' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='288.492401' y='9.875112' z='668.467896' scale='0.941960' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='288.639893' y='12.977152' z='674.903259' scale='0.992755' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='289.168549' y='14.100357' z='679.030029' scale='0.895452' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='289.693024' y='13.596722' z='676.935303' scale='1.117722' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='290.914551' y='13.089706' z='675.743408' scale='1.201596' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='291.147675' y='12.383581' z='673.943726' scale='0.875808' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='284.915253' y='11.964796' z='672.017761' scale='0.823390' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='288.492401' y='10.828782' z='668.467896' scale='0.941960' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='288.639893' y='12.914019' z='674.903259' scale='0.992755' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='289.168549' y='13.907299' z='679.030029' scale='0.895452' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='289.693024' y='13.479375' z='676.935303' scale='1.117722' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='290.914551' y='13.016501' z='675.743408' scale='1.201596' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='291.147675' y='12.348107' z='673.943726' scale='0.875808' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='295.042267' y='0.000000' z='1266.892334' scale='1.256245' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='295.197784' y='0.000000' z='1264.771851' scale='0.893507' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='307.681396' y='0.000000' z='1044.167114' scale='0.900771' is_freeform='false'/>
@@ -2213,14 +2213,14 @@
 				<BATTLE_TREE_ITEM x='815.207886' y='0.000000' z='1255.584595' scale='0.856657' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='821.014771' y='0.000000' z='1256.986450' scale='1.143999' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='821.288208' y='0.000000' z='1260.214355' scale='1.264057' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='822.340820' y='10.329465' z='738.583740' scale='1.029410' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='822.340820' y='10.722723' z='738.583740' scale='1.029410' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='822.496216' y='0.000000' z='1255.789551' scale='0.878424' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='822.643188' y='10.201077' z='597.369995' scale='0.853475' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='822.764709' y='0.000000' z='1267.328003' scale='0.966346' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='823.242493' y='10.397800' z='601.260559' scale='0.931830' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='823.357117' y='10.303297' z='598.638611' scale='0.869642' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='827.188416' y='0.000000' z='1258.703003' scale='1.125460' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='828.020447' y='11.246989' z='745.887085' scale='0.827511' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='828.020447' y='11.361373' z='745.887085' scale='0.827511' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='829.028992' y='0.000000' z='1253.406982' scale='0.975364' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='831.602478' y='0.000000' z='1277.985107' scale='0.994293' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='834.545410' y='0.000000' z='1280.888062' scale='1.086748' is_freeform='false'/>
@@ -2338,22 +2338,22 @@
 				<BATTLE_TREE_ITEM x='1127.107666' y='7.148193' z='1735.241333' scale='1.068185' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1128.180420' y='7.173055' z='1734.688477' scale='1.174731' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1131.743042' y='16.228861' z='365.008118' scale='1.246204' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1184.394287' y='4.694116' z='1081.657104' scale='1.209793' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1186.460327' y='4.327788' z='1078.252075' scale='0.810688' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1184.394287' y='6.077979' z='1081.657104' scale='1.209793' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1186.460327' y='5.694712' z='1078.252075' scale='0.810688' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1187.226196' y='9.710885' z='1895.087402' scale='1.031510' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1188.259277' y='9.696853' z='1893.008179' scale='1.030266' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1189.759033' y='4.006940' z='1076.487061' scale='1.157204' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1192.470459' y='3.691574' z='1076.041748' scale='0.910857' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1193.275391' y='3.694613' z='1075.093384' scale='1.082422' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1189.759033' y='5.391031' z='1076.487061' scale='1.157204' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1192.470459' y='5.120211' z='1076.041748' scale='0.910857' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1193.275391' y='5.070105' z='1075.093384' scale='1.082422' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1193.411499' y='10.226838' z='1897.987915' scale='1.079255' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1202.482910' y='10.479650' z='1893.150269' scale='0.989799' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1202.691895' y='10.291789' z='1891.915161' scale='0.972061' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1203.343262' y='14.806746' z='241.322159' scale='0.971785' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1203.613892' y='3.821334' z='1072.916138' scale='1.135228' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1203.613892' y='4.915632' z='1072.916138' scale='1.135228' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1204.579956' y='10.394147' z='1890.094849' scale='1.036751' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1204.652588' y='8.340962' z='1873.489868' scale='0.812367' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1206.124878' y='3.181441' z='1080.713135' scale='0.839313' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1213.198120' y='2.936383' z='1084.707031' scale='0.977014' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1206.124878' y='4.498465' z='1080.713135' scale='0.839313' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1213.198120' y='4.074645' z='1084.707031' scale='0.977014' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1226.635620' y='5.014256' z='1775.194458' scale='1.103899' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1231.804565' y='5.174251' z='1773.410278' scale='1.208072' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1233.944214' y='3.780358' z='142.928818' scale='0.968802' is_freeform='false'/>
@@ -3621,7 +3621,7 @@
 				<BATTLE_TREE_ITEM x='322.092499' y='5.255588' z='1912.540283' scale='1.214244' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='323.817749' y='4.945344' z='1918.659424' scale='1.019905' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='324.095886' y='8.381251' z='1783.035034' scale='0.851194' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='325.198456' y='15.952982' z='687.489136' scale='0.972989' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='325.198456' y='15.353810' z='687.489136' scale='0.972989' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='326.375977' y='15.100000' z='435.374847' scale='0.843169' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='326.580963' y='0.000000' z='807.116211' scale='0.920226' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='328.065796' y='0.000000' z='810.330139' scale='0.949416' is_freeform='false'/>
@@ -3880,7 +3880,7 @@
 				<BATTLE_TREE_ITEM x='719.487976' y='0.000000' z='1243.479614' scale='1.152377' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='720.485046' y='0.000000' z='1245.872559' scale='1.096536' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='723.617920' y='0.000000' z='1249.923340' scale='1.115633' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='725.523071' y='13.761898' z='686.304749' scale='0.962073' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='725.523071' y='13.926974' z='686.304749' scale='0.962073' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='726.751770' y='0.000000' z='855.270996' scale='0.902182' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='727.970886' y='0.000000' z='1249.534180' scale='1.204463' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='729.146057' y='0.000000' z='1249.744873' scale='0.877638' is_freeform='false'/>
@@ -4017,13 +4017,13 @@
 				<BATTLE_TREE_ITEM x='892.878052' y='8.314858' z='667.438416' scale='0.977943' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='893.197266' y='8.303937' z='671.474487' scale='1.257328' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='893.746826' y='8.307168' z='675.879089' scale='1.066262' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='894.192810' y='9.094975' z='752.660339' scale='1.026060' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='894.192810' y='9.163532' z='752.660339' scale='1.026060' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='895.791809' y='0.285252' z='2007.532715' scale='0.876448' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='898.275146' y='8.353062' z='669.236328' scale='1.012421' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='900.648071' y='0.227627' z='2008.870605' scale='1.173098' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='903.592468' y='8.327003' z='667.997498' scale='1.109545' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='904.514099' y='8.064397' z='1688.820923' scale='1.248768' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='905.201599' y='8.365985' z='755.676453' scale='0.904621' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='905.201599' y='8.537694' z='755.676453' scale='0.904621' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='905.799011' y='8.799548' z='1683.999634' scale='0.825966' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='906.958557' y='0.000000' z='1165.284546' scale='1.079049' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='907.259705' y='0.000000' z='1167.199951' scale='1.260182' is_freeform='false'/>
@@ -4046,21 +4046,21 @@
 				<BATTLE_TREE_ITEM x='940.727356' y='0.927881' z='51.214375' scale='1.053422' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='941.933472' y='0.530711' z='45.940125' scale='1.295460' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='942.316101' y='0.111919' z='2029.476685' scale='1.011009' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='944.840881' y='6.826110' z='765.812378' scale='1.274830' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='945.352051' y='7.017007' z='751.502441' scale='0.921921' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='944.840881' y='7.130221' z='765.812378' scale='1.274830' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='945.352051' y='7.054876' z='751.502441' scale='0.921921' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='945.396729' y='18.131353' z='419.069000' scale='0.967506' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='945.723999' y='0.000000' z='1524.677856' scale='1.245853' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.304138' y='1.273887' z='53.742764' scale='0.989715' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='946.632019' y='7.074303' z='758.509338' scale='0.804417' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='946.632019' y='7.190731' z='758.509338' scale='0.804417' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='948.002502' y='1.308572' z='53.770626' scale='1.180598' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='948.494934' y='0.000000' z='1492.213867' scale='0.928412' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='948.531555' y='7.204315' z='763.776001' scale='1.280583' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='948.531555' y='7.364035' z='763.776001' scale='1.280583' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='949.261047' y='1.940678' z='57.827847' scale='0.803151' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='950.552002' y='0.000000' z='1522.643433' scale='0.945823' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='950.574402' y='7.363096' z='767.565918' scale='1.075296' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='950.574402' y='7.553343' z='767.565918' scale='1.075296' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='950.823914' y='0.000000' z='1490.758667' scale='1.226169' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='951.189758' y='2.388494' z='1835.569092' scale='1.175349' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='951.726013' y='7.395275' z='765.636230' scale='0.812131' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='951.726013' y='7.547952' z='765.636230' scale='0.812131' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='953.230103' y='7.857778' z='750.297241' scale='0.941878' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='953.306213' y='1.969503' z='1849.734619' scale='0.905669' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='954.020813' y='8.038671' z='756.111938' scale='1.054093' is_freeform='false'/>
@@ -4114,26 +4114,26 @@
 				<BATTLE_TREE_ITEM x='1016.882751' y='2.997901' z='1738.600098' scale='0.905748' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1022.470093' y='2.697963' z='1741.502686' scale='0.843957' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1034.340454' y='0.000000' z='1351.864868' scale='0.871710' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1034.592896' y='14.303546' z='969.663879' scale='1.040658' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1034.592896' y='13.606107' z='969.663879' scale='1.040658' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1035.016724' y='0.083503' z='1114.723877' scale='1.261471' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1037.318848' y='14.733061' z='971.697998' scale='0.946387' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1037.318848' y='13.809028' z='971.697998' scale='0.946387' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1038.303467' y='0.000000' z='1350.583740' scale='1.158183' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1041.292725' y='12.912419' z='968.388123' scale='1.194079' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1042.561401' y='10.881420' z='965.156616' scale='1.024987' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1041.292725' y='12.538966' z='968.388123' scale='1.194079' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1042.561401' y='11.035110' z='965.156616' scale='1.024987' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1044.691650' y='0.000000' z='1342.465332' scale='0.889303' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1045.991211' y='0.000000' z='1352.944824' scale='1.253078' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.027588' y='0.000000' z='1342.030273' scale='1.149004' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1047.838135' y='10.721044' z='967.151001' scale='1.229435' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1047.838135' y='10.883988' z='967.151001' scale='1.229435' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1048.097656' y='11.407627' z='238.517075' scale='0.973503' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1048.579102' y='0.000000' z='1360.623413' scale='1.239202' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1048.579102' y='20.000000' z='1360.623413' scale='1.239202' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1050.328491' y='10.046051' z='175.713165' scale='0.862932' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1052.182129' y='0.000000' z='1357.044189' scale='1.017741' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1054.701660' y='5.336666' z='932.974060' scale='0.943000' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1052.182129' y='20.000000' z='1357.044189' scale='1.017741' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1054.701660' y='5.729705' z='932.974060' scale='0.943000' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1056.364502' y='17.620758' z='495.455719' scale='0.939461' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1058.264038' y='18.105642' z='494.681580' scale='0.814189' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1059.224243' y='0.000000' z='1361.780518' scale='0.977924' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1059.224243' y='20.000000' z='1361.780518' scale='0.977924' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1059.408203' y='3.879868' z='1732.352661' scale='0.915526' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1059.415039' y='5.534496' z='934.093201' scale='0.861601' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1059.415039' y='5.658622' z='934.093201' scale='0.861601' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1060.043213' y='8.243467' z='185.491013' scale='1.232055' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1060.643555' y='4.010504' z='1733.890869' scale='1.029061' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1064.897583' y='3.911268' z='1725.429321' scale='0.970649' is_freeform='false'/>
@@ -4142,7 +4142,7 @@
 				<BATTLE_TREE_ITEM x='1070.956177' y='0.000000' z='1255.351074' scale='1.097452' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1071.698486' y='0.000000' z='1256.870361' scale='1.211933' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1074.700562' y='0.000000' z='1252.319458' scale='0.879423' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1079.707764' y='5.490808' z='974.123657' scale='1.092447' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1079.707764' y='6.091700' z='974.123657' scale='1.092447' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1080.532593' y='4.990925' z='388.070221' scale='1.034350' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1081.519043' y='25.731678' z='842.940552' scale='1.219203' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1082.513550' y='26.407812' z='836.503113' scale='1.102533' is_freeform='false'/>
@@ -4161,28 +4161,28 @@
 				<BATTLE_TREE_ITEM x='1098.469482' y='30.411411' z='813.672180' scale='0.814618' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1100.331177' y='20.369585' z='149.011154' scale='0.975995' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1100.698730' y='27.650705' z='851.499451' scale='0.852003' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1100.768799' y='1.295247' z='974.815796' scale='0.989899' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1100.768799' y='4.145977' z='974.815796' scale='0.989899' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1103.932129' y='28.444040' z='848.527771' scale='0.857023' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1104.572266' y='4.220189' z='1134.961670' scale='0.823610' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1105.189697' y='5.538746' z='1123.886719' scale='1.025407' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1104.572266' y='20.000000' z='1134.961670' scale='0.823610' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1105.189697' y='20.000000' z='1123.886719' scale='1.025407' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1105.735962' y='6.730826' z='1610.879272' scale='0.883662' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1105.882568' y='4.412119' z='1132.593262' scale='1.108321' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1105.882568' y='20.000000' z='1132.593262' scale='1.108321' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1106.368408' y='18.639912' z='151.797089' scale='1.110788' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1107.664063' y='16.707329' z='155.331955' scale='1.112236' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1107.704102' y='29.301804' z='849.857605' scale='0.952605' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1107.988525' y='4.298862' z='1135.669922' scale='1.012827' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1107.988525' y='20.000000' z='1135.669922' scale='1.012827' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1108.677002' y='6.260162' z='1612.648438' scale='1.007889' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1109.336426' y='7.539583' z='225.681152' scale='0.931078' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1109.560913' y='7.353174' z='226.082031' scale='1.181422' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1111.191895' y='4.638053' z='1133.174438' scale='1.064076' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1111.191895' y='20.000000' z='1133.174438' scale='1.064076' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1111.707642' y='9.859617' z='938.567871' scale='0.943363' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1112.546631' y='13.941577' z='159.073105' scale='1.201385' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1113.731323' y='4.503267' z='1134.549805' scale='0.929887' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1113.731323' y='20.000000' z='1134.549805' scale='0.929887' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1117.721802' y='13.165569' z='1512.983521' scale='1.254736' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1117.793457' y='12.398011' z='160.691574' scale='1.104679' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1118.164185' y='12.536492' z='1512.676758' scale='0.976101' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1121.737549' y='13.217393' z='1044.991821' scale='1.072221' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1123.096436' y='11.887977' z='1042.579346' scale='1.065103' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1121.737549' y='12.980309' z='1044.991821' scale='1.072221' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1123.096436' y='11.812396' z='1042.579346' scale='1.065103' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1124.211304' y='8.221613' z='180.983383' scale='1.165115' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1124.927612' y='6.311163' z='1633.630127' scale='1.014023' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1125.584106' y='7.293802' z='223.068253' scale='1.194454' is_freeform='false'/>
@@ -4195,8 +4195,8 @@
 				<BATTLE_TREE_ITEM x='1138.501221' y='11.969971' z='330.386414' scale='0.876150' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1139.458008' y='33.673084' z='850.353455' scale='1.091007' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1140.571289' y='7.807039' z='190.061493' scale='0.961204' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1140.614380' y='4.756274' z='1034.917847' scale='1.214374' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1141.768799' y='6.140335' z='1460.432617' scale='1.080407' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1140.614380' y='5.532169' z='1034.917847' scale='1.214374' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1141.768799' y='6.255729' z='1460.432617' scale='1.080407' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1142.096436' y='7.724711' z='188.114502' scale='1.032204' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1163.200684' y='9.693845' z='1640.605347' scale='1.081445' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1167.095459' y='33.148083' z='883.537781' scale='0.926032' is_freeform='false'/>
@@ -4213,17 +4213,17 @@
 				<BATTLE_TREE_ITEM x='1198.653320' y='26.689373' z='938.775818' scale='0.815892' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1200.095459' y='5.071678' z='1739.559204' scale='0.917136' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1203.984741' y='7.871753' z='1581.004517' scale='0.826093' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1206.717407' y='17.324841' z='1259.537231' scale='1.078004' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1206.717407' y='16.378851' z='1259.537231' scale='1.078004' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1207.703003' y='7.636484' z='1568.115601' scale='1.082536' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1209.148438' y='5.078919' z='1743.892822' scale='0.982452' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1211.126221' y='16.649864' z='1249.981934' scale='0.892348' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1211.126221' y='15.934820' z='1249.981934' scale='0.892348' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1213.355103' y='6.454006' z='1822.612183' scale='0.990303' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1216.007080' y='6.473348' z='1402.339966' scale='0.869421' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1217.073853' y='5.179143' z='1741.754639' scale='1.184687' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1218.396362' y='5.184117' z='1739.415405' scale='0.830648' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1219.623169' y='3.025259' z='91.845703' scale='0.952413' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1227.564697' y='4.818462' z='1412.486084' scale='1.000280' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1230.991943' y='2.558434' z='1096.384399' scale='1.178698' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1230.991943' y='2.760910' z='1096.384399' scale='1.178698' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1235.482056' y='4.285512' z='1086.482056' scale='0.851034' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1237.691650' y='3.777600' z='1091.819946' scale='1.056573' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1239.240356' y='13.552082' z='1056.080200' scale='0.832769' is_freeform='false'/>
@@ -5567,10 +5567,10 @@
 				<BATTLE_TREE_ITEM x='709.805420' y='0.000000' z='1646.784180' scale='1.157481' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='713.427368' y='0.000000' z='1634.487061' scale='1.043511' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='713.536865' y='0.000000' z='1325.673706' scale='1.193477' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='720.636108' y='13.895360' z='698.324524' scale='1.081805' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='720.955383' y='14.293171' z='688.816833' scale='0.991585' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='722.193542' y='14.045458' z='692.319580' scale='0.814713' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='724.722778' y='13.818909' z='689.620850' scale='0.829473' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='720.636108' y='15.984778' z='698.324524' scale='1.081805' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='720.955383' y='14.695890' z='688.816833' scale='0.991585' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='722.193542' y='14.728738' z='692.319580' scale='0.814713' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='724.722778' y='14.066008' z='689.620850' scale='0.829473' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.245178' y='5.822329' z='1846.221558' scale='1.193965' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='727.813416' y='0.000000' z='1477.807739' scale='1.203876' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='727.832520' y='5.738162' z='1833.441040' scale='0.871382' is_freeform='false'/>
@@ -5647,7 +5647,7 @@
 				<BATTLE_TREE_ITEM x='809.253906' y='10.434132' z='599.218567' scale='1.021210' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='809.348206' y='10.932447' z='613.646545' scale='1.208751' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='810.751892' y='11.136173' z='626.079163' scale='1.113062' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='811.620422' y='0.000019' z='862.505310' scale='0.829108' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='811.620422' y='20.000000' z='862.505310' scale='0.829108' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='812.337463' y='1.112745' z='1959.362793' scale='1.013077' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='812.388184' y='1.052672' z='1970.553223' scale='0.878813' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='812.549011' y='11.507612' z='430.775085' scale='0.815991' is_freeform='false'/>
@@ -5700,7 +5700,7 @@
 				<BATTLE_TREE_ITEM x='908.505432' y='0.000000' z='1161.337158' scale='1.049073' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='908.708618' y='9.284591' z='1681.698364' scale='0.906549' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='908.712952' y='0.000000' z='1066.533936' scale='0.894034' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='913.339844' y='7.495698' z='747.148315' scale='0.830600' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='913.339844' y='7.636030' z='747.148315' scale='0.830600' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='913.673645' y='2.516651' z='1846.214844' scale='1.210758' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='913.775208' y='7.839716' z='1691.510620' scale='1.189151' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='916.432434' y='8.337234' z='1686.797729' scale='1.148028' is_freeform='false'/>
@@ -5713,23 +5713,23 @@
 				<BATTLE_TREE_ITEM x='926.919067' y='5.449306' z='1698.555664' scale='0.981939' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='928.634949' y='7.220427' z='1684.163086' scale='0.944637' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='928.781616' y='6.707355' z='1688.542236' scale='1.113387' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='931.640686' y='6.514901' z='758.408081' scale='0.867808' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='931.640686' y='6.986711' z='758.408081' scale='0.867808' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='934.721130' y='19.757832' z='354.608063' scale='0.977239' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='939.118164' y='6.522196' z='764.438843' scale='1.179767' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='939.118164' y='6.968484' z='764.438843' scale='1.179767' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='940.822998' y='1.725034' z='57.992432' scale='1.104547' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='940.972290' y='6.575622' z='766.795349' scale='1.134249' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='940.972290' y='7.013675' z='766.795349' scale='1.134249' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='941.406982' y='18.496878' z='419.514282' scale='0.865446' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='942.668213' y='1.797117' z='57.978027' scale='0.873289' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='943.239197' y='6.721419' z='762.870544' scale='0.827901' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='943.239197' y='7.032688' z='762.870544' scale='0.827901' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.533386' y='2.565096' z='60.775219' scale='0.857137' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.627136' y='0.000000' z='1529.599731' scale='0.848142' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='945.040100' y='0.000000' z='1526.252075' scale='1.089372' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='945.916809' y='2.999416' z='62.248051' scale='1.107103' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='947.189270' y='0.000000' z='1524.728271' scale='1.230945' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='947.414795' y='0.000000' z='1520.756714' scale='1.149752' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='948.598022' y='7.059289' z='772.898926' scale='0.969886' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='951.240051' y='7.443012' z='757.736511' scale='1.082277' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='952.705994' y='7.638877' z='761.695618' scale='0.810674' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='948.598022' y='7.404505' z='772.898926' scale='0.969886' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='951.240051' y='7.550406' z='757.736511' scale='1.082277' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='952.705994' y='7.768009' z='761.695618' scale='0.810674' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='953.169189' y='2.340356' z='59.841091' scale='0.813161' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='954.004395' y='0.000546' z='1052.256226' scale='1.213330' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='955.896118' y='8.083541' z='754.858948' scale='1.282803' is_freeform='false'/>
@@ -5774,65 +5774,65 @@
 				<BATTLE_TREE_ITEM x='1010.927429' y='0.000000' z='1383.393066' scale='0.843030' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1011.485474' y='0.000000' z='1472.922363' scale='0.968881' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1011.837891' y='0.000000' z='1337.355347' scale='1.104669' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1012.319153' y='0.000000' z='1478.533081' scale='0.985598' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1012.319153' y='0.009845' z='1478.533081' scale='0.985598' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1012.468506' y='0.000000' z='1472.841797' scale='0.842399' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1013.692566' y='0.000000' z='1554.547607' scale='1.032726' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1014.185547' y='0.000000' z='1473.559692' scale='0.829944' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1031.293213' y='17.178640' z='972.434387' scale='0.904613' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1031.293213' y='15.361403' z='972.434387' scale='0.904613' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1036.518677' y='0.000000' z='1348.042847' scale='0.978523' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1037.306030' y='10.633966' z='960.553894' scale='1.237667' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1037.306030' y='11.000504' z='960.553894' scale='1.237667' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1039.988403' y='22.092224' z='829.455200' scale='0.839643' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1041.951538' y='22.035971' z='833.929810' scale='0.853361' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1042.436401' y='0.000000' z='1349.986328' scale='0.894125' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1042.580078' y='9.536247' z='961.983032' scale='1.207057' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1042.580078' y='9.935076' z='961.983032' scale='1.207057' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1043.689819' y='0.000000' z='1351.869385' scale='1.117906' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1044.331909' y='0.000000' z='1359.396118' scale='1.004471' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1045.310913' y='5.092327' z='932.984802' scale='0.815000' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1045.310913' y='5.962299' z='932.984802' scale='0.815000' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1046.262939' y='9.552363' z='182.735641' scale='0.984465' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1046.615601' y='0.000000' z='1360.035889' scale='0.995332' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1046.667847' y='12.356907' z='970.936401' scale='0.996628' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1047.038940' y='9.378123' z='963.971008' scale='1.055833' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1046.615601' y='20.000000' z='1360.035889' scale='0.995332' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1046.667847' y='12.042820' z='970.936401' scale='0.996628' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1047.038940' y='9.783092' z='963.971008' scale='1.055833' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.507080' y='10.024069' z='177.882446' scale='1.276684' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.578857' y='0.000000' z='1340.740845' scale='0.820317' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.948975' y='0.000000' z='1356.391235' scale='0.858640' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1050.912720' y='11.034373' z='235.690125' scale='1.018295' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1050.960205' y='13.846442' z='976.102417' scale='1.112276' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1056.531250' y='6.497795' z='924.378906' scale='0.983688' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1050.960205' y='12.997457' z='976.102417' scale='1.112276' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1056.531250' y='6.711027' z='924.378906' scale='0.983688' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1057.114746' y='10.013806' z='224.255615' scale='1.234340' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1063.225342' y='0.000000' z='1355.342651' scale='0.911130' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1063.225342' y='20.000000' z='1355.342651' scale='0.911130' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1063.522339' y='25.487198' z='809.935303' scale='1.286465' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1069.137329' y='4.235187' z='1726.862915' scale='0.824857' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1072.108398' y='0.000000' z='1253.504639' scale='1.290471' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1072.287720' y='0.000000' z='1255.462158' scale='1.135615' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1072.821899' y='6.530017' z='972.148376' scale='1.067002' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1072.821899' y='6.865084' z='972.148376' scale='1.067002' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1074.503662' y='25.640909' z='832.961304' scale='0.942531' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1075.722412' y='25.539289' z='834.588501' scale='1.158457' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1076.138550' y='25.775660' z='835.781494' scale='1.081544' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1076.439331' y='1.227911' z='2015.481567' scale='0.948760' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1077.628906' y='6.894783' z='978.276794' scale='0.947387' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1077.628906' y='7.407775' z='978.276794' scale='0.947387' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1077.695435' y='25.969677' z='830.481262' scale='0.971570' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1078.412598' y='26.442795' z='825.655273' scale='1.148703' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1079.046997' y='6.943320' z='980.581116' scale='0.943549' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1079.046997' y='7.448880' z='980.581116' scale='0.943549' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1080.457031' y='8.535837' z='1880.436523' scale='1.163218' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1082.577759' y='19.084044' z='1016.760315' scale='1.097410' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1082.577759' y='15.444888' z='1016.760315' scale='1.097410' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1084.835815' y='26.382236' z='841.789612' scale='0.990890' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1090.741089' y='27.903925' z='833.935425' scale='1.225452' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1092.862427' y='28.805655' z='823.760986' scale='1.269787' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1093.145996' y='18.735184' z='1028.438965' scale='0.879925' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1093.145996' y='16.510544' z='1028.438965' scale='0.879925' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1093.168335' y='27.138016' z='844.336853' scale='1.041710' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1093.409302' y='28.417225' z='830.969849' scale='1.266812' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1094.624878' y='28.708082' z='832.957336' scale='0.842069' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1095.455688' y='2.049249' z='974.018188' scale='1.282277' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1095.455688' y='4.308393' z='974.018188' scale='1.282277' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1095.972290' y='14.377551' z='1568.452881' scale='0.959745' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1096.648438' y='28.111446' z='842.605957' scale='0.995293' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1097.004883' y='13.177892' z='1573.642212' scale='1.079899' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.009888' y='27.940353' z='847.753357' scale='1.189250' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.582642' y='5.402998' z='1982.670410' scale='0.828603' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.665771' y='30.398613' z='814.822205' scale='0.835554' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1098.697388' y='4.345259' z='1131.876465' scale='0.944864' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1100.590210' y='5.401392' z='1123.582642' scale='1.159010' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1101.304443' y='1.688366' z='971.428833' scale='1.080347' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1101.710205' y='5.608959' z='1119.692139' scale='0.854149' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1098.697388' y='20.000000' z='1131.876465' scale='0.944864' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1100.590210' y='20.000000' z='1123.582642' scale='1.159010' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1101.304443' y='4.030985' z='971.428833' scale='1.080347' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1101.710205' y='20.000000' z='1119.692139' scale='0.854149' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1102.817139' y='30.776949' z='830.650635' scale='0.934524' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1103.025757' y='8.840631' z='938.258301' scale='0.836019' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1103.576294' y='12.165265' z='1569.512939' scale='0.801904' is_freeform='false'/>
@@ -5841,34 +5841,34 @@
 				<BATTLE_TREE_ITEM x='1104.366821' y='6.421503' z='1615.832153' scale='0.812996' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1104.981445' y='22.815350' z='143.229172' scale='0.908586' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1105.549683' y='28.494175' z='851.882874' scale='0.810208' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1105.783447' y='5.145620' z='1127.468872' scale='0.909830' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1105.783447' y='20.000000' z='1127.468872' scale='0.909830' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1105.827759' y='9.662951' z='936.987671' scale='0.951443' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1108.027466' y='19.298050' z='149.239365' scale='1.069520' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1108.625122' y='18.317167' z='151.661804' scale='0.943181' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1108.647095' y='10.703364' z='935.793640' scale='0.828896' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1108.949585' y='4.795492' z='1130.661865' scale='0.972808' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1108.949585' y='20.000000' z='1130.661865' scale='0.972808' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1109.975952' y='16.396395' z='154.021942' scale='1.252760' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1110.556519' y='9.949603' z='368.411469' scale='1.155604' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1110.866333' y='30.116165' z='848.645020' scale='1.289740' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1112.805908' y='4.707267' z='1132.818359' scale='0.839200' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1113.021362' y='4.943449' z='1130.728027' scale='0.877471' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1112.805908' y='20.000000' z='1132.818359' scale='0.839200' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1113.021362' y='20.000000' z='1130.728027' scale='0.877471' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1115.783203' y='16.206799' z='153.160599' scale='0.855134' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1121.507202' y='30.590128' z='855.307678' scale='1.229568' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1121.562622' y='11.926706' z='1041.768921' scale='0.854620' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1121.562622' y='11.858271' z='1041.768921' scale='0.854620' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1122.028320' y='11.055190' z='1515.252686' scale='1.030078' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1122.251953' y='6.016995' z='1631.928223' scale='0.958640' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1125.482056' y='30.667353' z='857.941895' scale='1.124278' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1125.756226' y='6.492402' z='1634.432617' scale='1.261349' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1127.968506' y='12.946342' z='1050.738159' scale='0.917338' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1130.066528' y='12.202299' z='1052.378906' scale='1.189850' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1127.968506' y='12.802031' z='1050.738159' scale='0.917338' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1130.066528' y='12.074670' z='1052.378906' scale='1.189850' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1131.764282' y='6.345878' z='1629.404297' scale='0.984001' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1136.884766' y='33.071487' z='853.536072' scale='0.914704' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1137.565430' y='6.640975' z='1039.632690' scale='0.801846' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1139.692505' y='5.661932' z='1036.557617' scale='1.219623' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1139.840576' y='6.158506' z='1038.107178' scale='1.196757' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1141.370850' y='6.162496' z='1462.498779' scale='1.244068' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1137.565430' y='6.970453' z='1039.632690' scale='0.801846' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1139.692505' y='6.229886' z='1036.557617' scale='1.219623' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1139.840576' y='6.543580' z='1038.107178' scale='1.196757' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1141.370850' y='6.277494' z='1462.498779' scale='1.244068' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1142.260986' y='7.737175' z='190.058319' scale='0.946097' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1144.845825' y='3.047034' z='1031.191162' scale='1.195141' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1144.845825' y='4.445045' z='1031.191162' scale='1.195141' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1159.743530' y='28.742832' z='889.594849' scale='1.275402' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1166.183838' y='9.781025' z='1639.693604' scale='0.971962' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1166.271973' y='30.933712' z='894.014526' scale='0.951416' is_freeform='false'/>
@@ -5884,10 +5884,10 @@
 				<BATTLE_TREE_ITEM x='1200.437256' y='7.739322' z='1867.978271' scale='1.040177' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1200.684937' y='26.406843' z='941.452576' scale='1.115618' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1203.192505' y='7.606279' z='1573.866821' scale='1.136385' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1205.811768' y='18.352615' z='1254.890137' scale='0.905028' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1205.811768' y='16.969847' z='1254.890137' scale='0.905028' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1205.953247' y='6.102293' z='1824.930420' scale='0.834585' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1213.345093' y='5.137269' z='1743.539795' scale='1.059670' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1214.706909' y='14.738748' z='1260.560303' scale='1.228962' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1214.706909' y='14.634061' z='1260.560303' scale='1.228962' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1214.930298' y='5.167507' z='1743.597412' scale='0.875181' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1218.768311' y='6.482285' z='1818.429199' scale='0.961601' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1231.097656' y='11.499544' z='1057.918823' scale='0.845922' is_freeform='false'/>
@@ -6892,8 +6892,8 @@
 				<BATTLE_TREE_ITEM x='276.384949' y='6.745977' z='1844.863892' scale='1.277226' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='277.729858' y='6.824844' z='1842.151245' scale='1.106638' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='280.953033' y='0.000000' z='1277.733154' scale='0.888510' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='291.748718' y='13.018796' z='671.507080' scale='1.260980' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='292.442230' y='12.405911' z='673.256042' scale='0.875121' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='291.748718' y='11.612667' z='671.507080' scale='1.260980' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='292.442230' y='12.365509' z='673.256042' scale='0.875121' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='297.633331' y='0.000000' z='1265.200562' scale='0.943198' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='297.645355' y='0.000000' z='1049.020508' scale='1.067567' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='300.119537' y='0.000000' z='1265.102905' scale='1.258785' is_freeform='false'/>
@@ -7283,7 +7283,7 @@
 				<BATTLE_TREE_ITEM x='817.369995' y='10.137459' z='595.579041' scale='1.193629' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='818.963135' y='0.000000' z='1262.886963' scale='1.278927' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='819.817505' y='0.000000' z='1259.861084' scale='0.875181' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='820.435303' y='11.111246' z='741.207581' scale='1.044472' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='820.435303' y='11.532211' z='741.207581' scale='1.044472' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='820.852783' y='0.000000' z='1262.394653' scale='1.181453' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='821.305847' y='10.417172' z='601.588501' scale='0.911284' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='822.707764' y='0.000000' z='1264.825439' scale='0.933669' is_freeform='false'/>
@@ -7407,24 +7407,24 @@
 				<BATTLE_TREE_ITEM x='1125.222168' y='6.768265' z='1738.129761' scale='0.990997' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1126.210449' y='6.963599' z='1736.706665' scale='1.024544' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1171.379883' y='9.877881' z='1636.421387' scale='1.169757' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1181.974487' y='5.749297' z='1082.427246' scale='1.084212' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1184.139282' y='4.507322' z='1079.852661' scale='1.066269' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1181.974487' y='6.820484' z='1082.427246' scale='1.084212' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1184.139282' y='5.900158' z='1079.852661' scale='1.066269' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1192.099609' y='10.088838' z='1895.286133' scale='1.006424' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1197.852051' y='3.566453' z='1075.924927' scale='1.212589' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1197.852051' y='4.921748' z='1075.924927' scale='1.212589' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1198.788940' y='13.239116' z='237.174026' scale='1.119852' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1200.290527' y='10.542025' z='1894.364502' scale='1.119188' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1201.041504' y='3.541763' z='1074.614502' scale='0.803199' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1201.196655' y='3.337701' z='1079.187500' scale='1.059275' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1201.041504' y='4.839849' z='1074.614502' scale='0.803199' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1201.196655' y='4.752298' z='1079.187500' scale='1.059275' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1201.401855' y='13.993900' z='239.388474' scale='0.924298' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1201.634521' y='13.628028' z='237.438187' scale='1.133987' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1202.482300' y='3.431343' z='1076.494263' scale='0.949598' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1202.482300' y='4.745134' z='1076.494263' scale='0.949598' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1203.480225' y='14.407782' z='238.104980' scale='1.106448' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1204.823730' y='3.598156' z='1075.330811' scale='0.925165' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1204.823730' y='4.818346' z='1075.330811' scale='0.925165' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1206.511230' y='10.855688' z='1894.289551' scale='0.980621' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1206.852051' y='10.686168' z='1893.204956' scale='0.986831' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1207.100464' y='8.595055' z='1874.950806' scale='1.035096' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1208.364746' y='3.534558' z='1076.407349' scale='0.935123' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1211.902466' y='3.064887' z='1082.188599' scale='0.919028' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1208.364746' y='4.701744' z='1076.407349' scale='0.935123' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1211.902466' y='4.252680' z='1082.188599' scale='0.919028' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1232.058105' y='5.198238' z='1774.316528' scale='0.870314' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1232.266479' y='5.225006' z='1772.676514' scale='1.074281' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1232.627197' y='4.318540' z='148.248260' scale='0.864004' is_freeform='false'/>
@@ -9217,10 +9217,10 @@
 				<BATTLE_TREE_ITEM x='711.785095' y='0.000000' z='1331.711304' scale='1.245373' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='715.415710' y='0.000000' z='1640.064697' scale='1.273816' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='717.336914' y='0.000000' z='1245.160278' scale='0.886252' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='723.962402' y='13.866052' z='697.753540' scale='1.018719' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='723.962402' y='15.284846' z='697.753540' scale='1.018719' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.285034' y='0.000000' z='1381.696533' scale='0.860464' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.604797' y='0.000000' z='1251.746948' scale='0.959052' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='727.167969' y='13.597519' z='691.882629' scale='0.813100' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='727.167969' y='13.975904' z='691.882629' scale='0.813100' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='727.645630' y='5.752467' z='1834.301880' scale='0.804387' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='727.793701' y='0.000000' z='1377.494629' scale='1.047784' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='728.215515' y='0.000000' z='1376.811646' scale='1.051400' is_freeform='false'/>
@@ -9354,7 +9354,7 @@
 				<BATTLE_TREE_ITEM x='881.052307' y='4.210577' z='1707.701294' scale='0.861089' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='882.499695' y='7.964416' z='686.678711' scale='1.210841' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='886.501221' y='8.136735' z='680.266663' scale='0.842130' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='896.501404' y='8.933494' z='752.592651' scale='1.094785' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='896.501404' y='9.020510' z='752.592651' scale='1.094785' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='897.346924' y='0.220239' z='2010.685425' scale='1.156786' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='901.737305' y='0.310740' z='1999.257446' scale='0.918746' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='902.187195' y='0.280464' z='2000.403931' scale='0.815198' is_freeform='false'/>
@@ -9365,7 +9365,7 @@
 				<BATTLE_TREE_ITEM x='907.477905' y='3.353879' z='886.266174' scale='0.845771' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='908.043945' y='3.445204' z='889.369812' scale='0.926345' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='909.067017' y='2.527494' z='1847.640259' scale='1.007750' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='909.600342' y='7.927973' z='752.565247' scale='1.076667' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='909.600342' y='8.134171' z='752.565247' scale='1.076667' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='910.892212' y='7.898663' z='1690.548950' scale='0.990883' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='912.652893' y='0.000000' z='2047.515015' scale='0.836568' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='916.899963' y='0.000000' z='1165.265137' scale='1.156939' is_freeform='false'/>
@@ -9381,16 +9381,16 @@
 				<BATTLE_TREE_ITEM x='933.658386' y='0.000000' z='1343.626953' scale='0.904448' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='935.044556' y='0.000000' z='1350.810669' scale='0.859525' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='935.312622' y='6.916124' z='1681.347778' scale='1.022640' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='939.774170' y='6.581291' z='757.649536' scale='0.840815' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='939.774170' y='6.873665' z='757.649536' scale='0.840815' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.050598' y='0.000000' z='1535.364624' scale='0.815702' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.457520' y='1.464371' z='55.820400' scale='1.087556' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.775330' y='1.035901' z='50.683483' scale='0.876623' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='947.312378' y='3.376277' z='65.315849' scale='0.903792' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='947.521973' y='1.746682' z='1851.040649' scale='0.858419' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='948.334534' y='7.235250' z='760.257202' scale='0.810445' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='948.334534' y='7.352307' z='760.257202' scale='0.810445' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='948.683228' y='2.310268' z='59.616356' scale='0.967460' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='951.200623' y='2.329697' z='58.679699' scale='0.828191' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='952.283630' y='7.685150' z='762.640747' scale='0.836332' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='952.283630' y='7.761950' z='762.640747' scale='0.836332' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='953.205078' y='0.000000' z='1520.281128' scale='1.299222' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='953.357849' y='7.902195' z='749.163330' scale='0.830251' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='956.386169' y='8.480643' z='753.808838' scale='1.211498' is_freeform='false'/>
@@ -9445,36 +9445,36 @@
 				<BATTLE_TREE_ITEM x='1016.849487' y='0.000000' z='1381.646973' scale='1.272000' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1020.169250' y='0.000000' z='1384.578369' scale='1.091714' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1022.190918' y='2.776957' z='1738.414795' scale='0.863967' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1031.000977' y='15.298567' z='969.631470' scale='0.824903' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1033.101685' y='13.016697' z='964.703369' scale='1.290639' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1035.518677' y='10.844290' z='960.781982' scale='1.179919' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1031.000977' y='14.332151' z='969.631470' scale='0.824903' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1033.101685' y='12.860367' z='964.703369' scale='1.290639' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1035.518677' y='11.370861' z='960.781982' scale='1.179919' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1037.080566' y='11.051491' z='208.254272' scale='0.949447' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1037.309326' y='16.572718' z='974.017395' scale='1.116926' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1039.292480' y='13.381030' z='968.455688' scale='0.909262' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1037.309326' y='14.879636' z='974.017395' scale='1.116926' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1039.292480' y='12.900711' z='968.455688' scale='0.909262' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1042.046143' y='0.000000' z='1338.381104' scale='0.903021' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1043.639648' y='11.661998' z='967.565857' scale='1.201503' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1047.860107' y='8.227160' z='959.655090' scale='1.181598' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1048.460815' y='0.000000' z='1356.174194' scale='1.108904' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1048.893555' y='5.471835' z='929.666565' scale='0.943648' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1049.339478' y='8.401972' z='960.542786' scale='0.932410' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1043.639648' y='11.606709' z='967.565857' scale='1.201503' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1047.860107' y='8.779276' z='959.655090' scale='1.181598' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1048.460815' y='20.000000' z='1356.174194' scale='1.108904' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1048.893555' y='5.990027' z='929.666565' scale='0.943648' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1049.339478' y='8.913112' z='960.542786' scale='0.932410' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1050.672363' y='11.265197' z='241.317307' scale='0.803632' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1051.358643' y='5.582836' z='928.689148' scale='1.199954' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1052.015869' y='0.000000' z='1361.695801' scale='1.020808' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1052.511719' y='5.263618' z='933.276794' scale='0.828641' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1051.358643' y='5.973388' z='928.689148' scale='1.199954' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1052.015869' y='20.000000' z='1361.695801' scale='1.020808' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1052.511719' y='5.730948' z='933.276794' scale='0.828641' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1058.353271' y='3.900440' z='1735.299072' scale='0.901205' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1059.816406' y='0.000000' z='1362.788574' scale='0.911000' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1059.816406' y='20.000000' z='1362.788574' scale='0.911000' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1061.251343' y='0.972794' z='2017.523804' scale='0.980867' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1062.524658' y='4.179537' z='1735.895874' scale='0.805585' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1062.557739' y='3.684661' z='1723.857178' scale='0.957427' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1062.665161' y='19.014128' z='495.984924' scale='0.847474' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1069.385010' y='7.579516' z='972.222351' scale='0.945731' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1069.385010' y='7.782173' z='972.222351' scale='0.945731' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1070.362427' y='26.815737' z='799.305115' scale='0.837676' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1071.296631' y='4.551985' z='1731.644043' scale='1.210613' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1071.316650' y='4.639236' z='1733.337280' scale='1.050919' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1076.858032' y='6.440062' z='976.204712' scale='1.106088' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1076.858032' y='6.927626' z='976.204712' scale='1.106088' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1078.730225' y='26.213840' z='830.740479' scale='0.980110' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1079.702271' y='26.521233' z='823.260132' scale='1.118643' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1080.260986' y='4.630879' z='973.507202' scale='0.887564' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1080.260986' y='5.387741' z='973.507202' scale='0.887564' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1083.585938' y='26.275162' z='839.865051' scale='1.058389' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1083.967407' y='8.239322' z='930.065735' scale='1.042685' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1090.788574' y='27.615892' z='836.417786' scale='0.870581' is_freeform='false'/>
@@ -9482,16 +9482,16 @@
 				<BATTLE_TREE_ITEM x='1095.200195' y='28.379988' z='837.500916' scale='0.810674' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1096.256470' y='28.586542' z='838.416077' scale='0.834745' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1096.968384' y='27.843973' z='844.375671' scale='0.933104' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1097.020142' y='3.730439' z='1135.851196' scale='1.096841' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1097.219360' y='3.459024' z='1137.480103' scale='0.882906' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1097.327881' y='2.287621' z='968.771423' scale='1.280537' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1097.020142' y='20.000000' z='1135.851196' scale='1.096841' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1097.219360' y='20.000000' z='1137.480103' scale='0.882906' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1097.327881' y='3.978329' z='968.771423' scale='1.280537' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.177368' y='28.247011' z='844.394714' scale='1.295644' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1099.514648' y='6.306229' z='1620.376221' scale='1.000966' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1101.833618' y='10.215249' z='933.681213' scale='0.924019' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1102.722412' y='21.134401' z='147.699219' scale='0.802721' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1103.713501' y='6.559793' z='1614.209961' scale='0.951507' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1106.313110' y='10.464001' z='935.540527' scale='1.229806' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1106.355469' y='5.221947' z='1126.853027' scale='1.089596' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1106.355469' y='20.000000' z='1126.853027' scale='1.089596' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1107.216431' y='17.664902' z='153.384964' scale='1.213901' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1108.084473' y='9.518538' z='370.171417' scale='0.853246' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1110.008545' y='6.477195' z='1740.783813' scale='0.807774' is_freeform='false'/>
@@ -9499,23 +9499,23 @@
 				<BATTLE_TREE_ITEM x='1112.615234' y='7.442712' z='225.396042' scale='0.949232' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1114.181030' y='14.414397' z='157.464035' scale='0.828407' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1116.742065' y='7.339274' z='224.285492' scale='1.193871' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1117.459351' y='14.032712' z='1042.649658' scale='1.206687' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1117.459351' y='13.606222' z='1042.649658' scale='1.206687' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1117.486938' y='14.866608' z='155.888458' scale='1.048334' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1118.579224' y='15.300089' z='153.893188' scale='1.047583' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1119.116211' y='5.855355' z='1607.712646' scale='0.804899' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1119.390381' y='13.537863' z='156.444977' scale='0.961000' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1122.120117' y='13.130177' z='1046.823853' scale='1.207209' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1122.120117' y='12.916808' z='1046.823853' scale='1.207209' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1127.925903' y='8.109289' z='184.911728' scale='1.195603' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1129.055908' y='11.726865' z='1049.137573' scale='0.812673' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1129.055908' y='11.673510' z='1049.137573' scale='0.812673' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1129.385498' y='7.063474' z='225.847748' scale='0.995087' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1131.937012' y='10.526179' z='1047.178955' scale='1.114733' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1132.730713' y='9.918332' z='1046.585571' scale='0.955444' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1131.937012' y='10.526704' z='1047.178955' scale='1.114733' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1132.730713' y='9.931210' z='1046.585571' scale='0.955444' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1134.907837' y='7.017220' z='1631.317139' scale='1.227764' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1137.373291' y='33.505417' z='850.602966' scale='1.028346' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1138.205322' y='12.315299' z='333.267914' scale='0.942580' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1138.426880' y='34.813393' z='845.374573' scale='1.121538' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1138.992920' y='6.498734' z='1464.221069' scale='1.099161' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1140.019043' y='5.223228' z='1037.566528' scale='0.905043' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1138.992920' y='6.652544' z='1464.221069' scale='1.099161' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1140.019043' y='5.839014' z='1037.566528' scale='0.905043' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1153.867676' y='25.859228' z='891.274170' scale='1.111162' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1160.910034' y='28.773228' z='893.120667' scale='1.169636' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1164.255371' y='30.483477' z='892.847046' scale='1.197263' is_freeform='false'/>
@@ -9533,11 +9533,11 @@
 				<BATTLE_TREE_ITEM x='1204.883057' y='7.501713' z='1566.059814' scale='0.988495' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1204.955444' y='5.778903' z='1819.382568' scale='0.824880' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1206.319214' y='7.522892' z='1564.145874' scale='0.856725' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1208.417603' y='16.858524' z='1256.115723' scale='0.942260' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1211.508789' y='15.598348' z='1264.459351' scale='1.168833' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1208.417603' y='16.081533' z='1256.115723' scale='0.942260' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1211.508789' y='15.272799' z='1264.459351' scale='1.168833' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1212.218384' y='6.089900' z='1817.278198' scale='1.132082' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1212.529663' y='15.163046' z='1262.077515' scale='1.208957' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1214.702148' y='14.858768' z='1259.711060' scale='1.140536' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1212.529663' y='14.965218' z='1262.077515' scale='1.208957' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1214.702148' y='14.713647' z='1259.711060' scale='1.140536' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1217.134277' y='6.283774' z='1404.911499' scale='1.171366' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1223.366577' y='5.274361' z='1743.005249' scale='1.166728' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1230.903076' y='3.911184' z='1087.775635' scale='0.966636' is_freeform='false'/>
@@ -10860,7 +10860,7 @@
 				<BATTLE_TREE_ITEM x='624.146484' y='11.165130' z='494.625183' scale='1.207329' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='624.422668' y='2.277795' z='1737.218262' scale='0.892592' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='624.665588' y='11.054963' z='497.421692' scale='1.018609' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='625.897339' y='2.091921' z='715.471985' scale='0.975063' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='625.897339' y='20.000000' z='715.471985' scale='0.975063' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='625.941040' y='0.000000' z='1240.548706' scale='1.200091' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='628.329041' y='1.543270' z='1717.952881' scale='0.944327' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='628.349854' y='10.863160' z='503.777069' scale='0.874434' is_freeform='false'/>
@@ -10926,7 +10926,7 @@
 				<BATTLE_TREE_ITEM x='723.796875' y='0.000000' z='1470.134888' scale='0.999504' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='726.259033' y='5.736124' z='1846.571167' scale='0.863386' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='728.562073' y='0.000000' z='1477.526245' scale='1.096849' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='729.281189' y='13.407248' z='693.944153' scale='0.924806' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='729.281189' y='13.918828' z='693.944153' scale='0.924806' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='729.721680' y='5.682258' z='1841.555298' scale='1.262707' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='729.739868' y='5.689684' z='1835.039307' scale='1.200984' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='729.993164' y='5.583077' z='1823.590088' scale='1.094728' is_freeform='false'/>
@@ -11006,11 +11006,11 @@
 				<BATTLE_TREE_ITEM x='806.269165' y='11.105789' z='623.465210' scale='1.171542' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='807.007019' y='11.127563' z='626.296997' scale='1.279606' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='807.315308' y='0.000000' z='1609.002930' scale='0.987037' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='809.585388' y='0.000021' z='860.760925' scale='1.113446' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='809.585388' y='20.000000' z='860.760925' scale='1.113446' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='810.029846' y='11.233222' z='425.287262' scale='1.167956' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='810.127197' y='1.075737' z='1960.699585' scale='1.145235' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='810.572998' y='1.076363' z='1956.737915' scale='1.273839' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='811.092285' y='0.000042' z='860.238953' scale='1.234039' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='811.092285' y='20.000000' z='860.238953' scale='1.234039' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='811.827087' y='11.759935' z='434.020966' scale='1.139895' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='812.918152' y='0.000000' z='1619.867798' scale='0.882612' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='813.379456' y='0.000000' z='1512.873047' scale='1.229854' is_freeform='false'/>
@@ -11056,14 +11056,14 @@
 				<BATTLE_TREE_ITEM x='897.750671' y='0.000000' z='1344.056152' scale='0.824224' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='903.751404' y='0.000000' z='1158.417969' scale='0.907927' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='907.970825' y='0.000000' z='1162.821167' scale='1.247784' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='908.022095' y='7.998369' z='754.407166' scale='0.874676' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='908.022095' y='8.218675' z='754.407166' scale='0.874676' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='909.677063' y='3.648949' z='883.111023' scale='0.926379' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='910.142395' y='7.762447' z='753.532227' scale='0.833482' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='910.142395' y='7.982007' z='753.532227' scale='0.833482' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='910.575439' y='8.203425' z='1689.727173' scale='1.126955' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='910.739807' y='9.190996' z='1682.749023' scale='1.243067' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='911.039429' y='7.586863' z='745.237305' scale='1.077410' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='911.039429' y='7.714849' z='745.237305' scale='1.077410' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='912.227905' y='0.010184' z='2038.883545' scale='1.080026' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='912.324158' y='7.469481' z='744.447327' scale='1.083476' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='912.324158' y='7.590872' z='744.447327' scale='1.083476' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='912.804504' y='8.834249' z='1685.327148' scale='1.257799' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='916.803223' y='0.000000' z='1170.582031' scale='0.839345' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='919.299805' y='2.440448' z='1844.932129' scale='1.248562' is_freeform='false'/>
@@ -11071,30 +11071,30 @@
 				<BATTLE_TREE_ITEM x='921.864624' y='2.399599' z='1845.589600' scale='1.096590' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='922.871033' y='11.471847' z='176.245880' scale='0.984927' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='926.766968' y='6.037489' z='1695.965088' scale='0.813499' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='928.762085' y='6.577056' z='758.086487' scale='0.863865' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='928.762085' y='7.054379' z='758.086487' scale='0.863865' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='930.406250' y='18.373606' z='431.720734' scale='0.925582' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='931.414246' y='6.976619' z='1685.969360' scale='0.891418' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='932.584045' y='0.000000' z='1336.466309' scale='0.844915' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='934.431824' y='20.249310' z='368.262085' scale='0.864472' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='935.338196' y='6.517949' z='759.089417' scale='0.975587' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='937.209351' y='6.527533' z='756.898682' scale='0.800660' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='937.956482' y='6.516540' z='760.790588' scale='0.920462' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='935.338196' y='6.904359' z='759.089417' scale='0.975587' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='937.209351' y='6.863799' z='756.898682' scale='0.800660' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='937.956482' y='6.918439' z='760.790588' scale='0.920462' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='939.239319' y='0.889023' z='51.447350' scale='1.263897' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='939.965393' y='0.603372' z='47.363728' scale='1.220729' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.285400' y='1.693156' z='1852.245850' scale='0.807904' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.396179' y='1.186811' z='53.914703' scale='1.141047' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.905273' y='0.000000' z='1525.511841' scale='1.297795' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.482483' y='1.233166' z='52.068542' scale='1.074021' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='944.809204' y='6.755171' z='770.333923' scale='0.970146' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='944.913757' y='6.800808' z='767.784912' scale='0.878019' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='944.809204' y='7.164134' z='770.333923' scale='0.970146' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='944.913757' y='7.143518' z='767.784912' scale='0.878019' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.022278' y='17.618025' z='422.215881' scale='0.906554' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='946.106445' y='6.957877' z='766.544556' scale='1.034920' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='946.106445' y='7.249572' z='766.544556' scale='1.034920' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.510437' y='2.662319' z='60.809673' scale='1.215694' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='947.713318' y='2.344863' z='1830.019287' scale='1.299016' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='947.907043' y='6.985423' z='764.330078' scale='1.095705' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='947.907043' y='7.237691' z='764.330078' scale='1.095705' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='950.128967' y='3.064993' z='63.283161' scale='0.801884' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='951.165833' y='2.134771' z='1842.197876' scale='0.839422' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='951.427856' y='7.299774' z='771.596008' scale='1.007370' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='951.427856' y='7.559355' z='771.596008' scale='1.007370' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='952.721130' y='0.000000' z='1525.664185' scale='1.243351' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='953.734314' y='7.722532' z='757.540039' scale='1.000198' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='958.049805' y='0.000000' z='1110.283081' scale='0.889014' is_freeform='false'/>
@@ -11148,40 +11148,40 @@
 				<BATTLE_TREE_ITEM x='1015.819641' y='0.000000' z='1555.941406' scale='0.891030' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1016.546753' y='0.000000' z='1382.871826' scale='1.202426' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1018.798035' y='0.000000' z='1388.933716' scale='0.854330' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1031.309937' y='14.359828' z='966.674316' scale='0.806539' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1034.408691' y='13.432005' z='967.468384' scale='0.946792' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1031.309937' y='13.793930' z='966.674316' scale='0.806539' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1034.408691' y='13.048457' z='967.468384' scale='0.946792' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1036.839722' y='0.124964' z='1114.000488' scale='1.066239' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1037.035034' y='12.976343' z='966.119019' scale='1.166606' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1037.035034' y='12.681160' z='966.119019' scale='1.166606' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1037.680786' y='0.000000' z='1353.144409' scale='1.046822' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1037.859863' y='15.640144' z='973.719360' scale='1.252544' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1037.859863' y='14.354046' z='973.719360' scale='1.252544' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1038.210571' y='0.000000' z='1344.294800' scale='1.102045' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1038.531006' y='0.000000' z='1347.534668' scale='1.237255' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1038.989868' y='9.003999' z='957.576294' scale='0.927741' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1039.905762' y='12.525353' z='966.130249' scale='1.051148' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1038.989868' y='9.588093' z='957.576294' scale='0.927741' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1039.905762' y='12.322682' z='966.130249' scale='1.051148' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1042.324463' y='11.989147' z='238.188202' scale='0.840301' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1042.536621' y='0.000000' z='1363.984253' scale='0.879782' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1042.871216' y='0.000000' z='1356.630005' scale='1.225971' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1043.486938' y='8.373283' z='956.780334' scale='1.147158' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1043.486938' y='8.918533' z='956.780334' scale='1.147158' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1045.028931' y='0.000000' z='1348.399780' scale='1.119432' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1045.288940' y='12.809056' z='971.255981' scale='0.922858' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1045.288940' y='12.418738' z='971.255981' scale='0.922858' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1045.600830' y='9.890851' z='180.113220' scale='1.264723' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.663818' y='0.000000' z='1352.928345' scale='0.941855' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1047.915771' y='5.119398' z='932.374512' scale='1.023598' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1047.915771' y='5.868959' z='932.374512' scale='1.023598' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1048.729248' y='9.385365' z='181.022598' scale='1.244584' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1048.897217' y='5.155974' z='933.592590' scale='1.082284' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1048.897217' y='5.801641' z='933.592590' scale='1.082284' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1049.201416' y='11.565722' z='242.541336' scale='0.864476' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1050.357910' y='11.113911' z='237.904358' scale='0.881643' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1050.636597' y='0.000000' z='1354.749756' scale='1.036950' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1050.636597' y='20.000000' z='1354.749756' scale='1.036950' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1053.174316' y='8.824827' z='185.214249' scale='1.092211' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1054.706909' y='0.000000' z='1358.508545' scale='0.995560' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1057.588989' y='0.000000' z='1362.593872' scale='1.007016' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1054.706909' y='20.000000' z='1358.508545' scale='0.995560' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1057.588989' y='20.000000' z='1362.593872' scale='1.007016' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1061.423096' y='25.322639' z='808.231689' scale='0.984672' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1063.046631' y='4.141361' z='1733.464600' scale='0.965362' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1063.237427' y='0.025949' z='10.942946' scale='0.941841' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1063.674438' y='3.550300' z='1721.239868' scale='0.928115' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1065.644165' y='4.207916' z='1730.665771' scale='1.063127' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1070.996582' y='3.865333' z='1718.802002' scale='0.945411' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1073.147339' y='7.036524' z='974.835327' scale='1.030137' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1073.147339' y='7.343289' z='974.835327' scale='1.030137' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1073.366699' y='3.987874' z='1718.342651' scale='0.818143' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1075.406494' y='25.040417' z='842.446472' scale='1.133133' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1076.223511' y='5.142933' z='1736.194092' scale='0.827352' is_freeform='false'/>
@@ -11189,18 +11189,18 @@
 				<BATTLE_TREE_ITEM x='1077.129639' y='1.054329' z='2017.868530' scale='0.855093' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1077.652100' y='25.417299' z='841.394775' scale='1.222553' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1079.495728' y='26.017654' z='834.786133' scale='1.277668' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1080.610962' y='5.356553' z='976.471680' scale='1.231701' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1082.684204' y='4.502501' z='974.801514' scale='1.112139' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1082.838745' y='16.724844' z='1011.465881' scale='1.060783' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1080.610962' y='6.147350' z='976.471680' scale='1.231701' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1082.684204' y='5.448108' z='974.801514' scale='1.112139' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1082.838745' y='14.119519' z='1011.465881' scale='1.060783' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1084.979980' y='26.214661' z='842.153076' scale='0.890181' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1086.289795' y='27.102594' z='835.303589' scale='1.161662' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1086.309814' y='26.811525' z='838.825012' scale='1.154879' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1086.825684' y='4.931227' z='377.599854' scale='0.965439' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1088.895752' y='27.421818' z='835.185059' scale='1.146105' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1091.635986' y='28.024111' z='830.392151' scale='1.066567' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1094.759399' y='17.273336' z='1026.378784' scale='1.019871' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1096.507690' y='4.739958' z='1127.779175' scale='0.993015' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1096.627441' y='1.814060' z='975.980835' scale='1.273548' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1094.759399' y='15.659575' z='1026.378784' scale='1.019871' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1096.507690' y='20.000000' z='1127.779175' scale='0.993015' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1096.627441' y='4.227328' z='975.980835' scale='1.273548' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1097.045166' y='28.359251' z='840.628601' scale='1.229374' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1101.019897' y='12.706526' z='1569.260864' scale='0.940787' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1103.256836' y='6.727963' z='1612.447388' scale='0.893039' is_freeform='false'/>
@@ -11209,26 +11209,26 @@
 				<BATTLE_TREE_ITEM x='1105.402954' y='31.258587' z='831.385681' scale='0.823934' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1110.437866' y='16.997278' z='153.096146' scale='1.084795' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1110.676880' y='7.492437' z='225.529388' scale='0.848423' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1110.799561' y='5.120762' z='1129.419678' scale='0.919916' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1110.799561' y='20.000000' z='1129.419678' scale='0.919916' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1112.036499' y='14.483747' z='1511.510132' scale='0.840339' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1114.392578' y='15.293719' z='154.204834' scale='1.208929' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1114.849731' y='13.641848' z='1515.038086' scale='1.033185' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1115.020996' y='12.811974' z='161.422867' scale='0.964927' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1116.974121' y='16.704601' z='151.740204' scale='1.156232' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1118.839600' y='11.961925' z='1038.407471' scale='0.943534' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1118.839600' y='11.891847' z='1038.407471' scale='0.943534' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1125.786621' y='8.161227' z='186.478577' scale='1.164223' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1127.265137' y='8.121615' z='187.111526' scale='1.121570' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1128.445190' y='11.149519' z='1047.728882' scale='1.081842' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1128.445190' y='11.128161' z='1047.728882' scale='1.081842' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1130.339966' y='6.585123' z='1631.725952' scale='1.256306' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1131.626587' y='8.184268' z='1038.734619' scale='0.977943' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1131.626587' y='8.407209' z='1038.734619' scale='0.977943' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1133.520264' y='33.177906' z='851.732544' scale='0.866628' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1134.585815' y='6.775850' z='1628.572266' scale='0.896063' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1135.369385' y='34.808586' z='843.063538' scale='0.818802' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1138.754883' y='5.172180' z='1035.525391' scale='1.134829' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1138.754883' y='5.903889' z='1035.525391' scale='1.134829' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1141.205688' y='12.826843' z='331.920837' scale='1.248890' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1143.206909' y='4.301895' z='1034.269775' scale='1.174533' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1143.206909' y='5.240911' z='1034.269775' scale='1.174533' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1143.361450' y='7.704166' z='186.960007' scale='1.278233' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1144.067627' y='0.975331' z='1010.039734' scale='1.269092' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1144.067627' y='3.141972' z='1010.039734' scale='1.269092' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1146.821045' y='34.837688' z='847.257568' scale='0.932055' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1150.838745' y='26.616211' z='885.861023' scale='0.862243' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1154.570313' y='4.219250' z='1509.747070' scale='0.919622' is_freeform='false'/>
@@ -11236,7 +11236,7 @@
 				<BATTLE_TREE_ITEM x='1162.420044' y='30.024359' z='891.230957' scale='0.847310' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1166.131470' y='9.728177' z='1637.535400' scale='1.008690' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1168.491455' y='33.317032' z='886.190002' scale='1.035213' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1169.348267' y='9.133712' z='1385.028809' scale='0.913497' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1169.348267' y='9.148185' z='1385.028809' scale='0.913497' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1169.598145' y='9.590775' z='1628.391113' scale='0.857893' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1170.453735' y='9.794614' z='1632.122192' scale='1.137133' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1170.769287' y='34.147675' z='887.007690' scale='0.948762' is_freeform='false'/>
@@ -11257,16 +11257,16 @@
 				<BATTLE_TREE_ITEM x='1200.577148' y='7.660758' z='1576.301880' scale='1.198856' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1202.401489' y='7.669153' z='1574.052612' scale='1.232357' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1204.516357' y='5.052221' z='1741.045410' scale='0.864271' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1205.747314' y='17.317352' z='1264.964355' scale='1.183688' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1205.747314' y='16.416391' z='1264.964355' scale='1.183688' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1205.761475' y='7.359134' z='1562.607300' scale='1.233379' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1205.942017' y='7.622923' z='1570.262573' scale='1.193141' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1207.337891' y='17.684952' z='1254.639526' scale='0.928473' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1207.337891' y='16.571819' z='1254.639526' scale='0.928473' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1209.391968' y='5.752440' z='1815.823364' scale='0.894018' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1210.861938' y='16.064331' z='1258.526855' scale='1.107660' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1210.861938' y='15.567412' z='1258.526855' scale='1.107660' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1210.951904' y='5.721210' z='1813.623535' scale='1.142290' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1211.056641' y='16.353617' z='1255.971558' scale='0.870809' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1213.740112' y='15.582746' z='1256.908447' scale='0.851888' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1214.296753' y='14.968823' z='1257.640015' scale='1.179881' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1211.056641' y='15.751955' z='1255.971558' scale='0.870809' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1213.740112' y='15.229548' z='1256.908447' scale='0.851888' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1214.296753' y='14.788980' z='1257.640015' scale='1.179881' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1214.865601' y='5.155410' z='1740.650391' scale='1.212360' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1217.956421' y='5.197276' z='1742.366943' scale='1.012909' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1219.145264' y='2.565255' z='97.581902' scale='0.846389' is_freeform='false'/>
@@ -11274,8 +11274,8 @@
 				<BATTLE_TREE_ITEM x='1220.480957' y='5.202643' z='1738.653076' scale='1.153124' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1222.994263' y='5.221460' z='1739.880005' scale='1.225498' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1225.743164' y='5.268888' z='1740.448486' scale='1.025223' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1227.165283' y='2.762101' z='1092.599365' scale='0.879765' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1227.514038' y='3.025158' z='1090.502930' scale='0.940864' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1227.165283' y='3.169704' z='1092.599365' scale='0.879765' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1227.514038' y='3.371809' z='1090.502930' scale='0.940864' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1232.825073' y='2.908566' z='1094.411133' scale='1.081460' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1236.215698' y='3.179711' z='1095.828979' scale='1.115160' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1239.254639' y='3.190071' z='43.518730' scale='1.053184' is_freeform='false'/>
@@ -12584,8 +12584,8 @@
 				<BATTLE_TREE_ITEM x='716.070862' y='0.000000' z='1640.494507' scale='1.013001' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='717.313110' y='0.000000' z='1466.250122' scale='1.003746' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='721.195557' y='0.000000' z='1327.571289' scale='0.959991' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='725.135254' y='13.709284' z='684.080688' scale='0.941147' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='726.081482' y='13.525702' z='686.517212' scale='1.109561' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='725.135254' y='13.806708' z='684.080688' scale='0.941147' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='726.081482' y='13.688548' z='686.517212' scale='1.109561' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='727.615417' y='5.742201' z='1844.609253' scale='0.952117' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='729.826294' y='5.616663' z='1826.343018' scale='1.037072' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='730.439087' y='5.590447' z='1828.450562' scale='1.052369' is_freeform='false'/>
@@ -12652,7 +12652,7 @@
 				<BATTLE_TREE_ITEM x='811.037903' y='11.087721' z='620.999512' scale='0.972915' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='812.754944' y='0.000000' z='1610.740234' scale='1.183314' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='813.276123' y='10.916055' z='612.389648' scale='1.264050' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='813.284607' y='0.000038' z='863.876831' scale='0.894941' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='813.284607' y='20.000000' z='863.876831' scale='0.894941' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='814.463867' y='0.000000' z='1607.476440' scale='0.855673' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='814.976929' y='10.999976' z='616.245972' scale='1.181888' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='816.839783' y='10.888410' z='612.544800' scale='1.057710' is_freeform='false'/>
@@ -12691,7 +12691,7 @@
 				<BATTLE_TREE_ITEM x='893.728699' y='8.304438' z='673.074097' scale='1.255939' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='898.261353' y='0.234911' z='2009.013916' scale='0.992119' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='901.858032' y='7.867684' z='1689.240601' scale='0.841878' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='901.942200' y='8.865241' z='756.848022' scale='0.945390' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='901.942200' y='8.992383' z='756.848022' scale='0.945390' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='904.735718' y='7.790190' z='1691.029297' scale='0.885580' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='906.846069' y='0.000000' z='1156.805786' scale='1.229290' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='908.157410' y='8.781713' z='1685.768921' scale='0.891599' is_freeform='false'/>
@@ -12712,20 +12712,20 @@
 				<BATTLE_TREE_ITEM x='932.572876' y='14.127634' z='167.511688' scale='1.136366' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='932.853638' y='0.000000' z='1302.683594' scale='0.894965' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='934.746033' y='20.176224' z='367.481171' scale='0.888996' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='939.088989' y='6.592728' z='759.905273' scale='1.123788' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='941.517029' y='6.696460' z='755.589478' scale='1.037070' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='939.088989' y='6.901433' z='759.905273' scale='1.123788' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='941.517029' y='6.882124' z='755.589478' scale='1.037070' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='942.396729' y='18.161362' z='420.399048' scale='0.998184' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.746399' y='0.000000' z='1530.572632' scale='1.062165' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.190796' y='1.002548' z='51.388298' scale='1.252445' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.208191' y='0.092976' z='2030.649780' scale='0.919097' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.564575' y='0.000000' z='1528.302979' scale='1.237331' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.838989' y='0.000000' z='1497.137329' scale='0.928191' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='945.002380' y='6.904154' z='757.648743' scale='0.865838' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='945.984802' y='6.881880' z='761.537231' scale='0.984108' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='945.002380' y='7.056914' z='757.648743' scale='0.865838' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='945.984802' y='7.095481' z='761.537231' scale='0.984108' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.194885' y='0.000000' z='1511.779785' scale='0.820737' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.729187' y='2.278970' z='59.420738' scale='0.859098' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='946.912781' y='7.068822' z='757.732361' scale='0.856556' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='948.983643' y='7.229900' z='759.275635' scale='0.832944' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='946.912781' y='7.180845' z='757.732361' scale='0.856556' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='948.983643' y='7.344350' z='759.275635' scale='0.832944' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='949.628967' y='0.000000' z='1119.299438' scale='1.282757' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='949.975037' y='1.996018' z='1845.295166' scale='1.088960' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='951.574768' y='3.405808' z='64.471565' scale='1.071031' is_freeform='false'/>
@@ -12736,11 +12736,11 @@
 				<BATTLE_TREE_ITEM x='954.605408' y='0.000000' z='1121.893188' scale='0.995010' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='955.226807' y='2.344554' z='59.872406' scale='1.151667' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='955.426880' y='8.255404' z='746.774414' scale='1.161250' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='955.432373' y='7.828384' z='771.688660' scale='1.191760' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='955.739624' y='7.788780' z='773.116150' scale='1.001205' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='955.432373' y='7.929636' z='771.688660' scale='1.191760' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='955.739624' y='7.938952' z='773.116150' scale='1.001205' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='956.044128' y='8.523869' z='750.697571' scale='1.096948' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='956.744141' y='0.000000' z='1116.302246' scale='0.860304' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='957.227539' y='8.059597' z='774.863708' scale='0.998276' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='957.227539' y='8.186715' z='774.863708' scale='0.998276' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='957.261047' y='8.436014' z='755.581909' scale='0.977081' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='957.889709' y='0.000000' z='1111.614624' scale='1.225399' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='957.991028' y='8.191835' z='768.187378' scale='1.254047' is_freeform='false'/>
@@ -12794,8 +12794,8 @@
 				<BATTLE_TREE_ITEM x='1020.840393' y='2.840145' z='1738.470093' scale='0.996581' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1034.169556' y='11.291360' z='210.861557' scale='0.819883' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1034.970581' y='0.000000' z='1344.942871' scale='1.088556' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1038.335205' y='15.156456' z='972.111877' scale='1.074250' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1039.859863' y='9.615181' z='958.409485' scale='1.029213' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1038.335205' y='14.021502' z='972.111877' scale='1.074250' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1039.859863' y='10.102921' z='958.409485' scale='1.029213' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1041.013428' y='0.000000' z='1341.968262' scale='1.236706' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1041.014648' y='11.961714' z='234.602219' scale='1.007050' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1041.072021' y='22.245430' z='829.908508' scale='0.870314' is_freeform='false'/>
@@ -12805,12 +12805,12 @@
 				<BATTLE_TREE_ITEM x='1043.993652' y='11.799088' z='234.429443' scale='0.815570' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1045.999023' y='10.956269' z='172.935684' scale='1.237957' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.005493' y='0.000000' z='1358.010864' scale='0.835416' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1048.091553' y='11.103284' z='969.743225' scale='1.141611' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1048.091553' y='11.079821' z='969.743225' scale='1.141611' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1049.132935' y='11.642326' z='244.722305' scale='0.984179' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1050.423584' y='10.529790' z='173.950775' scale='0.833387' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1051.182373' y='9.967119' z='966.602112' scale='0.977584' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1051.182373' y='10.116295' z='966.602112' scale='0.977584' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1051.583862' y='9.084770' z='183.816315' scale='1.120545' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1053.356567' y='0.000000' z='1363.807007' scale='1.068922' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1053.356567' y='20.000000' z='1363.807007' scale='1.068922' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1060.918457' y='0.025752' z='10.465674' scale='0.856480' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1061.223633' y='4.057654' z='1736.095703' scale='0.987907' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1061.513794' y='0.046988' z='12.101870' scale='1.183055' is_freeform='false'/>
@@ -12825,25 +12825,25 @@
 				<BATTLE_TREE_ITEM x='1074.546387' y='0.000000' z='1256.536377' scale='0.978706' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1074.972778' y='15.735044' z='461.005310' scale='1.025446' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1077.068237' y='0.000000' z='1254.989746' scale='1.082742' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1077.107300' y='5.561876' z='972.322632' scale='0.889334' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1079.724731' y='5.875645' z='976.382751' scale='1.176608' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1080.721680' y='19.239882' z='1014.809692' scale='0.930313' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1077.107300' y='6.049325' z='972.322632' scale='0.889334' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1079.724731' y='6.518946' z='976.382751' scale='1.176608' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1080.721680' y='15.347056' z='1014.809692' scale='0.930313' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1084.134277' y='0.000000' z='1240.762573' scale='1.080758' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1084.322876' y='7.946343' z='933.037048' scale='1.038634' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1085.896973' y='27.113396' z='828.007935' scale='1.005768' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1086.492188' y='20.018171' z='1025.309814' scale='0.842196' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1086.492188' y='16.621265' z='1025.309814' scale='0.842196' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1090.680542' y='27.768057' z='834.367004' scale='1.052483' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1094.347046' y='4.224007' z='337.884491' scale='0.807091' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1094.976563' y='28.961506' z='829.621704' scale='1.147021' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1095.141235' y='28.843786' z='830.469360' scale='1.041047' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1095.895508' y='2.309733' z='971.385498' scale='1.225002' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1095.895508' y='4.059389' z='971.385498' scale='1.225002' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1099.065796' y='20.543259' z='148.335846' scale='1.126158' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1099.263550' y='2.203566' z='968.858948' scale='1.034539' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1099.263550' y='3.990289' z='968.858948' scale='1.034539' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1101.988525' y='6.362641' z='1619.896729' scale='0.837848' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1102.428955' y='5.059755' z='1126.067749' scale='1.049884' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1103.187988' y='5.596731' z='1121.973999' scale='1.043322' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1103.247559' y='5.293792' z='1124.223145' scale='1.106595' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1104.643311' y='5.370186' z='1124.582153' scale='1.138705' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1102.428955' y='20.000000' z='1126.067749' scale='1.049884' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1103.187988' y='20.000000' z='1121.973999' scale='1.043322' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1103.247559' y='20.000000' z='1124.223145' scale='1.106595' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1104.643311' y='20.000000' z='1124.582153' scale='1.138705' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1105.749390' y='0.000000' z='1225.286621' scale='1.018766' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1105.984985' y='6.363675' z='1738.649902' scale='1.215274' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1106.961792' y='9.922153' z='937.057861' scale='1.130245' is_freeform='false'/>
@@ -12851,25 +12851,25 @@
 				<BATTLE_TREE_ITEM x='1108.837280' y='10.166895' z='936.022461' scale='0.816461' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1111.821167' y='6.441505' z='1742.762451' scale='0.954932' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1113.607666' y='5.900435' z='1612.102051' scale='0.862147' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1115.783569' y='15.403913' z='1045.550171' scale='1.126187' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1117.873413' y='13.384159' z='1040.592407' scale='1.035517' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1118.827637' y='14.531097' z='1047.165161' scale='1.063369' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1119.070679' y='12.641807' z='1040.574341' scale='0.949514' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1115.783569' y='14.693591' z='1045.550171' scale='1.126187' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1117.873413' y='13.070286' z='1040.592407' scale='1.035517' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1118.827637' y='14.098328' z='1047.165161' scale='1.063369' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1119.070679' y='12.457025' z='1040.574341' scale='0.949514' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1119.683350' y='12.747778' z='158.075592' scale='1.178570' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1120.925903' y='4.847953' z='1988.437378' scale='0.908965' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1123.105591' y='13.874658' z='365.438477' scale='1.119463' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1123.269531' y='12.518562' z='1045.239990' scale='1.297230' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1123.269531' y='12.374164' z='1045.239990' scale='1.297230' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1124.155396' y='31.201818' z='855.484863' scale='1.036821' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1128.043701' y='8.038925' z='180.091949' scale='0.820630' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1130.015259' y='7.966842' z='178.050476' scale='1.013066' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1131.345459' y='7.987184' z='180.765793' scale='1.280267' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1132.647705' y='33.593548' z='849.730225' scale='1.100494' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1139.325562' y='3.345862' z='1026.725586' scale='0.938048' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1139.736572' y='6.460045' z='1463.734131' scale='1.174235' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1139.325562' y='4.726357' z='1026.725586' scale='0.938048' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1139.736572' y='6.617478' z='1463.734131' scale='1.174235' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1140.846191' y='7.782522' z='186.429596' scale='0.928000' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1150.223145' y='35.326233' z='845.299866' scale='0.923578' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1154.533936' y='26.673141' z='890.500061' scale='1.249516' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1160.337646' y='9.629809' z='1384.141724' scale='1.136215' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1160.337646' y='9.650506' z='1384.141724' scale='1.136215' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1167.208008' y='31.727545' z='891.057800' scale='1.159768' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1168.940552' y='9.651686' z='1630.362427' scale='1.051438' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1168.946777' y='30.952435' z='899.738098' scale='0.925261' is_freeform='false'/>
@@ -12893,10 +12893,10 @@
 				<BATTLE_TREE_ITEM x='1202.701538' y='7.732903' z='1576.051758' scale='1.153277' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1204.532593' y='5.076359' z='1739.120483' scale='1.004715' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1208.409424' y='6.230452' z='1822.145386' scale='0.827268' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1208.821045' y='17.016609' z='1254.838013' scale='0.817411' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1208.821045' y='16.157700' z='1254.838013' scale='0.817411' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1209.105957' y='5.057384' z='1746.009155' scale='1.270207' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1210.146851' y='6.993113' z='1400.458374' scale='0.942946' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1210.420166' y='16.710924' z='1247.100952' scale='1.026101' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1210.420166' y='15.995827' z='1247.100952' scale='1.026101' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1210.843140' y='6.228863' z='1821.009521' scale='1.029900' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1216.433228' y='6.407462' z='1818.501465' scale='1.113970' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1218.500244' y='2.679388' z='95.969299' scale='1.026619' is_freeform='false'/>
@@ -14178,7 +14178,7 @@
 				<BATTLE_TREE_ITEM x='625.387390' y='0.000000' z='985.776245' scale='1.113779' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='625.915833' y='1.655275' z='1720.128540' scale='0.977226' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='626.330017' y='4.930805' z='571.506348' scale='1.001272' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='627.238464' y='2.216046' z='713.172791' scale='0.863376' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='627.238464' y='20.000000' z='713.172791' scale='0.863376' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='627.920593' y='0.000000' z='1029.265625' scale='1.179194' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='628.431458' y='1.931334' z='1725.798096' scale='0.983253' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='629.129700' y='0.000000' z='1243.729492' scale='1.030549' is_freeform='false'/>
@@ -14246,16 +14246,16 @@
 				<BATTLE_TREE_ITEM x='713.535950' y='0.000000' z='1645.815430' scale='0.853414' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='714.656128' y='0.000000' z='1326.485352' scale='1.173152' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='719.996033' y='0.000000' z='1330.602051' scale='1.107988' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='722.833313' y='13.726426' z='698.184937' scale='1.093325' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='722.833313' y='15.627117' z='698.184937' scale='1.093325' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='723.011963' y='0.000000' z='1383.092651' scale='1.030274' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='723.942932' y='0.000000' z='1476.347046' scale='1.100786' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='724.021973' y='13.810163' z='692.407410' scale='1.059188' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='724.021973' y='14.433314' z='692.407410' scale='1.059188' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.716309' y='0.000000' z='1378.969360' scale='1.058213' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.790527' y='5.823419' z='1844.500610' scale='1.041382' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='727.471436' y='5.761770' z='1838.087769' scale='1.000893' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='728.053650' y='0.000000' z='1245.162964' scale='1.193400' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='728.346741' y='0.000000' z='1378.364502' scale='1.222286' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='728.733215' y='13.388947' z='690.721497' scale='0.949345' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='728.733215' y='13.739916' z='690.721497' scale='0.949345' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='729.982971' y='0.000000' z='1372.625488' scale='1.282345' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='732.334290' y='0.000000' z='1372.809570' scale='1.235904' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='734.222229' y='5.490108' z='1822.758179' scale='0.801816' is_freeform='false'/>
@@ -14424,21 +14424,21 @@
 				<BATTLE_TREE_ITEM x='943.183594' y='1.779722' z='1849.046265' scale='0.901640' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.767151' y='1.599013' z='1856.302124' scale='1.116259' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='945.403503' y='0.000464' z='1047.311035' scale='1.085032' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='946.805664' y='6.931612' z='768.035950' scale='1.028496' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='946.921082' y='7.105800' z='754.843628' scale='0.871111' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='946.805664' y='7.258512' z='768.035950' scale='1.028496' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='946.921082' y='7.179528' z='754.843628' scale='0.871111' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.960876' y='1.810236' z='1848.907349' scale='0.843687' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='948.520996' y='0.000000' z='1491.875977' scale='0.802281' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='949.457214' y='3.394235' z='64.776474' scale='0.925460' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='949.473328' y='7.115395' z='768.608521' scale='0.987983' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='950.418518' y='7.459621' z='760.476929' scale='1.113168' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='949.473328' y='7.392409' z='768.608521' scale='0.987983' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='950.418518' y='7.537764' z='760.476929' scale='1.113168' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='950.902283' y='7.532134' z='753.467773' scale='1.216403' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='951.336365' y='0.000000' z='1495.778564' scale='1.269703' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='951.495300' y='0.000000' z='1519.871826' scale='0.978401' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='951.633240' y='7.268287' z='772.870056' scale='1.278317' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='953.656616' y='7.650780' z='764.482300' scale='0.871534' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='951.633240' y='7.563556' z='772.870056' scale='1.278317' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='953.656616' y='7.759554' z='764.482300' scale='0.871534' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='956.299500' y='8.259085' z='763.252930' scale='1.015412' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='956.729004' y='0.000000' z='1120.639526' scale='1.051743' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='956.842224' y='8.104889' z='772.519775' scale='0.967735' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='956.842224' y='8.184307' z='772.519775' scale='0.967735' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='956.929565' y='0.000000' z='1114.147339' scale='1.073579' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='957.189819' y='8.390959' z='757.345886' scale='0.950980' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='957.215820' y='0.000911' z='1052.156860' scale='0.836123' is_freeform='false'/>
@@ -14473,33 +14473,33 @@
 				<BATTLE_TREE_ITEM x='1011.382141' y='0.000000' z='1387.669556' scale='0.824155' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1011.680115' y='3.289623' z='1739.751831' scale='1.107986' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1012.406433' y='0.000000' z='1341.942627' scale='0.852476' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1015.010010' y='0.000000' z='1477.863403' scale='0.900584' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1015.010010' y='0.009845' z='1477.863403' scale='0.900584' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1015.149231' y='0.000000' z='1553.693481' scale='0.927387' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1016.039429' y='0.000000' z='1391.482788' scale='1.076150' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1019.298096' y='2.989494' z='1737.944702' scale='0.940714' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1024.286499' y='9.527291' z='508.662292' scale='0.962463' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1030.900757' y='11.738104' z='961.040649' scale='1.103372' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1032.428467' y='10.576076' z='959.649597' scale='0.867391' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1030.900757' y='12.148174' z='961.040649' scale='1.103372' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1032.428467' y='11.211433' z='959.649597' scale='0.867391' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1035.955200' y='0.117896' z='1113.114258' scale='0.869406' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1037.026611' y='10.974672' z='207.802643' scale='1.145121' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1037.288086' y='2.238873' z='1753.266479' scale='0.815166' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1039.035156' y='10.883942' z='208.646133' scale='1.237774' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1040.090332' y='10.578993' z='963.702332' scale='1.124712' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1040.251709' y='14.650590' z='972.010376' scale='0.819455' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1040.090332' y='10.832960' z='963.702332' scale='1.124712' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1040.251709' y='13.686664' z='972.010376' scale='0.819455' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1041.605103' y='0.000000' z='1346.726318' scale='0.843816' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1041.638672' y='0.000000' z='1344.781738' scale='0.921904' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1042.080811' y='8.931758' z='959.018799' scale='1.146830' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1043.108765' y='12.465883' z='969.244324' scale='0.892599' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1042.080811' y='9.414396' z='959.018799' scale='1.146830' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1043.108765' y='12.184616' z='969.244324' scale='0.892599' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1043.407715' y='22.474659' z='827.378906' scale='1.229297' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1044.389893' y='9.782314' z='962.119263' scale='0.889479' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1046.598389' y='7.725511' z='956.129395' scale='0.999695' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1044.389893' y='10.142699' z='962.119263' scale='0.889479' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1046.598389' y='8.322170' z='956.129395' scale='0.999695' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.057739' y='11.526753' z='236.434540' scale='1.170276' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.104736' y='0.000000' z='1344.603760' scale='0.980949' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1050.960327' y='0.000000' z='1359.919434' scale='1.048309' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1053.107422' y='7.665144' z='961.392273' scale='1.285977' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1053.614014' y='7.200190' z='958.704285' scale='0.976120' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1053.748291' y='10.211128' z='968.131470' scale='1.183879' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1053.883911' y='5.465132' z='931.163818' scale='0.860761' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1050.960327' y='20.000000' z='1359.919434' scale='1.048309' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1053.107422' y='8.181679' z='961.392273' scale='1.285977' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1053.614014' y='7.741646' z='958.704285' scale='0.976120' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1053.748291' y='10.282695' z='968.131470' scale='1.183879' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1053.883911' y='5.837619' z='931.163818' scale='0.860761' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1056.320190' y='15.750113' z='667.810303' scale='0.831735' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1059.671387' y='18.330299' z='497.268036' scale='0.869939' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1062.726807' y='19.520742' z='877.293884' scale='0.927379' is_freeform='false'/>
@@ -14515,24 +14515,24 @@
 				<BATTLE_TREE_ITEM x='1074.649170' y='25.319057' z='839.346497' scale='1.188167' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1074.759766' y='0.000000' z='1251.130981' scale='0.814641' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1075.867310' y='0.000000' z='1248.469360' scale='1.006325' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1075.895630' y='6.487779' z='975.217407' scale='1.120020' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1075.895630' y='6.891801' z='975.217407' scale='1.120020' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1080.645630' y='26.630045' z='826.977966' scale='0.845144' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1084.623169' y='27.022812' z='831.478638' scale='0.801709' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1087.897827' y='27.674530' z='822.771484' scale='1.010727' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1090.427368' y='27.246862' z='841.098755' scale='0.916190' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1091.196899' y='18.285393' z='1025.767090' scale='0.815640' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1091.196899' y='16.029858' z='1025.767090' scale='0.815640' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1091.865112' y='5.569293' z='1980.934204' scale='1.219821' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1095.152832' y='17.919966' z='1028.521362' scale='0.905368' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1095.152832' y='16.108368' z='1028.521362' scale='0.905368' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1097.210327' y='27.254639' z='848.014160' scale='1.023629' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.378540' y='27.615120' z='849.182800' scale='1.037957' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.536499' y='12.940146' z='1570.210205' scale='0.922162' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.833130' y='29.645565' z='832.509216' scale='1.090822' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1100.491699' y='11.853983' z='1574.433838' scale='0.897507' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1100.819458' y='28.020103' z='848.531555' scale='1.218784' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1100.845581' y='4.231115' z='1133.278198' scale='1.060918' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1100.931396' y='5.208329' z='1124.321411' scale='1.152615' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1100.845581' y='20.000000' z='1133.278198' scale='1.060918' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1100.931396' y='20.000000' z='1124.321411' scale='1.152615' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1101.463379' y='12.426725' z='1571.013428' scale='0.902606' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1103.115112' y='4.326497' z='1132.053223' scale='0.972005' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1103.115112' y='20.000000' z='1132.053223' scale='0.972005' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1103.637939' y='23.040951' z='143.261703' scale='1.143321' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1103.899536' y='30.613064' z='832.713623' scale='0.844984' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1104.629883' y='28.903738' z='848.977112' scale='1.232647' is_freeform='false'/>
@@ -14544,27 +14544,27 @@
 				<BATTLE_TREE_ITEM x='1111.060547' y='15.145370' z='157.224930' scale='0.872271' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1113.553711' y='6.022408' z='1610.512207' scale='1.092100' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1115.386475' y='7.558834' z='223.451706' scale='1.202436' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1115.752197' y='15.976613' z='1046.075562' scale='0.855890' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1115.752197' y='15.170143' z='1046.075562' scale='0.855890' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1119.134888' y='30.235910' z='855.205505' scale='0.978375' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1119.695801' y='29.161375' z='859.691772' scale='1.195610' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1121.233154' y='12.582014' z='1043.091919' scale='1.095338' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1121.233154' y='12.428233' z='1043.091919' scale='1.095338' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1124.151611' y='6.140846' z='1630.077637' scale='0.935119' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1127.919678' y='30.972214' z='857.956726' scale='1.232373' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1128.653931' y='31.202488' z='856.084290' scale='0.811279' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1130.310669' y='8.026675' z='185.201797' scale='0.957843' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1130.760986' y='31.469746' z='856.952148' scale='0.856713' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1131.370239' y='9.367439' z='1042.905396' scale='1.074609' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1131.370239' y='9.401304' z='1042.905396' scale='1.074609' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1132.325195' y='6.318791' z='1626.633667' scale='1.292630' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1134.695313' y='8.234356' z='1043.061768' scale='1.002373' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1134.695313' y='8.247054' z='1043.061768' scale='1.002373' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1135.956177' y='33.386845' z='851.777405' scale='1.122427' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1136.797607' y='7.923371' z='186.884079' scale='1.256618' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1139.495361' y='2.221653' z='1020.954956' scale='0.952040' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1139.948975' y='1.630566' z='1017.840210' scale='0.865051' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1141.411743' y='3.021966' z='1026.391479' scale='1.117140' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1143.509399' y='0.943123' z='1010.457153' scale='1.036083' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1139.495361' y='4.049492' z='1020.954956' scale='0.952040' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1139.948975' y='3.715381' z='1017.840210' scale='0.865051' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1141.411743' y='4.438114' z='1026.391479' scale='1.117140' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1143.509399' y='3.191580' z='1010.457153' scale='1.036083' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1144.542114' y='7.645798' z='188.372925' scale='1.036294' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1145.715942' y='7.587467' z='184.922714' scale='1.232402' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1147.908691' y='4.450547' z='1038.029419' scale='1.132129' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1147.908691' y='5.209937' z='1038.029419' scale='1.132129' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1148.646729' y='34.931282' z='846.502014' scale='1.064335' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1155.026733' y='24.980867' z='898.851074' scale='0.934516' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1163.441406' y='9.814172' z='1644.371826' scale='1.126810' is_freeform='false'/>
@@ -14578,14 +14578,14 @@
 				<BATTLE_TREE_ITEM x='1193.833130' y='8.111637' z='1873.330200' scale='1.061028' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1195.704346' y='4.981010' z='1742.342529' scale='0.844106' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1199.049438' y='7.150459' z='1567.287842' scale='1.168055' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1206.268799' y='16.530474' z='1267.802490' scale='1.203456' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1206.406738' y='17.848749' z='1253.554932' scale='1.260265' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1206.690186' y='16.928652' z='1263.311401' scale='0.951240' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1210.882324' y='15.904712' z='1260.017578' scale='1.149874' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1206.268799' y='15.936784' z='1267.802490' scale='1.203456' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1206.406738' y='16.674593' z='1253.554932' scale='1.260265' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1206.690186' y='16.158060' z='1263.311401' scale='0.951240' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1210.882324' y='15.471110' z='1260.017578' scale='1.149874' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1214.465576' y='5.776052' z='1811.833618' scale='1.062104' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1220.182373' y='5.225482' z='1741.493774' scale='1.208957' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1226.686646' y='3.601727' z='142.935837' scale='0.821706' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1227.359253' y='2.576420' z='1095.712158' scale='1.046083' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1227.359253' y='2.983280' z='1095.712158' scale='1.046083' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1231.229370' y='3.035541' z='39.556419' scale='1.076188' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1234.235474' y='2.695665' z='1096.169678' scale='0.825620' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1237.064819' y='4.115090' z='1088.637573' scale='0.871496' is_freeform='false'/>
@@ -15988,9 +15988,9 @@
 				<BATTLE_TREE_ITEM x='906.446472' y='0.000000' z='1068.584717' scale='1.124152' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='906.586792' y='0.229974' z='2006.596313' scale='1.017372' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='906.772156' y='0.248009' z='2003.793213' scale='0.926368' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='907.230286' y='8.181077' z='755.445740' scale='1.117182' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='907.230286' y='8.380933' z='755.445740' scale='1.117182' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='907.638306' y='0.239941' z='2004.947021' scale='0.917151' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='908.837280' y='7.623365' z='740.924622' scale='1.079326' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='908.837280' y='7.718294' z='740.924622' scale='1.079326' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='910.167297' y='3.541129' z='891.472839' scale='1.008580' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='910.673645' y='8.493333' z='1687.462158' scale='1.095216' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='912.905884' y='0.000000' z='1167.080322' scale='0.853040' is_freeform='false'/>
@@ -16017,21 +16017,21 @@
 				<BATTLE_TREE_ITEM x='934.909424' y='0.000000' z='1341.501343' scale='0.941367' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='936.631226' y='20.373327' z='368.978668' scale='1.174919' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='938.649292' y='14.703216' z='169.294754' scale='1.108527' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='938.782898' y='6.542799' z='763.063843' scale='1.168499' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='938.782898' y='6.947905' z='763.063843' scale='1.168499' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='938.920532' y='1.083072' z='53.489037' scale='1.066178' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='941.310181' y='6.618284' z='763.074890' scale='1.160357' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='941.361877' y='6.595708' z='765.708496' scale='1.120600' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='943.796204' y='6.600749' z='774.645691' scale='0.861875' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='941.310181' y='6.977756' z='763.074890' scale='1.160357' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='941.361877' y='6.996358' z='765.708496' scale='1.120600' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='943.796204' y='7.126435' z='774.645691' scale='0.861875' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.098877' y='2.622265' z='61.884857' scale='0.882147' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='947.796143' y='0.000000' z='1518.097412' scale='1.257702' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='948.108215' y='7.087049' z='770.707153' scale='0.998238' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='948.108215' y='7.397371' z='770.707153' scale='0.998238' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='948.632141' y='2.195621' z='1839.402588' scale='1.208469' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='948.692505' y='3.053471' z='63.109726' scale='1.090440' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='949.144592' y='7.287984' z='752.275818' scale='0.903874' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='949.144592' y='7.373949' z='752.275818' scale='0.903874' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='949.892517' y='0.000000' z='1517.130859' scale='0.909644' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='951.249207' y='0.000000' z='1517.256958' scale='0.900374' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='951.339966' y='7.427221' z='763.297119' scale='0.859709' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='952.013977' y='7.546106' z='771.442505' scale='1.278309' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='951.339966' y='7.541901' z='763.297119' scale='0.859709' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='952.013977' y='7.754323' z='771.442505' scale='1.278309' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='954.588806' y='0.000000' z='1117.582031' scale='1.157588' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='955.132690' y='8.128675' z='753.875244' scale='1.164286' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='956.785950' y='8.275335' z='765.651428' scale='0.961883' is_freeform='false'/>
@@ -16085,12 +16085,12 @@
 				<BATTLE_TREE_ITEM x='1009.345825' y='0.000000' z='1548.421875' scale='0.878530' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1009.758850' y='15.612876' z='269.172089' scale='0.843756' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1010.057129' y='0.000000' z='1385.946045' scale='0.920592' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1010.244690' y='27.687674' z='982.544495' scale='0.820424' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1010.244690' y='19.972244' z='982.544495' scale='0.820424' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1010.293823' y='0.000000' z='1399.071045' scale='0.846571' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1011.601929' y='0.000000' z='1552.645264' scale='0.839291' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1012.201477' y='0.000000' z='1345.500488' scale='0.858274' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1012.251221' y='3.042808' z='1743.934204' scale='1.161980' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1012.294373' y='28.310883' z='985.696960' scale='0.889459' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1012.294373' y='19.848160' z='985.696960' scale='0.889459' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1012.333008' y='0.000000' z='1551.712402' scale='0.985316' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1013.787231' y='0.000000' z='1382.363403' scale='0.850637' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1014.752380' y='0.000000' z='1346.602783' scale='1.134150' is_freeform='false'/>
@@ -16099,21 +16099,21 @@
 				<BATTLE_TREE_ITEM x='1022.281006' y='2.534472' z='1744.448853' scale='1.078873' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1023.331787' y='8.985332' z='506.751099' scale='1.028840' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1035.648682' y='11.141711' z='206.349640' scale='1.184352' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1037.610962' y='17.530781' z='976.109680' scale='1.137193' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1038.583618' y='16.074686' z='975.677917' scale='1.074961' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1037.610962' y='15.340265' z='976.109680' scale='1.137193' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1038.583618' y='14.559295' z='975.677917' scale='1.074961' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1042.831909' y='0.000000' z='1352.289063' scale='1.296178' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1043.734375' y='0.000000' z='1346.002441' scale='1.276814' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1044.745850' y='9.156887' z='960.968994' scale='0.802785' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1044.745850' y='9.617423' z='960.968994' scale='0.802785' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1045.914795' y='11.807803' z='238.892654' scale='0.934565' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.133545' y='0.000000' z='1339.369995' scale='0.839155' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.375000' y='22.770176' z='829.028625' scale='0.810124' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1047.423096' y='7.273031' z='955.382568' scale='1.110613' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1047.423096' y='7.899643' z='955.382568' scale='1.110613' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1048.718384' y='11.487651' z='241.579529' scale='1.054899' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1051.918335' y='5.204319' z='932.513611' scale='0.970733' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1051.918335' y='5.755733' z='932.513611' scale='0.970733' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1052.732666' y='8.882753' z='183.221786' scale='0.895401' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1055.263306' y='6.134311' z='927.906189' scale='1.254414' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1056.229736' y='5.423801' z='933.839050' scale='1.146677' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1058.057861' y='5.386227' z='937.132385' scale='0.923232' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1055.263306' y='6.264436' z='927.906189' scale='1.254414' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1056.229736' y='5.755956' z='933.839050' scale='1.146677' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1058.057861' y='5.540187' z='937.132385' scale='0.923232' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1058.771240' y='25.158714' z='808.349792' scale='1.204311' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1060.991943' y='0.822000' z='2019.757568' scale='0.896659' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1061.517822' y='4.039780' z='1734.413940' scale='1.178340' is_freeform='false'/>
@@ -16125,29 +16125,29 @@
 				<BATTLE_TREE_ITEM x='1072.217407' y='0.000000' z='1256.788696' scale='1.083436' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1072.415161' y='0.000000' z='1260.736328' scale='1.196185' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1073.754272' y='25.087208' z='839.035583' scale='0.966432' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1075.103394' y='6.987416' z='976.922791' scale='1.077760' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1075.103394' y='7.372383' z='976.922791' scale='1.077760' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1075.118530' y='0.000000' z='1255.559814' scale='0.811238' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1075.635620' y='6.055516' z='973.397217' scale='1.283062' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1077.088135' y='5.950165' z='974.431091' scale='0.844884' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1075.635620' y='6.440627' z='973.397217' scale='1.283062' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1077.088135' y='6.472595' z='974.431091' scale='0.844884' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1079.603516' y='25.910822' z='837.817993' scale='1.113954' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1081.740845' y='26.780468' z='822.043335' scale='0.821737' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1086.191895' y='5.320845' z='383.405640' scale='0.887904' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1086.666260' y='5.519264' z='384.102631' scale='0.816839' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1086.779297' y='18.687065' z='1021.363525' scale='0.918789' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1086.779297' y='15.808168' z='1021.363525' scale='0.918789' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1087.172852' y='14.873464' z='908.523438' scale='0.997946' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1087.879761' y='27.424849' z='828.010254' scale='1.112245' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1089.013062' y='18.485893' z='1023.216675' scale='0.962534' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1089.013062' y='15.881221' z='1023.216675' scale='0.962534' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1089.922729' y='28.137091' z='819.786011' scale='1.247600' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1090.619751' y='27.046347' z='843.710999' scale='1.011726' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1091.665649' y='28.129438' z='828.209961' scale='0.948966' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1094.335449' y='15.945900' z='1022.984436' scale='0.840632' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1094.335449' y='14.699551' z='1022.984436' scale='0.840632' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1094.656128' y='27.208509' z='846.831909' scale='1.195209' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1096.462646' y='2.788681' z='965.370056' scale='0.817385' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1096.890747' y='1.966630' z='973.106445' scale='1.193645' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1096.462646' y='3.985498' z='965.370056' scale='0.817385' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1096.890747' y='4.108497' z='973.106445' scale='1.193645' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1098.074585' y='29.797010' z='831.823120' scale='0.904891' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1101.811646' y='0.000000' z='1227.491211' scale='0.963792' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1102.045288' y='0.000000' z='1225.724731' scale='0.918602' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1102.350464' y='5.474515' z='1123.357422' scale='1.067594' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1102.350464' y='20.000000' z='1123.357422' scale='1.067594' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1102.649780' y='7.093482' z='1609.402954' scale='1.205847' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1104.869263' y='6.571029' z='1613.241455' scale='1.002823' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1104.993896' y='0.000000' z='1228.735718' scale='0.972341' is_freeform='false'/>
@@ -16164,15 +16164,15 @@
 				<BATTLE_TREE_ITEM x='1116.069458' y='13.282458' z='1511.229736' scale='1.005640' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1122.413696' y='29.790569' z='859.356140' scale='1.257335' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1124.057983' y='8.163633' z='185.133499' scale='1.101912' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1126.529907' y='12.375358' z='1048.489868' scale='0.824498' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1126.692261' y='11.790272' z='1046.419556' scale='1.163897' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1126.529907' y='12.251943' z='1048.489868' scale='0.824498' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1126.692261' y='11.714746' z='1046.419556' scale='1.163897' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1131.956299' y='8.007326' z='182.636581' scale='1.071804' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1132.121826' y='6.801612' z='1630.618896' scale='1.102304' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1136.464111' y='35.233845' z='840.883423' scale='1.038740' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1139.558716' y='3.773382' z='1029.752319' scale='0.869643' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1142.797729' y='4.760753' z='1036.089478' scale='0.958246' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1142.835205' y='3.419170' z='1031.101196' scale='1.173922' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1143.332275' y='0.900409' z='1009.283997' scale='1.146648' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1139.558716' y='4.995301' z='1029.752319' scale='0.869643' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1142.797729' y='5.473717' z='1036.089478' scale='0.958246' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1142.835205' y='4.712735' z='1031.101196' scale='1.173922' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1143.332275' y='3.096783' z='1009.283997' scale='1.146648' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1148.893799' y='26.520201' z='882.033813' scale='1.140118' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1159.633057' y='27.109926' z='897.182434' scale='1.193728' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1170.400269' y='33.783989' z='889.527527' scale='1.001285' is_freeform='false'/>
@@ -16186,12 +16186,12 @@
 				<BATTLE_TREE_ITEM x='1194.161621' y='5.039062' z='1741.828003' scale='1.203700' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1196.478149' y='8.095850' z='1390.607300' scale='0.898154' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1202.822388' y='7.403263' z='1566.023438' scale='0.937140' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1203.063965' y='18.161913' z='1262.147339' scale='1.168330' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1203.302734' y='17.682985' z='1266.548218' scale='1.053185' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1203.063965' y='16.889746' z='1262.147339' scale='1.168330' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1203.302734' y='16.654062' z='1266.548218' scale='1.053185' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1205.683594' y='7.564472' z='1568.582153' scale='1.013329' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1207.100464' y='16.318064' z='1268.431763' scale='0.815206' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1208.100952' y='15.775237' z='1269.770020' scale='1.229114' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1209.912109' y='16.512312' z='1260.094238' scale='1.033982' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1207.100464' y='15.827214' z='1268.431763' scale='0.815206' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1208.100952' y='15.453155' z='1269.770020' scale='1.229114' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1209.912109' y='15.875939' z='1260.094238' scale='1.033982' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1211.104980' y='5.990915' z='1816.356567' scale='1.227138' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1212.456909' y='5.959457' z='1815.339355' scale='1.215343' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1213.202759' y='5.680090' z='1810.954102' scale='1.279744' is_freeform='false'/>
@@ -17630,15 +17630,15 @@
 				<BATTLE_TREE_ITEM x='715.725159' y='0.000000' z='1329.894897' scale='0.855245' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='718.189392' y='0.000000' z='1249.510010' scale='1.021942' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='719.274475' y='0.000000' z='1468.696533' scale='1.005592' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='720.100403' y='13.729982' z='700.441528' scale='0.800066' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='720.100403' y='16.365120' z='700.441528' scale='0.800066' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='721.463684' y='0.000000' z='1470.017456' scale='1.047730' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='721.801208' y='0.000000' z='1243.782593' scale='0.824529' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='722.799500' y='0.000000' z='1327.417725' scale='0.828466' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='723.164429' y='0.000000' z='1324.735352' scale='1.190959' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='723.314026' y='14.085266' z='690.385071' scale='1.010731' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='723.314026' y='14.513853' z='690.385071' scale='1.010731' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='723.932983' y='0.000000' z='1320.886475' scale='0.878805' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='725.788940' y='0.000000' z='1248.335327' scale='1.274723' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='726.423523' y='13.597784' z='692.248230' scale='0.896197' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='726.423523' y='14.165222' z='692.248230' scale='0.896197' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='730.635803' y='0.000000' z='1249.921631' scale='0.916228' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='731.940002' y='5.622103' z='1833.175171' scale='0.953826' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='732.469360' y='5.534360' z='1826.051025' scale='1.000900' is_freeform='false'/>
@@ -17722,7 +17722,7 @@
 				<BATTLE_TREE_ITEM x='808.537231' y='11.385662' z='426.866791' scale='0.995850' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='808.702393' y='0.000000' z='1602.351685' scale='1.104288' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='809.303345' y='10.980865' z='615.568176' scale='1.164065' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='809.538696' y='0.000043' z='858.988525' scale='1.092059' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='809.538696' y='20.000000' z='858.988525' scale='1.092059' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='810.196899' y='1.074998' z='1964.184448' scale='0.885046' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='811.139893' y='10.310312' z='597.226379' scale='0.941459' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='812.028687' y='11.081511' z='621.405823' scale='0.996880' is_freeform='false'/>
@@ -17783,7 +17783,7 @@
 				<BATTLE_TREE_ITEM x='909.067261' y='3.372438' z='891.788208' scale='0.849914' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='909.624817' y='8.237778' z='1689.933716' scale='1.005768' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='909.905396' y='3.583794' z='884.849365' scale='0.903939' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='910.126953' y='7.710735' z='750.297424' scale='0.830301' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='910.126953' y='7.905474' z='750.297424' scale='0.830301' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='910.315552' y='8.846177' z='1684.868408' scale='0.834578' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='910.463623' y='0.000000' z='1168.287964' scale='0.982979' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='911.692200' y='9.757010' z='1674.561890' scale='0.880313' is_freeform='false'/>
@@ -17802,20 +17802,20 @@
 				<BATTLE_TREE_ITEM x='928.523987' y='7.832681' z='1678.022095' scale='0.834140' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='932.363586' y='0.000000' z='1347.524658' scale='0.873243' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='933.124207' y='7.151285' z='1680.423828' scale='1.090732' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='933.382874' y='6.500266' z='760.793640' scale='1.179888' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='933.382874' y='6.966459' z='760.793640' scale='1.179888' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='937.319275' y='1.263886' z='54.536964' scale='0.901816' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='941.183350' y='1.699891' z='1855.468018' scale='0.881285' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='941.549622' y='6.557792' z='768.047058' scale='1.271794' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='941.549622' y='7.030464' z='768.047058' scale='1.271794' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='943.855530' y='18.314964' z='418.832794' scale='1.186923' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='944.407593' y='0.822398' z='49.577568' scale='0.968757' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='944.640015' y='6.977451' z='752.384521' scale='1.154362' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='944.640015' y='7.044197' z='752.384521' scale='1.154362' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='945.346619' y='17.809809' z='422.971588' scale='1.061479' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='945.535461' y='6.777242' z='769.585205' scale='0.843244' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='945.535461' y='7.154262' z='769.585205' scale='0.843244' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.065369' y='0.000000' z='1526.573975' scale='1.056619' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.217407' y='2.006500' z='1842.904297' scale='1.139559' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='946.321228' y='17.948418' z='419.821869' scale='1.106981' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='947.658508' y='1.875895' z='1847.221802' scale='1.081033' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='947.902893' y='7.043668' z='760.125061' scale='1.097276' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='947.902893' y='7.206502' z='760.125061' scale='1.097276' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='948.407959' y='0.000000' z='1519.952148' scale='0.892302' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='949.002380' y='1.601937' z='55.326679' scale='1.037263' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='949.650513' y='2.254962' z='1837.881348' scale='1.232250' is_freeform='false'/>
@@ -17861,22 +17861,22 @@
 				<BATTLE_TREE_ITEM x='1019.047241' y='2.914288' z='1739.873169' scale='0.905604' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1020.869446' y='0.000000' z='1349.384399' scale='1.009758' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1035.020996' y='2.109612' z='1755.947632' scale='0.944872' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1035.334595' y='11.591360' z='962.596008' scale='1.230518' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1037.072876' y='12.114085' z='965.018188' scale='1.223033' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1035.334595' y='11.925588' z='962.596008' scale='1.230518' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1037.072876' y='12.116929' z='965.018188' scale='1.223033' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1038.557861' y='0.000000' z='1357.574707' scale='1.009834' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1040.645752' y='8.689525' z='957.646301' scale='1.178843' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1041.974487' y='13.751410' z='970.351868' scale='1.220684' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1040.645752' y='9.248364' z='957.646301' scale='1.178843' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1041.974487' y='13.131822' z='970.351868' scale='1.220684' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1042.888916' y='11.894422' z='236.758987' scale='1.032188' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1044.036743' y='10.454543' z='964.574402' scale='0.906348' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1044.036743' y='10.688850' z='964.574402' scale='0.906348' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1044.272217' y='0.000000' z='1339.156982' scale='0.946532' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1044.522217' y='8.049426' z='957.185730' scale='0.826101' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1045.187012' y='13.647542' z='972.300110' scale='1.178576' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1044.522217' y='8.644133' z='957.185730' scale='0.826101' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1045.187012' y='13.056679' z='972.300110' scale='1.178576' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1045.871582' y='10.237305' z='176.377625' scale='1.081537' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1047.601074' y='10.361373' z='175.907440' scale='0.810834' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1048.279663' y='0.000000' z='1335.978027' scale='0.905524' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1049.197632' y='11.325449' z='237.832062' scale='1.128107' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1050.953735' y='7.092321' z='957.234070' scale='0.853086' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1052.521240' y='8.288858' z='963.530273' scale='0.827070' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1050.953735' y='7.674308' z='957.234070' scale='0.853086' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1052.521240' y='8.659894' z='963.530273' scale='0.827070' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1059.620605' y='24.913559' z='813.066040' scale='1.220470' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1059.972778' y='25.033066' z='810.949707' scale='0.843244' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1061.506470' y='19.286242' z='877.408325' scale='1.058616' is_freeform='false'/>
@@ -17908,35 +17908,35 @@
 				<BATTLE_TREE_ITEM x='1094.869141' y='5.123828' z='1984.518433' scale='1.206485' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1096.906372' y='5.402655' z='1983.560059' scale='1.253735' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1097.928589' y='0.000000' z='1226.985718' scale='1.275529' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1098.295410' y='4.115394' z='1133.302246' scale='1.118342' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1099.840820' y='4.860149' z='1126.081543' scale='1.038639' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1098.295410' y='20.000000' z='1133.302246' scale='1.118342' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1099.840820' y='20.000000' z='1126.081543' scale='1.038639' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1099.857544' y='12.337781' z='1575.307251' scale='1.070114' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1100.703491' y='28.370016' z='847.393555' scale='1.073365' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1101.158691' y='21.335407' z='146.861984' scale='0.913510' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1101.575439' y='4.703680' z='1128.715210' scale='0.932935' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1102.311035' y='4.799411' z='1128.477905' scale='0.918305' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1101.575439' y='20.000000' z='1128.715210' scale='0.932935' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1102.311035' y='20.000000' z='1128.477905' scale='0.918305' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1103.505737' y='28.064350' z='851.302429' scale='1.261738' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1104.294800' y='4.888979' z='1129.789917' scale='1.160733' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1106.281128' y='4.717006' z='1131.856689' scale='0.905113' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1104.294800' y='20.000000' z='1129.789917' scale='1.160733' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1106.281128' y='20.000000' z='1131.856689' scale='0.905113' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1107.591431' y='6.429634' z='1737.600098' scale='1.177020' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1108.561035' y='7.864984' z='221.043808' scale='0.855258' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1109.147705' y='6.470101' z='1739.904419' scale='1.133982' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1110.239258' y='16.056623' z='155.206345' scale='1.206680' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1112.034058' y='7.257220' z='226.105743' scale='0.922675' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1114.337036' y='17.093784' z='1051.411133' scale='0.977117' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1114.337036' y='16.117788' z='1051.411133' scale='0.977117' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1115.322510' y='7.009091' z='228.662033' scale='1.047863' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1115.445313' y='30.478111' z='851.146118' scale='1.035273' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1116.434326' y='11.780966' z='163.003983' scale='1.073171' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1116.671387' y='11.428534' z='1034.216675' scale='0.938247' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1116.671387' y='11.361631' z='1034.216675' scale='0.938247' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1116.890625' y='13.151967' z='159.063553' scale='1.020104' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1117.178345' y='13.969075' z='157.979767' scale='1.173941' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1118.811035' y='11.266296' z='1036.191162' scale='1.168124' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1118.811035' y='11.314604' z='1036.191162' scale='1.168124' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1119.279297' y='28.590574' z='860.843323' scale='1.216179' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1122.659912' y='30.348112' z='856.506348' scale='1.138251' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1127.817627' y='31.507565' z='854.713318' scale='1.027148' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1129.380249' y='12.292924' z='1051.979614' scale='1.042252' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1129.380249' y='12.155515' z='1051.979614' scale='1.042252' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1130.552856' y='6.879745' z='226.814255' scale='0.987107' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1131.349243' y='11.093131' z='1049.961914' scale='1.225101' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1131.349243' y='11.045547' z='1049.961914' scale='1.225101' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1131.658325' y='6.824323' z='1632.720459' scale='1.281910' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1131.815796' y='6.108363' z='1627.682251' scale='0.880819' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1133.162964' y='34.626881' z='842.164124' scale='1.080497' is_freeform='false'/>
@@ -17946,9 +17946,9 @@
 				<BATTLE_TREE_ITEM x='1134.556030' y='34.505238' z='845.000244' scale='0.976925' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1136.738037' y='34.967934' z='843.918640' scale='0.953139' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1138.635986' y='34.424870' z='846.832275' scale='0.841740' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1140.090454' y='5.628250' z='1039.191040' scale='1.189183' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1140.655884' y='3.853028' z='1031.845215' scale='1.209656' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1145.540161' y='4.331779' z='1037.078247' scale='1.128387' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1140.090454' y='6.162735' z='1039.191040' scale='1.189183' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1140.655884' y='4.951738' z='1031.845215' scale='1.209656' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1145.540161' y='5.194804' z='1037.078247' scale='1.128387' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1147.036133' y='7.531699' z='186.815598' scale='1.094347' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1153.104492' y='24.499365' z='896.221802' scale='1.059693' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1153.661743' y='35.949192' z='841.001648' scale='0.990086' is_freeform='false'/>
@@ -17967,11 +17967,11 @@
 				<BATTLE_TREE_ITEM x='1192.363281' y='4.986895' z='1743.361572' scale='1.261845' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1196.365234' y='8.376720' z='1874.199585' scale='1.099153' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1198.195679' y='7.571414' z='1577.121582' scale='0.920531' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1209.290771' y='17.420053' z='1246.328735' scale='1.029580' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1209.290771' y='16.464788' z='1246.328735' scale='1.029580' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1210.630005' y='6.452710' z='1825.096802' scale='0.990898' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1210.641113' y='6.358481' z='1823.459839' scale='0.834447' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1211.251831' y='7.159101' z='1398.435669' scale='0.936248' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1212.247925' y='15.702048' z='1255.513062' scale='0.913298' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1212.247925' y='15.310178' z='1255.513062' scale='0.913298' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1212.434692' y='7.060547' z='1399.513794' scale='0.883062' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1212.729858' y='6.886291' z='1401.665649' scale='0.886275' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1213.889893' y='5.131769' z='1741.021484' scale='1.267803' is_freeform='false'/>
@@ -17979,9 +17979,9 @@
 				<BATTLE_TREE_ITEM x='1214.752930' y='6.325556' z='1818.015381' scale='1.043984' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1218.949585' y='6.139565' z='1405.340332' scale='1.160304' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1221.895386' y='5.279393' z='1744.917603' scale='1.256641' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1228.195801' y='3.153706' z='1090.873535' scale='1.113146' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1228.706299' y='2.664308' z='1095.869385' scale='0.835585' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1229.887695' y='2.480134' z='1096.420410' scale='0.892786' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1228.195801' y='3.401934' z='1090.873535' scale='1.113146' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1228.706299' y='2.947135' z='1095.869385' scale='0.835585' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1229.887695' y='2.758799' z='1096.420410' scale='0.892786' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1236.292603' y='3.239129' z='42.726482' scale='0.929118' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1236.857178' y='3.465963' z='1093.988281' scale='1.164836' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1237.351440' y='3.089915' z='40.423805' scale='0.859175' is_freeform='false'/>
@@ -18838,7 +18838,7 @@
 				<BATTLE_TREE_ITEM x='281.884094' y='0.000000' z='1281.021484' scale='1.226947' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='282.811798' y='0.000000' z='1281.032837' scale='1.163302' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='283.566528' y='0.000000' z='1279.951538' scale='0.874166' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='286.365692' y='11.890772' z='670.127380' scale='1.031365' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='286.365692' y='11.436248' z='670.127380' scale='1.031365' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='289.259308' y='0.000000' z='1266.131714' scale='0.878164' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='291.264008' y='0.000000' z='1048.194580' scale='1.046983' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='296.743683' y='0.000000' z='1047.273438' scale='1.271374' is_freeform='false'/>
@@ -19261,7 +19261,7 @@
 				<BATTLE_TREE_ITEM x='790.879395' y='10.890388' z='588.971313' scale='1.190666' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='791.084717' y='11.146799' z='613.171204' scale='1.045312' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='792.460999' y='0.000000' z='854.353699' scale='0.931792' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='792.734619' y='0.000000' z='851.306030' scale='0.836731' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='792.734619' y='20.000000' z='851.306030' scale='0.836731' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='793.055664' y='10.810065' z='591.209167' scale='0.883671' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='793.576843' y='11.102363' z='616.907959' scale='1.169886' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='793.707458' y='5.725225' z='1796.710205' scale='0.999828' is_freeform='false'/>
@@ -19281,7 +19281,7 @@
 				<BATTLE_TREE_ITEM x='821.435120' y='0.000000' z='1265.121948' scale='1.157725' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='822.346191' y='0.000000' z='1269.331665' scale='1.033310' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='822.508972' y='0.000000' z='1250.778931' scale='0.924994' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='823.157043' y='10.864906' z='741.501526' scale='0.885209' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='823.157043' y='11.216887' z='741.501526' scale='0.885209' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='824.152039' y='0.000000' z='1267.382324' scale='1.190791' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='824.179443' y='0.000000' z='1259.626221' scale='1.201740' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='825.215759' y='0.000000' z='1254.063965' scale='1.096040' is_freeform='false'/>
@@ -19398,20 +19398,20 @@
 				<BATTLE_TREE_ITEM x='1168.560059' y='9.806458' z='1637.605835' scale='0.803845' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1171.348877' y='9.914943' z='1639.095581' scale='1.262226' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1175.835449' y='9.994975' z='1636.413086' scale='1.102472' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1183.515625' y='4.851720' z='1079.683838' scale='1.062389' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1184.609619' y='4.897538' z='1082.690063' scale='0.834363' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1183.515625' y='6.123093' z='1079.683838' scale='1.062389' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1184.609619' y='6.266736' z='1082.690063' scale='0.834363' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1188.027710' y='9.841060' z='1894.285889' scale='0.998756' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1189.257935' y='9.970253' z='1897.118042' scale='1.051247' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1194.845825' y='3.616140' z='1075.821167' scale='0.958892' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1194.845825' y='4.987346' z='1075.821167' scale='0.958892' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1196.620605' y='10.321327' z='1895.981079' scale='1.157191' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1200.428345' y='3.660728' z='1073.931763' scale='1.195091' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1202.786621' y='3.313747' z='1078.592773' scale='1.222644' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1200.428345' y='4.908605' z='1073.931763' scale='1.195091' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1202.786621' y='4.684610' z='1078.592773' scale='1.222644' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1204.213257' y='10.753801' z='1894.313599' scale='0.853407' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1206.933472' y='3.807938' z='1075.267212' scale='0.872190' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1207.241943' y='3.482536' z='1077.972290' scale='0.836747' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1209.401123' y='3.196002' z='1081.459473' scale='0.962927' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1210.773315' y='3.409947' z='1078.115967' scale='0.834954' is_freeform='false'/>
-				<BATTLE_TREE_ITEM x='1212.785889' y='3.283266' z='1081.361450' scale='0.928519' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1206.933472' y='4.828369' z='1075.267212' scale='0.872190' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1207.241943' y='4.702571' z='1077.972290' scale='0.836747' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1209.401123' y='4.413909' z='1081.459473' scale='0.962927' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1210.773315' y='4.517925' z='1078.115967' scale='0.834954' is_freeform='false'/>
+				<BATTLE_TREE_ITEM x='1212.785889' y='4.357070' z='1081.361450' scale='0.928519' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1229.155151' y='3.932137' z='147.514008' scale='1.267796' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1230.145996' y='3.869899' z='144.536575' scale='0.890417' is_freeform='false'/>
 				<BATTLE_TREE_ITEM x='1234.954224' y='5.298903' z='1771.754639' scale='1.123255' is_freeform='false'/>
