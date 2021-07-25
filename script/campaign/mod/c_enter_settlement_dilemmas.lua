@@ -391,7 +391,7 @@ core:add_listener(
 			Jorin Asserbo, high armourer of the keep has inquired of our services.
 
 			We should stock up on extra supplies before leaving the realm, lets look for work while supply is gathered.
-             
+
 			BEYOUND THIS POINT you will find increasingly unfished stuff. Don't play any further if want a unspoiled and polished experience - play a bit further and make it into Kislev]]
 			mod.set_dilemma_text(new_dilemma_text)
 		end, 1)
@@ -554,7 +554,7 @@ core:add_listener(
 	function(context)
 		cm:callback(function()
 			mod.complete_contract(
-				7000,
+				(cm:get_saved_value("lost_hold_num_saved_civilians") or 0) * 500,
  -- Payment entry
 				function()
 					cm:callback(function()

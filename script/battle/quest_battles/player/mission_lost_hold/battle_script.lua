@@ -44,14 +44,14 @@ ga_player = gb:get_army(gb:get_player_alliance_num(), 1, ""); -- attacker
 
 ------------------------------------------ALLY---------------------------------------------------
 -----------------------------------------DEPLOYED--#0---------------------------------------------
-ga_battle_lost_hold_character_name_dwf_ally = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally"); -- #0 Units 
-ga_battle_lost_hold_army_dwf_ally_unit_hammers = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_unit_hammers"); -- #0 Units 
-ga_battle_lost_hold_army_dwf_ally_unit_dwarf_warrior = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_unit_dwarf_warrior"); -- #0 Units 
-ga_battle_lost_hold_army_dwf_ally_unit_quarrellers = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_unit_quarrellers"); -- #0 Units 
+ga_battle_lost_hold_character_name_dwf_ally = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally"); -- #0 Units
+ga_battle_lost_hold_army_dwf_ally_unit_hammers = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_unit_hammers"); -- #0 Units
+ga_battle_lost_hold_army_dwf_ally_unit_dwarf_warrior = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_unit_dwarf_warrior"); -- #0 Units
+ga_battle_lost_hold_army_dwf_ally_unit_quarrellers = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_unit_quarrellers"); -- #0 Units
 
 ------------------------------------------ALLY---------------------------------------------------
 --------------------------------------REINFORCEMENT--#1--------------------------------------------
-ga_battle_lost_hold_character_name_dwf_ally_1 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_1"); -- #0 Units 
+ga_battle_lost_hold_character_name_dwf_ally_1 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_1"); -- #0 Units
 ga_battle_lost_hold_army_dwf_ally_1_flee1 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_1_flee1"); -- 1
 ga_battle_lost_hold_army_dwf_ally_1_flee2 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_1_flee2"); -- 2
 ga_battle_lost_hold_army_dwf_ally_1_flee3 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_army_dwf_ally_1_flee3"); -- 3
@@ -71,7 +71,7 @@ ga_battle_lost_hold_army_dwf_ally_1_flee15 = gb:get_army(gb:get_player_alliance_
 ------------------------------------------ALLY---------------------------------------------------
 -----------------------------------------DEPLOYED--#2---------------------------------------------
 -- dwarf champion
-ga_battle_lost_hold_character_name_dwf_ally_2 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_2"); -- #2 Char for start infighting 
+ga_battle_lost_hold_character_name_dwf_ally_2 = gb:get_army(gb:get_player_alliance_num(),"battle_lost_hold_character_name_dwf_ally_2"); -- #2 Char for start infighting
 
 
 -----------------------------------------ENEMY---------------------------------------------------
@@ -97,7 +97,7 @@ ga_battle_lost_hold_character_name_nor = gb:get_army(gb:get_non_player_alliance_
 ------------------------------------------ENEMY---------------------------------------------------
 -----------------------------------------norcan champion-----------------------------------------------
 -- norcan champion
-ga_battle_lost_hold_character_name_nor_2 = gb:get_army(gb:get_non_player_alliance_num(),"battle_lost_hold_character_name_nor_2"); -- #2 Char for start infighting 
+ga_battle_lost_hold_character_name_nor_2 = gb:get_army(gb:get_non_player_alliance_num(),"battle_lost_hold_character_name_nor_2"); -- #2 Char for start infighting
 
 ------------------------------------------ENEMY---------------------------------------------------
 --------------------------------------harpy attacks--------------------------------------------
@@ -122,15 +122,16 @@ ga_battle_lost_hold_army_bst_3_unit_harpies_09 = gb:get_army(gb:get_non_player_a
 -------------------------------------------------------------------------------------------------
 local saved_civilians = 0;
 max_civilians = 14
-gb:set_objective_on_message("deployment_started", "mission_lost_hold_objective_1_tooltip", 0, 0, max_civilians); -- Safegaurd the inhabitants to the Airship 
+gb:set_objective_on_message("deployment_started", "mission_lost_hold_objective_1_tooltip", 0, 0, max_civilians); -- Safegaurd the inhabitants to the Airship
 gb:set_objective_on_message("ally_retreat", "mission_lost_hold_objective_2_tooltip"); -- "Leave with the fleet within the next 18 mins or be left behind! [Use the flee button near the airship]"
 
 gb:add_listener("Flee_at_airship", function()
     saved_civilians = saved_civilians + 1;
-    bm:set_objective("mission_lost_hold_objective_1_tooltip", saved_civilians, max_civilians);  
+		core:svr_save_string("lost_hold_num_saved_civilians", tostring(saved_civilians))
+    bm:set_objective("mission_lost_hold_objective_1_tooltip", saved_civilians, max_civilians);
     if saved_civilians >= max_civilians then
         bm:complete_objective("mission_lost_hold_objective_1_tooltip");
-    end        
+    end
 end,
 true);
 
@@ -139,11 +140,11 @@ true);
 -- --------------------------------- WINNING CONDITIONS ------------------
 -- ---------------------------------------------------------------------------------battle_started lost_duel_dying
 --check if all player units are gone, if so, vanish all unit and end the battle
-ga_player:force_victory_on_message("all_player_units_are_done", 10000); 
+ga_player:force_victory_on_message("all_player_units_are_done", 10000);
 
 -- scans if all player units have retreated or died, alternativelly it also check if last civilians have left
 gb:add_listener("hellcannon_deployed", function()
-    bm:repeat_callback(function() 
+    bm:repeat_callback(function()
         local closest_unit = get_closest_standing_unit(ga_player.sunits,  v(28.718063354492, 105.57866668701, -5.0468640327454));
         if not closest_unit then
             gb.sm:trigger_message("all_player_units_are_almost_done");
@@ -157,7 +158,7 @@ gb:add_listener("hellcannon_deployed", function()
     end, 10000, "check_if_battle_has_ended");
 end);
 gb:message_on_time_offset("all_player_units_are_done", 1740000); -- hard end after 29 minutes
-gb:message_on_time_offset("all_player_units_are_done", 40000, "all_player_units_are_almost_done"); 
+gb:message_on_time_offset("all_player_units_are_done", 40000, "all_player_units_are_almost_done");
 ga_player:set_enabled_on_message("all_player_units_are_done", false)
 
 --vanish all units
@@ -229,12 +230,12 @@ ga_battle_lost_hold_character_name_nor_2:set_invincible_on_message("battle_start
 ga_battle_lost_hold_character_name_dwf_ally_2:set_invincible_on_message("battle_started"); -- stays to prevent a win for the player with invincible to prevent rout win
 gb:add_listener("kill_order", function() battle_kill_portion_unit(ga_battle_lost_hold_character_name_dwf_ally_2, 1) end);
 
-gb:add_listener("lost_duel_dying", function() 
+gb:add_listener("lost_duel_dying", function()
 
     battle_command_queue(ga_battle_lost_hold_character_name_nor_2, v(-98.7, -606.6))
     battle_move_unit(ga_battle_lost_hold_character_name_nor_2, 1, v(-98.7, -606.6));
 end);
-gb:add_listener("lost_duel_dying", function() 
+gb:add_listener("lost_duel_dying", function()
     battle_command_cancel(ga_battle_lost_hold_character_name_dwf_ally_2);
     battle_command_queue(ga_battle_lost_hold_character_name_dwf_ally_2, v(1.3, -307.4))
 end);
@@ -296,7 +297,7 @@ ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03:teleport_to_start_l
 ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04:teleport_to_start_location_offset_on_message("battle_started",0,0);-- tp at deployment for defend
 ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04:teleport_to_start_location_offset_on_message("battle_started",0,0);-- tp at deployment for defend
 -- send ally lord to ally army
-gb:add_listener("battle_started", function() 
+gb:add_listener("battle_started", function()
     ga_battle_lost_hold_character_name_dwf_ally_1:set_enabled(true);  -- disabled
     battle_start_teleport_units(ga_battle_lost_hold_character_name_dwf_ally_1, v(-462.2, -99.6))
     battle_move_unit(ga_battle_lost_hold_character_name_dwf_ally_1, 1, v(1.7, -328.1));
@@ -334,21 +335,21 @@ gb:add_listener("front_attack_02", function()
     battle_command_queue(ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02, v(30.8, -89.6));
 end);
 
-ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02:message_on_proximity_to_position("ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02_meeting", 
+ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02:message_on_proximity_to_position("ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02_meeting",
 v(-210.3, 100, -96.7), 30);
-ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02:message_on_proximity_to_position("ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02_meeting", 
+ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02:message_on_proximity_to_position("ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02_meeting",
 v(30.8, 100, -89.6), 30);
 
-gb:add_listener("ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02_meeting",function() 
+gb:add_listener("ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02_meeting",function()
         ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02:attack()
 end);
 
-gb:add_listener("ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02_meeting",function() 
+gb:add_listener("ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02_meeting",function()
         ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02:attack()
 end);
 
 gb:add_listener("ally_retreat", function()
-    bm:repeat_callback(function() 
+    bm:repeat_callback(function()
         battle_command_queue(ga_battle_lost_hold_character_name_dwf_ally_1, v(-165.2, 311.9));
         battle_command_queue(ga_battle_lost_hold_army_dwf_ally_unit_hammers, v(-165.2, 311.9));
         battle_command_queue(ga_battle_lost_hold_army_dwf_ally_unit_dwarf_warrior, v(-165.2, 311.9));
@@ -368,14 +369,14 @@ gb:add_listener("front_attack_03", function()
     ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_03:attack();
     ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03:attack();
     accelerator_of_units(ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_03, true);
-    accelerator_of_units(ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03, true);   
+    accelerator_of_units(ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03, true);
 end);
 
 gb:add_listener("front_attack_04", function()
     ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04:attack();
     ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04:attack();
     accelerator_of_units(ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04, true);
-    accelerator_of_units(ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04, true);   
+    accelerator_of_units(ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04, true);
 end);
 
 
@@ -391,24 +392,24 @@ ga_battle_lost_hold_army_nor_4_unit_marauder_hunters:advance_on_message("top_lan
 ga_battle_lost_hold_character_name_nor:advance_on_message("top_lane_spawn_civilians_07", 10000);  --  advance
 
 -- switch to attack mode when close
-ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_01:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_01", 15); 
+ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_01:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_01", 15);
 ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_01:attack_on_message("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_01");
-ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_01:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_01", 15); 
+ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_01:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_01", 15);
 ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_01:attack_on_message("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_01");
 
-ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02", 15); 
+ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02", 15);
 ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02:attack_on_message("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_02");
-ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02", 15); 
+ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02", 15);
 ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02:attack_on_message("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_02");
 
-ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_03:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_03", 15); 
+ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_03:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_03", 15);
 ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_03:attack_on_message("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_03");
-ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03", 15); 
+ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03", 15);
 ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03:attack_on_message("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_03");
 
-ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04", 15); 
+ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04", 15);
 ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04:attack_on_message("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_04");
-ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04", 15); 
+ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04", 15);
 ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04:attack_on_message("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04");
 
 -------------------------------------------------------------------------------------------------
@@ -416,8 +417,8 @@ ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04:attack_on_message("
 -------------------------------------------------------------------------------------------------
 -- sends civilians to airships, setting them to flee at the end and attacking their path with harpies
 gb:add_listener("lost_duel_dying", function()
-    bm:repeat_callback(function() 
-        
+    bm:repeat_callback(function()
+
         battle_move_unit(ga_battle_lost_hold_army_dwf_ally_1_flee1, 1, v(-165.2, 311.9));
         battle_move_unit(ga_battle_lost_hold_army_dwf_ally_1_flee2, 1, v(-165.2, 311.9));
         battle_move_unit(ga_battle_lost_hold_army_dwf_ally_1_flee3, 1, v(-165.2, 311.9));
@@ -477,36 +478,36 @@ function setup_top_lane_civilians(listener_marking, civilians_sent, first_enemy,
     civilians_sent:rout_over_time_on_message(listener_marking.."_Flee_at_airship",5000);
 
     gb:add_listener(listener_marking,
-    function() 
-        battle_start_teleport_units(civilians_sent, 
+    function()
+        battle_start_teleport_units(civilians_sent,
         v(164.8, -274.1))
         civilians_sent:set_enabled(true);  -- make visible
         battle_command_queue(civilians_sent, v(-165.2, 311.9));
     end);
 
     gb:add_listener(listener_marking.."_enemy_01",
-    function() 
-        battle_start_teleport_unit(first_enemy, 1, 
+    function()
+        battle_start_teleport_unit(first_enemy, 1,
         v(-553.8, 274.1))
         battle_enable_unit(first_enemy, 1, true)
         battle_move_unit(first_enemy, 1, v(30.2, -4.7));
     end);
 
     gb:add_listener(listener_marking.."_enemy_01_meeting",
-    function() 
+    function()
         first_enemy:attack()
     end);
 
     gb:add_listener(listener_marking.."_enemy_02",
-    function() 
-        battle_start_teleport_unit(second_enemy, 1, 
+    function()
+        battle_start_teleport_unit(second_enemy, 1,
         v(-553.8, 274.1))
         battle_enable_unit(second_enemy, 1, true)
         battle_move_unit(second_enemy, 1, v(-65.7, 211.9));
     end);
 
     gb:add_listener(listener_marking.."_enemy_02_meeting",
-    function() 
+    function()
         second_enemy:attack()
     end);
 end;
@@ -555,23 +556,23 @@ function setup_bottom_lane_civilians(listener_marking, civilians_sent, first_ene
 
 
     gb:add_listener(listener_marking,
-    function() 
-        battle_start_teleport_units(civilians_sent, 
+    function()
+        battle_start_teleport_units(civilians_sent,
         v(-165.1, -135.1))
         civilians_sent:set_enabled(true);  -- make visible
         battle_command_queue(civilians_sent, v(-573.3, -1.1));
     end);
 
     gb:add_listener(listener_marking.."_enemy_01",
-    function() 
-        battle_start_teleport_unit(first_enemy, 1, 
+    function()
+        battle_start_teleport_unit(first_enemy, 1,
         v(-553.8, 274.1))
         battle_enable_unit(first_enemy, 1, true)
         battle_move_unit(first_enemy, 1, v(-389.8, -95.8));
     end);
 
     gb:add_listener(listener_marking.."_enemy_01_meeting",
-    function() 
+    function()
         first_enemy:attack()
     end);
 end;
@@ -584,8 +585,8 @@ function setup_top_lane_civilians_second_phase(listener_marking, civilians_sent,
     civilians_sent:rout_over_time_on_message(listener_marking.."_Flee_at_airship",5000);
 
     gb:add_listener(listener_marking,
-    function() 
-        battle_start_teleport_units(civilians_sent, 
+    function()
+        battle_start_teleport_units(civilians_sent,
         v(78.2, -86.9))
         civilians_sent:set_enabled(true);  -- make visible
         battle_command_queue(civilians_sent, v(-165.2, 311.9));
@@ -601,8 +602,8 @@ function setup_bottom_lane_civilians_second_phase(listener_marking, civilians_se
     civilians_sent:rout_over_time_on_message(listener_marking.."_Flee_at_airship",5000);
 
     gb:add_listener(listener_marking,
-    function() 
-        battle_start_teleport_units(civilians_sent, 
+    function()
+        battle_start_teleport_units(civilians_sent,
         v(-165.1, -135.1))
         civilians_sent:set_enabled(true);  -- make visible
         battle_command_queue(civilians_sent, v(-573.3, -1.1));
@@ -715,7 +716,7 @@ end;
 
 function attack_move_unit(unitgroup, index, coordinates_one, coordinates_two)
     local current_sunit = unitgroup.sunits:item(index);
-    current_sunit.uc:attack_line(coordinates_one, coordinates_two, true);    
+    current_sunit.uc:attack_line(coordinates_one, coordinates_two, true);
 end;
 
 function battle_enable_unit(unitgroup, index, enabling)
@@ -768,4 +769,3 @@ function attack_unit_to_unit(unitgroup, index, target_unitgroup, target_index)
     local current_sunit = unitgroup.sunits:item(index);
     current_sunit.uc:attack_unit(target_sunit.unit, true, true)
 end;
-

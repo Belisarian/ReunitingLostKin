@@ -60,6 +60,9 @@ core:add_listener(
 	function()
 		mod.disable_movement()
 		mod.set_state(mod.states.after_lost_hold)
+
+		local num_saved_civilians = tonumber(core:svr_load_string("lost_hold_num_saved_civilians"))
+		cm:set_saved_value("lost_hold_num_saved_civilians", num_saved_civilians or 0)
 	end,
 	true
 )
