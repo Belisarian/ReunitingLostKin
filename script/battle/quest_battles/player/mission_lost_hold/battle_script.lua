@@ -479,10 +479,12 @@ function setup_top_lane_civilians(listener_marking, civilians_sent, first_enemy,
 
     gb:add_listener(listener_marking,
     function()
+        
         battle_start_teleport_units(civilians_sent,
         v(164.8, -274.1))
         civilians_sent:set_enabled(true);  -- make visible
         battle_command_queue(civilians_sent, v(-165.2, 311.9));
+        highlight(civilians_sent,1)
     end);
 
     gb:add_listener(listener_marking.."_enemy_01",
@@ -561,6 +563,7 @@ function setup_bottom_lane_civilians(listener_marking, civilians_sent, first_ene
         v(-165.1, -135.1))
         civilians_sent:set_enabled(true);  -- make visible
         battle_command_queue(civilians_sent, v(-573.3, -1.1));
+        highlight(civilians_sent,1)
     end);
 
     gb:add_listener(listener_marking.."_enemy_01",
@@ -727,6 +730,11 @@ end;
 function battle_kill_portion_unit(unitgroup, index)
     local current_sunit = unitgroup.sunits:item(index);
     current_sunit.uc:kill();
+end;
+
+function highlight(unitgroup, index)
+    local current_sunit = unitgroup.sunits:item(index);
+    current_sunit:add_ping_icon();
 end;
 
 function battle_move_unit(unitgroup, index, coordinates)
