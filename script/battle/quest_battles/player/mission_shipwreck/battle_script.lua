@@ -64,22 +64,13 @@ gb:set_objective_on_message("deployment_started", "mission_shipwrecke_objective_
 
 ------------------------------------------FAIL---------------------------------------------------
 ga_battle_shipwreck_character_name_dwf_ally:message_on_shattered_proportion("battle_shipwreck_character_name_dwf_ally_dead", 1); -- Dead char
--- ga_battle_shipwreck_army_dwf_ally_unit_hammers:message_on_casualties("battle_shipwreck_army_dwf_ally_unit_hammers_dying", 0.95); -- 0,95 casualties
--- ga_battle_shipwreck_army_dwf_ally_unit_rangers:message_on_casualties("battle_shipwreck_army_dwf_ally_unit_rangers_dying", 0.95); -- 0,95 casualties
-
--- gb:fail_objective_on_message("battle_shipwreck_army_dwf_ally_unit_hammers_dying", "mission_shipwrecke_objective_1_tooltip", 5); -- Defend the Ironclad and its crew
--- gb:fail_objective_on_message("battle_shipwreck_army_dwf_ally_unit_rangers_dying", "mission_shipwrecke_objective_1_tooltip", 5); -- Defend the Ironclad and its crew
-gb:fail_objective_on_message("battle_shipwreck_character_name_dwf_ally_dead", "mission_shipwrecke_objective_2_tooltip", 5); -- Ensure the Master Engineer's survival
-
--- ga_battle_shipwreck_army_nor_unit_all:force_victory_on_message("battle_shipwreck_army_dwf_ally_unit_hammers_dying", 10000); -- Fail: Defend the Ironclad and its crew
--- ga_battle_shipwreck_army_nor_unit_all:force_victory_on_message("battle_shipwreck_army_dwf_ally_unit_rangers_dying", 10000); -- Fail: Defend the Ironclad and its crew
-ga_battle_shipwreck_army_nor_unit_all:force_victory_on_message("battle_shipwreck_character_name_dwf_ally_dead", 10000); -- Fail: Ensure the Master Engineer's survival
+gb:fail_objective_on_message("battle_shipwreck_character_name_dwf_ally_dead", "mission_shipwrecke_objective_2_tooltip", 5); -- Ensure the Master Engineer's survival
+ga_battle_shipwreck_army_nor_unit_all:force_victory_on_message("battle_shipwreck_character_name_dwf_ally_dead", 10000); -- Fail: Ensure the Master Engineer's survival
 
 ------------------------------------------WIN---------------------------------------------------
--- ga_battle_shipwreck_army_nor_unit_all:message_on_rout_proportion("battle_shipwreck_army_nor_unit_all_routing", 0.85); -- 0,85 dead or routing across enemy units and lords
--- ga_battle_shipwreck_army_nor_unit_all:rout_over_time_on_message("battle_shipwreck_army_nor_unit_all_routing",15000); -- Set the rest of the units to mass rout 15 sec
--- ga_player:force_victory_on_message("battle_shipwreck_army_nor_unit_all_routing", 20000); -- Player wins  20sec
 
+ 
+ 
 -------------------------------------------------------------------------------------------------
 --------------------------------- TIME KEEPER FROM BATTLE START --------------------------------
 -------------------------------------------------------------------------------------------------
@@ -136,7 +127,8 @@ ga_battle_shipwreck_army_dwf_ally_unit_rangers:defend_on_message("battle_started
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:teleport_to_start_location_offset_on_message("battle_started",200,25);-- tp at deployment
 ga_battle_shipwreck_character_name_npc_ally:deploy_at_random_intervals_on_message("Wait_1min",1,1,6000,6000); -- after 1 min dragon deploys
 ga_battle_shipwreck_character_name_npc_ally:message_on_deployed("NPC_deployed"); -- meassage on dragon deployment
-gb:queue_help_on_message("NPC_deployed", "mission_shipwrecke_objective_5_message", 8000, 2000, 1000); -- "A Dragon! Carefull it is here to hunt"
+gb:queue_help_on_message("NPC_deployed", "mission_shipwrecke_objective_5_message", 8000, 2000, 1000); -- "A Frost Wyrm! Careful, it's here to hunt!"
+gb:queue_help_on_message("NPC_deployed", "mission_shipwrecke_objective_6_message", 8000, 2000, 30000); -- "The Norscans were baiting the Frost Wyrm with the mammoth, it seems we've interrupted their hunt!"
 ga_battle_shipwreck_character_name_npc_ally:attack_force_on_message("NPC_deployed", ga_battle_shipwreck_army_nor_1_unit_war_mammoth,1000); -- dragon attack mammoth
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:message_on_casualties("mammoth_flee",0.5); -- mammoth has 50% hp left
 ga_battle_shipwreck_army_nor_1_unit_war_mammoth:rout_over_time_on_message("mammoth_flee",5000);  -- mammoth starts fleeing
@@ -150,7 +142,7 @@ ga_battle_shipwreck_character_name_nor_1:message_on_proximity_to_enemy("Dragon_h
 ga_battle_shipwreck_character_name_nor_1:rout_over_time_on_message("Dragon_here",1000); -- Lord Flees
 
 -------------------------------------------------------------------------------------------------
----------------------------------Enemy Reinforcement army --------------------------------------◘
+---------------------------------Enemy Reinforcement army --------------------------------------
 -------------------------------------------------------------------------------------------------
 
 -- Start 5 mins in, with a 1 to 1 mins between reinforcements chunks of 1-2
@@ -162,10 +154,8 @@ ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:deploy_at_rand
 
 gb:queue_help_on_message("battle_started", "mission_shipwrecke_objective_3_message", 8000, 2000, 1000); -- (Grunnar Vestgrud) "Save our Brothers, Slay the Norsemen!"
 gb:queue_help_on_message("battle_shipwreck_character_name_dwf_ally_dead", "mission_shipwrecke_objective_4_fail_message", 8000, 2000, 1000); -- The Crew is dead, all is lost.
--- gb:queue_help_on_message("battle_shipwreck_army_dwf_ally_unit_hammers_dying", "mission_shipwrecke_objective_4_fail_message", 8000, 2000, 1000); -- The Crew is dead, all is lost.
--- gb:queue_help_on_message("battle_shipwreck_army_dwf_ally_unit_rangers_dying", "mission_shipwrecke_objective_4_fail_message", 8000, 2000, 1000); -- The Crew is dead, all is lost.
 
-gb:queue_help_on_message("battle_started", "mission_shipwrecke_objective_7_message", 10000, 2000, 1000); -- (Grunnar Vestgrud) "Save our Brothers, Slay the Norsemen!"
+
 -------------------------------------------------TESTING------------------------------------
 
 gb:add_listener(
