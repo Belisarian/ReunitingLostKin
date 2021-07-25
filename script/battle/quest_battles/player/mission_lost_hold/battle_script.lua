@@ -593,6 +593,7 @@ function setup_top_lane_civilians_second_phase(listener_marking, civilians_sent,
         v(78.2, -86.9))
         civilians_sent:set_enabled(true);  -- make visible
         battle_command_queue(civilians_sent, v(-165.2, 311.9));
+        highlight(civilians_sent,1)
     end);
 
 end;
@@ -610,6 +611,7 @@ function setup_bottom_lane_civilians_second_phase(listener_marking, civilians_se
         v(-165.1, -135.1))
         civilians_sent:set_enabled(true);  -- make visible
         battle_command_queue(civilians_sent, v(-573.3, -1.1));
+        highlight(civilians_sent,1)
     end);
 
 end;
@@ -672,8 +674,6 @@ gb:queue_help_on_message("ally_retreat", "mission_lost_hold_objective_9_message"
 gb:queue_help_on_message("ally_retreat", "mission_lost_hold_objective_10_message", 13000, 500, 20000);
 gb:queue_help_on_message("ally_retreat", "mission_lost_hold_objective_11_message", 13000, 500, 35000);
 
-gb:queue_help_on_message("top_lane_spawn_civilians_06", "mission_lost_hold_objective_10_message", 13000, 500, 20000);
-gb:queue_help_on_message("top_lane_spawn_civilians_07", "mission_lost_hold_objective_11_message", 13000, 500, 20000);
 gb:queue_help_on_message("all_player_units_are_almost_done", "mission_lost_hold_objective_12_message", 13000, 500, 2000);
 
 

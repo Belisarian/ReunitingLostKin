@@ -202,7 +202,8 @@ ga_battle_beastmen_camp_army_bst_unit_ungor_spearmen_0:attack_on_message("proxim
 ga_battle_beastmen_camp_army_bst_unit_ungor_spearmen_1:attack_on_message("proximity_to_enemy_totem_03");
 
 -- ally will charge enemy when player gets close
-gb:add_listener("proximity_to_enemy_ally_attack", function() battle_command_attack(ga_battle_beastmen_camp_character_name_dwf_ally, ga_battle_beastmen_camp_character_name_bst) end);
+gb:message_on_time_offset("proximity_to_enemy_ally_attack_delayed",30000,"proximity_to_enemy_ally_attack");--delay on ally runelord attack to keep him safe
+gb:add_listener("proximity_to_enemy_ally_attack_delayed", function() battle_command_attack(ga_battle_beastmen_camp_character_name_dwf_ally, ga_battle_beastmen_camp_character_name_bst) end);
 gb:add_listener("proximity_to_enemy_ally_attack", function() battle_command_attack(ga_battle_beastmen_camp_army_dwf_ally_unit_slayers, ga_battle_beastmen_camp_army_bst_unit_minotaurs) end);
 
 -- under attack setup -- 
