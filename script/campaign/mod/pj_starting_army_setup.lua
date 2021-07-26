@@ -31,6 +31,15 @@ local function start_hiding_empty_dilemma_tooltips()
 					horde_growth_panel:SetVisible(false)
 				end
 
+				local event_dilemma_active = find_ui_component_str("root > events > event_dilemma_active")
+				if event_dilemma_active or effect.is_any_movie_playing() then
+					local existingFrame = Util.getComponentWithName("Quests")
+					if existingFrame then
+						mod.selected_quest = nil
+						existingFrame:Delete()
+					end
+				end
+
 				local tooltip = find_ui_component_str("root > Tooltip")
 				if not tooltip then return end
 				local tooltip_text = find_ui_component_str(tooltip, "expanded_text")
