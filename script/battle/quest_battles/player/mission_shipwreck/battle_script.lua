@@ -64,13 +64,15 @@ gb:set_objective_on_message("deployment_started", "mission_shipwrecke_objective_
 
 ------------------------------------------FAIL---------------------------------------------------
 ga_battle_shipwreck_character_name_dwf_ally:message_on_shattered_proportion("battle_shipwreck_character_name_dwf_ally_dead", 1); -- Dead char
-gb:fail_objective_on_message("battle_shipwreck_character_name_dwf_ally_dead", "mission_shipwrecke_objective_2_tooltip", 5); -- Ensure the Master Engineer's survival
-ga_battle_shipwreck_army_nor_unit_all:force_victory_on_message("battle_shipwreck_character_name_dwf_ally_dead", 10000); -- Fail: Ensure the Master Engineer's survival
+
+gb:fail_objective_on_message("battle_shipwreck_character_name_dwf_ally_dead", "mission_shipwrecke_objective_2_tooltip", 5); -- Ensure the Master Engineer's survival
+
+ga_battle_shipwreck_army_nor_unit_all:force_victory_on_message("battle_shipwreck_character_name_dwf_ally_dead", 10000); -- Fail: Ensure the Master Engineer's survival
 
 ------------------------------------------WIN---------------------------------------------------
 
- 
- 
+
+
 -------------------------------------------------------------------------------------------------
 --------------------------------- TIME KEEPER FROM BATTLE START --------------------------------
 -------------------------------------------------------------------------------------------------
@@ -146,7 +148,7 @@ ga_battle_shipwreck_character_name_nor_1:rout_over_time_on_message("Dragon_here"
 -------------------------------------------------------------------------------------------------
 
 -- Start 5 mins in, with a 1 to 1 mins between reinforcements chunks of 1-2
-ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:deploy_at_random_intervals_on_message("Wait_15_sec",1,1,8000,8000); -- enemy reinforcements
+ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:deploy_at_random_intervals_on_message("Wait_30_sec",1,1,10000,10000); -- enemy reinforcements
 
 -------------------------------------------------------------------------------------------------
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------
@@ -169,6 +171,41 @@ gb:add_listener(
 	end,
 	true
 )
+
+local some_time_messages = {
+	"Wait_5_sec",
+	"Wait_10_sec",
+	"Wait_15_sec",
+	"Wait_30_sec",
+	"Wait_45_sec",
+	"Wait_1min",
+	"Wait_1_half_min",
+	"Wait_2min",
+	"Wait_3min",
+	"Wait_4min",
+	"Wait_5min",
+	"Wait_6min",
+	"Wait_7min",
+	"Wait_8min",
+	"Wait_9min",
+	"Wait_10min",
+	"Wait_11min",
+	"Wait_12min",
+	"Wait_13min",
+	"Wait_14min",
+	"Wait_15min",
+}
+
+for _, message_key in ipairs(some_time_messages) do
+	gb:add_listener(
+		message_key,
+		function()
+			ga_battle_shipwreck_army_nor_unit_all:attack()
+			ga_battle_shipwreck_character_name_reinforcement_enemy_whole_army:attack()
+		end,
+		true
+	)
+end
 
 core:remove_listener('rlk_stop_cannons_highlighting')
 core:add_listener(
