@@ -4,6 +4,8 @@ local mod = PJ_QUESTS
 local mission_key = "mission_norscan_camp"
 
 local payload = function(char)
+	mod.enable_movement()
+
 	cm:callback(function()
 		CampaignUI.ToggleCinematicBorders(true)
 		cm:stop_user_input(true)
