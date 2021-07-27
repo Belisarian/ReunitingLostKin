@@ -14,7 +14,7 @@ mod.move_mission_sjoktraken_after_shipwreck_payload = function(char)
 		cm:stop_user_input(true)
 		cm:scroll_camera_from_current(true, 0.1, {470.60, 500.95, 5, d_to_r(120), 4})
 		cm:callback(function()
-			cm:move_to(cm:char_lookup_str(char), 695, 641, true) -- sjoktraken
+			cm:move_to(cm:char_lookup_str(char), 695, 639, true) -- sjoktraken
 			cm:scroll_camera_from_current(true, 2.5, {464.58, 495.16, 5, d_to_r(120), 4})
 			cm:callback(function()
 					CampaignUI.ToggleCinematicBorders(false)
