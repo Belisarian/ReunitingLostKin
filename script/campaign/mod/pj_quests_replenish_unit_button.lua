@@ -1,14 +1,8 @@
 PJ_QUESTS_REPLENISH_UNIT_BUTTON = PJ_QUESTS_REPLENISH_UNIT_BUTTON or {}
 local mod = PJ_QUESTS_REPLENISH_UNIT_BUTTON
 
---- Return if table t contains a value val.
-local function table_contains(t, val)
-	for _, v in ipairs(t) do
-		if v == val then
-			return true
-		end
-	end
-	return false
+local function round(num)
+  return math.floor(num + 0.5)
 end
 
 -- useful to have this during dev, safely ignore
@@ -171,7 +165,6 @@ mod.update_UI = function()
 	local is_horde = string.find(commander:military_force():force_type():key(), "HORDE")
 	if is_horde then
 		in_foreign_territory = false
-		is_near_settlement = true
 	end
 
 	if not mod.unit_index then
@@ -192,7 +185,12 @@ mod.update_UI = function()
 	end
 
 	local unit_cost = unit_to_upgrade:get_unit_custom_battle_cost()
-	local replenish_cost = unit_cost/10
+	if unit_to_upgrade:unit_key() == "dwf_norse_lord" then
+		unit_cost = 1000
+	end
+
+	local current_hp = unit_to_upgrade:percentage_proportion_of_full_strength()
+	local replenish_cost = round((1-current_hp/100)*unit_cost)
 
 	local retrain_button = nil
 
@@ -204,8 +202,12 @@ mod.update_UI = function()
 
 	if retrain_button then
 		local new_tooltip_text = "Replenish unit.\nCosts [[img:icon_money]][[/img]]"..replenish_cost.."."
-		retrain_button:SetTooltipText(new_tooltip_text, true)
 		retrain_button:SetState("active")
+		if not is_near_settlement then
+			retrain_button:SetState("inactive")
+			new_tooltip_text = new_tooltip_text.."\n[[col:red]]Must be near a Norse Dwarf settlement to replenish troops.[[/col]]"
+		end
+		retrain_button:SetTooltipText(new_tooltip_text, true)
 	end
 
 	local local_faction = cm:get_faction(cm:get_local_faction_name(true))
@@ -262,7 +264,6 @@ mod.get_rank_from_non_english_tooltip = function(foreign_tooltip)
 	return unit_rank or 0
 end
 
-
 mod.add_to_mercs = function()
 	-- get the current hp of the unit we're gonna upgrade, save it for later
 	---@type CA_UNIT
@@ -277,12 +278,16 @@ mod.add_to_mercs = function()
 		return
 	end
 
-	local hp = unit_to_upgrade:percentage_proportion_of_full_strength()
-	local new_hp = hp/100 + cm:random_number(15,5)/100
-	cm:set_unit_hp_to_unary_of_maximum(unit_to_upgrade, new_hp)
-
+	local current_hp = unit_to_upgrade:percentage_proportion_of_full_strength()
 	local unit_cost = unit_to_upgrade:get_unit_custom_battle_cost()
-	local replenish_cost = unit_cost/10
+	if unit_to_upgrade:unit_key() == "dwf_norse_lord" then
+		unit_cost = 1000
+	end
+
+	local replenish_cost = round((1-current_hp/100)*unit_cost)
+
+	cm:set_unit_hp_to_unary_of_maximum(unit_to_upgrade, 1)
+
 	cm:treasury_mod(cm:get_local_faction_name(true), -replenish_cost)
 
 	cm:callback(function()
