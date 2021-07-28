@@ -112,11 +112,6 @@ ga_battle_lost_hold_army_bst_3_unit_harpies_07 = gb:get_army(gb:get_non_player_a
 ga_battle_lost_hold_army_bst_3_unit_harpies_08 = gb:get_army(gb:get_non_player_alliance_num(),"battle_lost_hold_army_bst_3_unit_harpies_08"); -- #3 Char/harpies
 ga_battle_lost_hold_army_bst_3_unit_harpies_09 = gb:get_army(gb:get_non_player_alliance_num(),"battle_lost_hold_army_bst_3_unit_harpies_09"); -- #3 Char/harpies
 
---extra officers
--- battle_lost_hold_character_name_dwf_ally
--- battle_lost_hold_character_name_nor
--- battle_lost_hold_character_name_nor_1
--- battle_lost_hold_character_name_bst_3
 -------------------------------------------------------------------------------------------------
 ------------------------------------------ OBJECTIVES -------------------------------------------
 -------------------------------------------------------------------------------------------------
@@ -127,7 +122,7 @@ gb:set_objective_on_message("ally_retreat", "mission_lost_hold_objective_2_toolt
 
 gb:add_listener("Flee_at_airship", function()
     saved_civilians = saved_civilians + 1;
-		core:svr_save_string("lost_hold_num_saved_civilians", tostring(saved_civilians))
+    core:svr_save_string("lost_hold_num_saved_civilians", tostring(saved_civilians))
     bm:set_objective("mission_lost_hold_objective_1_tooltip", saved_civilians, max_civilians);
     if saved_civilians >= max_civilians then
         bm:complete_objective("mission_lost_hold_objective_1_tooltip");
@@ -150,14 +145,14 @@ gb:add_listener("hellcannon_deployed", function()
             gb.sm:trigger_message("all_player_units_are_almost_done");
         end;
         --last civilians left
-        local last_top_civilian = get_closest_standing_unit(ga_battle_lost_hold_army_dwf_ally_1_flee7.sunits,  v(28.718063354492, 105.57866668701, -5.0468640327454));
-        local last_bottom_civilian = get_closest_standing_unit(ga_battle_lost_hold_army_dwf_ally_1_flee14.sunits,  v(28.718063354492, 105.57866668701, -5.0468640327454));
-        if (not last_top_civilian) and (not last_bottom_civilian) then
-            gb.sm:trigger_message("all_player_units_are_almost_done");
-        end;
+        -- local last_top_civilian = get_closest_standing_unit(ga_battle_lost_hold_army_dwf_ally_1_flee7.sunits,  v(28.718063354492, 105.57866668701, -5.0468640327454));
+        -- local last_bottom_civilian = get_closest_standing_unit(ga_battle_lost_hold_army_dwf_ally_1_flee14.sunits,  v(28.718063354492, 105.57866668701, -5.0468640327454));
+        -- if (not last_top_civilian) and (not last_bottom_civilian) then
+        --     gb.sm:trigger_message("all_player_units_are_almost_done");
+        -- end;
     end, 10000, "check_if_battle_has_ended");
 end);
-gb:message_on_time_offset("all_player_units_are_done", 1740000); -- hard end after 29 minutes
+-- gb:message_on_time_offset("all_player_units_are_done", 2340000); -- hard end after 39 minutes
 gb:message_on_time_offset("all_player_units_are_done", 40000, "all_player_units_are_almost_done");
 ga_player:set_enabled_on_message("all_player_units_are_done", false)
 
@@ -386,10 +381,10 @@ ga_battle_lost_hold_army_nor_4_unit_marauder_champions:teleport_to_start_locatio
 ga_battle_lost_hold_army_nor_4_unit_marauder_hunters:teleport_to_start_location_offset_on_message("battle_started",0,0);-- tp at deployment for defend - dont release for background feel
 ga_battle_lost_hold_character_name_nor:teleport_to_start_location_offset_on_message("battle_started",0,0);-- tp at deployment for defend - dont release for background feel
 -- -- For cinematic/chasing purpose advande in the end
-ga_battle_lost_hold_army_nor_4_unit_marauder_spearman:advance_on_message("top_lane_spawn_civilians_07", 10000);  --  advance
-ga_battle_lost_hold_army_nor_4_unit_marauder_champions:advance_on_message("top_lane_spawn_civilians_07", 10000);  --  advance
-ga_battle_lost_hold_army_nor_4_unit_marauder_hunters:advance_on_message("top_lane_spawn_civilians_07", 10000);  --  advance
-ga_battle_lost_hold_character_name_nor:advance_on_message("top_lane_spawn_civilians_07", 10000);  --  advance
+ga_battle_lost_hold_army_nor_4_unit_marauder_spearman:attack_on_message("top_lane_spawn_civilians_07");  --  advance
+ga_battle_lost_hold_army_nor_4_unit_marauder_champions:attack_on_message("top_lane_spawn_civilians_07");  --  advance
+ga_battle_lost_hold_army_nor_4_unit_marauder_hunters:attack_on_message("top_lane_spawn_civilians_07");  --  advance
+ga_battle_lost_hold_character_name_nor:attack_on_message("top_lane_spawn_civilians_07");  --  advance
 
 -- switch to attack mode when close
 ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_01:message_on_proximity_to_enemy("proximity_to_enemy_ga_battle_lost_hold_army_nor_unit_marauder_spearman_wave_01", 15);
@@ -498,6 +493,9 @@ function setup_top_lane_civilians(listener_marking, civilians_sent, first_enemy,
     gb:add_listener(listener_marking.."_enemy_01_meeting",
     function()
         first_enemy:attack()
+        bm:repeat_callback(function()
+            first_enemy:attack()
+        end, 5000, listener_marking.."_enemy_01_refresh_attack");
     end);
 
     gb:add_listener(listener_marking.."_enemy_02",
@@ -511,6 +509,9 @@ function setup_top_lane_civilians(listener_marking, civilians_sent, first_enemy,
     gb:add_listener(listener_marking.."_enemy_02_meeting",
     function()
         second_enemy:attack()
+        bm:repeat_callback(function()
+            second_enemy:attack()
+        end, 5000, listener_marking.."_enemy_02_refresh_attack");
     end);
 end;
 
@@ -577,6 +578,9 @@ function setup_bottom_lane_civilians(listener_marking, civilians_sent, first_ene
     gb:add_listener(listener_marking.."_enemy_01_meeting",
     function()
         first_enemy:attack()
+        bm:repeat_callback(function()
+            first_enemy:attack()
+        end, 5000, listener_marking.."_enemy_01_refresh_attack");
     end);
 end;
 
