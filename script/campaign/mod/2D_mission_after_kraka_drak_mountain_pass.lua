@@ -37,7 +37,7 @@ mod[mission_key] = {
 	locs = {
 		title="March to Kraka Ravnsvake",
 		desc="March to Kraka Ravnsvake",
-		mission_desc = "The underground route to Kraka Ravnsvake, has been swarming with foul monstrosities for some time now. Until cleansed by the tunnel patrols, its safer to take the surface route west of the main mountains. We will setup up camp beneath the Gruly pass and wait for calm weather, before crossing the mountain pass.",
+		mission_desc = "The underground route to Kraka Ravnsvake, has been swarming with foul monstrosities for some time now. Until cleansed by the tunnel patrols, it's safer to take the surface route west of the main mountains. We will setup up camp beneath the Gruly pass and wait for calm weather, before crossing the mountain pass.",
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,

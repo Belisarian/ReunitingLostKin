@@ -32,7 +32,7 @@ mod[mission_key] = {
 	locs = {
 		title="Into the land of Kislev",
 		desc="Into the land of Kislev",
-		mission_desc = "The border with Kislev was in days gone agreed to be where the shadow of the last mountain range reaches the open tundra. But no border is needed now, as neither man nor dwarf inhabit these plains now. We should move along the abandoned road - lets hope the men of Kislev still command these lands!",
+		mission_desc = "The border with Kislev was in days gone agreed to be where the shadow of the last mountain range reaches the open tundra. But no border is needed now, as neither man nor dwarf inhabits these plains now. We should move along the abandoned road - let's hope the men of Kislev still command these lands!",
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,

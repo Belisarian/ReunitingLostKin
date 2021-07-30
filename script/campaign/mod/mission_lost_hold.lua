@@ -46,7 +46,7 @@ mod[mission_key] = {
 	locs = {
 		title="The Lost Hold",
 		desc="The Lost Hold",
-		mission_desc = "The Hold of Clan Bergfort has for months been under siege by norscan marauders. The Lord to the hold and patriarch of clan, Grung Dobekzhuf, has asked the High King for aid. The Council of Lords has on the High King's behalf assembled a smaller force, with the sole purpose of evacuating the remaining inhabitants. By means of the royal air-fleet, we are to dock the mountain peak and lift the survivors off the mountain.\n\n Payment upon completion: 7000",
+		mission_desc = "The Hold of Clan Bergfort has for months been under siege by Norscan marauders. The Lord of the hold and graybeard of the clan, Grung Dobekzhuf, has asked the High King for aid. The Council of Lords has on the High King's behalf assembled a smaller force, with the sole purpose of evacuating the remaining inhabitants. Using the royal air fleet, we are to dock the mountain peak and lift the survivors off the mountain.\n\n Payment upon completion: 500 gold per saved cilivian",
 	},
 	icon = "ui/small_icon_quest_battle.png",
 	payload = payload,

@@ -36,7 +36,7 @@ mod[mission_key] = {
 	locs = {
 		title="The Beastmen Camp",
 		desc="The Beastmen Camp",
-		mission_desc = "The Watchmen of Kraka Drak have been overwhelmed with beastmen activity. Consultations with the High Rune Priest indicate that a small rift between the chaos realm and this world must have opened near the beastmen encampment to the east. We are to lead a sneak assualt against the rift. The High King's commander has placed a Rune Lord with his personal bodyguards at our disposal.\n\n Payment upon completion: 7000",
+		mission_desc = "The Watchmen of Kraka Drak have been overwhelmed with beastmen activity. Consultations with the High Rune Priest indicate that a small rift between the chaos realm and this world must have opened near the beastmen encampment to the east. We are to lead a sneak assault against the rift. The High King's commander has placed a Rune Lord and his personal guard at our disposal.\n\n Payment upon completion: 7000",
 	},
 	icon = "ui/small_icon_quest_battle.png",
 	payload = payload,

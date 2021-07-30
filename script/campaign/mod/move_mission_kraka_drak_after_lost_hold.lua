@@ -35,7 +35,7 @@ mod[mission_key] = {
 	locs = {
 		title="Return to Kraka Drak",
 		desc="Return to Kraka Drak",
-		mission_desc = "The Royal air-fleet has taken off. Another hold overrun, another day to grieve. No horn will sound or banners be raised as we return to Kraka Drak. For those brethren saved, a shadow will be cast over their existence.",
+		mission_desc = "The Royal air-fleet has taken off. Another hold overrun, another day to grieve. No horn will sound or banners raised as we return to Kraka Drak. For those brethren saved, a shadow will be cast over their existence.",
 	},
 	icon = "ui/small_city_schem_frame_major.png",
 	payload = payload,
