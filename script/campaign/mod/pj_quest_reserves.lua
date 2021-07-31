@@ -163,7 +163,7 @@ mod.update_UI = function()
 		local settlement = commander:region():settlement()
 		local x,y = settlement:logical_position_x(), settlement:logical_position_y()
 		local dist_sqr = distance_squared(x,y , commander:logical_position_x(), commander:logical_position_y())
-		if dist_sqr <= 25 then
+		if dist_sqr <= 50 then
 			is_near_settlement = true
 		end
 	end
@@ -171,7 +171,7 @@ mod.update_UI = function()
 	local is_horde = string.find(commander:military_force():force_type():key(), "HORDE")
 	if is_horde then
 		in_foreign_territory = false
-		is_near_settlement = true
+		-- is_near_settlement = true
 	end
 
 	if not mod.unit_index then
@@ -209,8 +209,16 @@ mod.update_UI = function()
 
 	if retrain_button then
 		local new_tooltip_text = "Send to reserves."
-		retrain_button:SetTooltipText(new_tooltip_text, true)
 		retrain_button:SetState("active")
+		if not is_near_settlement then
+			retrain_button:SetState("inactive")
+			new_tooltip_text = new_tooltip_text.."\n[[col:red]]Must be near a Norse Dwarf settlement to send troops to reserve.[[/col]]"
+		end
+		if mod.num_unit_cards_selected > 1 then
+			retrain_button:SetState("inactive")
+			new_tooltip_text = new_tooltip_text.."\n[[col:red]]Sending multiple units to the reserve is not supported, select units one at a time.[[/col]]"
+		end
+		retrain_button:SetTooltipText(new_tooltip_text, true)
 	end
 
 	-- remember the unit disband button so we can click it through code
@@ -416,6 +424,40 @@ mod.first_tick_cb = function()
 		function()
 			cm:remove_callback("pj_quest_reserves_callback_id_1")
 			cm:remove_callback("pj_quest_reserves_repeat_disband_unit_confirmation")
+		end,
+		true
+	)
+
+	core:remove_listener('pj_quest_reserves_on_mouse_over_sent_to_reserves_button')
+	core:add_listener(
+		'pj_quest_reserves_on_mouse_over_sent_to_reserves_button',
+		'ComponentMouseOn',
+		function(context)
+			return context.string:starts_with("pj_to_reserves_button")
+				or context.string:starts_with("LandUnit ")
+		end,
+		function(context)
+			mod.num_unit_cards_selected = 0
+
+			local unit_index = 0
+			while(true) do
+				local land_unit_card = find_uicomponent(
+					core:get_ui_root(),
+					"units_panel",
+					"main_units_panel",
+					"units",
+					"LandUnit "..tostring(unit_index)
+				)
+				if not land_unit_card or unit_index > 50 then
+					break
+				end
+
+				if land_unit_card:CurrentState():starts_with("selected") then
+					mod.num_unit_cards_selected = mod.num_unit_cards_selected + 1
+				end
+
+				unit_index = unit_index + 1
+			end
 		end,
 		true
 	)
