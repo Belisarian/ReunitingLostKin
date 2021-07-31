@@ -157,7 +157,7 @@ mod.update_UI = function()
 		local settlement = commander:region():settlement()
 		local x,y = settlement:logical_position_x(), settlement:logical_position_y()
 		local dist_sqr = distance_squared(x,y , commander:logical_position_x(), commander:logical_position_y())
-		if dist_sqr <= 25 then
+		if dist_sqr <= 50 then
 			is_near_settlement = true
 		end
 	end
