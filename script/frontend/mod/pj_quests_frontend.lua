@@ -28,7 +28,8 @@ local function hide_other_lords()
 
 	for i = 0, faction_list:ChildCount() - 1 do
 		local child = UIComponent(faction_list:Find(i))
-		if child:Id() ~= "Hugrim Redaxe" then
+		local startpos_id = child:GetProperty("lord_key");
+		if startpos_id ~= "1380507845" then
 			child:SetVisible(false)
 		else
 			child:SimulateLClick()
