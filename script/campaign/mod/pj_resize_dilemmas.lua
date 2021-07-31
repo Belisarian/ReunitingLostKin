@@ -17,6 +17,11 @@ local function find_ui_component_str(starting_comp, str)
 end
 
 local function resize_dilemma()
+	local event_dilemma_active = find_ui_component_str("root > events > event_dilemma_active")
+	if not event_dilemma_active then return end
+
+	local event_x, event_y = event_dilemma_active:Position()
+
 	local dets = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text")
 	local dy_description = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text > dy_description")
 
@@ -25,17 +30,17 @@ local function resize_dilemma()
 
 	dy_description:SetCanResizeWidth(true)
 	dy_description:SetCanResizeHeight(true)
-	dy_description:Resize(450+30, 233)
+	dy_description:Resize(480, 233)
 
 	dets:SetCanResizeWidth(true)
 	dets:SetCanResizeHeight(true)
-	dets:Resize(470+30, 180)
-	dets:MoveTo(722, 326)
+	dets:Resize(500, 180)
+	dets:MoveTo(event_x-50, event_y+280)
 
 	local event_dilemma_active = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder")
 	event_dilemma_active:SetCanResizeWidth(true)
 	event_dilemma_active:SetCanResizeHeight(true)
-	event_dilemma_active:Resize(540+50, 313)
+	event_dilemma_active:Resize(590, 313)
 
 	event_dilemma_active:SetVisible(true)
 
@@ -48,8 +53,9 @@ local function resize_dilemma()
 	dilemma_list:MoveTo(dx+25, y)
 
 	local main_holder = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder")
-	main_holder:MoveTo(667+25,76)
-	dets:MoveTo(722-30, 326)
+	local mh_x, mh_y = main_holder:Position()
+	main_holder:MoveTo(mh_x+25, mh_y)
+	dets:MoveTo(event_x-50-30, event_y+280)
 
 	if mod.rewrite_dilemma_text then
 		local text_component = find_ui_component_str("root > events > event_dilemma_active > dilemma > main_holder > details_holder > dy_details_text > dy_description")
