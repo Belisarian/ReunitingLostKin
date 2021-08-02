@@ -658,10 +658,10 @@
 								<BOUNDARY_LIST>
 									<BOUNDARY serialise_version='1' DEPLOYMENT_AREA_BOUNDARY_TYPE='standard additive'>
 										<BOUNDARY>
-											<position x='1391.153564' y='594.067688'/>
-											<position x='1478.374023' y='612.510437'/>
-											<position x='1470.053833' y='759.836731'/>
-											<position x='1403.650146' y='750.684265'/>
+											<position x='936.575439' y='278.980164'/>
+											<position x='1509.806396' y='273.478699'/>
+											<position x='1474.973877' y='729.804810'/>
+											<position x='962.304626' y='722.901489'/>
 										</BOUNDARY>
 									</BOUNDARY>
 								</BOUNDARY_LIST>

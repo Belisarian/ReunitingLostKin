@@ -6,8 +6,8 @@ local digForComponent = mod.digForComponent
 --- Units that can be recruited via the BoG.
 mod.bog_pages = {
 	{
-		title = "The Frozen Feathered Ravens",
-		desc = "The regiment,The Frozen Feathered Ravens, shares its name with the mercenary company. It was these warriors whom commander Grunnar Vestgrud handpicked and founded the company on. Veterans of numerous campaigns and loyal to the Commander, these warriors rivals some of the personal retinues seen among the High Lords throughout the realm. Initially The Frozen Feathered Ravens were lead by Grunnar Vestgrud himself, though with the companies expansion, the lieutenant Asgor Fjordson took over. The regiment brings with them the horn of ice and valor into battle, a rune encrusted horn carried by the honorguard of the regiment",
+		title = "The Frozen-Feathered Ravens",
+		desc = "The regiment,The Frozen-Feathered Ravens, shares its name with the mercenary company. It was these warriors whom commander Grunnar Vestgrud handpicked and founded the company on. Veterans of numerous campaigns and loyal to the Commander, these warriors rival some of the personal retinues seen among the High Lords throughout the realm. Initially The Frozen-Feathered Ravens were led by Grunnar Vestgrud himself, though with the company's expansion, lieutenant Asgor Fjordson took over. The regiment brings with them the horn of ice and valor into battle, a rune encrusted horn carried by the honorguard of the regiment",
 		img = "ui/bog/The Frozen Feathered Ravens grudge_pages layout.png",
 		payload = function() mod.add_unit_to_army("zorn_bulwark") end,
 		save_id = "pj_quests_irondrake_recruitment",
@@ -19,8 +19,8 @@ mod.bog_pages = {
 		is_recruited = function() return true end,
 	},
 	{
-		title = "The Iron Beaked Rooks ",
-		desc = "Ulron Northgaard and his fellow guardsmen were discharged by their former employer - a unfortunate Merchant Lord. The warriors joined the mercenary band and became the Iron Beaked Rooks. Honoring they former occupation as guardsmen of especially petty merchant envoys , the warriors kept their shields and focus on defensive tactics. With numerous battles later, these former guardsmen have evolved into a senior regiment and would form the core of any army.",
+		title = "The Iron-Beaked Rooks ",
+		desc = "Ulron Northgaard and his fellow guardsmen were discharged by their former employer - an unfortunate Merchant Lord. The warriors joined the mercenary band and became the Iron-Beaked Rooks. Honoring their former occupation as guardsmen of especially petty merchant envoys , the warriors kept their shields and focus on defensive tactics. Now, with numerous battles under their belts, these former guardsmen have evolved into a senior regiment that could form the core of any army.",
 		img = "ui/bog/The_Iron_Beaked_Rooks_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_dwarf_warrior_0") end,
 		cost = 500,
@@ -31,8 +31,8 @@ mod.bog_pages = {
 		is_recruited = function() return true end,
 	},
 	{
-		title = "The White Feathered Crows",
-		desc = "The White Feathered Crows is the companies vanguard - a regiment specialized in scouting, hunting and trapping. In battle the White Feathered Crows provides utility and ranged firepower, while weak in close quarters. Equipped with crossbows and a nets, the foes can be pinned down and taken out from afar. The captain, Balder Brynskov, is a cunning character, whom seldom declines a hunt for larger preys.",
+		title = "The White-Feathered Crows",
+		desc = "The White-Feathered Crows is the company's vanguard - a regiment specialized in scouting, hunting and trapping. In battle the White-Feathered Crows provide utility and ranged firepower, though they are weak in close quarters. Equipped with crossbows and nets, they pin the foe down and take them out from afar. The captain, Balder Brynskov, is a cunning character who seldom declines a big game hunt.",
 		img = "ui/bog/The_White_Feathered_Crows_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_miners_0") end,
 		cost = 500,
@@ -44,7 +44,7 @@ mod.bog_pages = {
 	},
 	{
 		title = "The Ice Peak Magpies",
-		desc = "The Ice Peak Magpies is the main firepower of the company - a typical regiment of Quarrellers. The Magpies are capable of both ranged and melee support, where especially different ranged tactics can be applied to eradicate hostilities. Their captain, Jurg Tollgaard possesses a technical curiosity, which has driven most of the ranged drills the regiment is capable of.",
+		desc = "The Ice Peak Magpies is the main firepower of the company - a typical regiment of Quarrellers. The Magpies are capable of both ranged and melee support, where especially different ranged tactics can be applied to eradicate hostilities. Their captain, Jurg Tollgaard possesses a technical curiosity, which has driven most of the ranged maneuvers of the regiment.",
 		img = "ui/bog/The_Ice_Peak_Magpies_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_main_dwf_inf_quarrellers_0") end,
 		cost = 500,
@@ -56,7 +56,7 @@ mod.bog_pages = {
 	},
 	{
 		title = "The Ice Jackdaws ",
-		desc = "The Ice Jackdaws is the companies least experienced infantry regiment. It composes of able warriors equipped with axe and shield, whom form a bulky defensive. It is lead by the young lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the seniored regiments is leveraged by the regiments size.",
+		desc = "The Ice Jackdaws is the companiy's least experienced infantry regiment. It is composed of able warriors equipped with axe and shield and makes up the company's bulky line anchor. It is led by the young Lieutenant, Asger Blackpeak. What the Ice Jackdaws lack in experience and skill compared to the more senior regiments they make up for in numbers.",
 		img = "ui/bog/The_Ice_Jackdaws_grudge_pages_layout.png",
 		payload = function() mod.add_unit_to_army("wh_dlc06_dwf_inf_rangers_0") end,
 		cost = 500,
@@ -68,7 +68,7 @@ mod.bog_pages = {
 	},
 	{
 		title = "The Draksfjord Brotherhood",
-		desc = "The Draksfjord Brotherhood is a exclusive group of huntsmen. The Draksfjord and the surrounding forest is inhabited by numerous types of drakes. Few dwarfs encounter these beasts in battle and live to tell the tale, though those who emerge victorious are invited to join the Brotherhoods ranks. The Draksfjord Brotherhood are few in numbers and hunt lesser beast as per contract on a routinely basis. Occasionally, The Drakfjords Brotherhood have been associated with mercenary bands. The huntsmen are lead by Tokle Abendvis.",
+		desc = "The Draksfjord Brotherhood is an exclusive group of huntsmen. The Draksfjord and the surrounding forest is inhabited by numerous types of drakes. Few dwarfs encounter these beasts in battle and live to tell the tale, though those who do emerge victorious are invited to join the Brotherhood's ranks. The Draksfjord Brotherhood are few in numbers and hunt lesser beasts on contract on a routine basis. Occasionally, The Draksfjord Brotherhood has been associated with mercenary bands. The huntsmen are led by Tokle Abendvis.",
 		img = "ui/bog/The Draksfjord Brotherhood grudge_pages layout.png",
 		payload = function()
 			mod.add_unit_to_army("zorn_bulwark")
@@ -95,7 +95,7 @@ mod.bog_pages = {
 	},
 	{
 		title = "The Steel Avalanche",
-		desc = "The Steel Avalanche is native to the capital of Kraka Drak. The regiment is famous for leading multiple successful campaigns within the Norse underground - purging any abominations they encounter. The regiment wears obsidian armor, explosives and a axe and sheild. The Steel Avalanche is lead by Azguz Bearclaw Vendegod. They now seek enrollment in a larger mercenary company.",
+		desc = "The Steel Avalanche is native to the capital of Kraka Drak. The regiment is famous for leading multiple successful campaigns within the Norse underground - purging any abominations they encounter. The regiment wears obsidian armor and wields explosives in addition to the traditional axe and shield. The Steel Avalanche is led by Azguz Bearclaw Vendegod. They now seek enrollment in a larger mercenary company.",
 		img = "ui/bog/The Steel Avalanche grudge_pages layout.png",
 		payload = function()
 			mod.add_unit_to_army("zorn_legion_1")
@@ -122,7 +122,7 @@ mod.bog_pages = {
 	},
 	{
 		title = "The Sunken Mountain",
-		desc = "The Sunken Mountain is a young regiment consisting of former deckhands and surplus petty officers of the sea routes between Sjoktraken, Kraka Dorden and Kazad Dumund. Equipped with throwing axes and lightweight two-handed axes, the dwarf are ideal for close quarter skirmishes against lesser foes and naval encounters. A few lucky employment the past years have seen the equipment of the regiment rise to new standards. Tired of minor jobs, this regiment seek enrollment into a actual mercenary band",
+		desc = "The Sunken Mountain is a young regiment consisting of former deckhands and surplus petty officers of the sea routes between Sjoktraken, Kraka Dorden and Kazad Dumund. Equipped with throwing axes and lightweight two-handed axes, these dwarfs are ideal for close quarter skirmishes against lesser foes as well as naval encounters. A few lucky contracts the past years has seen the equipment of the regiment rise to new standards. Tired of minor jobs, this regiment seeks enrollment into an actual mercenary band",
 		img = "ui/bog/The Sunken Mountain grudge_pages layout.png",
 		cost = 500,
 		first = "Elon Thankson",
