@@ -17,6 +17,19 @@ local function find_ui_component_str(starting_comp, str)
 	return find_uicomponent(has_starting_comp and starting_comp or core:get_ui_root(), unpack(fields))
 end
 
+local function binding_iter(binding)
+	local pos = 0
+	local num_items = binding:num_items()
+	return function()
+			if pos < num_items then
+					local item = binding:item_at(pos)
+					pos = pos + 1
+					return item
+			end
+			return
+	end
+end
+
 local function start_hiding_empty_dilemma_tooltips()
 	core:remove_listener("pj_rlk_hide_empty_dilemma_tooltip_cb")
 	core:add_listener(
@@ -38,6 +51,12 @@ local function start_hiding_empty_dilemma_tooltips()
 						mod.selected_quest = nil
 						existingFrame:Delete()
 					end
+				end
+
+				local diplomacy_dropdown = find_ui_component_str("root > diplomacy_dropdown")
+				if diplomacy_dropdown then
+					local add_offer_button = find_ui_component_str("root > diplomacy_dropdown > offers_panel > offers_list_panel > add_offer_button")
+					add_offer_button:SetVisible(false)
 				end
 
 				local tooltip = find_ui_component_str("root > Tooltip")
@@ -207,6 +226,10 @@ cm:add_first_tick_callback(function()
 			function(cqi)
 			end
 		)
+
+		for region in binding_iter(local_faction:region_list()) do
+			cm:set_region_abandoned(region:name())
+		end
 
 		cm:force_alliance(cm:get_local_faction_name(true), "wh_main_dwf_kraka_drak", true)
 
