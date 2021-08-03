@@ -172,24 +172,24 @@ gb:add_listener("forest_traps_timer_10", function()
 ;end);
 
 
-ga_battle_beastmen_camp_character_name_bst:message_on_proximity_to_enemy("proximity_to_enemy", 200); 
-ga_battle_beastmen_camp_army_bst_unit_gor_herd:message_on_proximity_to_enemy("proximity_to_enemy", 200); 
-ga_battle_beastmen_camp_army_bst_unit_ungor_spearmen:message_on_proximity_to_enemy("proximity_to_enemy", 200); 
-ga_battle_beastmen_camp_army_bst_unit_centigors:message_on_proximity_to_enemy("proximity_to_enemy", 200); 
-ga_battle_beastmen_camp_army_bst_unit_ungor_raiders:message_on_proximity_to_enemy("proximity_to_enemy", 200); 
-ga_battle_beastmen_camp_army_bst_unit_minotaurs:message_on_proximity_to_enemy("proximity_to_enemy", 200); 
+ga_battle_beastmen_camp_character_name_bst:message_on_proximity_to_enemy("proximity_to_enemy", 180); 
+ga_battle_beastmen_camp_army_bst_unit_gor_herd:message_on_proximity_to_enemy("proximity_to_enemy", 180); 
+ga_battle_beastmen_camp_army_bst_unit_ungor_spearmen:message_on_proximity_to_enemy("proximity_to_enemy", 180); 
+ga_battle_beastmen_camp_army_bst_unit_centigors:message_on_proximity_to_enemy("proximity_to_enemy", 180); 
+ga_battle_beastmen_camp_army_bst_unit_ungor_raiders:message_on_proximity_to_enemy("proximity_to_enemy", 180); 
+ga_battle_beastmen_camp_army_bst_unit_minotaurs:message_on_proximity_to_enemy("proximity_to_enemy", 180); 
 
 ga_battle_beastmen_camp_army_beastmen_camp_totem_01:message_on_proximity_to_enemy("proximity_to_enemy_totem_01", 200); 
 ga_battle_beastmen_camp_army_bst_unit_ungor_spearmen_0:message_on_proximity_to_enemy("proximity_to_enemy_totem_01", 200); 
 ga_battle_beastmen_camp_army_beastmen_camp_totem_03:message_on_proximity_to_enemy("proximity_to_enemy_totem_03", 200); 
 ga_battle_beastmen_camp_army_bst_unit_ungor_spearmen_1:message_on_proximity_to_enemy("proximity_to_enemy_totem_03", 200); 
 
-ga_battle_beastmen_camp_character_name_bst:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 240); 
-ga_battle_beastmen_camp_army_bst_unit_gor_herd:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 240); 
-ga_battle_beastmen_camp_army_bst_unit_ungor_spearmen:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 240); 
-ga_battle_beastmen_camp_army_bst_unit_centigors:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 240); 
-ga_battle_beastmen_camp_army_bst_unit_ungor_raiders:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 240); 
-ga_battle_beastmen_camp_army_bst_unit_minotaurs:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 240); 
+ga_battle_beastmen_camp_character_name_bst:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 180); 
+ga_battle_beastmen_camp_army_bst_unit_gor_herd:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 180); 
+ga_battle_beastmen_camp_army_bst_unit_ungor_spearmen:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 180); 
+ga_battle_beastmen_camp_army_bst_unit_centigors:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 180); 
+ga_battle_beastmen_camp_army_bst_unit_ungor_raiders:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 180); 
+ga_battle_beastmen_camp_army_bst_unit_minotaurs:message_on_proximity_to_enemy("proximity_to_enemy_ally_attack", 180); 
 
 ga_battle_beastmen_camp_character_name_bst:attack_on_message("proximity_to_enemy");
 ga_battle_beastmen_camp_army_bst_unit_gor_herd:attack_on_message("proximity_to_enemy");

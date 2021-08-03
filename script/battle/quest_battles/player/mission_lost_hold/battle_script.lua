@@ -413,7 +413,7 @@ ga_battle_lost_hold_army_nor_unit_marauder_champions_wave_04:attack_on_message("
 -- sends civilians to airships, setting them to flee at the end and attacking their path with harpies
 gb:add_listener("lost_duel_dying", function()
     bm:repeat_callback(function()
-
+        battle_move_unit(ga_battle_lost_hold_character_name_nor_2, 1, v(-98.7, -606.6));
         battle_move_unit(ga_battle_lost_hold_army_dwf_ally_1_flee1, 1, v(-165.2, 311.9));
         battle_move_unit(ga_battle_lost_hold_army_dwf_ally_1_flee2, 1, v(-165.2, 311.9));
         battle_move_unit(ga_battle_lost_hold_army_dwf_ally_1_flee3, 1, v(-165.2, 311.9));
@@ -488,10 +488,14 @@ function setup_top_lane_civilians(listener_marking, civilians_sent, first_enemy,
         v(-553.8, 274.1))
         battle_enable_unit(first_enemy, 1, true)
         battle_move_unit(first_enemy, 1, v(30.2, -4.7));
+        bm:repeat_callback(function()
+            battle_move_unit(first_enemy, 1, v(30.2, -4.7));
+        end, 5000, listener_marking.."refresh_commands_01");
     end);
 
     gb:add_listener(listener_marking.."_enemy_01_meeting",
     function()
+        bm:remove_process(listener_marking.."refresh_commands_01")
         first_enemy:attack()
         bm:repeat_callback(function()
             first_enemy:attack()
@@ -504,10 +508,14 @@ function setup_top_lane_civilians(listener_marking, civilians_sent, first_enemy,
         v(-553.8, 274.1))
         battle_enable_unit(second_enemy, 1, true)
         battle_move_unit(second_enemy, 1, v(-65.7, 211.9));
+        bm:repeat_callback(function()
+            battle_move_unit(second_enemy, 1, v(-65.7, 211.9));
+        end, 5000, listener_marking.."refresh_commands_02");
     end);
 
     gb:add_listener(listener_marking.."_enemy_02_meeting",
     function()
+        bm:remove_process(listener_marking.."refresh_commands_02")
         second_enemy:attack()
         bm:repeat_callback(function()
             second_enemy:attack()
@@ -573,10 +581,14 @@ function setup_bottom_lane_civilians(listener_marking, civilians_sent, first_ene
         v(-553.8, 274.1))
         battle_enable_unit(first_enemy, 1, true)
         battle_move_unit(first_enemy, 1, v(-389.8, -95.8));
+        bm:repeat_callback(function()
+            battle_move_unit(first_enemy, 1, v(-389.8, -95.8));
+        end, 5000, listener_marking.."refresh_commands_01");
     end);
 
     gb:add_listener(listener_marking.."_enemy_01_meeting",
     function()
+        bm:remove_process(listener_marking.."refresh_commands_01")
         first_enemy:attack()
         bm:repeat_callback(function()
             first_enemy:attack()
