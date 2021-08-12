@@ -33,11 +33,11 @@ gb = generated_battle:new(
 -------------------------------------------------------------------------------------------------
 ------------------------------------------ ARMY SETUP -------------------------------------------
 -------------------------------------------------------------------------------------------------
-ga_player = gb:get_army(gb:get_player_alliance_num(), 1, ""); -- player attacker 
-ga_battle_ravnsvake_army_jab = gb:get_army(gb:get_non_player_alliance_num(),"battle_ravnsvake_army_jab"); -- char/army
+ga_player = gb:get_army(gb:get_player_alliance_num(), 1, ""); -- player attacker
+battle_ravnsvake_army_enemy = gb:get_army(gb:get_non_player_alliance_num(),"battle_ravnsvake_army_enemy"); -- char/army
 gb:message_on_time_offset("drop_rocks",20000);
 -- [320.78317260742, 113.35470581055, 336.00955200195]
-ga_battle_ravnsvake_army_jab:use_army_special_ability_on_message("drop_rocks", "wh_main_spell_rock_block_big", v(320.7, 113.3, 336.0), d_to_r(210));
+battle_ravnsvake_army_enemy:use_army_special_ability_on_message("drop_rocks", "wh_main_spell_rock_block_big", v(320.7, 113.3, 336.0), d_to_r(210));
 
 
 -------------------------------------------------------------------------------------------------
@@ -62,16 +62,23 @@ ga_battle_ravnsvake_army_jab:use_army_special_ability_on_message("drop_rocks", "
 ------------------------------------------ ORDERS -------------------------------------------
 -------------------------------------------------------------------------------------------------
 
+gb:message_on_time_offset("Wait_5_sec",30000);
+
+ga_battle_ravnsvake_army_enemy_reinf_ogres = gb:get_army(gb:get_non_player_alliance_num(),"battle_ravnsvake_army_enemy_reinf_ogres"); -- Reinforcement enemy army
+ga_battle_ravnsvake_army_enemy_reinf_ogres:reinforce_on_message("Wait_5_sec",5000);
+
+--ga_battle_ravnsvake_army_enemy_reinf_ogres:deploy_at_random_intervals_on_message("Wait_5_sec",1,1,1000,1000); -- enemy reinforcements
+--battle_ravnsvake_army_enemy_clan_rats = gb:get_army(gb:get_non_player_alliance_num(),"battle_ravnsvake_army_enemy_clan_rats"); -- Reinforcement enemy army
+--battle_ravnsvake_army_enemy_clan_rats:deploy_at_random_intervals_on_message("Wait_5_sec",1,1,30000,30000); -- enemy reinforcements
 
 
 -------------------------------------------------------------------------------------------------
 ------------------------------------------- OBJECTIVES ------------------------------------------
 -------------------------------------------------------------------------------------------------
 
-gb:set_objective_on_message("deployment_started", "mission_ravnsvake_objective_1_tooltip"); 
+gb:set_objective_on_message("deployment_started", "mission_ravnsvake_objective_1_tooltip");
 
 
 -------------------------------------------------------------------------------------------------
 --------------------------------------------- HINTS/MESSAGES ---------------------------------------------
 -------------------------------------------------------------------------------------------------
-

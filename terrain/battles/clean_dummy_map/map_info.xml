@@ -1,0 +1,9 @@
+<map_info>
+    <display_name>clean_dummy_map</display_name>
+    <description>clean_dummy_map</description>
+    <author></author>
+    <team_size_1>1</team_size_1>
+    <team_size_2>1</team_size_2>
+    <environment>weather/battle/wh_brt_01.environment</environment>
+    <battle_type>classic</battle_type>
+</map_info>
