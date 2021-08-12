@@ -1,0 +1,6 @@
+<model>
+	<geometry>vfx/models/belisarians_flatplane.rigid_model_v2</geometry>
+	<materials>
+		<material>materials/vfx/belisarians_flat_glowing_plane.xml.material</material>
+	</materials>
+</model>
