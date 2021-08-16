@@ -79,6 +79,19 @@ local function start_hiding_empty_dilemma_tooltips()
 end
 
 local function switch_audio()
+	core:remove_listener("rlk_switch_audio_real_time_trigger6_cb")
+	core:add_listener(
+		"rlk_switch_audio_real_time_trigger6_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "rlk_switch_audio_real_time_trigger6"
+		end,
+		function(context)
+			mod.create_dialogue_tutorial()
+		end,
+		true
+	)
+
 	core:remove_listener("rlk_switch_audio_real_time_trigger5_cb")
 	core:add_listener(
 		"rlk_switch_audio_real_time_trigger5_cb",
@@ -89,6 +102,7 @@ local function switch_audio()
 		function(context)
 			local bm = find_ui_component_str("root > esc_menu_campaign > menu_1 > button_resume")
 			bm:SimulateLClick()
+			real_timer.register_singleshot("rlk_switch_audio_real_time_trigger6", 500)
 		end,
 		true
 	)
@@ -341,3 +355,51 @@ cm:add_first_tick_callback(function()
 
 	cm:force_diplomacy("faction:" .. cm:get_local_faction_name(true), "faction:wh_main_dwf_kraka_drak", "war", false, false, true);
 end)
+
+mod.create_dialogue_tutorial = function()
+	local dialogue_box = core:get_or_create_component("rlk_dialogue_tutorial", "ui/common ui/dialogue_box")
+	core:add_listener(
+		"rlk_dialogue_tutorial_real_time_trigger_cb",
+		"RealTimeTrigger",
+		function(context)
+			return context.string == "rlk_dialogue_tutorial_real_time_trigger"
+		end,
+		function(context)
+			dialogue_box:SetCanResizeWidth(true)
+			dialogue_box:SetCanResizeHeight(true)
+			dialogue_box:Resize(1000,700)
+			local replenish_text = find_ui_component_str("root > rlk_dialogue_tutorial > DY_text")
+			replenish_text:SetStateText("You can manually replenish your troops\nnear settlements.")
+			replenish_text:SetDockOffset(1-250,-35-250-15)
+
+			local reserves_text = UIComponent(replenish_text:CopyComponent("rlk_tutorial_reserves_text"))
+			reserves_text:SetDockOffset(1+250,-35-250-15)
+			reserves_text:SetStateText("You can send your units into the reserve.\nUnits in reserve don't cost upkeep.")
+
+			local button_cancel = find_ui_component_str("root > rlk_dialogue_tutorial > both_group > button_cancel")
+			button_cancel:SetVisible(false)
+
+			local button_tick = find_ui_component_str("root > rlk_dialogue_tutorial > both_group > button_tick")
+			button_tick:SetDockingPoint(8)
+			button_tick:SetDockOffset(0,-60)
+
+			local bg_image = UIComponent(dialogue_box:CreateComponent("rlk_replenish_tutorial_image", "ui/templates/custom_image"))
+			bg_image:SetImagePath("ui/tutorials/rlk_replenish_tutorial.png", 4)
+			bg_image:SetDockingPoint(5)
+			bg_image:SetCanResizeWidth(true)
+			bg_image:SetCanResizeHeight(true)
+			bg_image:Resize(417,417)
+			bg_image:SetDockOffset(-250,-68)
+
+			local bg_image = UIComponent(dialogue_box:CreateComponent("rlk_reserves_tutorial_image", "ui/templates/custom_image"))
+			bg_image:SetImagePath("ui/tutorials/rlk_reserves_tutorial.png", 4)
+			bg_image:SetDockingPoint(5)
+			bg_image:SetDockOffset(250,-68)
+			bg_image:SetCanResizeWidth(true)
+			bg_image:SetCanResizeHeight(true)
+			bg_image:Resize(417,417)
+		end,
+		false
+	)
+	real_timer.register_singleshot("rlk_dialogue_tutorial_real_time_trigger", 0)
+end
