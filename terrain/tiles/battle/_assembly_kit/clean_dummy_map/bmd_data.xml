@@ -1,6 +1,11 @@
 <BATTLE_MAP_DEFINITION_DATA serialise_version='24'>
 	<BATTLEFIELD_BUILDING_LIST serialise_version='1'>
-		<BUILDINGS/>
+		<BUILDINGS>
+			<BUILDING serialise_version='8' building_id='' parent_id='-1' building_key='wef_large_waystone_02_qb' position_type='BBPT_LF_RELATIVE' height_mode='BHM_ABSOLUTE'>
+				<transform m00='-0.000000' m01='0.000000' m02='1.000000' m10='0.000000' m11='1.000000' m12='-0.000000' m20='-1.000000' m21='-0.000000' m22='-0.000000' m30='828.016357' m31='-0.000010' m32='655.147583'/>
+				<properties serialise_version='4' building_id='' starting_damage_unary='0.000000' on_fire='false' start_disabled='false' weak_point='false' ai_breachable='false' indestructible='false' dockable='true' toggleable='false' lite='false' clamp_to_surface='false' cast_shadows='true'/>
+			</BUILDING>
+		</BUILDINGS>
 	</BATTLEFIELD_BUILDING_LIST>
 	<BATTLEFIELD_BUILDING_LIST_FAR serialise_version='1'>
 		<BUILDINGS/>
