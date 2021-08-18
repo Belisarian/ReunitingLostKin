@@ -100,9 +100,10 @@ ga_battle_fimir_bog_army_nor_unit_fimir_ror:teleport_to_start_location_offset_on
 ga_battle_fimir_bog_army_nor_unit_fimir_0:teleport_to_start_location_offset_on_message("battle_started",250,0);
 ga_battle_fimir_bog_army_nor_unit_fimir_1:teleport_to_start_location_offset_on_message("battle_started",-250,0); 
 
-
-ga_player:message_on_proximity_to_position("player_at_fimir_base", v(200, 100, -200), 50); -- detect when player is close to fimir hold
+ga_player:message_on_proximity_to_position("player_at_fimir_base", v(230, 100, -125), 100); -- "100 meters" detect when player is close to fimir hold
 gb:message_on_time_offset("release",120000,"player_at_fimir_base"); -- wait 2 min, so player will fully arive there
+ga_player:message_on_proximity_to_position("player_at_fimir_base_close_fire", v(230, 100, -125), 25); -- 25 meters detect when player is REALLY close to fimir hold
+ga_player:use_army_special_ability_on_message("player_at_fimir_base_close_fire", "PLACEHODER", v(230, -125), d_to_r(0));
 
 
 ga_battle_fimir_bog_character_name_nor:set_enabled_on_message("release", true); -- reveal the units 
